@@ -66,12 +66,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши адреса Dogecoin для отправки платежей. Всегда проверяйте количество и адрес получателя перед отправкой перевода.</translation>
+        <source>These are your NewYorkCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши адреса NewYorkCoin для отправки платежей. Всегда проверяйте количество и адрес получателя перед отправкой перевода.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши адреса Dogecoin для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
+        <source>These are your NewYorkCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши адреса NewYorkCoin для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -283,8 +283,8 @@
         <translation>Открыть &amp;URI...</translation>
     </message>
     <message>
-        <source>Dogecoin Core client</source>
-        <translation>Dogecoin Core клиент</translation>
+        <source>NewYorkCoin Core client</source>
+        <translation>NewYorkCoin Core клиент</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -295,8 +295,8 @@
         <translation>Идёт переиндексация блоков на диске...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Отправить монеты на указанный адрес Dogecoin</translation>
+        <source>Send coins to a NewYorkCoin address</source>
+        <translation>Отправить монеты на указанный адрес NewYorkCoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -319,8 +319,8 @@
         <translation>&amp;Проверить сообщение...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -335,8 +335,8 @@
         <translation>&amp;Получить</translation>
     </message>
     <message>
-        <source>Show information about Dogecoin Core</source>
-        <translation>Показать информацию о Dogecoin Core</translation>
+        <source>Show information about NewYorkCoin Core</source>
+        <translation>Показать информацию о NewYorkCoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -351,12 +351,12 @@
         <translation>Зашифровать приватные ключи, принадлежащие вашему бумажнику</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Подписать сообщения вашим адресом Dogecoin, чтобы доказать, что вы им владеете</translation>
+        <source>Sign messages with your NewYorkCoin addresses to prove you own them</source>
+        <translation>Подписать сообщения вашим адресом NewYorkCoin, чтобы доказать, что вы им владеете</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Dogecoin</translation>
+        <source>Verify messages to ensure they were signed with specified NewYorkCoin addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом NewYorkCoin</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -375,16 +375,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
         <translation>Запросить платежи (создаёт QR-коды и dogecoin: ссылки)</translation>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>&amp;О Dogecoin Core</translation>
+        <source>&amp;About NewYorkCoin Core</source>
+        <translation>&amp;О NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -403,8 +403,8 @@
         <translation>&amp;Параметры командной строки</translation>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
-        <translation>Показать помощь по Dogecoin Core и получить список доступных параметров командной строки.</translation>
+        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
+        <translation>Показать помощь по NewYorkCoin Core и получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -724,8 +724,8 @@
         <translation>Введённый адрес «%1» уже находится в адресной книге.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dogecoin address.</source>
-        <translation>Введённый адрес "%1" не является правильным Dogecoin-адресом.</translation>
+        <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
+        <translation>Введённый адрес "%1" не является правильным NewYorkCoin-адресом.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -762,8 +762,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -774,8 +774,8 @@
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>О Dogecoin Core</translation>
+        <source>About NewYorkCoin Core</source>
+        <translation>О NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -797,16 +797,16 @@
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Добро пожаловать в Dogecoin Core.</translation>
+        <source>Welcome to NewYorkCoin Core.</source>
+        <translation>Добро пожаловать в NewYorkCoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
-        <translation>Так как вы впервые запустили программу, вы можете выбрать, где Dogecoin Core будет хранить данные.</translation>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
+        <translation>Так как вы впервые запустили программу, вы можете выбрать, где NewYorkCoin Core будет хранить данные.</translation>
     </message>
     <message>
-        <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dogecoin Core скачает и сохранит копию цепи блоков. Как минимум, %1ГБ данных будет храниться в этом каталоге, и со временем он будет расти. Бумажник будет также сохранён в этом каталоге.</translation>
+        <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>NewYorkCoin Core скачает и сохранит копию цепи блоков. Как минимум, %1ГБ данных будет храниться в этом каталоге, и со временем он будет расти. Бумажник будет также сохранён в этом каталоге.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -817,8 +817,8 @@
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -935,20 +935,20 @@
         <translation>&amp;Тратить неподтверждённую сдачу</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для Dogecoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the NewYorkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для NewYorkCoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Пробросить порт через &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
-        <translation>Подключаться к сети Dogecoin через прокси SOCKS5</translation>
+        <source>Connect to the NewYorkCoin network through a SOCKS5 proxy.</source>
+        <translation>Подключаться к сети NewYorkCoin через прокси SOCKS5</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Подключаться к сети Dogecoin через прокси SOCKS5 (прокси по умолчанию):</translation>
+        <translation>&amp;Подключаться к сети NewYorkCoin через прокси SOCKS5 (прокси по умолчанию):</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1038,8 +1038,8 @@
         <translation>Форма</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Dogecoin после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NewYorkCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью NewYorkCoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1145,8 +1145,8 @@
         <translation>Неверный URL запроса платежа: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Dogecoin или неправильными параметрами URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid NewYorkCoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом NewYorkCoin или неправильными параметрами URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1211,8 +1211,8 @@
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. %1)</source>
-        <translation>Введите адрес Dogecoin (например, %1)</translation>
+        <source>Enter a NewYorkCoin address (e.g. %1)</source>
+        <translation>Введите адрес NewYorkCoin (например, %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1504,8 +1504,8 @@
         <translation>&amp;Повторно использовать существующий адрес получения (не рекомендуется)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
-        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Заметьте: сообщение не будет отправлено вместе с платежом через сеть Dogecoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NewYorkCoin network.</source>
+        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Заметьте: сообщение не будет отправлено вместе с платежом через сеть NewYorkCoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1873,8 +1873,8 @@
         <translation>Комиссия больше, чем %1, считается невероятно большой.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
-        <translation>Внимание: неверный адрес Dogecoin</translation>
+        <source>Warning: Invalid NewYorkCoin address</source>
+        <translation>Внимание: неверный адрес NewYorkCoin</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1924,8 +1924,8 @@
         <translation>Это нормальный платёж.</translation>
     </message>
     <message>
-        <source>The Dogecoin address to send the payment to</source>
-        <translation>Адрес Dogecoin, на который отправить платёж</translation>
+        <source>The NewYorkCoin address to send the payment to</source>
+        <translation>Адрес NewYorkCoin, на который отправить платёж</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1952,8 +1952,8 @@
         <translation>Введите метку для этого адреса, чтобы добавить его в список использованных</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
-        <translation>К dogecoin: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть Dogecoin.</translation>
+        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <translation>К dogecoin: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть NewYorkCoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1967,8 +1967,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>Dogecoin Core выключается...</translation>
+        <source>NewYorkCoin Core is shutting down...</source>
+        <translation>NewYorkCoin Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1986,8 +1986,8 @@
         <translation>&amp;Подписать сообщение</translation>
     </message>
     <message>
-        <source>The Dogecoin address to sign the message with</source>
-        <translation>Адрес Dogecoin, которым подписать сообщение</translation>
+        <source>The NewYorkCoin address to sign the message with</source>
+        <translation>Адрес NewYorkCoin, которым подписать сообщение</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2018,8 +2018,8 @@
         <translation>Скопировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Dogecoin</translation>
+        <source>Sign the message to prove you own this NewYorkCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом NewYorkCoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2038,12 +2038,12 @@
         <translation>&amp;Проверить сообщение</translation>
     </message>
     <message>
-        <source>The Dogecoin address the message was signed with</source>
-        <translation>Адрес Dogecoin, которым было подписано сообщение</translation>
+        <source>The NewYorkCoin address the message was signed with</source>
+        <translation>Адрес NewYorkCoin, которым было подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Dogecoin</translation>
+        <source>Verify the message to ensure it was signed with the specified NewYorkCoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом NewYorkCoin</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2109,12 +2109,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>Разработчики Dogecoin Core</translation>
+        <source>The NewYorkCoin Core developers</source>
+        <translation>Разработчики NewYorkCoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2631,8 +2631,8 @@
         <translation>Это пре-релизная тестовая сборка - используйте на свой страх и риск - не используйте для добычи или торговых приложений</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
-        <translation>Не удалось забиндиться на %s на этом компьютере. Возможно, Dogecoin Core уже запущен.</translation>
+        <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
+        <translation>Не удалось забиндиться на %s на этом компьютере. Возможно, NewYorkCoin Core уже запущен.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2807,8 +2807,8 @@
         <translation>Привязаться к указанному адресу для прослушивания JSON-RPC подключений. Используйте запись [хост]:порт для IPv6. Эту опцию можно использовать многократно (по умолчанию: привязываться ко всем интерфейсам)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
-        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, Dogecoin Core уже запущен.</translation>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
+        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, NewYorkCoin Core уже запущен.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -2868,7 +2868,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
 </source>
         <translation>Для использования dogecoind или опции dogecoin-qt -server, вы должны установить опцию rpcpassword в конфигурационном файле:
  %s
@@ -2879,7 +2879,7 @@ rpcpassword=%s
 Имя и пароль ДОЛЖНЫ различаться.
 Если файл не существует, создайте его и установите право доступа только для чтения только для владельца.
 Также рекомендуется включить alertnotify для оповещения о проблемах;
-Например: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
+Например: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -2887,8 +2887,8 @@ rpcpassword=%s
         <translation>Внимание: установлено очень большое значение -paytxfee. Такие большие комиссии могут быть уплачены в отдельной транзакции.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Dogecoin Core will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Dogecoin Core будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong NewYorkCoin Core will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, NewYorkCoin Core будет работать некорректно.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -2915,16 +2915,16 @@ rpcpassword=%s
         <translation>Все права защищены © 2009-%i Разработчики Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2013-%i The Dogecoin Core Developers</source>
-        <translation>Все права защищены © 2013-%i Разработчики Dogecoin Core</translation>
+        <source>Copyright (C) 2013-%i The NewYorkCoin Core Developers</source>
+        <translation>Все права защищены © 2013-%i Разработчики NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>Не удалось разобрать значение %s параметра -rpcbind как сетевой адрес</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin Core</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Dogecoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin Core</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -2943,8 +2943,8 @@ rpcpassword=%s
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Dogecoin Core is shutting down.</source>
-        <translation>Не удалось проверить чистоту. Dogecoin Core выключается.</translation>
+        <source>Initialization sanity check failed. NewYorkCoin Core is shutting down.</source>
+        <translation>Не удалось проверить чистоту. NewYorkCoin Core выключается.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -2980,7 +2980,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Параметры RPC SSL: (см. Dogecoin вики для инструкций по настройке SSL)</translation>
+        <translation>Параметры RPC SSL: (см. NewYorkCoin вики для инструкций по настройке SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3059,8 +3059,8 @@ rpcpassword=%s
         <translation>Имя для подключений JSON-RPC</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Dogecoin Core to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите Dogecoin Core для завершения операции.</translation>
+        <source>Wallet needed to be rewritten: restart NewYorkCoin Core to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите NewYorkCoin Core для завершения операции.</translation>
     </message>
     <message>
         <source>Warning</source>

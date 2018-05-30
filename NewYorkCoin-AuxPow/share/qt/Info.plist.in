@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, Copyright © 2013-@COPYRIGHT_YEAR@ The Dogecoin Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, Copyright © 2013-@COPYRIGHT_YEAR@ The NewYorkCoin Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Dogecoin-Qt</string>
+  <string>NewYorkCoin-Qt</string>
   
   <key>CFBundleName</key>
-  <string>Dogecoin-Qt</string>
+  <string>NewYorkCoin-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>com.dogecoin.DogecoinPayment</string>
+      <string>com.dogecoin.NewYorkCoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>dogecoin</string>
@@ -60,7 +60,7 @@
       <key>UTTypeIdentifier</key>
       <string>com.dogecoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Dogecoin payment request</string>
+      <string>NewYorkCoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

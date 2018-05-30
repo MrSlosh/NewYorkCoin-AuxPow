@@ -66,11 +66,11 @@
         <translation>Адреси за получаване</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your NewYorkCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Това са адресите на получателите на плащания. Винаги проверявайте размера на сумата и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your NewYorkCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Това са Вашите Биткойн адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване на всяка транзакция.</translation>
     </message>
     <message>
@@ -283,11 +283,11 @@
         <translation>Отвори &amp;URI...</translation>
     </message>
     <message>
-        <source>Dogecoin Core client</source>
-        <translation>Dogecoin Core клиент</translation>
+        <source>NewYorkCoin Core client</source>
+        <translation>NewYorkCoin Core клиент</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
+        <source>Send coins to a NewYorkCoin address</source>
         <translation>Изпращане към Биткоин адрес</translation>
     </message>
     <message>
@@ -311,7 +311,7 @@
         <translation>&amp;Проверка на съобщение...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
+        <source>NewYorkCoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -327,7 +327,7 @@
         <translation>&amp;Получаване</translation>
     </message>
     <message>
-        <source>Show information about Dogecoin Core</source>
+        <source>Show information about NewYorkCoin Core</source>
         <translation>Покажете информация за Биткойн ядрото</translation>
     </message>
     <message>
@@ -343,11 +343,11 @@
         <translation>Шифроване на личните ключове,които принадлежат на портфейла Ви.</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
+        <source>Sign messages with your NewYorkCoin addresses to prove you own them</source>
         <translation>Пишете съобщения със своя Биткойн адрес за да докажете,че е ваш.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified NewYorkCoin addresses</source>
         <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Биткойн адреси.</translation>
     </message>
     <message>
@@ -367,7 +367,7 @@
         <translation>Раздели</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
+        <source>NewYorkCoin Core</source>
         <translation>Биткойн ядро</translation>
     </message>
     <message>
@@ -375,8 +375,8 @@
         <translation>Изискване на плащания(генерира QR кодове и биткойн: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>&amp;Относно Dogecoin Core</translation>
+        <source>&amp;About NewYorkCoin Core</source>
+        <translation>&amp;Относно NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -395,7 +395,7 @@
         <translation>&amp;Налични команди</translation>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
+        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
         <translation>Покажи помощните съобщения на Биткойн за да видиш наличните и валидни команди</translation>
     </message>
     <message>
@@ -696,7 +696,7 @@
         <translation>Вече има адрес "%1" в списъка с адреси.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+        <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
         <translation>"%1" не е валиден Биткоин адрес.</translation>
     </message>
     <message>
@@ -734,7 +734,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
+        <source>NewYorkCoin Core</source>
         <translation>Биткойн ядро</translation>
     </message>
     <message>
@@ -746,8 +746,8 @@
         <translation>(%1-битов)</translation>
     </message>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>Относно Dogecoin Core</translation>
+        <source>About NewYorkCoin Core</source>
+        <translation>Относно NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -769,11 +769,11 @@
         <translation>Добре дошли</translation>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
+        <source>Welcome to NewYorkCoin Core.</source>
         <translation>Добре дошли в Биткойн ядрото.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
         <translation>Тъй като това е първото стартиране на програмата можете да изберете къде Биткон ядрото да запази данните си.</translation>
     </message>
     <message>
@@ -785,7 +785,7 @@
         <translation>Използване на директория ръчно</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
+        <source>NewYorkCoin Core</source>
         <translation>Биткойн ядро</translation>
     </message>
     <message>
@@ -859,15 +859,15 @@
         <translation>&amp;Похарчете непотвърденото ресто</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваряне на входящия Dogecoin порт. Работи само с рутери поддържащи UPnP.</translation>
+        <source>Automatically open the NewYorkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваряне на входящия NewYorkCoin порт. Работи само с рутери поддържащи UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Отваряне на входящия порт чрез &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the NewYorkCoin network through a SOCKS5 proxy.</source>
         <translation>Свързване с Биткойн мрежата чрез SOCKS5  прокси.</translation>
     </message>
     <message>
@@ -962,7 +962,7 @@
         <translation>Формуляр</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NewYorkCoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Биткоин, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
     </message>
     <message>
@@ -1087,7 +1087,7 @@
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. %1)</source>
+        <source>Enter a NewYorkCoin address (e.g. %1)</source>
         <translation>Въведете Биткойн адрес (например: %1)</translation>
     </message>
     <message>
@@ -1661,7 +1661,7 @@
         <translation>Платете минималната такса от %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
+        <source>Warning: Invalid NewYorkCoin address</source>
         <translation>Внимание: Невалиден Биткойн адрес</translation>
     </message>
     <message>
@@ -1743,7 +1743,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
+        <source>NewYorkCoin Core is shutting down...</source>
         <translation>Биткойн ядрото се изключва...</translation>
     </message>
     <message>
@@ -1790,7 +1790,7 @@
         <translation>Копиране на текущия подпис</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
+        <source>Sign the message to prove you own this NewYorkCoin address</source>
         <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
     </message>
     <message>
@@ -1806,7 +1806,7 @@
         <translation>&amp;Провери</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
+        <source>Verify the message to ensure it was signed with the specified NewYorkCoin address</source>
         <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
     </message>
     <message>
@@ -1869,12 +1869,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
+        <source>NewYorkCoin Core</source>
         <translation>Биткойн ядро</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>Разработчици на Dogecoin Core</translation>
+        <source>The NewYorkCoin Core developers</source>
+        <translation>Разработчици на NewYorkCoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>

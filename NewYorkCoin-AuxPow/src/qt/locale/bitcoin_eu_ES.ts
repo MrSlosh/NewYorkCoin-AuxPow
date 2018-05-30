@@ -140,7 +140,7 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Erakutsi Dogecoin-i buruzko informazioa</translation>
+        <translation>Erakutsi NewYorkCoin-i buruzko informazioa</translation>
     </message>
     <message>
         <source>&amp;Options...</source>

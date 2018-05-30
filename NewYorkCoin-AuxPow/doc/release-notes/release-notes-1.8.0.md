@@ -1,10 +1,10 @@
-# Dogecoin Core 1.8
+# NewYorkCoin Core 1.8
 ===================
 
-Dogecoin Core 1.8 introduces AuxPoW from block 371,337. AuxPoW is a technology
+NewYorkCoin Core 1.8 introduces AuxPoW from block 371,337. AuxPoW is a technology
 which enables miners to submit work done while mining other coins, as work
-on the Dogecoin block chain. Dogecoin Core 1.8 also enables payment protocol
-support for Dogecoin (note that Dogecoin's implementation of payment protocol is
+on the NewYorkCoin block chain. NewYorkCoin Core 1.8 also enables payment protocol
+support for NewYorkCoin (note that NewYorkCoin's implementation of payment protocol is
 not compatible with Bitcoin's protocol). Lastly, 1.8  also includes all fixes
 from Bitcoin Core 0.9.2, whose release notes you can read at
 https://bitcoin.org/en/release/v0.9.2 (this is a summary, and the release includes
@@ -12,9 +12,9 @@ around 150 bugfixes from Bitcoin Core).
 
 Note that all users MUST upgrade to 1.8. If you're unable to update before the
 switchover block (371,337, expected around 12 September 2014), you MUST update
-as soon as possible afterwards in order to be able to continue to use Dogecoin.
+as soon as possible afterwards in order to be able to continue to use NewYorkCoin.
 Users remaining on the previous client **will not** be able to receive or spend
-Dogecoin (with the exception of with other nodes who have not upgraded).
+NewYorkCoin (with the exception of with other nodes who have not upgraded).
 
 ## Upgrading
 
@@ -43,28 +43,28 @@ clients is not possible.
 AuxPoW is enabled from block 371,337. Until that block the RPC commands for using AuxPoW
 will not function, and AuxPoW blocks will be rejected.
 
-AuxPoW benefits Dogecoin in two ways; firstly, the effective hashrate of the coin is
+AuxPoW benefits NewYorkCoin in two ways; firstly, the effective hashrate of the coin is
 increased by these additional miners, making it harder to perform a 51% attack against
 the coin, and secondly it reduces conflict for resources (Scrypt miners), demotivating
-multipools from switching between Dogecoin and other Scrypt coins.
+multipools from switching between NewYorkCoin and other Scrypt coins.
 
 AuxPoW blocks are mined using the "getauxblock" and "getworkaux" RPC commands. Support
 for AuxPoW mining is included in Powerpool ( https://github.com/simplecrypto/powerpool/ )
 and p2pool ( http://p2pool.in/ ).
 
-In comparison to the AuxPoW implementation in United Scrypt Coin, Dogecoin uses a
+In comparison to the AuxPoW implementation in United Scrypt Coin, NewYorkCoin uses a
 different coinbase transaction input script format which includes block height in
 compliance with BIP0034.
 
 ## Payment Protocol
 
-Dogecoin Core 1.8 adds payment protocol support, which is used to streamline payments
+NewYorkCoin Core 1.8 adds payment protocol support, which is used to streamline payments
 being made to merchants.
 
 This protocol is defined in DIP0070-DIP0072, based on the BIP standards with the same
 assigned numbers. DIP standards can be found at https://github.com/dogecoin/dips/ .
-The key differencs between the Bitcoin and Dogecoin payment protocols are that
-the Dogecoin payment request uses a "genesis" field containing the hash of the network's
+The key differencs between the Bitcoin and NewYorkCoin payment protocols are that
+the NewYorkCoin payment request uses a "genesis" field containing the hash of the network's
 genesis block to identify networks instead of the "network" field. Further, MIME types
 for the request, payment and response are modified to identify the files as distinct
 types from the Bitcoin files.
@@ -93,7 +93,7 @@ left open, which caused an assertion error later. The database cursor is now cor
 disposed of in all cases.
 
 Tweaked trigger conditions for safe mode to take into account the much faster block time
-of Dogecoin compared to Bitcoin. This should lead to less false positives.
+of NewYorkCoin compared to Bitcoin. This should lead to less false positives.
 
 A problem in parsing mangled dogecoin: URIs under Windows has been resolved, and as
 part of this work network detection for dogecoin: URIs is now more robust.

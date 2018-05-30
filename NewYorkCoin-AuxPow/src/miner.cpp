@@ -330,7 +330,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn)
 
         // Compute final coinbase transaction.
         const Consensus::Params &consensus = chainparams.GetConsensus(nHeight);
-        txNew.vout[0].nValue = nFees + GetDogecoinBlockSubsidy(nHeight, consensus, pindexPrev->GetBlockHash());
+        txNew.vout[0].nValue = nFees + GetNewYorkCoinBlockSubsidy(nHeight, consensus, pindexPrev->GetBlockHash());
         txNew.vin[0].scriptSig = CScript() << nHeight << OP_0;
         pblock->vtx[0] = txNew;
         pblocktemplate->vTxFees[0] = -nFees;
@@ -431,7 +431,7 @@ static bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& rese
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainActive.Tip()->GetBlockHash())
-            return error("DogecoinMiner: generated block is stale");
+            return error("NewYorkCoinMiner: generated block is stale");
     }
 
     // Remove key from key pool
@@ -446,14 +446,14 @@ static bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& rese
     // Process this block the same as if we had received it from another node
     CValidationState state;
     if (!ProcessNewBlock(state, NULL, pblock, true, NULL))
-        return error("DogecoinMiner: ProcessNewBlock, block not accepted");
+        return error("NewYorkCoinMiner: ProcessNewBlock, block not accepted");
 
     return true;
 }
 
 void static BitcoinMiner(CWallet *pwallet)
 {
-    LogPrintf("DogecoinMiner started\n");
+    LogPrintf("NewYorkCoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("dogecoin-miner");
     const CChainParams& chainparams = Params();
@@ -489,13 +489,13 @@ void static BitcoinMiner(CWallet *pwallet)
             auto_ptr<CBlockTemplate> pblocktemplate(CreateNewBlockWithKey(reservekey));
             if (!pblocktemplate.get())
             {
-                LogPrintf("Error in DogecoinMiner: Keypool ran out, please call keypoolrefill before restarting the mining thread\n");
+                LogPrintf("Error in NewYorkCoinMiner: Keypool ran out, please call keypoolrefill before restarting the mining thread\n");
                 return;
             }
             CBlock *pblock = &pblocktemplate->block;
             IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-            LogPrintf("Running DogecoinMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+            LogPrintf("Running NewYorkCoinMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
                 ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
             //
@@ -517,7 +517,7 @@ void static BitcoinMiner(CWallet *pwallet)
                         assert(hash == pblock->GetPoWHash());
 
                         SetThreadPriority(THREAD_PRIORITY_NORMAL);
-                        LogPrintf("DogecoinMiner:\n");
+                        LogPrintf("NewYorkCoinMiner:\n");
                         LogPrintf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex(), hashTarget.GetHex());
                         ProcessBlockFound(pblock, *pwallet, reservekey);
                         SetThreadPriority(THREAD_PRIORITY_LOWEST);
@@ -554,12 +554,12 @@ void static BitcoinMiner(CWallet *pwallet)
     }
     catch (const boost::thread_interrupted&)
     {
-        LogPrintf("DogecoinMiner terminated\n");
+        LogPrintf("NewYorkCoinMiner terminated\n");
         throw;
     }
     catch (const std::runtime_error &e)
     {
-        LogPrintf("DogecoinMiner runtime error: %s\n", e.what());
+        LogPrintf("NewYorkCoinMiner runtime error: %s\n", e.what());
         return;
     }
 }

@@ -11,12 +11,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Jezrga</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Jezrga</translation>
     </message>
     </context>
 <context>
@@ -34,15 +34,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Jezrga</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Jezrga</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Jezrga</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Jezrga</translation>
     </message>
     </context>
 <context>
@@ -109,8 +109,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Jezrga</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Jezrga</translation>
     </message>
     </context>
 <context>

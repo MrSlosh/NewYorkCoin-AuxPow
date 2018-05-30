@@ -107,7 +107,7 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
+        <source>NewYorkCoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>

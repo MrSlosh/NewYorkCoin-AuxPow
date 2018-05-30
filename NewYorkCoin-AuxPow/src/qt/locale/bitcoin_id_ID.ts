@@ -62,11 +62,11 @@
         <translation>Alamat-alamat menerima</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim Dogecoin.</translation>
+        <source>These are your NewYorkCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim NewYorkCoin.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your NewYorkCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Alamat-alamat Anda supaya menerima pembayaran. Dianjurkan agar Anda menggunakan alamat menerima yang baru untuk setiap transaksi.</translation>
     </message>
     <message>
@@ -267,8 +267,8 @@
         <translation>Buka &amp;URI</translation>
     </message>
     <message>
-        <source>Dogecoin Core client</source>
-        <translation>Client Dogecoin Inti</translation>
+        <source>NewYorkCoin Core client</source>
+        <translation>Client NewYorkCoin Inti</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -279,8 +279,8 @@
         <translation>Mengindex ulang block di harddisk...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Kirim koin ke alamat Dogecoin</translation>
+        <source>Send coins to a NewYorkCoin address</source>
+        <translation>Kirim koin ke alamat NewYorkCoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Verifikasi pesan...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -319,8 +319,8 @@
         <translation>&amp;Menerima</translation>
     </message>
     <message>
-        <source>Show information about Dogecoin Core</source>
-        <translation>Tampilkan informasi tentang Dogecoin Inti</translation>
+        <source>Show information about NewYorkCoin Core</source>
+        <translation>Tampilkan informasi tentang NewYorkCoin Inti</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -335,12 +335,12 @@
         <translation>Mengenkripsi kunci-kunci pribadi yang dipunyai dompetmu</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Tandalah pesanan dengan alamat-alamat Dogecoin Anda supaya membuktikan pesanan itu dikirim oleh Anda</translation>
+        <source>Sign messages with your NewYorkCoin addresses to prove you own them</source>
+        <translation>Tandalah pesanan dengan alamat-alamat NewYorkCoin Anda supaya membuktikan pesanan itu dikirim oleh Anda</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Periksakan pesan-pesan supaya menjaminkan ditandatangani oleh alamat Dogecoin yang terperinci</translation>
+        <source>Verify messages to ensure they were signed with specified NewYorkCoin addresses</source>
+        <translation>Periksakan pesan-pesan supaya menjaminkan ditandatangani oleh alamat NewYorkCoin yang terperinci</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -359,16 +359,16 @@
         <translation>Baris tab</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
         <translation>Permintaan pembayaran (membangkitkan kode QR dan dogecoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>&amp;Mengenai Dogecoin Core</translation>
+        <source>&amp;About NewYorkCoin Core</source>
+        <translation>&amp;Mengenai NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -387,12 +387,12 @@
         <translation>&amp;pilihan Perintah-baris</translation>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
-        <translation>Tampilkan pesan bantuan Dogecoin Core untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi Dogecoin</translation>
+        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
+        <translation>Tampilkan pesan bantuan NewYorkCoin Core untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi NewYorkCoin</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
-        <translation><numerusform>%n hubungan aktif ke jaringan Dogecoin</numerusform></translation>
+        <source>%n active connection(s) to NewYorkCoin network</source>
+        <translation><numerusform>%n hubungan aktif ke jaringan NewYorkCoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -704,8 +704,8 @@
         <translation>Alamat yang dimasukkan "%1" sudah ada di dalam buku alamat.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dogecoin address.</source>
-        <translation>Alamat yang dimasukkan "%1" bukan alamat Dogecoin yang benar.</translation>
+        <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
+        <translation>Alamat yang dimasukkan "%1" bukan alamat NewYorkCoin yang benar.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -742,16 +742,16 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versi</translation>
     </message>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>Mengenai Dogecoin Core</translation>
+        <source>About NewYorkCoin Core</source>
+        <translation>Mengenai NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -769,8 +769,8 @@
         <translation>Selamat Datang</translation>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Selamat Datang ke Dogecoin Core</translation>
+        <source>Welcome to NewYorkCoin Core.</source>
+        <translation>Selamat Datang ke NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -781,8 +781,8 @@
         <translation>Menggunakan direktori data yang dipilih Anda:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -875,8 +875,8 @@
         <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Otomatis membuka port client Dogecoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+        <source>Automatically open the NewYorkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port client NewYorkCoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -970,8 +970,8 @@
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Dogecoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NewYorkCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan NewYorkCoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1517,8 +1517,8 @@
         <translation>Gagal: Transaksi ditolak. Ini mungkin terjadi jika beberapa dari koin dalam dompet Anda telah digunakan, seperti ketika Anda menggunakan salinan wallet.dat dan beberapa koin telah dibelanjakan dalam salinan tersebut tetapi disini tidak tertandai sebagai terpakai.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
-        <translation>Awas: Alamat Dogecoin tidak sah</translation>
+        <source>Warning: Invalid NewYorkCoin address</source>
+        <translation>Awas: Alamat NewYorkCoin tidak sah</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1595,8 +1595,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>Dogecoin Core sementara dimatikan...</translation>
+        <source>NewYorkCoin Core is shutting down...</source>
+        <translation>NewYorkCoin Core sementara dimatikan...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1642,8 +1642,8 @@
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
-        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Dogecoin ini</translation>
+        <source>Sign the message to prove you own this NewYorkCoin address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat NewYorkCoin ini</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1721,12 +1721,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>Pembangun Dogecoin Core</translation>
+        <source>The NewYorkCoin Core developers</source>
+        <translation>Pembangun NewYorkCoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2203,8 +2203,8 @@
         <translation>Jalankan perintah ketika perubahan transaksi dompet (%s di cmd digantikan oleh TxID)</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
-        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan Dogecoin Core sudah mulai.</translation>
+        <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
+        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan NewYorkCoin Core sudah mulai.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2323,8 +2323,8 @@
         <translation>Impor blok dari eksternal berkas blk000???.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
-        <translation>Tidak bisa mengunci data directory %s. Kemungkinan Dogecoin Core sudah mulai.</translation>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
+        <translation>Tidak bisa mengunci data directory %s. Kemungkinan NewYorkCoin Core sudah mulai.</translation>
     </message>
     <message>
         <source>Information</source>

@@ -66,12 +66,12 @@
         <translation>Naslovi za prejemanje</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your NewYorkCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Seznam naslovov za pošiljanje plačil. Vedno preverite znesek in prejemnikov naslov pred pošiljanjem plačila.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To so vaši Dogecoin naslovi za prejemanje plačil. Priporočljivo je uporabiti nov prejemni naslov za vsako novo transakcijo.</translation>
+        <source>These are your NewYorkCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To so vaši NewYorkCoin naslovi za prejemanje plačil. Priporočljivo je uporabiti nov prejemni naslov za vsako novo transakcijo.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -164,7 +164,7 @@
         <translation>Ali ste prepričani, da želite šifrirati vašo denarnico?</translation>
     </message>
     <message>
-        <source>Dogecoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
+        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation>Program se bo zaprl, da dokonča proces šifriranja. Zapomnite si, da šifriranje ne more popolnoma zaščititi vaše denarnice pred krajami in zlonamernimi programi, ki bi lahko bili nameščeni na vašem računalniku.</translation>
     </message>
     <message>
@@ -291,8 +291,8 @@
         <translation>Odpri &amp;URI ...</translation>
     </message>
     <message>
-        <source>Dogecoin Core client</source>
-        <translation>Odjemalec Dogecoin Core</translation>
+        <source>NewYorkCoin Core client</source>
+        <translation>Odjemalec NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -303,7 +303,7 @@
         <translation>Poustvarjam kazalo blokov na disku ...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
+        <source>Send coins to a NewYorkCoin address</source>
         <translation>Pošiljanje plačila na dogecoin naslov</translation>
     </message>
     <message>
@@ -323,8 +323,8 @@
         <translation>Odpri razhroščevalno in diagnostično konzolo</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -339,7 +339,7 @@
         <translation>&amp;Sprejmi</translation>
     </message>
     <message>
-        <source>Show information about Dogecoin Core</source>
+        <source>Show information about NewYorkCoin Core</source>
         <translation>Pokaži informacije o programu</translation>
     </message>
     <message>
@@ -355,11 +355,11 @@
         <translation>Šifiraj zasebne ključe v denarnici</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
+        <source>Sign messages with your NewYorkCoin addresses to prove you own them</source>
         <translation>Podpisovanje sporočila za dokazovanje lastništva določenega dogecoin naslova</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified NewYorkCoin addresses</source>
         <translation>Preverjanje, če je podano sporočilo bilo podpisano z določenim naslovom</translation>
     </message>
     <message>
@@ -379,19 +379,19 @@
         <translation>Orodna vrstica zavihkov</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
         <translation>Ustvarjanje zahtevka za plačilo (izdelava QR kode in dogecoin: URI naslova)</translation>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
+        <source>&amp;About NewYorkCoin Core</source>
         <translation>&amp;O programu</translation>
     </message>
     <message>
-        <source>Modify configuration options for Dogecoin Core</source>
+        <source>Modify configuration options for NewYorkCoin Core</source>
         <translation>Urejanje nastavitev programa</translation>
     </message>
     <message>
@@ -411,11 +411,11 @@
         <translation>Opcije &amp;ukazne vrstice</translation>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
+        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
         <translation>Prikaže seznam vseh opcij pri zagonu programa in kratek opis</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
+        <source>%n active connection(s) to NewYorkCoin network</source>
         <translation><numerusform>%n aktivna povezava v dogecoin omrežje</numerusform><numerusform>%n aktivne povezave v dogecoin omrežje</numerusform><numerusform>%n aktivnih povezav v dogecoin omrežje</numerusform><numerusform>%n aktivnih povezav v dogecoin omrežje</numerusform></translation>
     </message>
     <message>
@@ -786,7 +786,7 @@
         <translation>Vnešeni naslov "%1" je že v imeniku.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+        <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
         <translation>Vnešeni naslov "%1" ni veljaven dogecoin naslov.</translation>
     </message>
     <message>
@@ -824,8 +824,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -836,8 +836,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>O programu Dogecoin Core</translation>
+        <source>About NewYorkCoin Core</source>
+        <translation>O programu NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -859,15 +859,15 @@
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Dobrodošli v programu Dogecoin Core.</translation>
+        <source>Welcome to NewYorkCoin Core.</source>
+        <translation>Dobrodošli v programu NewYorkCoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
-        <translation>To je prvi zagonom programa, zato izberite kje bo program Dogecoin Core shranjeval podatke.</translation>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
+        <translation>To je prvi zagonom programa, zato izberite kje bo program NewYorkCoin Core shranjeval podatke.</translation>
     </message>
     <message>
-        <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Program bo prenesel in shranil kopijo dogecoin verige blokov. V izbrano mapo bo shranjenih vsaj %1 GB podatkov, ta količina bo sčasoma še naraščala. Denarnica bo prav tako shranjena v to mapo.</translation>
     </message>
     <message>
@@ -879,8 +879,8 @@
         <translation>Uporabi to mapo za shranjevanje podatkov:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -957,7 +957,7 @@
         <translation>Program bo minimiran, namesto zaprt, ko zaprete okno programa. Ko je ta opcija omogočena program ustavite z izbiro ukaza &lt;b&gt;Izhod&lt;/b&gt; iz menija. </translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting NewYorkCoin Core.</source>
         <translation>Nastavitev jezika uporabniškega vmesnika programa. Nova nastavitev jezika bo uporabljena šele, ko boste znova zagnali program.</translation>
     </message>
     <message>
@@ -985,11 +985,11 @@
         <translation>&amp;Omrežje</translation>
     </message>
     <message>
-        <source>Automatically start Dogecoin Core after logging in to the system.</source>
+        <source>Automatically start NewYorkCoin Core after logging in to the system.</source>
         <translation>Samodejen zagon programa po prijavi uporabnika v sistem</translation>
     </message>
     <message>
-        <source>&amp;Start Dogecoin Core on system login</source>
+        <source>&amp;Start NewYorkCoin Core on system login</source>
         <translation>&amp;Zaženi program ob prijavi v sistem</translation>
     </message>
     <message>
@@ -1017,7 +1017,7 @@
         <translation>&amp;Trošenje nepotrjenega vračila</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the NewYorkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Program samodejno odpre ustrezna vrata na usmerjevalniku. To deluje samo, če vaš usmerjevalnik podpira in ima omogočen UPnP.</translation>
     </message>
     <message>
@@ -1025,7 +1025,7 @@
         <translation>Naslavljanje vrat z uporabo &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the NewYorkCoin network through a SOCKS5 proxy.</source>
         <translation>Povezava v omrežje s pomočjo SOCKS5 posrednika.</translation>
     </message>
     <message>
@@ -1124,8 +1124,8 @@
         <translation>Oblika</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatki so mogoče zastareli. Program samodejno sinhronizira denarnico z Dogecoin omrežjem ob vzpostavitvi povezave, ampak ta proces še ni zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NewYorkCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazani podatki so mogoče zastareli. Program samodejno sinhronizira denarnico z NewYorkCoin omrežjem ob vzpostavitvi povezave, ampak ta proces še ni zaključen.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1231,8 +1231,8 @@
         <translation>Naslov URL za pridobitev zahtevka za plačilo ni veljaven: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
-        <translation>Naslov URL je neprepoznaven! Razloga sta lahko: neveljaven Dogecoin naslov ali napačni parametri v URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid NewYorkCoin address or malformed URI parameters.</source>
+        <translation>Naslov URL je neprepoznaven! Razloga sta lahko: neveljaven NewYorkCoin naslov ali napačni parametri v URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1309,8 +1309,8 @@
         <translation>Znesek</translation>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. %1)</source>
-        <translation>Vnesite naslov Dogecoin (npr. %1):</translation>
+        <source>Enter a NewYorkCoin address (e.g. %1)</source>
+        <translation>Vnesite naslov NewYorkCoin (npr. %1):</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1419,8 +1419,8 @@
         <translation>Trenutno število blokov</translation>
     </message>
     <message>
-        <source>Open the Dogecoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpre razhroščevalni dnevnik Dogecoin Core, ki se nahaja v trenutni podatkovni mapi. Če je datoteka velika, lahko postopek traja nekaj sekund.</translation>
+        <source>Open the NewYorkCoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpre razhroščevalni dnevnik NewYorkCoin Core, ki se nahaja v trenutni podatkovni mapi. Če je datoteka velika, lahko postopek traja nekaj sekund.</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1539,8 +1539,8 @@
         <translation>Počisti konzolo</translation>
     </message>
     <message>
-        <source>Welcome to the Dogecoin Core RPC console.</source>
-        <translation>Dobrodošli v Dogecoin Core RPC konzolo.</translation>
+        <source>Welcome to the NewYorkCoin Core RPC console.</source>
+        <translation>Dobrodošli v NewYorkCoin Core RPC konzolo.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1614,8 +1614,8 @@
         <translation>P&amp;onovno uporabite obstoječ naslov za prejemanje. (Ni priporočeno.)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
-        <translation>Neobvezno sporočilo kot priponka zahtevku za plačilo, ki bo prikazano, ko bo zahtevek odprt. Opomba: Opravljeno plačilo.prek omrežja Dogecoin tega sporočila ne bo vsebovalo.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NewYorkCoin network.</source>
+        <translation>Neobvezno sporočilo kot priponka zahtevku za plačilo, ki bo prikazano, ko bo zahtevek odprt. Opomba: Opravljeno plačilo.prek omrežja NewYorkCoin tega sporočila ne bo vsebovalo.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2003,7 +2003,7 @@
         <translation>Naslov je že bil uporabljen. Vsak naslov naj bi se uporabil samo enkrat.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
+        <source>Warning: Invalid NewYorkCoin address</source>
         <translation>Opozorilo: Neveljaven dogecoin naslov</translation>
     </message>
     <message>
@@ -2054,8 +2054,8 @@
         <translation>Plačilo je navadne vrste.</translation>
     </message>
     <message>
-        <source>The Dogecoin address to send the payment to</source>
-        <translation>Naslov Dogecoin, na katerega bo plačilo poslano</translation>
+        <source>The NewYorkCoin address to send the payment to</source>
+        <translation>Naslov NewYorkCoin, na katerega bo plačilo poslano</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2098,8 +2098,8 @@
         <translation>Vnesite oznako za ta naslov, da ga shranite v seznam uporabljenih naslovov</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
-        <translation>Sporočilo, ki ste ga pripeli na URI dogecoin: in bo shranjeno skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja Dogecoin.</translation>
+        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <translation>Sporočilo, ki ste ga pripeli na URI dogecoin: in bo shranjeno skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja NewYorkCoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2113,7 +2113,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
+        <source>NewYorkCoin Core is shutting down...</source>
         <translation>Program se ustavlja ...</translation>
     </message>
     <message>
@@ -2136,8 +2136,8 @@
         <translation>S svojimi naslovi lahko podpisujete sporočila ali pogodbe in s tem dokazujete, da na teh naslovih lahko prejemate kovance. Bodite previdni in ne podpisujte ničesar nejasnega ali naključnega, ker vas zlikovci preko ribarjenja (phishing) lahko prelisičijo, da na njih prepišete svojo identiteto. Podpisujte samo podrobno opisane izjave, s katerimi se strinjate.</translation>
     </message>
     <message>
-        <source>The Dogecoin address to sign the message with</source>
-        <translation>Naslov Dogecoin, s katerim podpisujete sporočilo</translation>
+        <source>The NewYorkCoin address to sign the message with</source>
+        <translation>Naslov NewYorkCoin, s katerim podpisujete sporočilo</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2168,7 +2168,7 @@
         <translation>Kopiranje trenutnega podpisa na sistemsko odložišče.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
+        <source>Sign the message to prove you own this NewYorkCoin address</source>
         <translation>Podpišite sporočilo, da dokažete lastništvo nad zgornjim naslovom.</translation>
     </message>
     <message>
@@ -2239,12 +2239,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>Dogecoin Core razvijalci</translation>
+        <source>The NewYorkCoin Core developers</source>
+        <translation>NewYorkCoin Core razvijalci</translation>
     </message>
     <message>
         <source>[testnet]</source>

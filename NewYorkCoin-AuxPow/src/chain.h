@@ -148,7 +148,7 @@ public:
     unsigned int nBits;
     unsigned int nNonce;
 
-    // Dogecoin: Keep the Scrypt hash as well as SHA256
+    // NewYorkCoin: Keep the Scrypt hash as well as SHA256
     uint256 hashBlockPoW;
 
     //! (memory only) Sequential id assigned to distinguish order in which blocks are received.

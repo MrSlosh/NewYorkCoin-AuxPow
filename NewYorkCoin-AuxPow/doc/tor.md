@@ -1,16 +1,16 @@
 TOR SUPPORT IN DOGECOIN
 =======================
 
-It is possible to run Dogecoin as a Tor hidden service, and connect to such services.
+It is possible to run NewYorkCoin as a Tor hidden service, and connect to such services.
 
 The following directions assume you have a Tor proxy running on port 9050. Many distributions default to having a SOCKS proxy listening on port 9050, but others may not. In particular, the Tor Browser Bundle defaults to listening on a random port. See [Tor Project FAQ:TBBSocksPort](https://www.torproject.org/docs/faq.html.en#TBBSocksPort) for how to properly
 configure Tor.
 
 
-1. Run Dogecoin behind a Tor proxy
+1. Run NewYorkCoin behind a Tor proxy
 ---------------------------------
 
-The first step is running Dogecoin behind a Tor proxy. This will already make all
+The first step is running NewYorkCoin behind a Tor proxy. This will already make all
 outgoing connections be anonymized, but more is possible.
 
 	-proxy=ip:port  Set the proxy server. If SOCKS5 is selected (default), this proxy
@@ -34,7 +34,7 @@ In a typical situation, this suffices to run behind a Tor proxy:
 	./dogecoin -proxy=127.0.0.1:9050
 
 
-2. Run a Dogecoin hidden server
+2. Run a NewYorkCoin hidden server
 ------------------------------
 
 If you configure your Tor system accordingly, it is possible to make your node also
@@ -48,7 +48,7 @@ config file):
 The directory can be different of course, but (both) port numbers should be equal to
 your dogecoind's P2P listen port (22556 by default).
 
-	-externalip=X   You can tell Dogecoin about its publicly reachable address using
+	-externalip=X   You can tell NewYorkCoin about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
 	                configuration, you can find your onion address in
 	                /var/lib/tor/dogecoin-service/hostname. Onion addresses are given

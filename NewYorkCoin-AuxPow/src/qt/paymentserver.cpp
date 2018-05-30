@@ -77,7 +77,7 @@ void PaymentServer::freeCertStore()
 //
 static QString ipcServerName()
 {
-    QString name("DogecoinQt");
+    QString name("NewYorkCoinQt");
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path

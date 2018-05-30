@@ -1,8 +1,8 @@
-# Dogecoin Core 1.8.2
+# NewYorkCoin Core 1.8.2
 
-Dogecoin Core 1.8.2 is a bugfix release. It updates OpenSSL to 1.0.1l, mainly fixing security issues.
+NewYorkCoin Core 1.8.2 is a bugfix release. It updates OpenSSL to 1.0.1l, mainly fixing security issues.
 
-## Dogecoin Core Release Notes
+## NewYorkCoin Core Release Notes
 
 * Update to OpenSSL 1.0.1l
 
@@ -19,7 +19,7 @@ Please refer to this section in the Bitcoin Core release notes for further info:
 
 Listed in strictly alphabetical order, using name listed in Github. This
 includes those whose contributions to Bitcoin Core have been merged
-into Dogecoin Core:
+into NewYorkCoin Core:
 
 * Cory Fields
 * langerhans

@@ -21,7 +21,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     if (pindexLast == NULL)
         return nProofOfWorkLimit;
 
-    // Dogecoin: Special rules for minimum difficulty blocks with Digishield
+    // NewYorkCoin: Special rules for minimum difficulty blocks with Digishield
     if (AllowDigishieldMinDifficultyForBlock(pindexLast, pblock, params))
     {
         // Special difficulty rule for testnet:
@@ -64,7 +64,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     const CBlockIndex* pindexFirst = pindexLast->GetAncestor(nHeightFirst);
     assert(pindexFirst);
 
-    return CalculateDogecoinNextWorkRequired(pindexLast, pindexFirst->GetBlockTime(), params);
+    return CalculateNewYorkCoinNextWorkRequired(pindexLast, pindexFirst->GetBlockTime(), params);
 }
 
 unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nFirstBlockTime, const Consensus::Params& params)

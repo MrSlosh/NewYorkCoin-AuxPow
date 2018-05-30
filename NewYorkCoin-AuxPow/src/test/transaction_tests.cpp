@@ -340,7 +340,7 @@ BOOST_AUTO_TEST_CASE(test_IsStandard)
     string reason;
     BOOST_CHECK(IsStandardTx(t, reason));
 
-    // Dogecoin: Dogecoin allows dust transactions
+    // NewYorkCoin: NewYorkCoin allows dust transactions
     // t.vout[0].nValue = 501; // dust
     // BOOST_CHECK(!IsStandardTx(t, reason));
 

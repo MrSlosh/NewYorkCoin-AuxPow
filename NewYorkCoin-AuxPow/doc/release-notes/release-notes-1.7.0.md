@@ -1,8 +1,8 @@
-# Dogecoin Core 1.7 Alpha
+# NewYorkCoin Core 1.7 Alpha
 =========================
 
-Dogecoin Core 1.7 is a complete re-architecture of Dogecoin, changing from
-using the Litecoin client as its base, to Bitcoin 0.9. It's still Dogecoin,
+NewYorkCoin Core 1.7 is a complete re-architecture of NewYorkCoin, changing from
+using the Litecoin client as its base, to Bitcoin 0.9. It's still NewYorkCoin,
 with the same Scrypt PoW algorithm, same reward schedule, but there are a 
 lot of changes under the hood.
 
@@ -21,12 +21,12 @@ First and foremost, please note that downgrading from 1.7 to 1.6 is not trivial.
 1.7 now uses Berkeley DB 5.1 as its default database (in place of 4.8), and as
 such may create database files which are incompatible with previous versions.
 
-Rebranding to Dogecoin Core
+Rebranding to NewYorkCoin Core
 ---------------------------
 
-Following in the footsteps of Bitcoin (Core), the Dogecoin reference client
-has been rebranded as "Dogecoin Core". This helps separate its identity
-from Dogecoin (the network).
+Following in the footsteps of Bitcoin (Core), the NewYorkCoin reference client
+has been rebranded as "NewYorkCoin Core". This helps separate its identity
+from NewYorkCoin (the network).
 
 dogecoin-cli
 ------------
@@ -48,9 +48,9 @@ Testnet
 -------
 
 As mentioned at the start of this document, the alpha-client is for use with the
-Dogecoin testnet only. This is an alternative Dogecoin blockchain which is
+NewYorkCoin testnet only. This is an alternative NewYorkCoin blockchain which is
 not used for real transactions, and instead is intended for testing of experimental
-clients. Wallets and addresses are incompatible with the normal Dogecoin
+clients. Wallets and addresses are incompatible with the normal NewYorkCoin
 network, in order to isolate the two.
 
 As "TestDoge" is essentially valueless, it can be acquired easily for testing,

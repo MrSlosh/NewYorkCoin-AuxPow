@@ -183,7 +183,7 @@
         <translation>Оношилгоо ба засварын консолыг онгойлго</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
+        <source>NewYorkCoin</source>
         <translation>Биткойн</translation>
     </message>
     <message>
@@ -617,7 +617,7 @@
         <translation>Гүйлгээний тѳлбѳр %1-ийг тооцхоор нийт дүн нь таны балансаас хэтрээд байна.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
+        <source>Warning: Invalid NewYorkCoin address</source>
         <translation>Анхаар:Буруу Биткойны хаяг байна</translation>
     </message>
     <message>
@@ -663,7 +663,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
+        <source>NewYorkCoin Core is shutting down...</source>
         <translation>Биткойны цѳм хаагдаж байна...</translation>
     </message>
     <message>

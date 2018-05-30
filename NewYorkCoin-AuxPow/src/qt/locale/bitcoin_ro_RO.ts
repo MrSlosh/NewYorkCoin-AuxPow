@@ -66,12 +66,12 @@
         <translation>Adresa de primire</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Acestea sînt adresele dumneavoastră Dogecoin pentru efectuarea plăţilor. Verificaţi întotdeauna cantitatea şi adresa de primire înainte de a trimite monezi.</translation>
+        <source>These are your NewYorkCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Acestea sînt adresele dumneavoastră NewYorkCoin pentru efectuarea plăţilor. Verificaţi întotdeauna cantitatea şi adresa de primire înainte de a trimite monezi.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Acestea sînt adresele dumneavoastră Dogecoin folosite pentru a primi plati. Este recomandat să folosiţi o adresă nouă de primire pentru fiecare tranzacţie în parte.</translation>
+        <source>These are your NewYorkCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Acestea sînt adresele dumneavoastră NewYorkCoin folosite pentru a primi plati. Este recomandat să folosiţi o adresă nouă de primire pentru fiecare tranzacţie în parte.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -168,8 +168,8 @@
         <translation>Sigur doriţi să criptaţi portofelul dvs.?</translation>
     </message>
     <message>
-        <source>Dogecoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
-        <translation>Dogecoin se va închide acum pentru a termina procesul de criptare. Ţineţi minte că criptarea portofelului nu vă poate proteja în totalitate de furtul monedelor de către programe dăunătoare care vă infectează calculatorul.</translation>
+        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
+        <translation>NewYorkCoin se va închide acum pentru a termina procesul de criptare. Ţineţi minte că criptarea portofelului nu vă poate proteja în totalitate de furtul monedelor de către programe dăunătoare care vă infectează calculatorul.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -295,8 +295,8 @@
         <translation>Deschide &amp;URI...</translation>
     </message>
     <message>
-        <source>Dogecoin Core client</source>
-        <translation>Clientul Dogecoin Core</translation>
+        <source>NewYorkCoin Core client</source>
+        <translation>Clientul NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +307,8 @@
         <translation>Se reindexează blocurile pe disc...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Trimite monede către o adresă Dogecoin</translation>
+        <source>Send coins to a NewYorkCoin address</source>
+        <translation>Trimite monede către o adresă NewYorkCoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>&amp;Verifică mesaj...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +347,8 @@
         <translation>P&amp;rimeşte</translation>
     </message>
     <message>
-        <source>Show information about Dogecoin Core</source>
-        <translation>Arată informaţii despre Dogecoin Core</translation>
+        <source>Show information about NewYorkCoin Core</source>
+        <translation>Arată informaţii despre NewYorkCoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,12 +363,12 @@
         <translation>Criptează cheile private ale portofelului dvs.</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Semnaţi mesaje cu adresa dvs. Dogecoin pentru a dovedi că vă aparţin</translation>
+        <source>Sign messages with your NewYorkCoin addresses to prove you own them</source>
+        <translation>Semnaţi mesaje cu adresa dvs. NewYorkCoin pentru a dovedi că vă aparţin</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa Dogecoin specificată</translation>
+        <source>Verify messages to ensure they were signed with specified NewYorkCoin addresses</source>
+        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa NewYorkCoin specificată</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,20 +387,20 @@
         <translation>Bara de unelte</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Nucleul Dogecoin</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>Nucleul NewYorkCoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
         <translation>Cereţi plăţi (generează coduri QR şi dogecoin-uri: URls)</translation>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>&amp;Despre Nucleul Dogecoin</translation>
+        <source>&amp;About NewYorkCoin Core</source>
+        <translation>&amp;Despre Nucleul NewYorkCoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Dogecoin Core</source>
-        <translation>Modifică opţiunile de configurare pentru Dogecoin</translation>
+        <source>Modify configuration options for NewYorkCoin Core</source>
+        <translation>Modifică opţiunile de configurare pentru NewYorkCoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -419,12 +419,12 @@
         <translation>Opţiuni linie de &amp;comandă</translation>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
-        <translation>Arată mesajul de ajutor Dogecoin Core pentru a obţine o listă cu opţiunile posibile de linii de comandă Dogecoin</translation>
+        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
+        <translation>Arată mesajul de ajutor NewYorkCoin Core pentru a obţine o listă cu opţiunile posibile de linii de comandă NewYorkCoin</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
-        <translation><numerusform>%n conexiune activă către reţeaua Dogecoin</numerusform><numerusform>%n conexiuni active către reţeaua Dogecoin</numerusform><numerusform>%n de conexiuni active către reţeaua Dogecoin</numerusform></translation>
+        <source>%n active connection(s) to NewYorkCoin network</source>
+        <translation><numerusform>%n conexiune activă către reţeaua NewYorkCoin</numerusform><numerusform>%n conexiuni active către reţeaua NewYorkCoin</numerusform><numerusform>%n de conexiuni active către reţeaua NewYorkCoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -798,7 +798,7 @@
         <translation>Adresa introdusă "%1" se află deja în lista de adrese.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+        <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
         <translation>Adresa introdusă "%1" nu este o adresă dogecoin validă.</translation>
     </message>
     <message>
@@ -836,8 +836,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Nucleul Dogecoin</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>Nucleul NewYorkCoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -848,8 +848,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>Despre Nucleul Dogecoin</translation>
+        <source>About NewYorkCoin Core</source>
+        <translation>Despre Nucleul NewYorkCoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -871,12 +871,12 @@
         <translation>Bun venit</translation>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Bine aţi venit la Nucleul Dogecoin.</translation>
+        <source>Welcome to NewYorkCoin Core.</source>
+        <translation>Bine aţi venit la Nucleul NewYorkCoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
-        <translation>Dacă aceasta este prima dată cînd programul este lansat, puteţi alege unde Nucleul Dogecoin va stoca datele.</translation>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
+        <translation>Dacă aceasta este prima dată cînd programul este lansat, puteţi alege unde Nucleul NewYorkCoin va stoca datele.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -887,8 +887,8 @@
         <translation>Foloseşte un dosar de date personalizat:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Nucleul Dogecoin</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>Nucleul NewYorkCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -969,8 +969,8 @@
         <translation>Minimizează fereastra în locul părăsirii programului în momentul închiderii ferestrei. Cînd acestă opţiune e activă, aplicaţia se va opri doar în momentul selectării comenzii 'Închide aplicaţia' din menu.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
-        <translation>Limba interfeţei utilizatorului poate fi setată aici. Această setare va avea efect după repornirea Nucleului Dogecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting NewYorkCoin Core.</source>
+        <translation>Limba interfeţei utilizatorului poate fi setată aici. Această setare va avea efect după repornirea Nucleului NewYorkCoin.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -997,8 +997,8 @@
         <translation>Reţea</translation>
     </message>
     <message>
-        <source>&amp;Start Dogecoin Core on system login</source>
-        <translation>Porneşte Nucleul Dogecoin la pornirea sistemului</translation>
+        <source>&amp;Start NewYorkCoin Core on system login</source>
+        <translation>Porneşte Nucleul NewYorkCoin la pornirea sistemului</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1025,16 +1025,16 @@
         <translation>Cheltuire rest neconfirmat</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat în router portul aferent clientului Dogecoin. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
+        <source>Automatically open the NewYorkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat în router portul aferent clientului NewYorkCoin. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapare port folosind &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
-        <translation>Conectare la reţeaua Dogecoin printr-un proxy SOCKS.</translation>
+        <source>Connect to the NewYorkCoin network through a SOCKS5 proxy.</source>
+        <translation>Conectare la reţeaua NewYorkCoin printr-un proxy SOCKS.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1132,8 +1132,8 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua Dogecoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NewYorkCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua NewYorkCoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1239,8 +1239,8 @@
         <translation>URL-ul cererii de plată preluat nu este valid: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
-        <translation>URI nu poate fi analizat! Acest lucru poate fi cauzat de o adresă Dogecoin nevalidă sau parametri URI deformaţi.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid NewYorkCoin address or malformed URI parameters.</source>
+        <translation>URI nu poate fi analizat! Acest lucru poate fi cauzat de o adresă NewYorkCoin nevalidă sau parametri URI deformaţi.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1313,8 +1313,8 @@
         <translation>Cantitate</translation>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. %1)</source>
-        <translation>Introduceţi o adresă Dogecoin (de exemplu %1)</translation>
+        <source>Enter a NewYorkCoin address (e.g. %1)</source>
+        <translation>Introduceţi o adresă NewYorkCoin (de exemplu %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1523,8 +1523,8 @@
         <translation>Curăţă consola</translation>
     </message>
     <message>
-        <source>Welcome to the Dogecoin Core RPC console.</source>
-        <translation>Bun venit la consola Nucleului Dogecoin RPC.</translation>
+        <source>Welcome to the NewYorkCoin Core RPC console.</source>
+        <translation>Bun venit la consola Nucleului NewYorkCoin RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1598,8 +1598,8 @@
         <translation>R&amp;efoloseşte o adresă de primire (nu este recomandat)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
-        <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua Dogecoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NewYorkCoin network.</source>
+        <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua NewYorkCoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1959,7 +1959,7 @@
         <translation>Adresa destinatarului nu este validă, vă rugăm să o verificaţi.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
+        <source>Warning: Invalid NewYorkCoin address</source>
         <translation>Atenţie: Adresa dogecoin nevalidă!</translation>
     </message>
     <message>
@@ -2010,7 +2010,7 @@
         <translation>Aceasta este o tranzacţie normală.</translation>
     </message>
     <message>
-        <source>The Dogecoin address to send the payment to</source>
+        <source>The NewYorkCoin address to send the payment to</source>
         <translation>Adresa dogecoin către care se face plata</translation>
     </message>
     <message>
@@ -2038,7 +2038,7 @@
         <translation>Introduceţi eticheta pentru ca această adresa să fie introdusă în lista de adrese folosite</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
+        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
         <translation>un mesaj a fost ataşat la dogecoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua dogecoin.</translation>
     </message>
     <message>
@@ -2053,8 +2053,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>Nucleul Dogecoin se închide...</translation>
+        <source>NewYorkCoin Core is shutting down...</source>
+        <translation>Nucleul NewYorkCoin se închide...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2072,7 +2072,7 @@
         <translation>&amp;Semnează mesaj</translation>
     </message>
     <message>
-        <source>The Dogecoin address to sign the message with</source>
+        <source>The NewYorkCoin address to sign the message with</source>
         <translation>Adresa cu care semnaţi mesajul</translation>
     </message>
     <message>
@@ -2104,8 +2104,8 @@
         <translation>Copiază semnatura curentă în clipboard-ul sistemului</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
-        <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă Dogecoin</translation>
+        <source>Sign the message to prove you own this NewYorkCoin address</source>
+        <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă NewYorkCoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2124,12 +2124,12 @@
         <translation>&amp;Verifică mesaj</translation>
     </message>
     <message>
-        <source>The Dogecoin address the message was signed with</source>
-        <translation>Introduceţi o adresă Dogecoin</translation>
+        <source>The NewYorkCoin address the message was signed with</source>
+        <translation>Introduceţi o adresă NewYorkCoin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
-        <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa Dogecoin specificată</translation>
+        <source>Verify the message to ensure it was signed with the specified NewYorkCoin address</source>
+        <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa NewYorkCoin specificată</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2195,12 +2195,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Nucleul Dogecoin</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>Nucleul NewYorkCoin</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>Dezvoltatorii Nucleului Dogecoin</translation>
+        <source>The NewYorkCoin Core developers</source>
+        <translation>Dezvoltatorii Nucleului NewYorkCoin</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2725,8 +2725,8 @@
         <translation>Aceasta este o versiune de test preliminară - vă asumaţi riscul folosind-o - nu folosiţi pentru minerit sau aplicaţiile comercianţilor</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
-        <translation>Nu se poate lega la %s pe acest calculator. Nucleul Dogecoin probabil deja rulează.</translation>
+        <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
+        <translation>Nu se poate lega la %s pe acest calculator. Nucleul NewYorkCoin probabil deja rulează.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2885,8 +2885,8 @@
         <translation>A apărut o eroare la setarea adresei RPC %s portul %u pentru ascultare: %s</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
-        <translation>Nu se poate obţine blocarea folderului cu date %s. Nucleul Dogecoin probabil deja rulează.</translation>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
+        <translation>Nu se poate obţine blocarea folderului cu date %s. Nucleul NewYorkCoin probabil deja rulează.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -2917,8 +2917,8 @@
         <translation>Copyright (C) 2009-%i Dezvoltatorii Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2013-%i The Dogecoin Core Developers</source>
-        <translation>Copyright (C) 2013-%i Dezvoltatorii Dogecoin</translation>
+        <source>Copyright (C) 2013-%i The NewYorkCoin Core Developers</source>
+        <translation>Copyright (C) 2013-%i Dezvoltatorii NewYorkCoin</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -2937,8 +2937,8 @@
         <translation>Informaţie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Dogecoin Core is shutting down.</source>
-        <translation>Nu s-a reuşit iniţierea verificării sănătăţii. Nucleul Dogecoin se opreşte.</translation>
+        <source>Initialization sanity check failed. NewYorkCoin Core is shutting down.</source>
+        <translation>Nu s-a reuşit iniţierea verificării sănătăţii. Nucleul NewYorkCoin se opreşte.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3045,8 +3045,8 @@
         <translation>Utilizator pentru conexiunile JSON-RPC</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Dogecoin Core to complete</source>
-        <translation>Portofelul necesită rescrierea: reporniţi Nucleul Dogecoin pentru completare</translation>
+        <source>Wallet needed to be rewritten: restart NewYorkCoin Core to complete</source>
+        <translation>Portofelul necesită rescrierea: reporniţi Nucleul NewYorkCoin pentru completare</translation>
     </message>
     <message>
         <source>Warning</source>

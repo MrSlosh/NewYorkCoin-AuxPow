@@ -60,7 +60,7 @@ Release Process
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
-###Build Dogecoin Core for Linux, Windows, and OS X:
+###Build NewYorkCoin Core for Linux, Windows, and OS X:
   
 	./bin/gbuild --commit dogecoin=v${VERSION} ../dogecoin/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../dogecoin/contrib/gitian-descriptors/gitian-linux.yml
@@ -143,9 +143,9 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
 - Announce the release:
 
-  - Release sticky on Dogecoin Forums: http://forum.dogecoin.com/forum/news-community/community-announcements
+  - Release sticky on NewYorkCoin Forums: http://forum.dogecoin.com/forum/news-community/community-announcements
 
-  - Dogecoin-development mailing list
+  - NewYorkCoin-development mailing list
 
   - Update title of #dogecoin on Freenode IRC
 

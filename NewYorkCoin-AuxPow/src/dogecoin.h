@@ -7,8 +7,8 @@
 #include "chainparams.h"
 
 bool AllowDigishieldMinDifficultyForBlock(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params);
-CAmount GetDogecoinBlockSubsidy(int nHeight, const Consensus::Params& consensusParams, uint256 prevHash);
-unsigned int CalculateDogecoinNextWorkRequired(const CBlockIndex* pindexLast, int64_t nLastRetargetTime, const Consensus::Params& params);
+CAmount GetNewYorkCoinBlockSubsidy(int nHeight, const Consensus::Params& consensusParams, uint256 prevHash);
+unsigned int CalculateNewYorkCoinNextWorkRequired(const CBlockIndex* pindexLast, int64_t nLastRetargetTime, const Consensus::Params& params);
 
 /**
  * Check proof-of-work of a block header, taking auxpow into account.
@@ -18,4 +18,4 @@ unsigned int CalculateDogecoinNextWorkRequired(const CBlockIndex* pindexLast, in
  */
 bool CheckAuxPowProofOfWork(const CBlockHeader& block, const Consensus::Params& params);
 
-int64_t GetDogecoinDustFee(const std::vector<CTxOut> &vout, CFeeRate &baseFeeRate);
+int64_t GetNewYorkCoinDustFee(const std::vector<CTxOut> &vout, CFeeRate &baseFeeRate);

@@ -187,7 +187,7 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
+        <source>Send coins to a NewYorkCoin address</source>
         <translation>Пошаљите новац на dogecoin адресу</translation>
     </message>
     <message>
@@ -314,8 +314,8 @@
         <translation>верзија</translation>
     </message>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>O Dogecoin Coru</translation>
+        <source>About NewYorkCoin Core</source>
+        <translation>O NewYorkCoin Coru</translation>
     </message>
     <message>
         <source>Usage:</source>

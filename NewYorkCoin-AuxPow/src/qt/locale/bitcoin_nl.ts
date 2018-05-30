@@ -66,12 +66,12 @@
         <translation>Ontvang adressen</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Dogecoin-adressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangende adres voordat u uw dogecoins verzendt.</translation>
+        <source>These are your NewYorkCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw NewYorkCoin-adressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangende adres voordat u uw dogecoins verzendt.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw Dogecoin-adressen waarmee u kunt betalen. We raden u aan om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your NewYorkCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw NewYorkCoin-adressen waarmee u kunt betalen. We raden u aan om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -168,8 +168,8 @@
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Dogecoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
-        <translation>Dogecoin Core zal nu afsluiten om het versleutelingsproces te voltooien. Hou er rekening mee dat versleuteling van je portemonnee je niet volledig beschermt tegen diefstal van jouw dogecoins door malware op je computer.</translation>
+        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
+        <translation>NewYorkCoin Core zal nu afsluiten om het versleutelingsproces te voltooien. Hou er rekening mee dat versleuteling van je portemonnee je niet volledig beschermt tegen diefstal van jouw dogecoins door malware op je computer.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -295,8 +295,8 @@
         <translation>Open &amp;URI...</translation>
     </message>
     <message>
-        <source>Dogecoin Core client</source>
-        <translation>Dogecoin Kern applicatie</translation>
+        <source>NewYorkCoin Core client</source>
+        <translation>NewYorkCoin Kern applicatie</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +307,8 @@
         <translation>Bezig met herindexeren van blokken op harde schijf...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Verstuur munten naar een Dogecoinadres</translation>
+        <source>Send coins to a NewYorkCoin address</source>
+        <translation>Verstuur munten naar een NewYorkCoinadres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>&amp;Verifiëer bericht...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,7 +347,7 @@
         <translation>&amp;Ontvangen</translation>
     </message>
     <message>
-        <source>Show information about Dogecoin Core</source>
+        <source>Show information about NewYorkCoin Core</source>
         <translation>Toon informatie over dogecoin kern</translation>
     </message>
     <message>
@@ -363,12 +363,12 @@
         <translation>Versleutel de geheime sleutels die bij uw portemonnee horen</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Dogecoinadressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your NewYorkCoin addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw NewYorkCoinadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Dogecoinadressen</translation>
+        <source>Verify messages to ensure they were signed with specified NewYorkCoin addresses</source>
+        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde NewYorkCoinadressen</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,16 +387,16 @@
         <translation>Tab-werkbalk</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
         <translation>Vraag betaling aan (genereert QR codes en dogecoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>&amp;Over Dogecoin Core</translation>
+        <source>&amp;About NewYorkCoin Core</source>
+        <translation>&amp;Over NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -415,12 +415,12 @@
         <translation>&amp;Commandoregel-opties</translation>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
-        <translation>Toon het Dogecoin Core hulpbericht om een lijst te krijgen met mogelijke Dogecoin commandoregelopties</translation>
+        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
+        <translation>Toon het NewYorkCoin Core hulpbericht om een lijst te krijgen met mogelijke NewYorkCoin commandoregelopties</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
-        <translation><numerusform>%n actieve connectie naar Dogecoinnetwerk</numerusform><numerusform>%n actieve connecties naar Dogecoinnetwerk</numerusform></translation>
+        <source>%n active connection(s) to NewYorkCoin network</source>
+        <translation><numerusform>%n actieve connectie naar NewYorkCoinnetwerk</numerusform><numerusform>%n actieve connecties naar NewYorkCoinnetwerk</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -802,8 +802,8 @@
         <translation>Het opgegeven adres "%1" bestaat al in uw adresboek.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dogecoin address.</source>
-        <translation>Het opgegeven adres "%1" is een ongeldig Dogecoinadres</translation>
+        <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
+        <translation>Het opgegeven adres "%1" is een ongeldig NewYorkCoinadres</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -840,8 +840,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -852,8 +852,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>Over Dogecoin Core</translation>
+        <source>About NewYorkCoin Core</source>
+        <translation>Over NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -875,16 +875,16 @@
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Welkom bij Dogecoin Core</translation>
+        <source>Welcome to NewYorkCoin Core.</source>
+        <translation>Welkom bij NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
-        <translation>Omdat dit de eerste keer is dat het programma gestart is, kunt u nu kiezen waar Dogecoin Core de data moet opslaan.</translation>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
+        <translation>Omdat dit de eerste keer is dat het programma gestart is, kunt u nu kiezen waar NewYorkCoin Core de data moet opslaan.</translation>
     </message>
     <message>
-        <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dogecoin Core zal een kopie van de Dogecoin blokketen downloaden en opslaan. Tenminste %1 GB aan data wordt opgeslagen in deze map en het zal groeien in de tijd. De portemonnee wordt ook in deze map opgeslagen.</translation>
+        <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>NewYorkCoin Core zal een kopie van de NewYorkCoin blokketen downloaden en opslaan. Tenminste %1 GB aan data wordt opgeslagen in deze map en het zal groeien in de tijd. De portemonnee wordt ook in deze map opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -895,8 +895,8 @@
         <translation>Gebruik een persoonlijke gegevensmap:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -973,8 +973,8 @@
         <translation>IP-adres van de proxy (bijv. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
-        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Dogecoin Core herstart wordt.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting NewYorkCoin Core.</source>
+        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat NewYorkCoin Core herstart wordt.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1001,12 +1001,12 @@
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>Automatically start Dogecoin Core after logging in to the system.</source>
-        <translation>Start Dogecoin automatisch na inloggen in het systeem</translation>
+        <source>Automatically start NewYorkCoin Core after logging in to the system.</source>
+        <translation>Start NewYorkCoin automatisch na inloggen in het systeem</translation>
     </message>
     <message>
-        <source>&amp;Start Dogecoin Core on system login</source>
-        <translation>Start &amp;Dogecoin bij het inloggen in het systeem</translation>
+        <source>&amp;Start NewYorkCoin Core on system login</source>
+        <translation>Start &amp;NewYorkCoin bij het inloggen in het systeem</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1033,16 +1033,16 @@
         <translation>&amp;Spendeer onbevestigd wisselgeld</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Dogecoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the NewYorkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de NewYorkCoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Portmapping via &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
-        <translation>Verbind met het Dogecoin netwerk via een SOCKS5 proxy.</translation>
+        <source>Connect to the NewYorkCoin network through a SOCKS5 proxy.</source>
+        <translation>Verbind met het NewYorkCoin netwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1140,8 +1140,8 @@
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Dogecoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NewYorkCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het NewYorkCoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1240,15 +1240,15 @@
     </message>
     <message>
         <source>Cannot start dogecoin: click-to-pay handler</source>
-        <translation>Kan Dogecoin niet starten: click-to-pay handler</translation>
+        <translation>Kan NewYorkCoin niet starten: click-to-pay handler</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>URL om betalingsverzoek te verkrijgen is ongeldig: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
-        <translation>URI kan niet verwerkt worden! Dit kan het gevolg zijn van een ongeldig Dogecoin adres of misvormde URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid NewYorkCoin address or malformed URI parameters.</source>
+        <translation>URI kan niet verwerkt worden! Dit kan het gevolg zijn van een ongeldig NewYorkCoin adres of misvormde URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1313,8 +1313,8 @@
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. %1)</source>
-        <translation>Vul een Dogecoinadres in (bijv. %1)</translation>
+        <source>Enter a NewYorkCoin address (e.g. %1)</source>
+        <translation>Vul een NewYorkCoinadres in (bijv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1606,8 +1606,8 @@
         <translation>H&amp;ergebruik en bestaand ontvangstadres (niet aanbevolen)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
-        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, deze zal getoond worden wanneer het verzoek is geopend. Opermerking: Het bericht zal niet worden verzonden met de betaling over het Dogecoin netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NewYorkCoin network.</source>
+        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, deze zal getoond worden wanneer het verzoek is geopend. Opermerking: Het bericht zal niet worden verzonden met de betaling over het NewYorkCoin netwerk.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1975,8 +1975,8 @@
         <translation>Betaal alleen de minimale transactiekosten van %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
-        <translation>Waarschuwing: Ongeldig Dogecoin adres</translation>
+        <source>Warning: Invalid NewYorkCoin address</source>
+        <translation>Waarschuwing: Ongeldig NewYorkCoin adres</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2026,8 +2026,8 @@
         <translation>Dit is een normale betaling.</translation>
     </message>
     <message>
-        <source>The Dogecoin address to send the payment to</source>
-        <translation>Het Dogecoin adres om betaling aan te voldoen</translation>
+        <source>The NewYorkCoin address to send the payment to</source>
+        <translation>Het NewYorkCoin adres om betaling aan te voldoen</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2054,8 +2054,8 @@
         <translation>Vul een label voor dit adres in om het aan de lijst met gebruikte adressen toe te voegen</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
-        <translation>Een bericht dat werd toegevoegd aan de dogecoin: URI deze wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Dogecoin netwerk.</translation>
+        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <translation>Een bericht dat werd toegevoegd aan de dogecoin: URI deze wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het NewYorkCoin netwerk.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2069,8 +2069,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>Dogecoin Core is aan het afsluiten...</translation>
+        <source>NewYorkCoin Core is shutting down...</source>
+        <translation>NewYorkCoin Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2088,8 +2088,8 @@
         <translation>O&amp;nderteken Bericht</translation>
     </message>
     <message>
-        <source>The Dogecoin address to sign the message with</source>
-        <translation>Het Dogecoin adres om bericht mee te ondertekenen</translation>
+        <source>The NewYorkCoin address to sign the message with</source>
+        <translation>Het NewYorkCoin adres om bericht mee te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2120,8 +2120,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Dogecoinadres bezit</translation>
+        <source>Sign the message to prove you own this NewYorkCoin address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald NewYorkCoinadres bezit</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2140,12 +2140,12 @@
         <translation>&amp;Verifiëer Bericht</translation>
     </message>
     <message>
-        <source>The Dogecoin address the message was signed with</source>
-        <translation>Het Dogecoin adres waarmee het bericht ondertekend is</translation>
+        <source>The NewYorkCoin address the message was signed with</source>
+        <translation>Het NewYorkCoin adres waarmee het bericht ondertekend is</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Dogecoinadres het bericht heeft ondertekend.</translation>
+        <source>Verify the message to ensure it was signed with the specified NewYorkCoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde NewYorkCoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2211,12 +2211,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>De Dogecoin Core ontwikkelaars</translation>
+        <source>The NewYorkCoin Core developers</source>
+        <translation>De NewYorkCoin Core ontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2753,8 +2753,8 @@
         <translation>Dit is een pre-release testversie - gebruik op eigen risico! Gebruik deze niet voor het delven van munten of handelsdoeleinden</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
-        <translation>Niet in staat om %s te verbinden op deze computer. Dogecoin Core draait waarschijnlijk al.</translation>
+        <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
+        <translation>Niet in staat om %s te verbinden op deze computer. NewYorkCoin Core draait waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2929,8 +2929,8 @@
         <translation>Bind aan gegeven adres om te luisteren voor JSON-RPC verbindingen. Gebruik [host]:poort notatie voor IPv6. Deze optie kan meerdere keren gespecificeerd worden (standaard: bind aan alle interfaces.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
-        <translation>Kan geen lock verkrijgen op gegevensmap %s. Dogecoin Core draait waarschijnlijk al.</translation>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
+        <translation>Kan geen lock verkrijgen op gegevensmap %s. NewYorkCoin Core draait waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -2986,8 +2986,8 @@
         <translation>Let op: -maxtxfee is erg hoog ingesteld! Transactiekosten van dergelijke groottes kunnen in een enkele transactie worden betaald.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Dogecoin Core will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd van uw computer correct zijn ingesteld! Bij een onjuist ingestelde klok zal Dogecoin Core niet goed werken.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong NewYorkCoin Core will not work properly.</source>
+        <translation>Waarschuwing: Controleer dat de datum en tijd van uw computer correct zijn ingesteld! Bij een onjuist ingestelde klok zal NewYorkCoin Core niet goed werken.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3014,16 +3014,16 @@
         <translation>Auteursrecht (C) 2009-%i De Bitcoin Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2013-%i The Dogecoin Core Developers</source>
-        <translation>Auteursrecht (C) 2013-%i De Dogecoin Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2013-%i The NewYorkCoin Core Developers</source>
+        <translation>Auteursrecht (C) 2013-%i De NewYorkCoin Core Ontwikkelaars</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>Niet mogelijk om -rpcbind waarde %s te verwerken als netwerk adres</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin Core</source>
-        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Dogecoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin Core</source>
+        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3042,8 +3042,8 @@
         <translation>Informatie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Dogecoin Core is shutting down.</source>
-        <translation>Initialisatie sanity check mislukt. Dogecoin Core is aan het afsluiten.</translation>
+        <source>Initialization sanity check failed. NewYorkCoin Core is shutting down.</source>
+        <translation>Initialisatie sanity check mislukt. NewYorkCoin Core is aan het afsluiten.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3158,8 +3158,8 @@
         <translation>Gebruikersnaam voor JSON-RPC-verbindingen</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Dogecoin Core to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart Dogecoin Core om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart NewYorkCoin Core to complete</source>
+        <translation>Portemonnee moest herschreven worden: Herstart NewYorkCoin Core om te voltooien</translation>
     </message>
     <message>
         <source>Warning</source>

@@ -18,8 +18,8 @@ DOGECOIND_BIN=${DOGECOIND_BIN:-/usr/bin/dogecoind}
 DOGECOIND_NICE=${DOGECOIND_NICE:-${NICELEVEL:-0}}
 DOGECOIND_OPTS="${DOGECOIND_OPTS:-${DOGECOIN_OPTS}}"
 
-name="Dogecoin Core Daemon"
-description="Dogecoin cryptocurrency P2P network daemon"
+name="NewYorkCoin Core Daemon"
+description="NewYorkCoin cryptocurrency P2P network daemon"
 
 command="/usr/bin/dogecoind"
 command_args="-pid=\"${DOGECOIND_PIDFILE}\" \
@@ -80,7 +80,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Dogecoin Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"NewYorkCoin Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

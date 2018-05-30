@@ -14,7 +14,7 @@ using namespace std;
 BOOST_FIXTURE_TEST_SUITE(pow_tests, BasicTestingSetup)
 
 /* Test calculation of next difficulty target with no constraints applying */
-// Replaced by Dogecoin-specific PoW test
+// Replaced by NewYorkCoin-specific PoW test
 /* BOOST_AUTO_TEST_CASE(get_next_work)
 {
     SelectParams(CBaseChainParams::MAIN);
@@ -29,7 +29,7 @@ BOOST_FIXTURE_TEST_SUITE(pow_tests, BasicTestingSetup)
 } */
 
 /* Test the constraint on the upper bound for next work */
-// Replaced by Dogecoin-specific PoW test
+// Replaced by NewYorkCoin-specific PoW test
 /* BOOST_AUTO_TEST_CASE(get_next_work_pow_limit)
 {
     SelectParams(CBaseChainParams::MAIN);
@@ -44,7 +44,7 @@ BOOST_FIXTURE_TEST_SUITE(pow_tests, BasicTestingSetup)
 } */
 
 /* Test the constraint on the lower bound for actual time taken */
-// Replaced by Dogecoin-specific PoW test
+// Replaced by NewYorkCoin-specific PoW test
 /* BOOST_AUTO_TEST_CASE(get_next_work_lower_limit_actual)
 {
     SelectParams(CBaseChainParams::MAIN);
@@ -59,7 +59,7 @@ BOOST_FIXTURE_TEST_SUITE(pow_tests, BasicTestingSetup)
 } */
 
 /* Test the constraint on the upper bound for actual time taken */
-// Replaced by Dogecoin-specific PoW test
+// Replaced by NewYorkCoin-specific PoW test
 /* BOOST_AUTO_TEST_CASE(get_next_work_upper_limit_actual)
 {
     SelectParams(CBaseChainParams::MAIN);

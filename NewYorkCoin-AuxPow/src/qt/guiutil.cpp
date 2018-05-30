@@ -103,7 +103,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Dogecoin address (e.g. %1)").arg("DEaT9KZM6b6oDZMr8pj7pWTLZSdtYZFAx8"));
+    widget->setPlaceholderText(QObject::tr("Enter a NewYorkCoin address (e.g. %1)").arg("DEaT9KZM6b6oDZMr8pj7pWTLZSdtYZFAx8"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -568,11 +568,11 @@ TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer(QTableView* t
 boost::filesystem::path static StartupShortcutPath()
 {
     if (GetBoolArg("-testnet", false))
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Dogecoin (testnet).lnk";
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "NewYorkCoin (testnet).lnk";
     else if (GetBoolArg("-regtest", false))
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Dogecoin (regtest).lnk";
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "NewYorkCoin (regtest).lnk";
 
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "Dogecoin.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "NewYorkCoin.lnk";
 }
 
 bool GetStartOnSystemStartup()
@@ -709,11 +709,11 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (GetBoolArg("-testnet", false))
-            optionFile << "Name=Dogecoin (testnet)\n";
+            optionFile << "Name=NewYorkCoin (testnet)\n";
         else if (GetBoolArg("-regtest", false))
-            optionFile << "Name=Dogecoin (regtest)\n";
+            optionFile << "Name=NewYorkCoin (regtest)\n";
         else
-            optionFile << "Name=Dogecoin\n";
+            optionFile << "Name=NewYorkCoin\n";
         optionFile << "Exec=" << pszExePath << strprintf(" -min -testnet=%d -regtest=%d\n", GetBoolArg("-testnet", false), GetBoolArg("-regtest", false));
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

@@ -73,7 +73,7 @@ enum {
     NODE_NETWORK = (1 << 0),
 
     // NODE_BLOOM means the node is capable and willing to handle bloom-filtered connections.
-    // Dogecoin Core will continue to support this by default, but will allow disabling it
+    // NewYorkCoin Core will continue to support this by default, but will allow disabling it
     // with the -bloomfilters option.
     NODE_BLOOM = (1 << 1),
 
