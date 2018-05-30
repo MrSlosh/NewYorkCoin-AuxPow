@@ -1,7 +1,7 @@
-# Dogecoin Core 1.8.1
+# NewYorkCoin Core 1.8.1
 
-Dogecoin Core 1.8.1 is primarily a bugfix release, bringing Dogecoin Core in
-line with Bitcoin 0.9.3. Dogecoin Core 1.8.1 also adds in support for printing
+NewYorkCoin Core 1.8.1 is primarily a bugfix release, bringing NewYorkCoin Core in
+line with Bitcoin 0.9.3. NewYorkCoin Core 1.8.1 also adds in support for printing
 paper wallets, and disables connections to pre-1.8 clients. This is a RECOMMENDED
 upgrade due to the large number of bug fixes, but is not a required one.
 
@@ -15,12 +15,12 @@ computer that's disconnected from the Internet. While the wallet generator
 does not save the keys it generates, this ensures there is no risk of a virus
 or similar capturing the key from memory or interfering with its generation.
 
-## Dogecoin Core Release Notes
+## NewYorkCoin Core Release Notes
 
 * Translation improvements and corrections
-* Disable Transifex based translation process (not used by Dogecoin Core)
+* Disable Transifex based translation process (not used by NewYorkCoin Core)
 * Add checkpoints around AuxPoW switchover block (371,337)
-* Disable connections from pre-1.8 Dogecoin Core clients
+* Disable connections from pre-1.8 NewYorkCoin Core clients
 * Use HTTPS with dogechain.info
 * Remove unreachable code introduced with AuxPoW support
 * "blocknotify" option now supports %i as a format parameter, which is replaced by block height
@@ -53,7 +53,7 @@ the nearest Doge on all transactions for now.
 
 Listed in strictly alphabetical order, using name listed in Github. This
 includes those whose contributions to Bitcoin Core have been merged
-into Dogecoin Core:
+into NewYorkCoin Core:
 
 * Abderraouf Adjal
 * Andymeows

@@ -66,11 +66,11 @@
         <translation>アドレス受信中</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>これらは支払いを送信するためのあなたの Dogecoin アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
+        <source>These are your NewYorkCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>これらは支払いを送信するためのあなたの NewYorkCoin アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your NewYorkCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>これらは支払いを受け取るためのドージコインアドレスです。トランザクションごとに新しい受け取り用アドレスを作成することが推奨されます。</translation>
     </message>
     <message>
@@ -161,15 +161,15 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの Dogecoin はすべて失われます&lt;/b&gt;!</translation>
+        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの NewYorkCoin はすべて失われます&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>本当にウォレットを暗号化しますか?</translation>
     </message>
     <message>
-        <source>Dogecoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
-        <translation>暗号化処理を完了させるため Dogecoin Core をいますぐ終了します。ウォレットの暗号化では、コンピュータに感染したマルウェアなどによるドージコインの盗難から完全に守ることはできないことにご注意ください。</translation>
+        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
+        <translation>暗号化処理を完了させるため NewYorkCoin Core をいますぐ終了します。ウォレットの暗号化では、コンピュータに感染したマルウェアなどによるドージコインの盗難から完全に守ることはできないことにご注意ください。</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -295,8 +295,8 @@
         <translation>URI を開く (&amp;U)...</translation>
     </message>
     <message>
-        <source>Dogecoin Core client</source>
-        <translation>Dogecoinコア クライアント</translation>
+        <source>NewYorkCoin Core client</source>
+        <translation>NewYorkCoinコア クライアント</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +307,8 @@
         <translation>ディスク上のブロックのインデックスを再作成中...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Dogecoin アドレスにコインを送る</translation>
+        <source>Send coins to a NewYorkCoin address</source>
+        <translation>NewYorkCoin アドレスにコインを送る</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>メッセージの検証... (&amp;V)</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +347,8 @@
         <translation>受信 (&amp;R)</translation>
     </message>
     <message>
-        <source>Show information about Dogecoin Core</source>
-        <translation>Dogecoinコアに関する情報を表示</translation>
+        <source>Show information about NewYorkCoin Core</source>
+        <translation>NewYorkCoinコアに関する情報を表示</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,12 +363,12 @@
         <translation>あなたのウォレットの秘密鍵を暗号化します</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>あなたが所有していることを証明するために、あなたの Dogecoin アドレスでメッセージに署名してください</translation>
+        <source>Sign messages with your NewYorkCoin addresses to prove you own them</source>
+        <translation>あなたが所有していることを証明するために、あなたの NewYorkCoin アドレスでメッセージに署名してください</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>指定された Dogecoin アドレスで署名されたことを確認するためにメッセージを検証します</translation>
+        <source>Verify messages to ensure they were signed with specified NewYorkCoin addresses</source>
+        <translation>指定された NewYorkCoin アドレスで署名されたことを確認するためにメッセージを検証します</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,20 +387,20 @@
         <translation>タブツールバー</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin のコア</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin のコア</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
         <translation>支払いを要求する (QRコードとdogecoin:ではじまるURIを生成する)</translation>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
+        <source>&amp;About NewYorkCoin Core</source>
         <translation>ドージコインコアについて (&amp;A)</translation>
     </message>
     <message>
-        <source>Modify configuration options for Dogecoin Core</source>
-        <translation>Dogecoin Core の設定を編集する</translation>
+        <source>Modify configuration options for NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core の設定を編集する</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -419,12 +419,12 @@
         <translation>コマンドラインオプション (&amp;C)</translation>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
-        <translation>有効な Dogecoin のコマンドライン オプションを見るために Dogecoin Core のヘルプメッセージを表示します。</translation>
+        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
+        <translation>有効な NewYorkCoin のコマンドライン オプションを見るために NewYorkCoin Core のヘルプメッセージを表示します。</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
-        <translation><numerusform>%n の Dogecoin ネットワークへのアクティブな接続</numerusform></translation>
+        <source>%n active connection(s) to NewYorkCoin network</source>
+        <translation><numerusform>%n の NewYorkCoin ネットワークへのアクティブな接続</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -806,8 +806,8 @@
         <translation>入力されたアドレス "%1" は既にアドレス帳にあります。</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dogecoin address.</source>
-        <translation>入力されたアドレス "%1" は無効な Dogecoin アドレスです。</translation>
+        <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
+        <translation>入力されたアドレス "%1" は無効な NewYorkCoin アドレスです。</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -844,8 +844,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin のコア</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin のコア</translation>
     </message>
     <message>
         <source>version</source>
@@ -856,8 +856,8 @@
         <translation>(%1ドージ)</translation>
     </message>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>Dogecoinコアについて</translation>
+        <source>About NewYorkCoin Core</source>
+        <translation>NewYorkCoinコアについて</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -879,16 +879,16 @@
         <translation>ようこそ</translation>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
+        <source>Welcome to NewYorkCoin Core.</source>
         <translation>ようこそ！</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
-        <translation>これはプログラム最初の起動です。Dogecoin Coreがデータを保存する場所を選択して下さい。</translation>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
+        <translation>これはプログラム最初の起動です。NewYorkCoin Coreがデータを保存する場所を選択して下さい。</translation>
     </message>
     <message>
-        <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dogecoin Coreは、ドージコインのブロックチェーンのコピーを、ダウンロードして保存します。少なくとも%1ギガバイトのデータが、このディレクトリに保存されます。そしてそれは時間と共に増加します。またウォレットもこのディレクトリに保存されます。</translation>
+        <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>NewYorkCoin Coreは、ドージコインのブロックチェーンのコピーを、ダウンロードして保存します。少なくとも%1ギガバイトのデータが、このディレクトリに保存されます。そしてそれは時間と共に増加します。またウォレットもこのディレクトリに保存されます。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -899,8 +899,8 @@
         <translation>任意のデータ ディレクトリを使用:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin のコア</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin のコア</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -981,8 +981,8 @@
         <translation>ウィンドウを閉じる際にアプリケーションを終了するのではなく、最小化します。このオプションが有効化された場合、メニューから終了を選択した場合にのみアプリケーションは閉じられます。</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
-        <translation>ユーザ・インタフェイス言語はここで設定できます。この設定はDogecoin Coreの再起動後に有効となります。</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting NewYorkCoin Core.</source>
+        <translation>ユーザ・インタフェイス言語はここで設定できます。この設定はNewYorkCoin Coreの再起動後に有効となります。</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1009,12 +1009,12 @@
         <translation>ネットワーク (&amp;N)</translation>
     </message>
     <message>
-        <source>Automatically start Dogecoin Core after logging in to the system.</source>
-        <translation>システムにログインした際、自動的にDogecoin Coreを起動する。</translation>
+        <source>Automatically start NewYorkCoin Core after logging in to the system.</source>
+        <translation>システムにログインした際、自動的にNewYorkCoin Coreを起動する。</translation>
     </message>
     <message>
-        <source>&amp;Start Dogecoin Core on system login</source>
-        <translation>システムへログインした際にDogecoin Coreを起動する (&amp;S)</translation>
+        <source>&amp;Start NewYorkCoin Core on system login</source>
+        <translation>システムへログインした際にNewYorkCoin Coreを起動する (&amp;S)</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1041,16 +1041,16 @@
         <translation>未検証のおつりを使用する (&amp;S)</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動的にルーター上の Dogecoin クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
+        <source>Automatically open the NewYorkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自動的にルーター上の NewYorkCoin クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>UPnP を使ってポートを割り当てる (&amp;U)</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 プロキシ経由でDogecoinネットワークに接続する</translation>
+        <source>Connect to the NewYorkCoin network through a SOCKS5 proxy.</source>
+        <translation>SOCKS5 プロキシ経由でNewYorkCoinネットワークに接続する</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1148,8 +1148,8 @@
         <translation>フォーム</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは Dogecoin ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NewYorkCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは NewYorkCoin ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1248,15 +1248,15 @@
     </message>
     <message>
         <source>Cannot start dogecoin: click-to-pay handler</source>
-        <translation>Dogecoin を起動できません: click-to-pay handler</translation>
+        <translation>NewYorkCoin を起動できません: click-to-pay handler</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>支払い要求の取得先URLが無効です: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
-        <translation>URI を解析できません! これは無効な Dogecoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid NewYorkCoin address or malformed URI parameters.</source>
+        <translation>URI を解析できません! これは無効な NewYorkCoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1333,8 +1333,8 @@
         <translation>総額</translation>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. %1)</source>
-        <translation>Dogecoinアドレスを入力してください (例 %1)</translation>
+        <source>Enter a NewYorkCoin address (e.g. %1)</source>
+        <translation>NewYorkCoinアドレスを入力してください (例 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1443,8 +1443,8 @@
         <translation>現在のブロック数</translation>
     </message>
     <message>
-        <source>Open the Dogecoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>現在のデータディレクトリからDogecoin Coreのデバッグ用ログファイルを開きます。ログファイルが巨大な場合、数秒かかることがあります。</translation>
+        <source>Open the NewYorkCoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>現在のデータディレクトリからNewYorkCoin Coreのデバッグ用ログファイルを開きます。ログファイルが巨大な場合、数秒かかることがあります。</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1563,8 +1563,8 @@
         <translation>コンソールをクリア</translation>
     </message>
     <message>
-        <source>Welcome to the Dogecoin Core RPC console.</source>
-        <translation>Dogecoin CoreのRPCコンソールへようこそ。</translation>
+        <source>Welcome to the NewYorkCoin Core RPC console.</source>
+        <translation>NewYorkCoin CoreのRPCコンソールへようこそ。</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1638,8 +1638,8 @@
         <translation>既存の受取用アドレスを再利用する (非推奨) (&amp;E)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
-        <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはDogecoinネットワークを通じて、支払と共に送られるわけではありません。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NewYorkCoin network.</source>
+        <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはNewYorkCoinネットワークを通じて、支払と共に送られるわけではありません。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2031,8 +2031,8 @@
         <translation>重複したアドレスが見つかりました: アドレスはそれぞれ一度のみ使用することができます。</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
-        <translation>警告：無効なDogecoinアドレスです</translation>
+        <source>Warning: Invalid NewYorkCoin address</source>
+        <translation>警告：無効なNewYorkCoinアドレスです</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2082,8 +2082,8 @@
         <translation>これは通常の支払です。</translation>
     </message>
     <message>
-        <source>The Dogecoin address to send the payment to</source>
-        <translation>支払の送金先Dogecoinアドレス</translation>
+        <source>The NewYorkCoin address to send the payment to</source>
+        <translation>支払の送金先NewYorkCoinアドレス</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2126,8 +2126,8 @@
         <translation>このアドレスに対するラベルを入力することで、使用済みアドレスの一覧に追加することができます</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
-        <translation>dogecoin: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはDogecoinネットワークを通して送信されるわけではありません。</translation>
+        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <translation>dogecoin: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはNewYorkCoinネットワークを通して送信されるわけではありません。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2141,8 +2141,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>Dogecoin Coreをシャットダウンしています。</translation>
+        <source>NewYorkCoin Core is shutting down...</source>
+        <translation>NewYorkCoin Coreをシャットダウンしています。</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2164,8 +2164,8 @@
         <translation>あなたの所有しているアドレスによりメッセージや合意書に署名をすることで、それらアドレスに対して送られたドージコインを受け取ることができることを証明できます。フィッシング攻撃により不正にあなたの識別情報を署名させられてしまうことを防ぐために、不明確なものやランダムなものに対して署名しないよう注意してください。合意することが可能な、よく詳細の記された文言にのみ署名するようにしてください。</translation>
     </message>
     <message>
-        <source>The Dogecoin address to sign the message with</source>
-        <translation>メッセージを署名するDogecoinアドレス</translation>
+        <source>The NewYorkCoin address to sign the message with</source>
+        <translation>メッセージを署名するNewYorkCoinアドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2196,8 +2196,8 @@
         <translation>現在の署名をシステムのクリップボードにコピーする</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
-        <translation>この Dogecoin アドレスを所有していることを証明するためにメッセージに署名</translation>
+        <source>Sign the message to prove you own this NewYorkCoin address</source>
+        <translation>この NewYorkCoin アドレスを所有していることを証明するためにメッセージに署名</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2220,12 +2220,12 @@
         <translation>受取人のアドレスとメッセージ（改行やスペース、タブなども完全に一致するよう注意してください）および署名を以下に入力し、メッセージの署名を検証してください。中間者攻撃により騙されるのを防ぐため、署名対象のメッセージに書かれていること以上の意味を署名から読み取ろうとしないよう注意してください。これは署名作成者がこのアドレスで受け取ったことを証明するだけであり、トランザクションの送信権限を証明するものではないことに注意してください！</translation>
     </message>
     <message>
-        <source>The Dogecoin address the message was signed with</source>
-        <translation>メッセージの署名に使われたDogecoinアドレス</translation>
+        <source>The NewYorkCoin address the message was signed with</source>
+        <translation>メッセージの署名に使われたNewYorkCoinアドレス</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
-        <translation>指定された Dogecoin アドレスで署名されたことを保証するメッセージを検証</translation>
+        <source>Verify the message to ensure it was signed with the specified NewYorkCoin address</source>
+        <translation>指定された NewYorkCoin アドレスで署名されたことを保証するメッセージを検証</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2291,11 +2291,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin のコア</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin のコア</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
+        <source>The NewYorkCoin Core developers</source>
         <translation>ドージコインコアの開発者</translation>
     </message>
     <message>
@@ -2845,8 +2845,8 @@
         <translation>これはリリース前のテストビルドです - 各自の責任で利用すること - 採掘や商取引に使用しないでください</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
-        <translation>このコンピュータの %s にバインドすることができません。おそらく Dogecoin Core は既に実行されています。</translation>
+        <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
+        <translation>このコンピュータの %s にバインドすることができません。おそらく NewYorkCoin Core は既に実行されています。</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3034,8 +3034,8 @@
         <translation>指定されたアドレスに対して JSON-RPC 接続をリッスンしするようバインドします。IPv6の場合には [host]:port 表記を使用してください。このオプションは複数回指定することが可能です (初期値: すべてのインターフェースに対してバインドする)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
-        <translation>データ ディレクトリ %s のロックを取得することができません。おそらく Dogecoin Core は実行中です。</translation>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
+        <translation>データ ディレクトリ %s のロックを取得することができません。おそらく NewYorkCoin Core は実行中です。</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3111,7 +3111,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
 </source>
         <translation>dogecoindを用いる場合や、-server オプションをdogecoin-qtに指定する場合には、設定ファイルにrpcpasswordを設定しなければなりません:
 %s
@@ -3122,7 +3122,7 @@ rpcpassword=%s
 ユーザ名とパスワードは一致してはいけません。
 ファイルが存在しない場合には、所有者のみ読み込み可能なファイルパーミッションでファイルを作成してください。
 またalertnotifyを設定し、問題発生時に通知が行くようにすることをおすすめします;
-例: alertnotify=echo %%s | mail -s "Dogecoinアラート" admin@foo.com
+例: alertnotify=echo %%s | mail -s "NewYorkCoinアラート" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3130,8 +3130,8 @@ rpcpassword=%s
         <translation>警告: -maxtxfee が非常に高く設定されています！ひとつのトランザクションでこの量の手数料が支払われてしまうことがあります。</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Dogecoin Core will not work properly.</source>
-        <translation>警告： あなたのPCの日付と時刻が正しいことを確認して下さい！ もしあなたの時計が正しくなければDogecoin Coreが正確に動作しません。</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong NewYorkCoin Core will not work properly.</source>
+        <translation>警告： あなたのPCの日付と時刻が正しいことを確認して下さい！ もしあなたの時計が正しくなければNewYorkCoin Coreが正確に動作しません。</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3174,16 +3174,16 @@ rpcpassword=%s
         <translation>Copyright (C) 2009-%i Bitcoin Core 開発者</translation>
     </message>
     <message>
-        <source>Copyright (C) 2013-%i The Dogecoin Core Developers</source>
-        <translation>Copyright (C) 2013-%i Dogecoin Core 開発者</translation>
+        <source>Copyright (C) 2013-%i The NewYorkCoin Core Developers</source>
+        <translation>Copyright (C) 2013-%i NewYorkCoin Core 開発者</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>-rpcbind の値 %s をネットワークアドレスとして解釈できませんでした</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin Core</source>
-        <translation>wallet.dat の読み込みに失敗しました: ウォレットの読み込みにはより新しいバージョンの Dogecoin Core が必要です</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin Core</source>
+        <translation>wallet.dat の読み込みに失敗しました: ウォレットの読み込みにはより新しいバージョンの NewYorkCoin Core が必要です</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3202,8 +3202,8 @@ rpcpassword=%s
         <translation>情報</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Dogecoin Core is shutting down.</source>
-        <translation>初期化時の健全性チェックに失敗しました。Dogecoin Coreを終了します。</translation>
+        <source>Initialization sanity check failed. NewYorkCoin Core is shutting down.</source>
+        <translation>初期化時の健全性チェックに失敗しました。NewYorkCoin Coreを終了します。</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3330,8 +3330,8 @@ rpcpassword=%s
         <translation>JSON-RPC 接続のユーザー名</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Dogecoin Core to complete</source>
-        <translation>ウォレットが書き直される必要がありました: 完了するために Dogecoin Core を再起動します</translation>
+        <source>Wallet needed to be rewritten: restart NewYorkCoin Core to complete</source>
+        <translation>ウォレットが書き直される必要がありました: 完了するために NewYorkCoin Core を再起動します</translation>
     </message>
     <message>
         <source>Warning</source>

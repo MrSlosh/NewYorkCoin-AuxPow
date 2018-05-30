@@ -1,5 +1,5 @@
 [Unit]
-Description=Dogecoin's distributed currency daemon
+Description=NewYorkCoin's distributed currency daemon
 After=network.target
 
 [Service]

@@ -58,11 +58,11 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case MBTC: return tr("Mega-Dogecoins (1,000,000)");
-    case kBTC: return tr("Kilo-Dogecoins (1,000)");
-    case BTC: return tr("Dogecoins");
-    case mBTC: return tr("Milli-Dogecoins (1 / 1,000)");
-    case uBTC: return tr("Micro-Dogecoins (1 / 1,000,000)");
+    case MBTC: return tr("Mega-NewYorkCoins (1,000,000)");
+    case kBTC: return tr("Kilo-NewYorkCoins (1,000)");
+    case BTC: return tr("NewYorkCoins");
+    case mBTC: return tr("Milli-NewYorkCoins (1 / 1,000)");
+    case uBTC: return tr("Micro-NewYorkCoins (1 / 1,000,000)");
     default: return QString("???");
     }
 }

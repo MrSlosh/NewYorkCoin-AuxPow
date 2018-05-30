@@ -66,12 +66,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Dogecoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Dogecoins.</translation>
+        <source>These are your NewYorkCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina NewYorkCoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar NewYorkCoins.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Detta är dina Dogecoin adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
+        <source>These are your NewYorkCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Detta är dina NewYorkCoin adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -169,8 +169,8 @@ Var vänlig och försök igen.</translation>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Dogecoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
-        <translation>Dogecoin Core kommer att stängas för att slutföra krypteringsprocessen. Kom ihåg att plånbokskryptering inte garanterar fullt skydd mot skadlig kod på din dator.</translation>
+        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
+        <translation>NewYorkCoin Core kommer att stängas för att slutföra krypteringsprocessen. Kom ihåg att plånbokskryptering inte garanterar fullt skydd mot skadlig kod på din dator.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -296,8 +296,8 @@ Var vänlig och försök igen.</translation>
         <translation>Öppna &amp;URI...</translation>
     </message>
     <message>
-        <source>Dogecoin Core client</source>
-        <translation>Dogecoin Core klient</translation>
+        <source>NewYorkCoin Core client</source>
+        <translation>NewYorkCoin Core klient</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -308,8 +308,8 @@ Var vänlig och försök igen.</translation>
         <translation>Återindexerar block på disken...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Skicka dogecoins till en Dogecoin-adress</translation>
+        <source>Send coins to a NewYorkCoin address</source>
+        <translation>Skicka dogecoins till en NewYorkCoin-adress</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -332,8 +332,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Verifiera meddelande...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -348,8 +348,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Ta emot</translation>
     </message>
     <message>
-        <source>Show information about Dogecoin Core</source>
-        <translation>Visa information om Dogecoin Core</translation>
+        <source>Show information about NewYorkCoin Core</source>
+        <translation>Visa information om NewYorkCoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -364,12 +364,12 @@ Var vänlig och försök igen.</translation>
         <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Dogecoin-adress för att bevisa att du äger dem</translation>
+        <source>Sign messages with your NewYorkCoin addresses to prove you own them</source>
+        <translation>Signera meddelanden med din NewYorkCoin-adress för att bevisa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de var signerade med specificerade Dogecoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified NewYorkCoin addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de var signerade med specificerade NewYorkCoin-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -388,20 +388,20 @@ Var vänlig och försök igen.</translation>
         <translation>Verktygsfält för Tabbar</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Kärna</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Kärna</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
         <translation>Begär betalning (genererar QR-koder och dogecoin-URI)</translation>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>&amp;Om Dogecoin Core</translation>
+        <source>&amp;About NewYorkCoin Core</source>
+        <translation>&amp;Om NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Dogecoin Core</source>
-        <translation>Ändra konfigurationsalternativ för Dogecoin Core</translation>
+        <source>Modify configuration options for NewYorkCoin Core</source>
+        <translation>Ändra konfigurationsalternativ för NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -420,12 +420,12 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
-        <translation>Visa Dogecoin Core hjälpmeddelande för att få en lista med möjliga Dogecoin kommandoradsalternativ.</translation>
+        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
+        <translation>Visa NewYorkCoin Core hjälpmeddelande för att få en lista med möjliga NewYorkCoin kommandoradsalternativ.</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
-        <translation><numerusform>%n aktiva anslutningar till Dogecoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Dogecoin-nätverket.</numerusform></translation>
+        <source>%n active connection(s) to NewYorkCoin network</source>
+        <translation><numerusform>%n aktiva anslutningar till NewYorkCoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till NewYorkCoin-nätverket.</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -803,8 +803,8 @@ Var vänlig och försök igen.</translation>
         <translation>Den angivna adressen "%1" finns redan i adressboken.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dogecoin address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig Dogecoin-adress.</translation>
+        <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig NewYorkCoin-adress.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -841,8 +841,8 @@ Var vänlig och försök igen.</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Kärna</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Kärna</translation>
     </message>
     <message>
         <source>version</source>
@@ -853,8 +853,8 @@ Var vänlig och försök igen.</translation>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>Om Dogecoin Core</translation>
+        <source>About NewYorkCoin Core</source>
+        <translation>Om NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -876,16 +876,16 @@ Var vänlig och försök igen.</translation>
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Välkommen till Dogecoin Core.</translation>
+        <source>Welcome to NewYorkCoin Core.</source>
+        <translation>Välkommen till NewYorkCoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
-        <translation>Eftersom detta är första gången programmet startas får du välja var Dogecoin Core skall lagra sitt data.</translation>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
+        <translation>Eftersom detta är första gången programmet startas får du välja var NewYorkCoin Core skall lagra sitt data.</translation>
     </message>
     <message>
-        <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dogecoin Core kommer att ladda ner och spara en kopia av Dogecoin blockkedjan. Åtminstone %1GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
+        <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>NewYorkCoin Core kommer att ladda ner och spara en kopia av NewYorkCoin blockkedjan. Åtminstone %1GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -896,8 +896,8 @@ Var vänlig och försök igen.</translation>
         <translation>Använd en anpassad datakatalog:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Kärna</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Kärna</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -978,8 +978,8 @@ Var vänlig och försök igen.</translation>
         <translation>Minimera istället för att stänga programmet när fönstret stängs. När detta alternativ är aktiverat stängs programmet endast genom att välja Stäng i menyn.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
-        <translation>Gränssnittets språk kan väljas här. Denna inställning träder i kraft efter omstart av Dogecoin Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting NewYorkCoin Core.</source>
+        <translation>Gränssnittets språk kan väljas här. Denna inställning träder i kraft efter omstart av NewYorkCoin Core.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1006,12 +1006,12 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Nätverk</translation>
     </message>
     <message>
-        <source>Automatically start Dogecoin Core after logging in to the system.</source>
-        <translation>Kör Dogecoin Core automatiskt vid systeminloggning.</translation>
+        <source>Automatically start NewYorkCoin Core after logging in to the system.</source>
+        <translation>Kör NewYorkCoin Core automatiskt vid systeminloggning.</translation>
     </message>
     <message>
-        <source>&amp;Start Dogecoin Core on system login</source>
-        <translation>&amp;Kör Dogecoin Core vid systeminloggning</translation>
+        <source>&amp;Start NewYorkCoin Core on system login</source>
+        <translation>&amp;Kör NewYorkCoin Core vid systeminloggning</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1038,16 +1038,16 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Spendera okonfirmerad växel</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Dogecoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
+        <source>Automatically open the NewYorkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt NewYorkCoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Tilldela port med hjälp av &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
-        <translation>Anslut till Dogecoin-nätverket genom en SOCKS5-proxy.</translation>
+        <source>Connect to the NewYorkCoin network through a SOCKS5 proxy.</source>
+        <translation>Anslut till NewYorkCoin-nätverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1145,8 +1145,8 @@ Var vänlig och försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Dogecoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NewYorkCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med NewYorkCoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1252,8 +1252,8 @@ Var vänlig och försök igen.</translation>
         <translation>Betalningsbegärans hämta URL är felaktig: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
-        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig Dogecoin-adress eller felaktiga URI parametrar.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid NewYorkCoin address or malformed URI parameters.</source>
+        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig NewYorkCoin-adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1330,8 +1330,8 @@ Var vänlig och försök igen.</translation>
         <translation>Mängd</translation>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. %1)</source>
-        <translation>Ange en Dogecoin-adress (t.ex. %1)</translation>
+        <source>Enter a NewYorkCoin address (e.g. %1)</source>
+        <translation>Ange en NewYorkCoin-adress (t.ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1440,8 +1440,8 @@ Var vänlig och försök igen.</translation>
         <translation>Aktuellt antal block</translation>
     </message>
     <message>
-        <source>Open the Dogecoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna felsökningsloggfilen för Dogecoin Core från den nuvarande datakatalogen. Detta kan ta några sekunder om loggfilen är stor.</translation>
+        <source>Open the NewYorkCoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna felsökningsloggfilen för NewYorkCoin Core från den nuvarande datakatalogen. Detta kan ta några sekunder om loggfilen är stor.</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1560,8 +1560,8 @@ Var vänlig och försök igen.</translation>
         <translation>Rensa konsollen</translation>
     </message>
     <message>
-        <source>Welcome to the Dogecoin Core RPC console.</source>
-        <translation>Välkommen till RPC-konsolen för Dogecoin Core.</translation>
+        <source>Welcome to the NewYorkCoin Core RPC console.</source>
+        <translation>Välkommen till RPC-konsolen för NewYorkCoin Core.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1631,8 +1631,8 @@ Var vänlig och försök igen.</translation>
         <translation>Åt&amp;eranvänd en existerande mottagningsadress (rekommenderas inte)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
-        <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över Dogecoinnätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NewYorkCoin network.</source>
+        <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över NewYorkCoinnätverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2024,8 +2024,8 @@ Var vänlig och försök igen.</translation>
         <translation>Duplicerad adress upptäckt: adresser skall endast användas en gång var.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
-        <translation>Varning: Felaktig Dogecoinadress</translation>
+        <source>Warning: Invalid NewYorkCoin address</source>
+        <translation>Varning: Felaktig NewYorkCoinadress</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2075,8 +2075,8 @@ Var vänlig och försök igen.</translation>
         <translation>Detta är en normal betalning.</translation>
     </message>
     <message>
-        <source>The Dogecoin address to send the payment to</source>
-        <translation>Dogecoinadress att sända betalning till</translation>
+        <source>The NewYorkCoin address to send the payment to</source>
+        <translation>NewYorkCoinadress att sända betalning till</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2115,8 +2115,8 @@ Var vänlig och försök igen.</translation>
         <translation>Ange en etikett för denna adress att adderas till listan över använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
-        <translation>Ett meddelande som bifogades dogecoin-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Dogecoinnätverket.</translation>
+        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <translation>Ett meddelande som bifogades dogecoin-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över NewYorkCoinnätverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2130,8 +2130,8 @@ Var vänlig och försök igen.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>Dogecoin Core stängs av...</translation>
+        <source>NewYorkCoin Core is shutting down...</source>
+        <translation>NewYorkCoin Core stängs av...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2153,8 +2153,8 @@ Var vänlig och försök igen.</translation>
         <translation>Du kan underteckna meddelanden/avtal med dina adresser för att bevisa att du kan ta emot dogecoins som skickats till dem. Var försiktig så du inte undertecknar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att underteckna din identitet till dem. Underteckna endast väldetaljerade meddelanden som du godkänner.</translation>
     </message>
     <message>
-        <source>The Dogecoin address to sign the message with</source>
-        <translation>Dogecoinadress att signera meddelandet med</translation>
+        <source>The NewYorkCoin address to sign the message with</source>
+        <translation>NewYorkCoinadress att signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2185,7 +2185,7 @@ Var vänlig och försök igen.</translation>
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
+        <source>Sign the message to prove you own this NewYorkCoin address</source>
         <translation>Signera meddelandet för att bevisa att du äger denna adress</translation>
     </message>
     <message>
@@ -2209,12 +2209,12 @@ Var vänlig och försök igen.</translation>
         <translation>Ange mottagarens adress, meddelande (kopiera radbrytningar, mellanrum, flikar, etc. exakt) och signatur nedan för att verifiera meddelandet. Undvik att läsa in mera information i signaturen än vad som stod i själva undertecknade meddelandet, för att undvika ett man-in-the-middle-angrepp. Notera att detta endast bevisar att undertecknad tar emot med adressen, det bevisar inte vem som skickat transaktionen!</translation>
     </message>
     <message>
-        <source>The Dogecoin address the message was signed with</source>
-        <translation>Dogecoinadressen som meddelandet signerades med</translation>
+        <source>The NewYorkCoin address the message was signed with</source>
+        <translation>NewYorkCoinadressen som meddelandet signerades med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Dogecoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified NewYorkCoin address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna NewYorkCoin-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2280,12 +2280,12 @@ Var vänlig och försök igen.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Kärna</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Kärna</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>Dogecoin Core-utvecklarna</translation>
+        <source>The NewYorkCoin Core developers</source>
+        <translation>NewYorkCoin Core-utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2834,8 +2834,8 @@ Var vänlig och försök igen.</translation>
         <translation>Detta är ett förhands testbygge - använd på egen risk - använd inte för mining eller handels applikationer</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
-        <translation>Det går inte att binda till %s på den här datorn. Dogecoin Core är förmodligen redan igång.</translation>
+        <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
+        <translation>Det går inte att binda till %s på den här datorn. NewYorkCoin Core är förmodligen redan igång.</translation>
     </message>
     <message>
         <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
@@ -3030,8 +3030,8 @@ Var vänlig och försök igen.</translation>
         <translation>Bind till angiven adress för att lyssna på JSON-RPC anslutningar. Använd [värd]:port notation for IPv6. Denna option kan specificeras flera gånger (förvalt: bind till alla gränssnitt)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
-        <translation>Kan inte låsa data-mappen %s. Dogecoin Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
+        <translation>Kan inte låsa data-mappen %s. NewYorkCoin Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3103,7 +3103,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
 </source>
         <translation>För att använda bitconid,eller -server optionen till dogecoin-qt så mäste du sätta ett rpclösensord i konfigurationsfilen:
 %s
@@ -3114,7 +3114,7 @@ rpcpassword=%s
 Användarnamnet och lösenordet FÅR INTE vara detsamma.
 Om filen inte existerar, skapa den med enbart ägarläsbara filrättigheter.
 Det är också rekommenderat att sätta alertnotify så du meddelas om problem;
-till exempel: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
+till exempel: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3122,8 +3122,8 @@ till exempel: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
         <translation>Varning: -maxtxfee är satt väldigt hög! Så höga avgifter kan betalas för en enstaka transaktion.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Dogecoin Core will not work properly.</source>
-        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer Dogecoin Core inte att fungera korrekt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong NewYorkCoin Core will not work properly.</source>
+        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer NewYorkCoin Core inte att fungera korrekt.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3166,16 +3166,16 @@ till exempel: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
         <translation>Copyright (C) 2009-%i Bitcoin Core Utvecklarna</translation>
     </message>
     <message>
-        <source>Copyright (C) 2013-%i The Dogecoin Core Developers</source>
-        <translation>Copyright (C) 2013-%i Dogecoin Core Utvecklarna</translation>
+        <source>Copyright (C) 2013-%i The NewYorkCoin Core Developers</source>
+        <translation>Copyright (C) 2013-%i NewYorkCoin Core Utvecklarna</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>Kunde inte tolka -rpcbind värdet %s som en nätverksadress</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin Core</source>
-        <translation>Fel vid inläsningen av wallet.dat: Kontofilen kräver en senare version av Dogecoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin Core</source>
+        <translation>Fel vid inläsningen av wallet.dat: Kontofilen kräver en senare version av NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3194,8 +3194,8 @@ till exempel: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Dogecoin Core is shutting down.</source>
-        <translation>Initieringschecken fallerade. Dogecoin Core stängs av...</translation>
+        <source>Initialization sanity check failed. NewYorkCoin Core is shutting down.</source>
+        <translation>Initieringschecken fallerade. NewYorkCoin Core stängs av...</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3322,8 +3322,8 @@ till exempel: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
         <translation>Användarnamn för JSON-RPC-anslutningar</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Dogecoin Core to complete</source>
-        <translation>Kontot behöver sparas om: Starta om Dogecoin Core för att fullfölja</translation>
+        <source>Wallet needed to be rewritten: restart NewYorkCoin Core to complete</source>
+        <translation>Kontot behöver sparas om: Starta om NewYorkCoin Core för att fullfölja</translation>
     </message>
     <message>
         <source>Warning</source>

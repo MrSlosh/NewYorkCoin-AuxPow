@@ -63,10 +63,10 @@ static bool AppInitRPC(int argc, char* argv[])
     //
     ParseParameters(argc, argv);
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("Dogecoin Core RPC client version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("NewYorkCoin Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  dogecoin-cli [options] <command> [params]  " + _("Send command to Dogecoin Core") + "\n" +
+                  "  dogecoin-cli [options] <command> [params]  " + _("Send command to NewYorkCoin Core") + "\n" +
                   "  dogecoin-cli [options] help                " + _("List commands") + "\n" +
                   "  dogecoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
 

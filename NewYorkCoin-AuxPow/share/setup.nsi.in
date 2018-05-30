@@ -6,7 +6,7 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION @CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@
-!define COMPANY "Dogecoin Core project"
+!define COMPANY "NewYorkCoin Core project"
 !define URL http://www.dogecoin.com/
 
 # MUI Symbol Definitions
@@ -50,16 +50,16 @@ Var StartMenuGroup
 # Installer attributes
 OutFile @abs_top_srcdir@/dogecoin-${VERSION}-win@WINDOWS_BITS@-setup.exe
 !if "@WINDOWS_BITS@" == "64"
-InstallDir $PROGRAMFILES64\Dogecoin
+InstallDir $PROGRAMFILES64\NewYorkCoin
 !else
-InstallDir $PROGRAMFILES\Dogecoin
+InstallDir $PROGRAMFILES\NewYorkCoin
 !endif
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion ${VERSION}.@CLIENT_VERSION_BUILD@
-VIAddVersionKey ProductName "Dogecoin Core"
+VIAddVersionKey ProductName "NewYorkCoin Core"
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -107,7 +107,7 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "dogecoin" "URL Protocol" ""
-    WriteRegStr HKCR "dogecoin" "" "URL:Dogecoin"
+    WriteRegStr HKCR "dogecoin" "" "URL:NewYorkCoin"
     WriteRegStr HKCR "dogecoin\DefaultIcon" "" $INSTDIR\dogecoin-qt.exe
     WriteRegStr HKCR "dogecoin\shell\open\command" "" '"$INSTDIR\dogecoin-qt.exe" "%1"'
 SectionEnd
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\Dogecoin.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\NewYorkCoin.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log

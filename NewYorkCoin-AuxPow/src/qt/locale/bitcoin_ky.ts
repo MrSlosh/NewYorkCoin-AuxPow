@@ -35,8 +35,8 @@
         <translation>Билдирүүнү &amp;текшерүү...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Wallet</source>

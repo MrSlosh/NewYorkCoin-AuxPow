@@ -553,7 +553,7 @@ void CoinControlDialog::updateLabels(WalletModel *model, QDialog* dialog)
         nPayFee = CWallet::GetMinimumFee(txDummy, nBytes, nTxConfirmTarget, mempool);
 
         // Allow free?
-        // Dogecoin: No free transactions
+        // NewYorkCoin: No free transactions
         // double dPriorityNeeded = mempoolEstimatePriority;
         // if (dPriorityNeeded <= 0)
         //     dPriorityNeeded = AllowFreeThreshold(); // not enough data, back to hard-coded
@@ -573,7 +573,7 @@ void CoinControlDialog::updateLabels(WalletModel *model, QDialog* dialog)
             if (nChange > 0 && nChange < CENT)
             {
                 CTxOut txout(nChange, (CScript)vector<unsigned char>(24, 0));
-                // Dogecoin: Anything below 1 DOGE is considered dust
+                // NewYorkCoin: Anything below 1 DOGE is considered dust
                 // if (txout.IsDust(::minRelayTxFee))
                 // {
                     if (CoinControlDialog::fSubtractFeeFromAmount) // dust-change will be raised until no dust

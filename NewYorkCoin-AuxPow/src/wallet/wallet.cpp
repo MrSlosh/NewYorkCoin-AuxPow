@@ -1923,7 +1923,7 @@ bool CWallet::CreateTransaction(const vector<CRecipient>& vecSend,
                 dPriority = wtxNew.ComputePriority(dPriority, nBytes);
 
                 // Can we complete this as a free transaction?
-                // Dogecoin: Disable free transactions
+                // NewYorkCoin: Disable free transactions
                 /* if (fSendFreeTransactions && nBytes <= MAX_FREE_TRANSACTION_CREATE_SIZE)
                 {
                     // Not enough fee: enough priority?
@@ -2015,7 +2015,7 @@ bool CWallet::CommitTransaction(CWalletTx& wtxNew, CReserveKey& reservekey)
 CAmount CWallet::GetMinimumFee(const CMutableTransaction& tx, unsigned int nTxBytes,
                                unsigned int nConfirmTarget, const CTxMemPool& pool)
 {
-    // Dogecoin: Round TX bytes up to the next 1,000 bytes
+    // NewYorkCoin: Round TX bytes up to the next 1,000 bytes
     nTxBytes += 1000 - (nTxBytes % 1000);
 
     // payTxFee is user-set "I want to pay this much"
@@ -2024,15 +2024,15 @@ CAmount CWallet::GetMinimumFee(const CMutableTransaction& tx, unsigned int nTxBy
     if (fPayAtLeastCustomFee && nFeeNeeded > 0 && nFeeNeeded < payTxFee.GetFeePerK())
         nFeeNeeded = payTxFee.GetFeePerK();
     // User didn't set: use -txconfirmtarget to estimate...
-    // Dogecoin: Disable txconfirmtarget
+    // NewYorkCoin: Disable txconfirmtarget
     //if (nFeeNeeded == 0)
     //    nFeeNeeded = pool.estimateFee(nConfirmTarget).GetFee(nTxBytes);
     // ... unless we don't have enough mempool data, in which case fall
     // back to a hard-coded fee
     if (nFeeNeeded == 0) {
         nFeeNeeded = minTxFee.GetFee(nTxBytes);
-        // Dogecoin: Add an increased fee for each dust output
-        nFeeNeeded += GetDogecoinDustFee(tx.vout, minTxFee);
+        // NewYorkCoin: Add an increased fee for each dust output
+        nFeeNeeded += GetNewYorkCoinDustFee(tx.vout, minTxFee);
     }
     // prevent user from paying a non-sense fee (like 1 satoshi): 0 < fee < minRelayFee
     if (nFeeNeeded < ::minRelayTxFee.GetFee(nTxBytes))

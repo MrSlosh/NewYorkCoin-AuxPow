@@ -147,13 +147,13 @@ public:
         // with default minRelayTxFee.
         // size_t nSize = GetSerializeSize(SER_DISK,0)+148u;
         // return 3*minRelayTxFee.GetFee(nSize);
-        // Dogecoin: Dust is 1 COIN
+        // NewYorkCoin: Dust is 1 COIN
         return COIN;
     }
 
     bool IsDust(const CFeeRate &minRelayTxFee) const
     {
-        // Dogecoin: IsDust() detection disabled, allows any valid dust to be relayed.
+        // NewYorkCoin: IsDust() detection disabled, allows any valid dust to be relayed.
         // The fees imposed on each dust txo is considered sufficient spam deterrant.
         // return (nValue < GetDustThreshold(minRelayTxFee));
         return false;

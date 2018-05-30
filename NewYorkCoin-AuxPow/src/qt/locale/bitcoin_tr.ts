@@ -47,11 +47,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Dogecoin yollanacak adresi seç</translation>
+        <translation>NewYorkCoin yollanacak adresi seç</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Dogecoin alınacak adresi seç</translation>
+        <translation>NewYorkCoin alınacak adresi seç</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -66,12 +66,12 @@
         <translation>Alım adresleri</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödeme yapmak için kullanacağınız Dogecoin adreslerinizdir. Dogecoin yollamadan önce meblağı ve alıcı adresini daima kontrol ediniz.</translation>
+        <source>These are your NewYorkCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödeme yapmak için kullanacağınız NewYorkCoin adreslerinizdir. NewYorkCoin yollamadan önce meblağı ve alıcı adresini daima kontrol ediniz.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödeme almak için kullanacağınız Dogecoin adreslerinizdir. Her muamele için yeni bir alım adresi kullanmanız tavsiye edilir.</translation>
+        <source>These are your NewYorkCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödeme almak için kullanacağınız NewYorkCoin adreslerinizdir. Her muamele için yeni bir alım adresi kullanmanız tavsiye edilir.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -168,8 +168,8 @@
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Dogecoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
-        <translation>Şifreleme işlemini tamamlamak için Dogecoin Çekirdeği şimdi kapanacaktır. Cüzdanınızı şifrelemenin, Dogecoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
+        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
+        <translation>Şifreleme işlemini tamamlamak için NewYorkCoin Çekirdeği şimdi kapanacaktır. Cüzdanınızı şifrelemenin, NewYorkCoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -295,8 +295,8 @@
         <translation>&amp;URI aç...</translation>
     </message>
     <message>
-        <source>Dogecoin Core client</source>
-        <translation>Dogecoin Çekirdeği istemcisi</translation>
+        <source>NewYorkCoin Core client</source>
+        <translation>NewYorkCoin Çekirdeği istemcisi</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +307,8 @@
         <translation>Diskteki bloklar yeniden endeksleniyor...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Bir Dogecoin adresine Dogecoin yolla</translation>
+        <source>Send coins to a NewYorkCoin address</source>
+        <translation>Bir NewYorkCoin adresine NewYorkCoin yolla</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>Mesaj &amp;kontrol et...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +347,8 @@
         <translation>&amp;Al</translation>
     </message>
     <message>
-        <source>Show information about Dogecoin Core</source>
-        <translation>Dogecoin Çekirdeği hakkında bilgi göster</translation>
+        <source>Show information about NewYorkCoin Core</source>
+        <translation>NewYorkCoin Çekirdeği hakkında bilgi göster</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,12 +363,12 @@
         <translation>Cüzdanınızın özel anahtarlarını şifrele</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Mesajları adreslerin size ait olduğunu ispatlamak için Dogecoin adresleri ile imzala</translation>
+        <source>Sign messages with your NewYorkCoin addresses to prove you own them</source>
+        <translation>Mesajları adreslerin size ait olduğunu ispatlamak için NewYorkCoin adresleri ile imzala</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Belirtilen Dogecoin adresleri ile imzalandıklarından emin olmak için mesajları kontrol et</translation>
+        <source>Verify messages to ensure they were signed with specified NewYorkCoin addresses</source>
+        <translation>Belirtilen NewYorkCoin adresleri ile imzalandıklarından emin olmak için mesajları kontrol et</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,20 +387,20 @@
         <translation>Sekme araç çubuğu</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Çekirdeği</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Çekirdeği</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
         <translation>Ödeme talep et (QR kodu ve dogecoin URI'si oluşturur)</translation>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>Dogecoin Çekirdeği &amp;hakkında</translation>
+        <source>&amp;About NewYorkCoin Core</source>
+        <translation>NewYorkCoin Çekirdeği &amp;hakkında</translation>
     </message>
     <message>
-        <source>Modify configuration options for Dogecoin Core</source>
-        <translation>Dogecoin Çekirdeği yapılandırma seçeneklerini değiştir</translation>
+        <source>Modify configuration options for NewYorkCoin Core</source>
+        <translation>NewYorkCoin Çekirdeği yapılandırma seçeneklerini değiştir</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -419,12 +419,12 @@
         <translation>&amp;Komut satırı seçenekleri</translation>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
-        <translation>Dogecoin komut satırı seçeneklerinin listesini elde etmek için Dogecoin Çekirdeği yardım mesajını göster</translation>
+        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
+        <translation>NewYorkCoin komut satırı seçeneklerinin listesini elde etmek için NewYorkCoin Çekirdeği yardım mesajını göster</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
-        <translation><numerusform>Dogecoin şebekesine %n faal bağlantı</numerusform><numerusform>Dogecoin şebekesine %n faal bağlantı</numerusform></translation>
+        <source>%n active connection(s) to NewYorkCoin network</source>
+        <translation><numerusform>NewYorkCoin şebekesine %n faal bağlantı</numerusform><numerusform>NewYorkCoin şebekesine %n faal bağlantı</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -544,7 +544,7 @@
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>Dogecoin Seçimi</translation>
+        <translation>NewYorkCoin Seçimi</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -806,8 +806,8 @@
         <translation>Girilen "%1" adresi hâlihazırda adres defterinde mevcuttur.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dogecoin address.</source>
-        <translation>Girilen "%1" adresi geçerli bir Dogecoin adresi değildir.</translation>
+        <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
+        <translation>Girilen "%1" adresi geçerli bir NewYorkCoin adresi değildir.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -844,8 +844,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Çekirdeği</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Çekirdeği</translation>
     </message>
     <message>
         <source>version</source>
@@ -856,8 +856,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>Dogecoin Çekirdeği hakkında</translation>
+        <source>About NewYorkCoin Core</source>
+        <translation>NewYorkCoin Çekirdeği hakkında</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -879,16 +879,16 @@
         <translation>Hoş geldiniz</translation>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Dogecoin Çekirdeğine hoş geldiniz.</translation>
+        <source>Welcome to NewYorkCoin Core.</source>
+        <translation>NewYorkCoin Çekirdeğine hoş geldiniz.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
-        <translation>Bu programı ilk kez başlattığınızdan dolayı Dogecoin Çekirdeğinin verilerini nereye saklayacağını seçebilirsiniz.</translation>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
+        <translation>Bu programı ilk kez başlattığınızdan dolayı NewYorkCoin Çekirdeğinin verilerini nereye saklayacağını seçebilirsiniz.</translation>
     </message>
     <message>
-        <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dogecoin çekirdeği Dogecoin blok zincirinin bir kopyasını indirip saklayacaktır. Asgari %1GB bouyutunda veri bu klasörde saklanacak ve zamanla bu boyut artacaktır. Cüzdan da bu klasörde saklanacaktır. </translation>
+        <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>NewYorkCoin çekirdeği NewYorkCoin blok zincirinin bir kopyasını indirip saklayacaktır. Asgari %1GB bouyutunda veri bu klasörde saklanacak ve zamanla bu boyut artacaktır. Cüzdan da bu klasörde saklanacaktır. </translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -899,8 +899,8 @@
         <translation>Özel bir veri klasörü kullan:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Çekirdeği</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Çekirdeği</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -981,8 +981,8 @@
         <translation>Pencere kapatıldığında uygulamadan çıkmak yerine uygulamayı küçültür. Bu seçenek etkinleştirildiğinde, uygulama sadece menüden çıkış seçildiğinde kapanacaktır.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
-        <translation>Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar Dogecoin Çekirdeği tekrar başlatıldığında etkinleşecektir.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting NewYorkCoin Core.</source>
+        <translation>Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar NewYorkCoin Çekirdeği tekrar başlatıldığında etkinleşecektir.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1009,12 +1009,12 @@
         <translation>&amp;Şebeke</translation>
     </message>
     <message>
-        <source>Automatically start Dogecoin Core after logging in to the system.</source>
-        <translation>Sistemde oturum açıldığında Dogecoin Çekirdeğini otomatik olarak başlat.</translation>
+        <source>Automatically start NewYorkCoin Core after logging in to the system.</source>
+        <translation>Sistemde oturum açıldığında NewYorkCoin Çekirdeğini otomatik olarak başlat.</translation>
     </message>
     <message>
-        <source>&amp;Start Dogecoin Core on system login</source>
-        <translation>Dogecoin Çekirdeğini sistem oturumuyla &amp;başlat</translation>
+        <source>&amp;Start NewYorkCoin Core on system login</source>
+        <translation>NewYorkCoin Çekirdeğini sistem oturumuyla &amp;başlat</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1041,16 +1041,16 @@
         <translation>Teyit edilmemiş para üstünü &amp;harca</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönlendiricide Dogecoin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
+        <source>Automatically open the NewYorkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönlendiricide NewYorkCoin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Portları &amp;UPnP kullanarak haritala</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
-        <translation>Dogecoin şebekesine SOCKS5 vekil sunucusu vasıtasıyla bağlan.</translation>
+        <source>Connect to the NewYorkCoin network through a SOCKS5 proxy.</source>
+        <translation>NewYorkCoin şebekesine SOCKS5 vekil sunucusu vasıtasıyla bağlan.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1098,7 +1098,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Dogecoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
+        <translation>NewYorkCoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1148,7 +1148,7 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NewYorkCoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Görüntülenen veriler zaman aşımına uğramış olabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak şebeke ile eşleşir ancak bu işlem henüz tamamlanmamıştır.</translation>
     </message>
     <message>
@@ -1248,15 +1248,15 @@
     </message>
     <message>
         <source>Cannot start dogecoin: click-to-pay handler</source>
-        <translation>Dogecoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
+        <translation>NewYorkCoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>Ödeme talebini alma URL'i geçersiz: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
-        <translation>URI okunamadı! Sebebi geçersiz bir Dogecoin adresi veya hatalı URI parametreleri olabilir.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid NewYorkCoin address or malformed URI parameters.</source>
+        <translation>URI okunamadı! Sebebi geçersiz bir NewYorkCoin adresi veya hatalı URI parametreleri olabilir.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1333,8 +1333,8 @@
         <translation>Meblağ</translation>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. %1)</source>
-        <translation>Bir Dogecoin adresi giriniz (mesela %1)</translation>
+        <source>Enter a NewYorkCoin address (e.g. %1)</source>
+        <translation>Bir NewYorkCoin adresi giriniz (mesela %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1443,8 +1443,8 @@
         <translation>Güncel blok sayısı</translation>
     </message>
     <message>
-        <source>Open the Dogecoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Güncel veri klasöründen Dogecoin Çekirdeği hata ayıklama kütük dosyasını açar. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
+        <source>Open the NewYorkCoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Güncel veri klasöründen NewYorkCoin Çekirdeği hata ayıklama kütük dosyasını açar. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1563,8 +1563,8 @@
         <translation>Konsolu temizle</translation>
     </message>
     <message>
-        <source>Welcome to the Dogecoin Core RPC console.</source>
-        <translation>Dogecoin Çekirdeği RPC konsoluna hoş geldiniz.</translation>
+        <source>Welcome to the NewYorkCoin Core RPC console.</source>
+        <translation>NewYorkCoin Çekirdeği RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1638,8 +1638,8 @@
         <translation>&amp;Hâlihazırda bulunan bir alım adresini kullan (önerilmez)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
-        <translation>Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir mesaj. Not: Bu mesaj ödeme ile birlikte Dogecoin şebekesi üzerinden gönderilmeyecektir.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NewYorkCoin network.</source>
+        <translation>Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir mesaj. Not: Bu mesaj ödeme ile birlikte NewYorkCoin şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1788,7 +1788,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Dogecoin yolla</translation>
+        <translation>NewYorkCoin yolla</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2027,8 +2027,8 @@
         <translation>Çift adres bulundu: adresler herbiri için sadece bir kez kullanılmalıdır.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
-        <translation>Uyarı: geçersiz Dogecoin adresi</translation>
+        <source>Warning: Invalid NewYorkCoin address</source>
+        <translation>Uyarı: geçersiz NewYorkCoin adresi</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2078,8 +2078,8 @@
         <translation>Bu, normal bir ödemedir.</translation>
     </message>
     <message>
-        <source>The Dogecoin address to send the payment to</source>
-        <translation>Ödemenin yollanacağı Dogecoin adresi</translation>
+        <source>The NewYorkCoin address to send the payment to</source>
+        <translation>Ödemenin yollanacağı NewYorkCoin adresi</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2122,8 +2122,8 @@
         <translation>Kullanılmış adres listesine eklemek için bu adrese bir etiket girin</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
-        <translation>Dogecoin: URI'siyle ilişkili ve bilginiz için muameleyle saklanacak bir mesaj. Not: Bu mesaj Dogecoin şebekesi üzerinden gönderilmeyecektir.</translation>
+        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <translation>NewYorkCoin: URI'siyle ilişkili ve bilginiz için muameleyle saklanacak bir mesaj. Not: Bu mesaj NewYorkCoin şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2137,8 +2137,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>Dogecoin Çekirdeği kapanıyor...</translation>
+        <source>NewYorkCoin Core is shutting down...</source>
+        <translation>NewYorkCoin Çekirdeği kapanıyor...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2160,8 +2160,8 @@
         <translation>Adreslerinize yollanan dogecoinleri alabileceğiniz ispatlamak için adreslerinizle mesaj/anlaşma imzalayabilirsiniz. Oltalama saldırılarının kimliğinizi imzanızla elde etmeyi deneyebilecekleri için belirsiz ya da rastgele hiçbir şey imzalamamaya dikkat ediniz. Sadece ayrıntılı açıklaması olan ve tümüne katıldığınız ifadeleri imzalayınız.</translation>
     </message>
     <message>
-        <source>The Dogecoin address to sign the message with</source>
-        <translation>Mesajın imzalanmasında kullanılacak Dogecoin adresi</translation>
+        <source>The NewYorkCoin address to sign the message with</source>
+        <translation>Mesajın imzalanmasında kullanılacak NewYorkCoin adresi</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2192,8 +2192,8 @@
         <translation>Güncel imzayı sistem panosuna kopyala</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
-        <translation>Bu Dogecoin adresinin sizin olduğunu ispatlamak için mesajı imzalayın</translation>
+        <source>Sign the message to prove you own this NewYorkCoin address</source>
+        <translation>Bu NewYorkCoin adresinin sizin olduğunu ispatlamak için mesajı imzalayın</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2216,12 +2216,12 @@
         <translation>Alıcının adresini, mesajı (satır sonları, boşluklar, sekmeler vs. karakterleri tam olarak kopyaladığınızdan emin olunuz) ve imzayı aşağıda giriniz. Bir ortadaki adam saldırısı tarafından kandırılmaya mâni olmak için imzadan, imzalı mesajın içeriğini aşan bir anlam çıkarmamaya dikkat ediniz. Bunun sadece imzalayan tarafın adres ile alım yapabildiğini ispatladığını ve herhangi bir muamelenin gönderi tarafını kanıtlayamayacağını unutmayınız!</translation>
     </message>
     <message>
-        <source>The Dogecoin address the message was signed with</source>
-        <translation>Mesajın imzalanmasında kullanılan Dogecoin adresi</translation>
+        <source>The NewYorkCoin address the message was signed with</source>
+        <translation>Mesajın imzalanmasında kullanılan NewYorkCoin adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
-        <translation>Belirtilen Dogecoin adresi ile imzalandığını doğrulamak için mesajı kontrol et</translation>
+        <source>Verify the message to ensure it was signed with the specified NewYorkCoin address</source>
+        <translation>Belirtilen NewYorkCoin adresi ile imzalandığını doğrulamak için mesajı kontrol et</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2287,12 +2287,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Çekirdeği</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Çekirdeği</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>Dogecoin Çekirdeği geliştiricileri</translation>
+        <source>The NewYorkCoin Core developers</source>
+        <translation>NewYorkCoin Çekirdeği geliştiricileri</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2736,7 +2736,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Dogecoin yolla</translation>
+        <translation>NewYorkCoin yolla</translation>
     </message>
 </context>
 <context>
@@ -2841,8 +2841,8 @@
         <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - dogecoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
-        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. Dogecoin Çekirdeği muhtemelen hâlihazırda çalışmaktadır.</translation>
+        <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
+        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. NewYorkCoin Çekirdeği muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3029,8 +3029,8 @@
         <translation>Belirtilen adrese bağlan ve JSON RPC bağlantıları için dinlemeye geç. IPv6 için [makine]:port imlasını kullanınız. Bu seçenek birden çok kez belirtilebilir (varsayılan: tüm arayüzlere bağlan)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
-        <translation>%s veri dizininde kilit elde edilemedi. Dogecoin Çekirdeği muhtemelen hâlihazırda çalışmaktadır.</translation>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
+        <translation>%s veri dizininde kilit elde edilemedi. NewYorkCoin Çekirdeği muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3106,7 +3106,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
 </source>
         <translation>dogecoind ya da dogecoin-qt ile -server seçeneğini kullanmak için yapılandırma dosyasında bir rpc parolası belirtmeniz gerekir:
 %s
@@ -3117,7 +3117,7 @@ rpcpassword=%s
 Kullanıcı ismi ile parolanın FARKLI olmaları gerekir.
 Dosya mevcut değilse, sadece sahibi için okumayla sınırlı izin ile oluşturunuz.
 Sorunlar hakkında bildiri almak için alertnotify unsurunu ayarlamanız tavsiye edilir;
-mesela: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
+mesela: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3125,8 +3125,8 @@ mesela: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
         <translation>İkaz: -maxtxfee çok yüksek bir değere ayarlanmış! Bu denli yüksek ücretler tek bir muamelede ödenebilir.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Dogecoin Core will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın saat ve tarihinin doğru olduğunu kontol ediniz! Saatinizde gecikme varsa Dogecoin Çekirdeği doğru şekilde çalışamaz.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong NewYorkCoin Core will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın saat ve tarihinin doğru olduğunu kontol ediniz! Saatinizde gecikme varsa NewYorkCoin Çekirdeği doğru şekilde çalışamaz.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3169,16 +3169,16 @@ mesela: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
         <translation>Telif hakkı 2009-%i Bitcoin Çekirdeği Geliştiricileri</translation>
     </message>
     <message>
-        <source>Copyright (C) 2013-%i The Dogecoin Core Developers</source>
-        <translation>Telif hakkı 2013-%i Dogecoin Çekirdeği Geliştiricileri</translation>
+        <source>Copyright (C) 2013-%i The NewYorkCoin Core Developers</source>
+        <translation>Telif hakkı 2013-%i NewYorkCoin Çekirdeği Geliştiricileri</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>-rpcbind değeri %s şebeke adresi olarak ayrıştırılamadı</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin Core</source>
-        <translation>wallet.dat dosyasının yüklenmesinde hata: Cüzdan Dogecoin Çekirdeğinin daha yeni bir sürümünü gerektirmektedir</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin Core</source>
+        <translation>wallet.dat dosyasının yüklenmesinde hata: Cüzdan NewYorkCoin Çekirdeğinin daha yeni bir sürümünü gerektirmektedir</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3197,8 +3197,8 @@ mesela: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
         <translation>Bilgi</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Dogecoin Core is shutting down.</source>
-        <translation>Başlatma sınaması başarısız oldu. Dogecoin Çekirdeği kapatılıyor.</translation>
+        <source>Initialization sanity check failed. NewYorkCoin Core is shutting down.</source>
+        <translation>Başlatma sınaması başarısız oldu. NewYorkCoin Çekirdeği kapatılıyor.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3234,7 +3234,7 @@ mesela: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL seçenekleri: (SSL kurulumu yönergeleri için Dogecoin vikisine bakınız)</translation>
+        <translation>RPC SSL seçenekleri: (SSL kurulumu yönergeleri için NewYorkCoin vikisine bakınız)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3325,8 +3325,8 @@ mesela: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
         <translation>JSON-RPC bağlantıları için kullanıcı ismi</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Dogecoin Core to complete</source>
-        <translation>Cüzdanın tekrar yazılması gerekmektedir: tamamlamak için Dogecoin Çekirdeğini yeniden başlatın</translation>
+        <source>Wallet needed to be rewritten: restart NewYorkCoin Core to complete</source>
+        <translation>Cüzdanın tekrar yazılması gerekmektedir: tamamlamak için NewYorkCoin Çekirdeğini yeniden başlatın</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -3430,7 +3430,7 @@ mesela: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>Dogecoin oluştur (varsayılan: %u)</translation>
+        <translation>NewYorkCoin oluştur (varsayılan: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>

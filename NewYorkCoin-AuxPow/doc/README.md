@@ -1,17 +1,17 @@
-Dogecoin Core 1.10
+NewYorkCoin Core 1.10
 ==================
 
 Setup
 ---------------------
-[Dogecoin Core](http://dogecoin.com/) is the reference Dogecoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Dogecoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+[NewYorkCoin Core](http://dogecoin.com/) is the reference NewYorkCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of NewYorkCoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Dogecoin on your native platform.
+The following are some helpful notes on how to run NewYorkCoin on your native platform.
 
 ### Unix
 
-You need the Qt4 run-time libraries to run Dogecoin-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run NewYorkCoin-Qt. On Debian or Ubuntu:
 
 	sudo apt-get install libqtgui4
 
@@ -28,18 +28,18 @@ Unpack the files into a directory, and then run dogecoin-qt.exe.
 
 ### OSX
 
-Drag Dogecoin-Qt to your applications folder, and then run Dogecoin-Qt.
+Drag NewYorkCoin-Qt to your applications folder, and then run NewYorkCoin-Qt.
 
 ### Need Help?
 
 * See the documentation at the [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
 for help and more information.
 * Ask for help on [#dogecoin](http://webchat.freenode.net?channels=dogecoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=dogecoin).
-* Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Dogecoin thread](https://bitcointalk.org/index.php?topic=361813.0).
+* Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [NewYorkCoin thread](https://bitcointalk.org/index.php?topic=361813.0).
 
 Building
 ---------------------
-The following are developer notes on how to build Dogecoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build NewYorkCoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -47,7 +47,7 @@ The following are developer notes on how to build Dogecoin on your native platfo
 
 Development
 ---------------------
-The Dogecoin repo's [root README](https://github.com/dogecoin/dogecoin/blob/master/README.md) contains relevant information on the development process and automated testing.
+The NewYorkCoin repo's [root README](https://github.com/dogecoin/dogecoin/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -61,7 +61,7 @@ The Dogecoin repo's [root README](https://github.com/dogecoin/dogecoin/blob/mast
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Dogecoin thread](https://bitcointalk.org/index.php?topic=361813.0).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [NewYorkCoin thread](https://bitcointalk.org/index.php?topic=361813.0).
 * Discuss on [#dogecoin-dev](http://webchat.freenode.net/?channels=dogecoin-dev) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=dogecoin-dev).
 
 ### Miscellaneous

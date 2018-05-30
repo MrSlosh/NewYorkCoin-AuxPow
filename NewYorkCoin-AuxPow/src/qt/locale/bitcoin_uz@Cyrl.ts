@@ -62,12 +62,12 @@
         <translation>Қабул қилинадиган манзиллар</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Улар тўловларни жўнатиш учун сизнинг Dogecoin манзилларингиз. Доимо тангаларни жўнатишдан олдин сумма ва қабул қилувчи манзилни текшириб кўринг. </translation>
+        <source>These are your NewYorkCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Улар тўловларни жўнатиш учун сизнинг NewYorkCoin манзилларингиз. Доимо тангаларни жўнатишдан олдин сумма ва қабул қилувчи манзилни текшириб кўринг. </translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Улар тўловларни қабул қилиш учун сизнинг Dogecoin манзилларингиз. Ҳар бир ўтказма учун янги қабул қилувчи манзилдан фойдаланиш тавсия қилинади.</translation>
+        <source>These are your NewYorkCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Улар тўловларни қабул қилиш учун сизнинг NewYorkCoin манзилларингиз. Ҳар бир ўтказма учун янги қабул қилувчи манзилдан фойдаланиш тавсия қилинади.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -283,8 +283,8 @@
         <translation>Интернет манзилни очиш</translation>
     </message>
     <message>
-        <source>Dogecoin Core client</source>
-        <translation>Dogecoin асос мижози</translation>
+        <source>NewYorkCoin Core client</source>
+        <translation>NewYorkCoin асос мижози</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -295,8 +295,8 @@
         <translation>Дискдаги блоклар қайта индексланмоқда...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Тангаларни Dogecoin манзилига жўнатиш</translation>
+        <source>Send coins to a NewYorkCoin address</source>
+        <translation>Тангаларни NewYorkCoin манзилига жўнатиш</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -319,8 +319,8 @@
         <translation>Хабарни &amp;тасдиқлаш...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -335,8 +335,8 @@
         <translation>&amp;Қабул қилиш</translation>
     </message>
     <message>
-        <source>Show information about Dogecoin Core</source>
-        <translation>Dogecoin Core ҳақидаги маълумотларни кўрсатиш</translation>
+        <source>Show information about NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core ҳақидаги маълумотларни кўрсатиш</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -351,12 +351,12 @@
         <translation>Ҳамёнингизга тегишли махфий калитларни кодлаш</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Dogecoin манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
+        <source>Sign messages with your NewYorkCoin addresses to prove you own them</source>
+        <translation>NewYorkCoin манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Хабарларни махсус Dogecoin манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
+        <source>Verify messages to ensure they were signed with specified NewYorkCoin addresses</source>
+        <translation>Хабарларни махсус NewYorkCoin манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -375,16 +375,16 @@
         <translation>Ички ойналар асбоблар панели</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
         <translation>Тўловлар (QR кодлари ва dogecoin ёрдамида яратишлар: URI’лар) сўраш</translation>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>Dogecoin Core &amp;ҳақида</translation>
+        <source>&amp;About NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core &amp;ҳақида</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -396,19 +396,19 @@
     </message>
     <message>
         <source>Open a dogecoin: URI or payment request</source>
-        <translation>Dogecoin’ни очиш: URI ёки тўлов сўрови</translation>
+        <translation>NewYorkCoin’ни очиш: URI ёки тўлов сўрови</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Буйруқлар сатри мосламалари</translation>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
-        <translation>Мавжуд Dogecoin буйруқлар матни мосламалари билан  Dogecoin Core ёрдам хабарларини олиш рўйхатини кўрсатиш</translation>
+        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
+        <translation>Мавжуд NewYorkCoin буйруқлар матни мосламалари билан  NewYorkCoin Core ёрдам хабарларини олиш рўйхатини кўрсатиш</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
-        <translation><numerusform>%n та Dogecoin тармоғига фаол уланиш мавжуд</numerusform></translation>
+        <source>%n active connection(s) to NewYorkCoin network</source>
+        <translation><numerusform>%n та NewYorkCoin тармоғига фаол уланиш мавжуд</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -732,8 +732,8 @@
         <translation>Киритилган "%1" манзили аллақачон манзил китобида.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dogecoin address.</source>
-        <translation>Киритилган "%1" манзили тўғри Dogecoin манзили эмас.</translation>
+        <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
+        <translation>Киритилган "%1" манзили тўғри NewYorkCoin манзили эмас.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -770,8 +770,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -782,8 +782,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>Dogecoin Core ҳақида</translation>
+        <source>About NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core ҳақида</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -801,16 +801,16 @@
         <translation>Хуш келибсиз</translation>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>"Dogecoin Core"га хуш келибсиз.</translation>
+        <source>Welcome to NewYorkCoin Core.</source>
+        <translation>"NewYorkCoin Core"га хуш келибсиз.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
-        <translation>Биринчи марта дастур ишга тушгани каби сиз Dogecoin Core маълумотларини жойлаштирадиган жойни танлашингиз мумкин.</translation>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
+        <translation>Биринчи марта дастур ишга тушгани каби сиз NewYorkCoin Core маълумотларини жойлаштирадиган жойни танлашингиз мумкин.</translation>
     </message>
     <message>
-        <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dogecoin Core юклаб олинади ва Dogecoin блок занжири нусхаси жойлаштирилади. Камида %1GB  маълумот ушбу директорияга жойлаштирилади ва вақт давомида ўсиб боради. Ҳамён ҳам ушбу директорияда жойлашади.</translation>
+        <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>NewYorkCoin Core юклаб олинади ва NewYorkCoin блок занжири нусхаси жойлаштирилади. Камида %1GB  маълумот ушбу директорияга жойлаштирилади ва вақт давомида ўсиб боради. Ҳамён ҳам ушбу директорияда жойлашади.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -821,8 +821,8 @@
         <translation>Бошқа маълумотлар директориясида фойдаланинг:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -974,8 +974,8 @@
         <translation>Шакл</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Dogecoin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NewYorkCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг NewYorkCoin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1473,8 +1473,8 @@
         <translation>Тўлов миқдори 0. дан катта бўлиши керак. </translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
-        <translation>Диққат: Нотўғр Dogecoin манзили</translation>
+        <source>Warning: Invalid NewYorkCoin address</source>
+        <translation>Диққат: Нотўғр NewYorkCoin манзили</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1553,12 +1553,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>Dogecoin Core дастурчилари</translation>
+        <source>The NewYorkCoin Core developers</source>
+        <translation>NewYorkCoin Core дастурчилари</translation>
     </message>
     <message>
         <source>[testnet]</source>

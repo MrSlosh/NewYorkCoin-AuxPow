@@ -69,7 +69,7 @@ bool AppInit(int argc, char* argv[])
     // Process help and version before taking care about datadir
     if (mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version"))
     {
-        std::string strUsage = _("Dogecoin Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("NewYorkCoin Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
 
         if (mapArgs.count("-version"))
         {
@@ -78,7 +78,7 @@ bool AppInit(int argc, char* argv[])
         else
         {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  dogecoind [options]                    " + _("Start Dogecoin Core Daemon") + "\n";
+                  "  dogecoind [options]                    " + _("Start NewYorkCoin Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -122,7 +122,7 @@ bool AppInit(int argc, char* argv[])
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon)
         {
-            fprintf(stdout, "Dogecoin server starting\n");
+            fprintf(stdout, "NewYorkCoin server starting\n");
 
             // Daemonize
             pid_t pid = fork();

@@ -69,21 +69,21 @@ BOOST_AUTO_TEST_CASE(subsidy_limit_test)
 
     for (nHeight = 0; nHeight <= 100000; nHeight++) {
         const Consensus::Params& params = mainParams.GetConsensus(nHeight);
-        CAmount nSubsidy = GetDogecoinBlockSubsidy(nHeight, params, prevHash);
+        CAmount nSubsidy = GetNewYorkCoinBlockSubsidy(nHeight, params, prevHash);
         BOOST_CHECK(MoneyRange(nSubsidy));
         BOOST_CHECK(nSubsidy <= 1000000 * COIN);
         nSum += nSubsidy * nStepSize;
     }
     for (; nHeight <= 145000; nHeight++) {
         const Consensus::Params& params = mainParams.GetConsensus(nHeight);
-        CAmount nSubsidy = GetDogecoinBlockSubsidy(nHeight, params, prevHash);
+        CAmount nSubsidy = GetNewYorkCoinBlockSubsidy(nHeight, params, prevHash);
         BOOST_CHECK(MoneyRange(nSubsidy));
         BOOST_CHECK(nSubsidy <= 500000 * COIN);
         nSum += nSubsidy * nStepSize;
     }
     for (; nHeight < 600000; nHeight++) {
         const Consensus::Params& params = mainParams.GetConsensus(nHeight);
-        CAmount nSubsidy = GetDogecoinBlockSubsidy(nHeight, params, prevHash);
+        CAmount nSubsidy = GetNewYorkCoinBlockSubsidy(nHeight, params, prevHash);
         CAmount nExpectedSubsidy = (500000 >> (nHeight / 100000)) * COIN;
         BOOST_CHECK(MoneyRange(nSubsidy));
         BOOST_CHECK_EQUAL(nSubsidy, nExpectedSubsidy);
@@ -99,10 +99,10 @@ BOOST_AUTO_TEST_CASE(subsidy_limit_test)
     
     // Test reward at 600k+ is constant
     const Consensus::Params& params = mainParams.GetConsensus(600000);
-    CAmount nConstantSubsidy = GetDogecoinBlockSubsidy(600000, params, prevHash);
+    CAmount nConstantSubsidy = GetNewYorkCoinBlockSubsidy(600000, params, prevHash);
     BOOST_CHECK_EQUAL(nConstantSubsidy, 10000 * COIN);
 
-    nConstantSubsidy = GetDogecoinBlockSubsidy(700000, params, prevHash);
+    nConstantSubsidy = GetNewYorkCoinBlockSubsidy(700000, params, prevHash);
     BOOST_CHECK_EQUAL(nConstantSubsidy, 10000 * COIN);
 }
 
@@ -117,7 +117,7 @@ BOOST_AUTO_TEST_CASE(get_next_work_difficulty_limit)
     pindexLast.nHeight = 239;
     pindexLast.nTime = 1386475638; // Block #239
     pindexLast.nBits = 0x1e0ffff0;
-    BOOST_CHECK_EQUAL(CalculateDogecoinNextWorkRequired(&pindexLast, nLastRetargetTime, params), 0x1e00ffff);
+    BOOST_CHECK_EQUAL(CalculateNewYorkCoinNextWorkRequired(&pindexLast, nLastRetargetTime, params), 0x1e00ffff);
 }
 
 BOOST_AUTO_TEST_CASE(get_next_work_pre_digishield)
@@ -131,7 +131,7 @@ BOOST_AUTO_TEST_CASE(get_next_work_pre_digishield)
     pindexLast.nHeight = 9599;
     pindexLast.nTime = 1386954113;
     pindexLast.nBits = 0x1c1a1206;
-    BOOST_CHECK_EQUAL(CalculateDogecoinNextWorkRequired(&pindexLast, nLastRetargetTime, params), 0x1c15ea59);
+    BOOST_CHECK_EQUAL(CalculateNewYorkCoinNextWorkRequired(&pindexLast, nLastRetargetTime, params), 0x1c15ea59);
 }
 
 BOOST_AUTO_TEST_CASE(get_next_work_digishield)
@@ -146,7 +146,7 @@ BOOST_AUTO_TEST_CASE(get_next_work_digishield)
     pindexLast.nHeight = 145000;
     pindexLast.nTime = 1395094679;
     pindexLast.nBits = 0x1b499dfd;
-    BOOST_CHECK_EQUAL(CalculateDogecoinNextWorkRequired(&pindexLast, nLastRetargetTime, params), 0x1b671062);
+    BOOST_CHECK_EQUAL(CalculateNewYorkCoinNextWorkRequired(&pindexLast, nLastRetargetTime, params), 0x1b671062);
 }
 
 BOOST_AUTO_TEST_CASE(get_next_work_digishield_modulated_upper)
@@ -161,7 +161,7 @@ BOOST_AUTO_TEST_CASE(get_next_work_digishield_modulated_upper)
     pindexLast.nHeight = 145107;
     pindexLast.nTime = 1395101360;
     pindexLast.nBits = 0x1b3439cd;
-    BOOST_CHECK_EQUAL(CalculateDogecoinNextWorkRequired(&pindexLast, nLastRetargetTime, params), 0x1b4e56b3);
+    BOOST_CHECK_EQUAL(CalculateNewYorkCoinNextWorkRequired(&pindexLast, nLastRetargetTime, params), 0x1b4e56b3);
 }
 
 BOOST_AUTO_TEST_CASE(get_next_work_digishield_modulated_lower)
@@ -176,7 +176,7 @@ BOOST_AUTO_TEST_CASE(get_next_work_digishield_modulated_lower)
     pindexLast.nHeight = 149423;
     pindexLast.nTime = 1395380447;
     pindexLast.nBits = 0x1b446f21;
-    BOOST_CHECK_EQUAL(CalculateDogecoinNextWorkRequired(&pindexLast, nLastRetargetTime, params), 0x1b335358);
+    BOOST_CHECK_EQUAL(CalculateNewYorkCoinNextWorkRequired(&pindexLast, nLastRetargetTime, params), 0x1b335358);
 }
 
 BOOST_AUTO_TEST_CASE(get_next_work_digishield_rounding)
@@ -192,7 +192,7 @@ BOOST_AUTO_TEST_CASE(get_next_work_digishield_rounding)
     pindexLast.nHeight = 145001;
     pindexLast.nTime = 1395094727;
     pindexLast.nBits = 0x1b671062;
-    BOOST_CHECK_EQUAL(CalculateDogecoinNextWorkRequired(&pindexLast, nLastRetargetTime, params), 0x1b6558a4);
+    BOOST_CHECK_EQUAL(CalculateNewYorkCoinNextWorkRequired(&pindexLast, nLastRetargetTime, params), 0x1b6558a4);
 }
 
 BOOST_AUTO_TEST_CASE(hardfork_parameters)

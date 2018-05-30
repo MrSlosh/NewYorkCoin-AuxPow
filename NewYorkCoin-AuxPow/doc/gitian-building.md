@@ -1,9 +1,9 @@
 Gitian building
 ================
 
-*Setup instructions for a gitian build of Dogecoin using a Debian VM or physical system.*
+*Setup instructions for a gitian build of NewYorkCoin using a Debian VM or physical system.*
 
-Gitian is the deterministic build process that is used to build the Dogecoin
+Gitian is the deterministic build process that is used to build the NewYorkCoin
 Core executables. It provides a way to be reasonably sure that the
 executables are really built from source on GitHub. It also makes sure that
 the same, tested dependencies are used and statically built into the executable.
@@ -26,7 +26,7 @@ Table of Contents
 - [Installing gitian](#installing-gitian)
 - [Setting up the gitian image](#setting-up-the-gitian-image)
 - [Getting and building the inputs](#getting-and-building-the-inputs)
-- [Building Dogecoin](#building-dogecoin)
+- [Building NewYorkCoin](#building-dogecoin)
 - [Building an alternative repository](#building-an-alternative-repository)
 - [Signing externally](#signing-externally)
 - [Uploading signatures](#uploading-signatures)
@@ -312,10 +312,10 @@ under 'Fetch and build inputs' to install sources which require manual intervent
 the next step: 'Seed the Gitian sources cache', which will fetch all necessary source files allowing
 for gitian to work offline.
 
-Building Dogecoin
+Building NewYorkCoin
 ----------------
 
-To build Dogecoin (for Linux, OSX and Windows) just follow the steps under 'perform
+To build NewYorkCoin (for Linux, OSX and Windows) just follow the steps under 'perform
 gitian builds' in [doc/release-process.md](release-process.md) in the dogecoin repository.
 
 This may take a long time as it also builds the dependencies needed for each descriptor.

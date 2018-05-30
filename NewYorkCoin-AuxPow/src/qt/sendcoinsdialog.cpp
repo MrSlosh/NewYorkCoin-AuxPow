@@ -103,7 +103,7 @@ SendCoinsDialog::SendCoinsDialog(const PlatformStyle *platformStyle, QWidget *pa
         settings.setValue("nTransactionFee", (qint64)DEFAULT_TRANSACTION_FEE);
     if (!settings.contains("fPayOnlyMinFee"))
         settings.setValue("fPayOnlyMinFee", false);
-    // Dogecoin: Disable free transactions
+    // NewYorkCoin: Disable free transactions
     /* if (!settings.contains("fSendFreeTransactions"))
         settings.setValue("fSendFreeTransactions", false); */
     ui->groupFee->setId(ui->radioSmartFee, 0);
@@ -115,7 +115,7 @@ SendCoinsDialog::SendCoinsDialog(const PlatformStyle *platformStyle, QWidget *pa
     ui->sliderSmartFee->setValue(settings.value("nSmartFeeSliderPosition").toInt());
     ui->customFee->setValue(settings.value("nTransactionFee").toLongLong());
     ui->checkBoxMinimumFee->setChecked(settings.value("fPayOnlyMinFee").toBool());
-    // Dogecoin: Disable free transactions
+    // NewYorkCoin: Disable free transactions
     // ui->checkBoxFreeTx->setChecked(settings.value("fSendFreeTransactions").toBool());
     minimizeFeeSection(settings.value("fFeeSectionMinimized").toBool());
 }
@@ -171,7 +171,7 @@ void SendCoinsDialog::setModel(WalletModel *model)
         connect(ui->checkBoxMinimumFee, SIGNAL(stateChanged(int)), this, SLOT(updateFeeSectionControls()));
         connect(ui->checkBoxMinimumFee, SIGNAL(stateChanged(int)), this, SLOT(updateGlobalFeeVariables()));
         connect(ui->checkBoxMinimumFee, SIGNAL(stateChanged(int)), this, SLOT(coinControlUpdateLabels()));
-        // Dogecoin: Disable free transactions
+        // NewYorkCoin: Disable free transactions
         // connect(ui->checkBoxFreeTx, SIGNAL(stateChanged(int)), this, SLOT(updateGlobalFeeVariables()));
         // connect(ui->checkBoxFreeTx, SIGNAL(stateChanged(int)), this, SLOT(coinControlUpdateLabels()));
         ui->customFee->setSingleStep(CWallet::minTxFee.GetFeePerK());
@@ -191,7 +191,7 @@ SendCoinsDialog::~SendCoinsDialog()
     settings.setValue("nSmartFeeSliderPosition", ui->sliderSmartFee->value());
     settings.setValue("nTransactionFee", (qint64)ui->customFee->value());
     settings.setValue("fPayOnlyMinFee", ui->checkBoxMinimumFee->isChecked());
-    // Dogecoin: Disable free transactions
+    // NewYorkCoin: Disable free transactions
     // settings.setValue("fSendFreeTransactions", ui->checkBoxFreeTx->isChecked());
 
     delete ui;
@@ -605,7 +605,7 @@ void SendCoinsDialog::updateGlobalFeeVariables()
         fPayAtLeastCustomFee = ui->radioCustomAtLeast->isChecked();
     }
 
-    // Dogecoin: Disable free transactions
+    // NewYorkCoin: Disable free transactions
     // fSendFreeTransactions = ui->checkBoxFreeTx->isChecked();
 }
 

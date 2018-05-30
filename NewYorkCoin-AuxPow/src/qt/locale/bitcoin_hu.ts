@@ -66,11 +66,11 @@
         <translation>Fogadó címek</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your NewYorkCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Ezekről a címekről küldhetsz dogecoint. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your NewYorkCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Ezekkel a címekkel fogadhatsz dogecoint. Ajánlott minden tranzakcióhoz egy új fogadó címet használni.</translation>
     </message>
     <message>
@@ -287,8 +287,8 @@
         <translation>&amp;URI azonosító megnyitása...</translation>
     </message>
     <message>
-        <source>Dogecoin Core client</source>
-        <translation>Dogecoin Core kliens</translation>
+        <source>NewYorkCoin Core client</source>
+        <translation>NewYorkCoin Core kliens</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -299,8 +299,8 @@
         <translation>Lemezen lévő blokkok újraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Dogecoin küldése megadott címre</translation>
+        <source>Send coins to a NewYorkCoin address</source>
+        <translation>NewYorkCoin küldése megadott címre</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -323,8 +323,8 @@
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -339,8 +339,8 @@
         <translation>&amp;Fogadás</translation>
     </message>
     <message>
-        <source>Show information about Dogecoin Core</source>
-        <translation>Dogecoin Core információ megjelenítése</translation>
+        <source>Show information about NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core információ megjelenítése</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,12 +355,12 @@
         <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Üzenetek aláírása a Dogecoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
+        <source>Sign messages with your NewYorkCoin addresses to prove you own them</source>
+        <translation>Üzenetek aláírása a NewYorkCoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Dogecoin-címekkel vannak-e aláírva</translation>
+        <source>Verify messages to ensure they were signed with specified NewYorkCoin addresses</source>
+        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt NewYorkCoin-címekkel vannak-e aláírva</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -379,16 +379,16 @@
         <translation>Fül eszköztár</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
         <translation>Fizetési kérelem (QR-kódot és "dogecoin:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>&amp;A Dogecoin Core-ról</translation>
+        <source>&amp;About NewYorkCoin Core</source>
+        <translation>&amp;A NewYorkCoin Core-ról</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -407,8 +407,8 @@
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
-        <translation>A Dogecoin Core súgóüzenet megjelenítése a Dogecoin lehetséges parancssori kapcsolóival.</translation>
+        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
+        <translation>A NewYorkCoin Core súgóüzenet megjelenítése a NewYorkCoin lehetséges parancssori kapcsolóival.</translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -716,8 +716,8 @@
         <translation>A megadott "%1" cím már szerepel a címjegyzékben.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dogecoin address.</source>
-        <translation>A megadott "%1" cím nem egy érvényes Dogecoin-cím.</translation>
+        <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
+        <translation>A megadott "%1" cím nem egy érvényes NewYorkCoin-cím.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -750,8 +750,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -762,8 +762,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>A Dogecoin Core-ról</translation>
+        <source>About NewYorkCoin Core</source>
+        <translation>A NewYorkCoin Core-ról</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -785,8 +785,8 @@
         <translation>Üdvözlünk</translation>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Üdvözlünk a Dogecoin Core-ban.</translation>
+        <source>Welcome to NewYorkCoin Core.</source>
+        <translation>Üdvözlünk a NewYorkCoin Core-ban.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -797,8 +797,8 @@
         <translation>Saját adatkönyvtár használata:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -871,8 +871,8 @@
         <translation>&amp;Hálózat</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Dogecoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the NewYorkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A NewYorkCoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -958,8 +958,8 @@
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Dogecoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NewYorkCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a NewYorkCoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1480,8 +1480,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>A Dogecoin Core leáll...</translation>
+        <source>NewYorkCoin Core is shutting down...</source>
+        <translation>A NewYorkCoin Core leáll...</translation>
     </message>
     </context>
 <context>
@@ -1519,7 +1519,7 @@
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
+        <source>Sign the message to prove you own this NewYorkCoin address</source>
         <translation>Üzenet </translation>
     </message>
     <message>
@@ -1574,12 +1574,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>NewYorkCoin Core</source>
+        <translation>NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>A Dogecoin Core fejlesztői</translation>
+        <source>The NewYorkCoin Core developers</source>
+        <translation>A NewYorkCoin Core fejlesztői</translation>
     </message>
     <message>
         <source>[testnet]</source>
