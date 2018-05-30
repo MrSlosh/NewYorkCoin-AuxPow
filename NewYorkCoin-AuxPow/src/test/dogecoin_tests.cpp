@@ -4,7 +4,7 @@
 
 #include "arith_uint256.h"
 #include "chainparams.h"
-#include "dogecoin.h"
+#include "newyorkcoin.h"
 #include "main.h"
 #include "test/test_bitcoin.h"
 

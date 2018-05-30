@@ -10,7 +10,7 @@
 #include "coincontrol.h"
 #include "consensus/consensus.h"
 #include "consensus/validation.h"
-#include "dogecoin.h"
+#include "newyorkcoin.h"
 #include "main.h"
 #include "net.h"
 #include "script/script.h"

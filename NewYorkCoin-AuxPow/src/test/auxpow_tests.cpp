@@ -5,7 +5,7 @@
 #include "auxpow.h"
 #include "chainparams.h"
 #include "coins.h"
-#include "dogecoin.h"
+#include "newyorkcoin.h"
 #include "main.h"
 #include "uint256.h"
 #include "primitives/block.h"

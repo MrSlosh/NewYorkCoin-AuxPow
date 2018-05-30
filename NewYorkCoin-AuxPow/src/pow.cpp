@@ -8,7 +8,7 @@
 
 #include "arith_uint256.h"
 #include "chain.h"
-#include "dogecoin.h"
+#include "newyorkcoin.h"
 #include "primitives/block.h"
 #include "uint256.h"
 #include "util.h"
