@@ -2779,9 +2779,17 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
                          REJECT_INVALID, "early-auxpow-block");
 
     // Check proof of work
-    if (block.nBits != GetNextWorkRequired(pindexPrev, &block, consensusParams))
-        return state.DoS(100, error("%s: incorrect proof of work at height %d", __func__, nHeight),
-                         REJECT_INVALID, "bad-diffbits");
+    // Legacy
+    if (consensusParams.fAllowLegacyBlocks
+        && block.nVersion.IsLegacy())
+        {
+          if(block.nBits != GetNextWorkRequiredLegacy(pindexPrev, &block, consensusParams))
+            return state.DoS(100, error("%s: incorrect proof of work at Legacy height %d", __func__, nHeight),
+                           REJECT_INVALID, "bad-diffbits");
+        }
+    else if (block.nBits != GetNextWorkRequired(pindexPrev, &block, consensusParams))
+          return state.DoS(100, error("%s: incorrect proof of work at height %d", __func__, nHeight),
+                           REJECT_INVALID, "bad-diffbits");
 
     // Check timestamp against prev
     if (block.GetBlockTime() <= pindexPrev->GetMedianTimePast())
