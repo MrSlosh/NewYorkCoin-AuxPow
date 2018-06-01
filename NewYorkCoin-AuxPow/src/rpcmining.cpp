@@ -8,7 +8,7 @@
 #include "consensus/consensus.h"
 #include "consensus/validation.h"
 #include "core_io.h"
-#include "dogecoin.h"
+#include "newyorkcoin.h"
 #include "init.h"
 #include "main.h"
 #include "miner.h"

@@ -6,7 +6,7 @@
 #include <boost/random/mersenne_twister.hpp>
 
 #include "arith_uint256.h"
-#include "dogecoin.h"
+#include "newyorkcoin.h"
 #include "main.h"
 #include "util.h"
 

@@ -37,8 +37,8 @@ public:
     CMainParams() {
         strNetworkID = "main";
 
-        // Blocks 0 - 144999 are conventional difficulty calculation
-        consensus.nSubsidyHalvingInterval = 100000;
+        // Blocks 0 - 4499999 are conventional difficulty calculation
+        consensus.nSubsidyHalvingInterval = 500000;
         consensus.nMajorityEnforceBlockUpgrade = 1500;
         consensus.nMajorityRejectBlockOutdated = 1900;
         consensus.nMajorityWindow = 2000;
@@ -56,17 +56,18 @@ public:
         consensus.fDigishieldDifficultyCalculation = false;
         consensus.nCoinbaseMaturity = 30;
 
-        // Blocks 145000 - 371336 are Digishield without AuxPoW
+        // Blocks 4500000 are Digishield with AuxPoW
         digishieldConsensus = consensus;
-        digishieldConsensus.nHeightEffective = 145000;
+        digishieldConsensus.nHeightEffective = 4500000;
+        digishieldConsensus.fAllowLegacyBlocks = false;
         digishieldConsensus.fSimplifiedRewards = true;
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
         digishieldConsensus.nPowTargetTimespan = 30; // post-digishield: 30 seconds
         digishieldConsensus.nCoinbaseMaturity = 30;
 
-        // Blocks 371337+ are AuxPoW
+        // Blocks 4500000+ are AuxPoW
         auxpowConsensus = digishieldConsensus;
-        auxpowConsensus.nHeightEffective = 371337;
+        auxpowConsensus.nHeightEffective = 4500000;
         auxpowConsensus.fAllowLegacyBlocks = false;
         auxpowConsensus.fAllowAuxPow = true;
 

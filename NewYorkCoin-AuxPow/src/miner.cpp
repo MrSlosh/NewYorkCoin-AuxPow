@@ -10,7 +10,7 @@
 #include "consensus/consensus.h"
 #include "consensus/validation.h"
 #include "crypto/scrypt.h"
-#include "dogecoin.h"
+#include "newyorkcoin.h"
 #include "hash.h"
 #include "main.h"
 #include "net.h"
@@ -88,7 +88,9 @@ void UpdateTime(CBlockHeader* pblock, const Consensus::Params& consensusParams, 
     pblock->nTime = std::max(pindexPrev->GetMedianTimePast()+1, GetAdjustedTime());
 
     // Updating time can change work required on testnet:
-    if (consensusParams.fPowAllowMinDifficultyBlocks)
+    if(consensusParams.fAllowLegacyBlocks)
+        pblock->nBits = GetNextWorkRequiredLegacy(pindexPrev, pblock, consensusParams);
+    else if (consensusParams.fPowAllowMinDifficultyBlocks)
         pblock->nBits = GetNextWorkRequired(pindexPrev, pblock, consensusParams);
 }
 
@@ -101,8 +103,15 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn)
         return NULL;
     CBlock *pblock = &pblocktemplate->block; // pointer for convenience
 
+
+    CBlockIndex* pindexPrev = chainActive.Tip();
+    const int nHeight = pindexPrev->nHeight + 1;
+
     /* Initialise the block version.  */
-    pblock->nVersion = CBlockHeader::CURRENT_VERSION;
+    if(nHeight < chainParams.digishieldConsensus.nHeightEffective)
+      pblock->nVersion = 1;
+    else
+      pblock->nVersion = CBlockHeader::CURRENT_VERSION;
     pblock->nVersion.SetChainId(chainparams.GetConsensus(0).nAuxpowChainId);
 
     // -regtest only: allow overriding block.nVersion with
@@ -142,8 +151,8 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn)
 
     {
         LOCK2(cs_main, mempool.cs);
-        CBlockIndex* pindexPrev = chainActive.Tip();
-        const int nHeight = pindexPrev->nHeight + 1;
+        //CBlockIndex* pindexPrev = chainActive.Tip();
+        //const int nHeight = pindexPrev->nHeight + 1;
         pblock->nTime = GetAdjustedTime();
         CCoinsViewCache view(pcoinsTip);
 
@@ -338,7 +347,10 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn)
         // Fill in header
         pblock->hashPrevBlock  = pindexPrev->GetBlockHash();
         UpdateTime(pblock, consensus, pindexPrev);
-        pblock->nBits          = GetNextWorkRequired(pindexPrev, pblock, consensus);
+        if(pblock->nVersion == 1)
+          pblock->nBits          = GetNextWorkRequiredLegacy(pindexPrev, pblock, consensus);
+        else
+          pblock->nBits          = GetNextWorkRequired(pindexPrev, pblock, consensus);
         pblock->nNonce         = 0;
         pblocktemplate->vTxSigOps[0] = GetLegacySigOpCount(pblock->vtx[0]);
 
