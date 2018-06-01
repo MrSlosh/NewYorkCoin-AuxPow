@@ -199,7 +199,7 @@ public:
 
         // Blocks 145000 - 157499 are Digishield without minimum difficulty on all blocks
         digishieldConsensus = consensus;
-        digishieldConsensus.nHeightEffective = 145000;
+        digishieldConsensus.nHeightEffective = 15000;
         digishieldConsensus.nPowTargetTimespan = 60; // post-digishield: 1 minute
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
         digishieldConsensus.fSimplifiedRewards = true;
@@ -208,13 +208,13 @@ public:
 
         // Blocks 157500 - 158099 are Digishield with minimum difficulty on all blocks
         minDifficultyConsensus = digishieldConsensus;
-        minDifficultyConsensus.nHeightEffective = 157500;
+        minDifficultyConsensus.nHeightEffective = 15000;
         minDifficultyConsensus.fPowAllowDigishieldMinDifficultyBlocks = true;
         minDifficultyConsensus.fPowAllowMinDifficultyBlocks = true;
 
         // Enable AuxPoW at 158100
         auxpowConsensus = minDifficultyConsensus;
-        auxpowConsensus.nHeightEffective = 158100;
+        auxpowConsensus.nHeightEffective = 15000;
         auxpowConsensus.fPowAllowDigishieldMinDifficultyBlocks = true;
         auxpowConsensus.fAllowLegacyBlocks = false;
         auxpowConsensus.fAllowAuxPow = true;
