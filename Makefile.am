@@ -9,9 +9,9 @@ pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = libbitcoinconsensus.pc
 endif
 
-BITCOIND_BIN=$(top_builddir)/src/dogecoind$(EXEEXT)
-BITCOIN_QT_BIN=$(top_builddir)/src/qt/dogecoin-qt$(EXEEXT)
-BITCOIN_CLI_BIN=$(top_builddir)/src/dogecoin-cli$(EXEEXT)
+BITCOIND_BIN=$(top_builddir)/src/newyorkcoind$(EXEEXT)
+BITCOIN_QT_BIN=$(top_builddir)/src/qt/newyorkcoin-qt$(EXEEXT)
+BITCOIN_CLI_BIN=$(top_builddir)/src/newyorkcoin-cli$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 
 OSX_APP=NewYorkCoin-Qt.app
@@ -73,7 +73,7 @@ $(OSX_APP)/Contents/PkgInfo:
 
 $(OSX_APP)/Contents/Resources/empty.lproj:
 	$(MKDIR_P) $(@D)
-	@touch $@ 
+	@touch $@
 
 $(OSX_APP)/Contents/Info.plist: $(OSX_PLIST)
 	$(MKDIR_P) $(@D)
