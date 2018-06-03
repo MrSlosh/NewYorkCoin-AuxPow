@@ -28,12 +28,11 @@ define $(package)_preprocess_cmds
 endef
 
 define $(package)_config_cmds
-  ./Configure $($(package)_config_opts) \
+  ./Configure $($(package)_config_opts) && \
   $(MAKE) depend
 endef
 
 define $(package)_build_cmds
- 
   $(MAKE) -j1 build_libs libcrypto.pc libssl.pc openssl.pc
 endef
 
