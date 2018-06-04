@@ -573,7 +573,7 @@ void CoinControlDialog::updateLabels(WalletModel *model, QDialog* dialog)
             if (nChange > 0 && nChange < CENT)
             {
                 CTxOut txout(nChange, (CScript)vector<unsigned char>(24, 0));
-                // NewYorkCoin: Anything below 1 DOGE is considered dust
+                // NewYorkCoin: Anything below 1 NYCoin is considered dust
                 // if (txout.IsDust(::minRelayTxFee))
                 // {
                     if (CoinControlDialog::fSubtractFeeFromAmount) // dust-change will be raised until no dust

@@ -156,15 +156,15 @@
         <translation>Potrditev šifriranja denarnice</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>Opozorilo: V primeru izgube gesla šifrirane denarnice, boste &lt;b&gt;IZGUBILI VSE DOGECOINE V DENARNICI&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NEWYORKCOINS&lt;/b&gt;!</source>
+        <translation>Opozorilo: V primeru izgube gesla šifrirane denarnice, boste &lt;b&gt;IZGUBILI VSE NEWYORKCOINE V DENARNICI&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ali ste prepričani, da želite šifrirati vašo denarnico?</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
+        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
         <translation>Program se bo zaprl, da dokonča proces šifriranja. Zapomnite si, da šifriranje ne more popolnoma zaščititi vaše denarnice pred krajami in zlonamernimi programi, ki bi lahko bili nameščeni na vašem računalniku.</translation>
     </message>
     <message>
@@ -304,7 +304,7 @@
     </message>
     <message>
         <source>Send coins to a NewYorkCoin address</source>
-        <translation>Pošiljanje plačila na dogecoin naslov</translation>
+        <translation>Pošiljanje plačila na newyorkcoin naslov</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -356,7 +356,7 @@
     </message>
     <message>
         <source>Sign messages with your NewYorkCoin addresses to prove you own them</source>
-        <translation>Podpisovanje sporočila za dokazovanje lastništva določenega dogecoin naslova</translation>
+        <translation>Podpisovanje sporočila za dokazovanje lastništva določenega newyorkcoin naslova</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified NewYorkCoin addresses</source>
@@ -383,8 +383,8 @@
         <translation>NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>Ustvarjanje zahtevka za plačilo (izdelava QR kode in dogecoin: URI naslova)</translation>
+        <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
+        <translation>Ustvarjanje zahtevka za plačilo (izdelava QR kode in newyorkcoin: URI naslova)</translation>
     </message>
     <message>
         <source>&amp;About NewYorkCoin Core</source>
@@ -403,8 +403,8 @@
         <translation>Prikaže seznam naslovov, na katere ste prejeli plačila</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Odpre "dogecoin:" URI ali zahtevo o plačilu</translation>
+        <source>Open a newyorkcoin: URI or payment request</source>
+        <translation>Odpre "newyorkcoin:" URI ali zahtevo o plačilu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -416,7 +416,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to NewYorkCoin network</source>
-        <translation><numerusform>%n aktivna povezava v dogecoin omrežje</numerusform><numerusform>%n aktivne povezave v dogecoin omrežje</numerusform><numerusform>%n aktivnih povezav v dogecoin omrežje</numerusform><numerusform>%n aktivnih povezav v dogecoin omrežje</numerusform></translation>
+        <translation><numerusform>%n aktivna povezava v newyorkcoin omrežje</numerusform><numerusform>%n aktivne povezave v newyorkcoin omrežje</numerusform><numerusform>%n aktivnih povezav v newyorkcoin omrežje</numerusform><numerusform>%n aktivnih povezav v newyorkcoin omrežje</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -787,7 +787,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
-        <translation>Vnešeni naslov "%1" ni veljaven dogecoin naslov.</translation>
+        <translation>Vnešeni naslov "%1" ni veljaven newyorkcoin naslov.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -868,7 +868,7 @@
     </message>
     <message>
         <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Program bo prenesel in shranil kopijo dogecoin verige blokov. V izbrano mapo bo shranjenih vsaj %1 GB podatkov, ta količina bo sčasoma še naraščala. Denarnica bo prav tako shranjena v to mapo.</translation>
+        <translation>Program bo prenesel in shranil kopijo newyorkcoin verige blokov. V izbrano mapo bo shranjenih vsaj %1 GB podatkov, ta količina bo sčasoma še naraščala. Denarnica bo prav tako shranjena v to mapo.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1223,8 +1223,8 @@
         <translation>Napaka pri zahtevi plačila</translation>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
-        <translation>Ni mogoče zagnati upravitelja plačil na klik tipa dogecoin:.</translation>
+        <source>Cannot start newyorkcoin: click-to-pay handler</source>
+        <translation>Ni mogoče zagnati upravitelja plačil na klik tipa newyorkcoin:.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1847,7 +1847,7 @@
         <translation>skupno vsaj</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for dogecoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for newyorkcoin transactions than the network can process.</source>
         <translation>Dokler bo v blokih še dovolj prostora za vse nastajajoče transakcije, je zadostno tudi plačilo samo minimalne provizije. Ko pa se bo količina vseh transakcij povečala do meja zmogljivosti omrežja, se lahko zgodi, da vaša transakcija brez večje provizije nikoli ne bo potrjena.</translation>
     </message>
     <message>
@@ -2004,7 +2004,7 @@
     </message>
     <message>
         <source>Warning: Invalid NewYorkCoin address</source>
-        <translation>Opozorilo: Neveljaven dogecoin naslov</translation>
+        <translation>Opozorilo: Neveljaven newyorkcoin naslov</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2074,7 +2074,7 @@
         <translation>Izbris izbranega zapisa</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less dogecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less newyorkcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Znesek plačila bo zmanjšan za znesek provizije. Prejemnik bo prejel manjše število kovancev, kot je bil vnešeni znesek. Če je prejemnikov več, bo provizija med njih enakomerno porazdeljena.</translation>
     </message>
     <message>
@@ -2098,8 +2098,8 @@
         <translation>Vnesite oznako za ta naslov, da ga shranite v seznam uporabljenih naslovov</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
-        <translation>Sporočilo, ki ste ga pripeli na URI dogecoin: in bo shranjeno skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja NewYorkCoin.</translation>
+        <source>A message that was attached to the newyorkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <translation>Sporočilo, ki ste ga pripeli na URI newyorkcoin: in bo shranjeno skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja NewYorkCoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2132,7 +2132,7 @@
         <translation>&amp;Podpiši sporočilo</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive dogecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive newyorkcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>S svojimi naslovi lahko podpisujete sporočila ali pogodbe in s tem dokazujete, da na teh naslovih lahko prejemate kovance. Bodite previdni in ne podpisujte ničesar nejasnega ali naključnega, ker vas zlikovci preko ribarjenja (phishing) lahko prelisičijo, da na njih prepišete svojo identiteto. Podpisujte samo podrobno opisane izjave, s katerimi se strinjate.</translation>
     </message>
     <message>

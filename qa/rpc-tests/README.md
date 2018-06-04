@@ -27,9 +27,9 @@ Possible options:
 
 ````
 -h, --help       show this help message and exit
-  --nocleanup      Leave dogecoinds and test.* datadir on exit or error
-  --noshutdown     Don't stop dogecoinds after the test execution
-  --srcdir=SRCDIR  Source directory containing dogecoind/dogecoin-cli (default:
+  --nocleanup      Leave newyorkcds and test.* datadir on exit or error
+  --noshutdown     Don't stop newyorkcds after the test execution
+  --srcdir=SRCDIR  Source directory containing newyorkcd/newyorkcoin-cli (default:
                    ../../src)
   --tmpdir=TMPDIR  Root directory for datadirs
   --tracerpc       Print out all RPC calls as they are made

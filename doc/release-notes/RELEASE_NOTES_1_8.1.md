@@ -40,14 +40,14 @@ below:
 
 ## Known Issues
 
-There is a known issue with quantities in JSON used by the RPC interface (https://github.com/dogecoin/dogecoin/issues/134).
+There is a known issue with quantities in JSON used by the RPC interface (https://github.com/NewYorkCoin-NYC/nycoin/issues/134).
 This stems from the use of a floating point precision number to hold fixed precision data.
 Currently looking at solutions, which primarily either involve JSON which is not compliant
 to the specification, or making the RPC layer slightly incompatible with the conventional
 Bitcoin API.
 
-This only affects values significantly below 1 Doge, however merchants may wish to round to
-the nearest Doge on all transactions for now.
+This only affects values significantly below 1 NYCoin, however merchants may wish to round to
+the nearest NYCoin on all transactions for now.
 
 ## Credits
 

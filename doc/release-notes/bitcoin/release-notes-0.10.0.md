@@ -142,7 +142,7 @@ unauthenticated access to public node data.
 It is served on the same port as RPC, but does not need a password, and uses
 plain HTTP instead of JSON-RPC.
 
-Assuming a local RPC server running on port 8332, it is possible to request:
+Assuming a local RPC server running on port 18823, it is possible to request:
 - Blocks: http://localhost:8332/rest/block/*HASH*.*EXT*
 - Blocks without transactions: http://localhost:8332/rest/block/notxdetails/*HASH*.*EXT*
 - Transactions (requires `-txindex`): http://localhost:8332/rest/tx/*HASH*.*EXT*

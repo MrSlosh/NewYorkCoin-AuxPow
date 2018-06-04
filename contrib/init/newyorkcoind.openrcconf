@@ -1,0 +1,27 @@
+# /etc/conf.d/newyorkcd: config file for /etc/init.d/newyorkcd
+
+# Config file location
+#NEWYORKCOIND_CONFIGFILE="/etc/newyorkcoin/newyorkcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $NEWYORKCOIND_USER)
+#NEWYORKCOIND_PIDDIR="/var/run/newyorkcd"
+
+# What filename to give the pidfile
+#NEWYORKCOIND_PIDFILE="${NEWYORKCOIND_PIDDIR}/newyorkcd.pid"
+
+# Where to write newyorkcd data (be mindful that the blockchain is large)
+#NEWYORKCOIND_DATADIR="/var/lib/newyorkcd"
+
+# User and group to own newyorkcd process
+#NEWYORKCOIND_USER="newyorkcoin"
+#NEWYORKCOIND_GROUP="newyorkcoin"
+
+# Path to newyorkcd executable
+#NEWYORKCOIND_BIN="/usr/bin/newyorkcd"
+
+# Nice value to run newyorkcd under
+#NEWYORKCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+NEWYORKCOIND_OPTS="-disablewallet"
+

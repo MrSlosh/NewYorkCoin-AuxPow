@@ -53,7 +53,7 @@ class WalletTest (BitcoinTestFramework):
         assert_equal(self.nodes[1].getbalance(), 500000)
         assert_equal(self.nodes[2].getbalance(), 0)
 
-        # Send 210.000 DOGE from 0 to 2 using sendtoaddress call.
+        # Send 210.000 NYCoin from 0 to 2 using sendtoaddress call.
         # Second transaction will be child of first, and will require a fee
         self.nodes[0].sendtoaddress(self.nodes[2].getnewaddress(), 110000)
         self.nodes[0].sendtoaddress(self.nodes[2].getnewaddress(), 100000)
@@ -102,7 +102,7 @@ class WalletTest (BitcoinTestFramework):
         assert_equal(self.nodes[2].getbalance(), 1000000)
         assert_equal(self.nodes[2].getbalance("from1"), 1000000-210000)
 
-        # Send 100000 DOGE normal
+        # Send 100000 NYCoin normal
         address = self.nodes[0].getnewaddress("test")
         self.nodes[2].settxfee(1)
         txid = self.nodes[2].sendtoaddress(address, 100000, "", "", False)
@@ -111,14 +111,14 @@ class WalletTest (BitcoinTestFramework):
         assert_equal(self.nodes[2].getbalance(), 899999)
         assert_equal(self.nodes[0].getbalance(), 100000)
 
-        # Send 100000 DOGE with subtract fee from amount
+        # Send 100000 NYCoin with subtract fee from amount
         txid = self.nodes[2].sendtoaddress(address, 100000, "", "", True)
         self.nodes[2].generate(1)
         self.sync_all()
         assert_equal(self.nodes[2].getbalance(), 799999)
         assert_equal(self.nodes[0].getbalance(), 199999)
 
-        # Sendmany 100000 DOGE
+        # Sendmany 100000 NYCoin
         txid = self.nodes[2].sendmany('from1', {address: 100000}, 0, "", [])
         self.nodes[2].generate(1)
         self.sync_all()

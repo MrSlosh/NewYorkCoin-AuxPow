@@ -28,12 +28,12 @@ Following in the footsteps of Bitcoin (Core), the NewYorkCoin reference client
 has been rebranded as "NewYorkCoin Core". This helps separate its identity
 from NewYorkCoin (the network).
 
-dogecoin-cli
+newyorkcoin-cli
 ------------
 
-Where previously commands were sent to dogecoind by running
-"dogecoind <command>", 1.7 adopts the model from Bitcoin Core 0.9 where there is
-a separate "dogecoin-cli" executable which is used instead. This avoids the risk
+Where previously commands were sent to newyorkcd by running
+"newyorkcd <command>", 1.7 adopts the model from Bitcoin Core 0.9 where there is
+a separate "newyorkcoin-cli" executable which is used instead. This avoids the risk
 of accidentally trying to start two daemons at the same time, for example.
 
 
@@ -53,5 +53,5 @@ not used for real transactions, and instead is intended for testing of experimen
 clients. Wallets and addresses are incompatible with the normal NewYorkCoin
 network, in order to isolate the two.
 
-As "TestDoge" is essentially valueless, it can be acquired easily for testing,
+As "TestNYCoin" is essentially valueless, it can be acquired easily for testing,
 either by mining, or from a faucet such as http://testdoge.lionservers.de/

@@ -18,14 +18,14 @@
 if [ $# -lt 1 ]; then
         echo "Usage: $0 path_to_binaries"
         echo "e.g. $0 ../../src"
-        echo "Env vars DOGECOIND and DOGECOINCLI may be used to specify the exact binaries used"
+        echo "Env vars NEWYORKCOIND and NEWYORKCOINCLI may be used to specify the exact binaries used"
         exit 1
 fi
 
 set -f
 
-BITCOIND=${DOGECOIND:-${1}/dogecoind}
-CLI=${DOGECOINCLI:-${1}/dogecoin-cli}
+BITCOIND=${NEWYORKCOIND:-${1}/newyorkcd}
+CLI=${NEWYORKCOINCLI:-${1}/newyorkcoin-cli}
 
 DIR="${BASH_SOURCE%/*}"
 SENDANDWAIT="${DIR}/send.sh"

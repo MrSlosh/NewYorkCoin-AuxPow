@@ -190,7 +190,7 @@ void PaymentServerTests::paymentServerTests()
     QCOMPARE(PaymentServer::readPaymentRequestFromFile(tempFile.fileName(), r.paymentRequest), false);
 
     // Payment request with amount overflow (amount is set to 21000001 BTC):
-    // NewYorkCoin: Maximum Doge value exceeds the values I can get into the payment request, so can't test this
+    // NewYorkCoin: Maximum NYCoin value exceeds the values I can get into the payment request, so can't test this
     /* data = DecodeBase64(paymentrequest5_cert2_BASE64);
     byteArray = QByteArray((const char*)&data[0], data.size());
     r.paymentRequest.parse(byteArray);

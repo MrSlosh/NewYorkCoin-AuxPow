@@ -1,14 +1,14 @@
-# NewYorkCoin Core [DOGE, Ð]
+# NewYorkCoin Core [NewYorkCoinoin, Ð]
 ==========================
 
 ![NewYorkCoin](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png)
 
-[![Build Status](https://travis-ci.org/dogecoin/dogecoin.svg?branch=1.7-dev)](https://travis-ci.org/dogecoin/dogecoin) [![tip for next commit](https://tip4commit.com/projects/702.svg)](https://tip4commit.com/github/dogecoin/dogecoin)
+[![Build Status](https://travis-ci.org/NewYorkCoin-NewYorkCoin/NewYorkCoinoin.svg?branch=1.7-dev)](https://travis-ci.org/NewYorkCoin-NewYorkCoin/NewYorkCoinoin) [![tip for next commit](https://tip4commit.com/projects/702.svg)](https://tip4commit.com/github/NewYorkCoin-NewYorkCoin/NewYorkCoinoin)
 
 ## What is NewYorkCoin? – Such coin
-NewYorkCoin is a cryptocurrency like Bitcoin, although it does not use SHA256 as its proof of work (POW). Taking development cues from Tenebrix and Litecoin, NewYorkCoin currently employs a simplified variant of scrypt.
+NewYorkCoin is a cryptocurrency like Bitcoin, although it does not use SHA256 as its proof of work (POW). Taking development cues from Dogecoin and Litecoin, NewYorkCoin currently employs a simplified variant of scrypt.
 
-http://dogecoin.com/
+https://NewYorkCoinoin.community/
 
 ## License – Much license
 NewYorkCoin is released under the terms of the MIT license. See [COPYING](COPYING)
@@ -32,49 +32,26 @@ There are 3 types of branches in this repository:
 ## Very Much Frequently Asked Questions
 
 ### How much doge can exist? – So many puppies!
-Early 2015 (approximately a year and a half after release) there will be approximately 100,000,000,000 coins.
+Early 2015 (approximately a year and a half after release) there will be approximately 150,000,000,000 coins.
 Each subsequent block will grant 10,000 coins to encourage miners to continue to secure the network and make up for lost wallets on hard drives/phones/lost encryption passwords/etc.
 
 ### How to get doge? – To the moon!
-NewYorkCoin uses a simplified variant of the scrypt key derivation function as its proof of work with a target time of one minute per block and difficulty readjustment after every block. The block rewards are fixed and halve every 100,000 blocks. Starting with the 600,000th block, a permanent reward of 10,000 NewYorkCoin per block will be paid. 
+NewYorkCoin uses a simplified variant of the scrypt key derivation function as its proof of work with a target time of one minute per block and difficulty readjustment after every block. The block rewards are fixed and halve every 100,000 blocks. Starting with the 600,000th block, a permanent reward of 10,000 NewYorkCoin per block will be paid.
 
-Originally, a different payout scheme was envisioned with block rewards being determined by taking the maximum reward as per the block schedule and applying the result of a Mersenne Twister pseudo-random number generator to arrive at a number between 0 and the maximum reward. This was changed, starting with block 145,000, to prevent large pools from gaming the system and mining only high reward blocks. At the same time, the difficulty retargeting was also changed from four hours to once per block (every minute), implementing an algorithm courtesy of the DigiByte Coin development team, to lessen the impact of sudden increases and decreases of network hashing rate.
+Originally, a different payout scheme was envisioned with block rewards being determined by taking the maximum reward as per the block schedule and applying the result of a Mersenne Twister pseudo-random number generator to arrive at a number between 0 and the maximum reward. This was changed, starting with block 4,500,000, to prevent large pools from gaming the system and mining only high reward blocks. At the same time, the difficulty retargeting was also changed from four hours to once per block (every minute), implementing an algorithm courtesy of the DigiByte Coin development team, to lessen the impact of sudden increases and decreases of network hashing rate.
 
 The current block reward schedule:
 
-1–99,999: 0–1,000,000 NewYorkCoin 
+Current block reward - 10,000 NewYorkCoin
+After block 4,500,000 - 5000 NewYorkCoin
+After block 5,000,000 - 2500 NewYorkCoin
+After block 5,500,000 - 1250 NewYorkCoin
+After block 6,000,000 - 625 NewYorkCoin
+After block 6,500,000 - 100 NewYorkCoin
+From block 7,000,000 50 NewYorkCoin
 
-100,000–144,999: 0–500,000 NewYorkCoin
 
-145,000–199,999: 250,000 NewYorkCoin
-
-200,000–299,999: 125,000 NewYorkCoin
-
-300,000–399,999: 62,500 NewYorkCoin
-
-400,000–499,999: 31,250 NewYorkCoin
-
-500,000–599,999: 15,625 NewYorkCoin
-
-600,000+: 10,000 NewYorkCoin
-
-The original block reward schedule, with one-minute block targets and four-hour difficulty readjustment:
-
-1–99,999: 0–1,000,000 NewYorkCoin 
-
-100,000–199,999: 0–500,000 NewYorkCoin
-
-200,000–299,999: 0–250,000 NewYorkCoin
-
-300,000–399,999: 0–125,000 NewYorkCoin
-
-400,000–499,999: 0–62,500 NewYorkCoin
-
-500,000–599,999: 0–31,250 NewYorkCoin
-
-600,000+: 10,000 NewYorkCoin
-
-### Wow plz make dogecoind/dogecoin-cli/dogecoin-qt
+### Wow plz make newyorkcd/newyorkcoin-cli/newyorkcoin-qt
 
   The following are developer notes on how to build NewYorkCoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
@@ -88,17 +65,6 @@ P2P 22556
 
 ![](http://dogesay.com/wow//////such/coin)
 
-Translations
-------------
-
-Changes to translations, as well as new translations, can be submitted to
-[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-
-Periodically the translations are pulled from Transifex and merged into the git repository. See the
-[translation process](doc/translation_process.md) for details on how this works.
-
-If the changes are NewYorkCoin specific, they can be submitted as pull requests against this repository.
-If it is a general translation, consider submitting it through upstream, as we will pull these changes later on.
 
 Development tips and tricks
 ---------------------------
@@ -121,7 +87,7 @@ to see it.
 
 **testnet and regtest modes**
 
-Run with the -testnet option to run with "play dogecoins" on the test network, if you
+Run with the -testnet option to run with "play newyorkcoins" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the -regtest option.

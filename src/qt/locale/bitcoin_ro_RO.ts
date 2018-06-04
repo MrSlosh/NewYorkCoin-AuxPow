@@ -160,15 +160,15 @@
         <translation>Confirmaţi criptarea portofelului</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>Atenţie: Dacă pierdeţi parola portofelului electronic după criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE DOGECOIN ACUMULATĂ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NEWYORKCOINS&lt;/b&gt;!</source>
+        <translation>Atenţie: Dacă pierdeţi parola portofelului electronic după criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE NEWYORKCOIN ACUMULATĂ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Sigur doriţi să criptaţi portofelul dvs.?</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
+        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
         <translation>NewYorkCoin se va închide acum pentru a termina procesul de criptare. Ţineţi minte că criptarea portofelului nu vă poate proteja în totalitate de furtul monedelor de către programe dăunătoare care vă infectează calculatorul.</translation>
     </message>
     <message>
@@ -391,8 +391,8 @@
         <translation>Nucleul NewYorkCoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>Cereţi plăţi (generează coduri QR şi dogecoin-uri: URls)</translation>
+        <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
+        <translation>Cereţi plăţi (generează coduri QR şi newyorkcoin-uri: URls)</translation>
     </message>
     <message>
         <source>&amp;About NewYorkCoin Core</source>
@@ -411,8 +411,8 @@
         <translation>Arată lista de adrese pentru primire şi etichetele</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Deschidere dogecoin: o adresa URI sau o cerere de plată</translation>
+        <source>Open a newyorkcoin: URI or payment request</source>
+        <translation>Deschidere newyorkcoin: o adresa URI sau o cerere de plată</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -799,7 +799,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
-        <translation>Adresa introdusă "%1" nu este o adresă dogecoin validă.</translation>
+        <translation>Adresa introdusă "%1" nu este o adresă newyorkcoin validă.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1082,7 +1082,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de dogecoin.</translation>
+        <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de newyorkcoin.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1122,7 +1122,7 @@
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adresa dogecoin pe care aţi specificat-o nu este validă.</translation>
+        <translation>Adresa newyorkcoin pe care aţi specificat-o nu este validă.</translation>
     </message>
 </context>
 <context>
@@ -1231,8 +1231,8 @@
         <translation>Eroare la cererea de plată</translation>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
-        <translation>Nu poate porni dogecoin: manipulator clic-pentru-plată</translation>
+        <source>Cannot start newyorkcoin: click-to-pay handler</source>
+        <translation>Nu poate porni newyorkcoin: manipulator clic-pentru-plată</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1960,7 +1960,7 @@
     </message>
     <message>
         <source>Warning: Invalid NewYorkCoin address</source>
-        <translation>Atenţie: Adresa dogecoin nevalidă!</translation>
+        <translation>Atenţie: Adresa newyorkcoin nevalidă!</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2011,7 +2011,7 @@
     </message>
     <message>
         <source>The NewYorkCoin address to send the payment to</source>
-        <translation>Adresa dogecoin către care se face plata</translation>
+        <translation>Adresa newyorkcoin către care se face plata</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2038,8 +2038,8 @@
         <translation>Introduceţi eticheta pentru ca această adresa să fie introdusă în lista de adrese folosite</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
-        <translation>un mesaj a fost ataşat la dogecoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua dogecoin.</translation>
+        <source>A message that was attached to the newyorkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <translation>un mesaj a fost ataşat la newyorkcoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua newyorkcoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2632,7 +2632,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Trimitere dogecoin</translation>
+        <translation>Trimitere newyorkcoin</translation>
     </message>
 </context>
 <context>
@@ -2929,8 +2929,8 @@
         <translation>Eroare: Argument nesuportat -tor găsit, folosiţi -onion.</translation>
     </message>
     <message>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (în DOGE/kB) de adăugat la tranzacţiile pe care le trimiteţi(implicit: %s)</translation>
+        <source>Fee (in NYCoin/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (în NYCoin/kB) de adăugat la tranzacţiile pe care le trimiteţi(implicit: %s)</translation>
     </message>
     <message>
         <source>Information</source>

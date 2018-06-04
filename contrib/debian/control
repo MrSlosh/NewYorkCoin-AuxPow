@@ -1,4 +1,4 @@
-Source: dogecoin
+Source: newyorkcoin
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk>
@@ -22,11 +22,11 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://www.dogecoin.com/
-Vcs-Git: git://github.com/dogecoin/dogecoin.git
-Vcs-Browser: http://github.com/dogecoin/dogecoin
+Homepage: https://nycoin.community/
+Vcs-Git: git://github.com/NewYorkCoin-NYC/nycoin
+Vcs-Browser: http://github.com/NewYorkCoin-NYC/nycoin
 
-Package: dogecoind
+Package: newyorkcd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -39,10 +39,10 @@ Description: peer-to-peer network based digital currency - daemon
  Full transaction history is stored locally at each client.  This
  requires 20+ GB of space, slowly growing.
  .
- This package provides the daemon, dogecoind, and the CLI tool
- dogecoin-cli to interact with the daemon.
+ This package provides the daemon, newyorkcd, and the CLI tool
+ newyorkcoin-cli to interact with the daemon.
 
-Package: dogecoin-qt
+Package: newyorkcoin-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI

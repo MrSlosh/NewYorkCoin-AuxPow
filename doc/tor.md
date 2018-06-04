@@ -1,4 +1,4 @@
-TOR SUPPORT IN DOGECOIN
+TOR SUPPORT IN NEWYORKCOIN
 =======================
 
 It is possible to run NewYorkCoin as a Tor hidden service, and connect to such services.
@@ -31,7 +31,7 @@ outgoing connections be anonymized, but more is possible.
 
 In a typical situation, this suffices to run behind a Tor proxy:
 
-	./dogecoin -proxy=127.0.0.1:9050
+	./newyorkcoin -proxy=127.0.0.1:9050
 
 
 2. Run a NewYorkCoin hidden server
@@ -41,17 +41,17 @@ If you configure your Tor system accordingly, it is possible to make your node a
 reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equivalent
 config file):
 
-	HiddenServiceDir /var/lib/tor/dogecoin-service/
+	HiddenServiceDir /var/lib/tor/newyorkcoin-service/
 	HiddenServicePort 22556 127.0.0.1:22556
 	HiddenServicePort 44556 127.0.0.1:44556
 
 The directory can be different of course, but (both) port numbers should be equal to
-your dogecoind's P2P listen port (22556 by default).
+your newyorkcd's P2P listen port (22556 by default).
 
 	-externalip=X   You can tell NewYorkCoin about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
 	                configuration, you can find your onion address in
-	                /var/lib/tor/dogecoin-service/hostname. Onion addresses are given
+	                /var/lib/tor/newyorkcoin-service/hostname. Onion addresses are given
 	                preference for your node to advertise itself with, for connections
 	                coming from unroutable addresses (such as 127.0.0.1, where the
 	                Tor proxy typically runs).
@@ -68,18 +68,18 @@ your dogecoind's P2P listen port (22556 by default).
 
 In a typical situation, where you're only reachable via Tor, this should suffice:
 
-	./dogecoind -proxy=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -listen
+	./newyorkcd -proxy=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -listen
 
 (obviously, replace the Onion address with your own). If you don't care too much
 about hiding your node, and want to be reachable on IPv4 as well, additionally
 specify:
 
-	./dogecoind ... -discover
+	./newyorkcd ... -discover
 
 and open port 22556 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
 
-	./dogecoin -onion=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -discover
+	./newyorkcoin -onion=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -discover
 

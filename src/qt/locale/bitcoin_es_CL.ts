@@ -116,8 +116,8 @@
         <translation>Confirma la codificación de cartera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>Atención: ¡Si codificas tu billetera y pierdes la contraseña perderás &lt;b&gt;TODOS TUS DOGECOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NEWYORKCOINS&lt;/b&gt;!</source>
+        <translation>Atención: ¡Si codificas tu billetera y pierdes la contraseña perderás &lt;b&gt;TODOS TUS NEWYORKCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -228,7 +228,7 @@
     </message>
     <message>
         <source>NewYorkCoin Core client</source>
-        <translation>cliente dogecoin core</translation>
+        <translation>cliente newyorkcoin core</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -236,7 +236,7 @@
     </message>
     <message>
         <source>Send coins to a NewYorkCoin address</source>
-        <translation>Enviar monedas a una dirección dogecoin</translation>
+        <translation>Enviar monedas a una dirección newyorkcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -296,7 +296,7 @@
     </message>
     <message>
         <source>NewYorkCoin Core</source>
-        <translation>dogecoin core</translation>
+        <translation>newyorkcoin core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -451,7 +451,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>NewYorkCoin Core</source>
-        <translation>dogecoin core</translation>
+        <translation>newyorkcoin core</translation>
     </message>
     <message>
         <source>version</source>
@@ -470,7 +470,7 @@
     </message>
     <message>
         <source>NewYorkCoin Core</source>
-        <translation>dogecoin core</translation>
+        <translation>newyorkcoin core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -924,7 +924,7 @@
     <name>SplashScreen</name>
     <message>
         <source>NewYorkCoin Core</source>
-        <translation>dogecoin core</translation>
+        <translation>newyorkcoin core</translation>
     </message>
     <message>
         <source>[testnet]</source>
