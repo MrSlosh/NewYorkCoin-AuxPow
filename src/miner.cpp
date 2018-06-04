@@ -107,8 +107,9 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn)
     CBlockIndex* pindexPrev = chainActive.Tip();
     const int nHeight = pindexPrev->nHeight + 1;
 
+    const Consensus::Params& consensusParams = chainParams.GetConsensus(nHeight);
     /* Initialise the block version.  */
-    if(nHeight < chainParams.digishieldConsensus.nHeightEffective)
+    if(nHeight < consensusParams.nHeightEffective)
       pblock->nVersion = 1;
     else
       pblock->nVersion = CBlockHeader::CURRENT_VERSION;
