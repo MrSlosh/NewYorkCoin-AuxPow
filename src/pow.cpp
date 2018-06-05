@@ -12,7 +12,7 @@
 #include "primitives/block.h"
 #include "uint256.h"
 #include "util.h"
-
+#include <math.h>
 unsigned int GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
 
