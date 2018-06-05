@@ -43,7 +43,7 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
 
 	unsigned int bnProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
 
-  	if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || (uint64_t)BlockLastSolved->nHeight < PastBlocksMin) { return bnProofOfWorkLimit.GetCompact(); }
+  	if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || (uint64_t)BlockLastSolved->nHeight < PastBlocksMin) { return bnProofOfWorkLimit; }
 
   	for (unsigned int i = 1; BlockReading && BlockReading->nHeight > 0; i++) {
               if (PastBlocksMax > 0 && i > PastBlocksMax) { break; }
@@ -60,7 +60,7 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
               if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
               PastRateAdjustmentRatio                        = double(PastRateTargetSeconds) / double(PastRateActualSeconds);
               }
-              EventHorizonDeviation                        = 1 + (0.7084 * pow((double(PastBlocksMass)/double(144)), -1.228));
+              EventHorizonDeviation                        = 1 + (0.7084 * std::pow((double(PastBlocksMass)/double(144)), -1.228));
               EventHorizonDeviationFast                = EventHorizonDeviation;
               EventHorizonDeviationSlow                = 1 / EventHorizonDeviation;
 
