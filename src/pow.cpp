@@ -23,10 +23,10 @@ unsigned int GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlo
 		uint64_t PastBlocksMin					= PastSecondsMin / BlocksTargetSpacing;
 		uint64_t PastBlocksMax					= PastSecondsMax / BlocksTargetSpacing;
 
-		return KimotoGravityWell(pindexLast, pblock, BlocksTargetSpacing, PastBlocksMin, PastBlocksMax);
+		return KimotoGravityWell(pindexLast, pblock, BlocksTargetSpacing, PastBlocksMin, PastBlocksMax, params);
 }
 
-unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64_t TargetBlocksSpacingSeconds, uint64_t PastBlocksMin, uint64_t PastBlocksMax) {
+unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64_t TargetBlocksSpacingSeconds, uint64_t PastBlocksMin, uint64_t PastBlocksMax, const Consensus::Params& params) {
   	const CBlockIndex  *BlockLastSolved	= pindexLast;
   	const CBlockIndex  *BlockReading	= pindexLast;
   	const CBlockHeader *BlockCreating			= pblock;
@@ -40,6 +40,8 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
   	double EventHorizonDeviation;
   	double EventHorizonDeviationFast;
   	double EventHorizonDeviationSlow;
+
+	unsigned int bnProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
 
   	if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || (uint64_t)BlockLastSolved->nHeight < PastBlocksMin) { return bnProofOfWorkLimit.GetCompact(); }
 
