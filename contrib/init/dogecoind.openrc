@@ -3,35 +3,35 @@
 # backward compatibility for existing gentoo layout 
 #
 if [ -d "/var/lib/dogecoin/.dogecoin" ]; then
-	DOGECOIND_DEFAULT_DATADIR="/var/lib/dogecoin/.dogecoin"
+	newyorkcoind_DEFAULT_DATADIR="/var/lib/dogecoin/.dogecoin"
 else
-	DOGECOIND_DEFAULT_DATADIR="/var/lib/dogecoind"
+	newyorkcoind_DEFAULT_DATADIR="/var/lib/newyorkcoind"
 fi
 
-DOGECOIND_CONFIGFILE=${DOGECOIND_CONFIGFILE:-/etc/dogecoin/dogecoin.conf}
-DOGECOIND_PIDDIR=${DOGECOIND_PIDDIR:-/var/run/dogecoind}
-DOGECOIND_PIDFILE=${DOGECOIND_PIDFILE:-${DOGECOIND_PIDDIR}/dogecoind.pid}
-DOGECOIND_DATADIR=${DOGECOIND_DATADIR:-${DOGECOIND_DEFAULT_DATADIR}}
-DOGECOIND_USER=${DOGECOIND_USER:-${DOGECOIN_USER:-dogecoin}}
-DOGECOIND_GROUP=${DOGECOIND_GROUP:-dogecoin}
-DOGECOIND_BIN=${DOGECOIND_BIN:-/usr/bin/dogecoind}
-DOGECOIND_NICE=${DOGECOIND_NICE:-${NICELEVEL:-0}}
-DOGECOIND_OPTS="${DOGECOIND_OPTS:-${DOGECOIN_OPTS}}"
+newyorkcoind_CONFIGFILE=${newyorkcoind_CONFIGFILE:-/etc/dogecoin/dogecoin.conf}
+newyorkcoind_PIDDIR=${newyorkcoind_PIDDIR:-/var/run/newyorkcoind}
+newyorkcoind_PIDFILE=${newyorkcoind_PIDFILE:-${newyorkcoind_PIDDIR}/newyorkcoind.pid}
+newyorkcoind_DATADIR=${newyorkcoind_DATADIR:-${newyorkcoind_DEFAULT_DATADIR}}
+newyorkcoind_USER=${newyorkcoind_USER:-${DOGECOIN_USER:-dogecoin}}
+newyorkcoind_GROUP=${newyorkcoind_GROUP:-dogecoin}
+newyorkcoind_BIN=${newyorkcoind_BIN:-/usr/bin/newyorkcoind}
+newyorkcoind_NICE=${newyorkcoind_NICE:-${NICELEVEL:-0}}
+newyorkcoind_OPTS="${newyorkcoind_OPTS:-${DOGECOIN_OPTS}}"
 
 name="NewYorkCoin Core Daemon"
 description="NewYorkCoin cryptocurrency P2P network daemon"
 
-command="/usr/bin/dogecoind"
-command_args="-pid=\"${DOGECOIND_PIDFILE}\" \
-		-conf=\"${DOGECOIND_CONFIGFILE}\" \
-		-datadir=\"${DOGECOIND_DATADIR}\" \
+command="/usr/bin/newyorkcoind"
+command_args="-pid=\"${newyorkcoind_PIDFILE}\" \
+		-conf=\"${newyorkcoind_CONFIGFILE}\" \
+		-datadir=\"${newyorkcoind_DATADIR}\" \
 		-daemon \
-		${DOGECOIND_OPTS}"
+		${newyorkcoind_OPTS}"
 
-required_files="${DOGECOIND_CONFIGFILE}"
-start_stop_daemon_args="-u ${DOGECOIND_USER} \
-			-N ${DOGECOIND_NICE} -w 2000"
-pidfile="${DOGECOIND_PIDFILE}"
+required_files="${newyorkcoind_CONFIGFILE}"
+start_stop_daemon_args="-u ${newyorkcoind_USER} \
+			-N ${newyorkcoind_NICE} -w 2000"
+pidfile="${newyorkcoind_PIDFILE}"
 retry=60
 
 depend() {
@@ -46,29 +46,29 @@ start_pre() {
 	checkpath \
 	-d \
 	--mode 0750 \
-	--owner "${DOGECOIND_USER}:${DOGECOIND_GROUP}" \
-	"${DOGECOIND_DATADIR}"
+	--owner "${newyorkcoind_USER}:${newyorkcoind_GROUP}" \
+	"${newyorkcoind_DATADIR}"
 
 	checkpath \
 	-d \
 	--mode 0755 \
-	--owner "${DOGECOIND_USER}:${DOGECOIND_GROUP}" \
-	"${DOGECOIND_PIDDIR}"
+	--owner "${newyorkcoind_USER}:${newyorkcoind_GROUP}" \
+	"${newyorkcoind_PIDDIR}"
 
 	checkpath -f \
-	-o ${DOGECOIND_USER}:${DOGECOIND_GROUP} \
+	-o ${newyorkcoind_USER}:${newyorkcoind_GROUP} \
 	-m 0660 \
-	${DOGECOIND_CONFIGFILE}
+	${newyorkcoind_CONFIGFILE}
 
 	checkconfig || return 1
 }
 
 checkconfig()
 {
-	if ! grep -qs '^rpcpassword=' "${DOGECOIND_CONFIGFILE}" ; then
+	if ! grep -qs '^rpcpassword=' "${newyorkcoind_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run dogecoind."
-		eerror "The setting must appear in ${DOGECOIND_CONFIGFILE}"
+		eerror "ERROR: You must set a secure rpcpassword to run newyorkcoind."
+		eerror "The setting must appear in ${newyorkcoind_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
 		eerror "and must not be the same as the rpcuser setting."

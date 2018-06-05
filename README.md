@@ -74,7 +74,7 @@ The original block reward schedule, with one-minute block targets and four-hour 
 
 600,000+: 10,000 NewYorkCoin
 
-### Wow plz make dogecoind/dogecoin-cli/dogecoin-qt
+### Wow plz make newyorkcoind/dogecoin-cli/dogecoin-qt
 
   The following are developer notes on how to build NewYorkCoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 

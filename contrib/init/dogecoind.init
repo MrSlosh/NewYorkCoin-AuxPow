@@ -1,36 +1,36 @@
 #!/bin/bash
 #
-#  dogecoind The dogecoin core server.
+#  newyorkcoind The dogecoin core server.
 #
 #
 # chkconfig: 345 80 20
-# description: dogecoind
-# processname: dogecoind
+# description: newyorkcoind
+# processname: newyorkcoind
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/dogecoind, see below
-if [ -f /etc/sysconfig/dogecoind ]; then
-        . /etc/sysconfig/dogecoind
+# you can override defaults in /etc/sysconfig/newyorkcoind, see below
+if [ -f /etc/sysconfig/newyorkcoind ]; then
+        . /etc/sysconfig/newyorkcoind
 fi
 
 RETVAL=0
 
-prog=dogecoind
-# you can override the lockfile via DOGECOIND_LOCKFILE in /etc/sysconfig/dogecoind
-lockfile=${DOGECOIND_LOCKFILE-/var/lock/subsys/dogecoind}
+prog=newyorkcoind
+# you can override the lockfile via newyorkcoind_LOCKFILE in /etc/sysconfig/newyorkcoind
+lockfile=${newyorkcoind_LOCKFILE-/var/lock/subsys/newyorkcoind}
 
-# dogecoind defaults to /usr/bin/dogecoind, override with DOGECOIND_BIN
-dogecoind=${DOGECOIND_BIN-/usr/bin/dogecoind}
+# newyorkcoind defaults to /usr/bin/newyorkcoind, override with newyorkcoind_BIN
+newyorkcoind=${newyorkcoind_BIN-/usr/bin/newyorkcoind}
 
-# dogecoind opts default to -disablewallet, override with DOGECOIND_OPTS
-dogecoind_opts=${DOGECOIND_OPTS--disablewallet}
+# newyorkcoind opts default to -disablewallet, override with newyorkcoind_OPTS
+newyorkcoind_opts=${newyorkcoind_OPTS--disablewallet}
 
 start() {
     echo -n $"Starting $prog: "
-    daemon $DAEMONOPTS $dogecoind $dogecoind_opts
+    daemon $DAEMONOPTS $newyorkcoind $newyorkcoind_opts
     RETVAL=$?
     echo
     [ $RETVAL -eq 0 ] && touch $lockfile

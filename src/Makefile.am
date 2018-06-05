@@ -60,7 +60,7 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += dogecoind
+  bin_PROGRAMS += newyorkcoind
 endif
 
 if BUILD_BITCOIN_UTILS
@@ -314,15 +314,15 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-dogecoind_SOURCES = bitcoind.cpp
-dogecoind_CPPFLAGS = $(BITCOIN_INCLUDES)
-dogecoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+newyorkcoind_SOURCES = bitcoind.cpp
+newyorkcoind_CPPFLAGS = $(BITCOIN_INCLUDES)
+newyorkcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-dogecoind_SOURCES += bitcoind-res.rc
+newyorkcoind_SOURCES += bitcoind-res.rc
 endif
 
-dogecoind_LDADD = \
+newyorkcoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -333,10 +333,10 @@ dogecoind_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_WALLET
-dogecoind_LDADD += libbitcoin_wallet.a
+newyorkcoind_LDADD += libbitcoin_wallet.a
 endif
 
-dogecoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+newyorkcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
 #
 
 # bitcoin-cli binary #

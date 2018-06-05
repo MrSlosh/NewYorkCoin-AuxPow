@@ -1,6 +1,6 @@
 Mac OS X Build Instructions and Notes
 ====================================
-This guide will show you how to build dogecoind (headless client) for OSX.
+This guide will show you how to build newyorkcoind (headless client) for OSX.
 
 Notes
 -----
@@ -37,14 +37,14 @@ Instructions: Homebrew
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. As such, building with Qt5 is recommended.
 
-### Building `dogecoind`
+### Building `newyorkcoind`
 
 1. Clone the github tree to get the source code and go into the directory.
 
         git clone https://github.com/dogecoin/dogecoin.git
         cd dogecoin
 
-2.  Build dogecoind:
+2.  Build newyorkcoind:
 
         ./autogen.sh
         ./configure --with-gui=qt5
@@ -54,7 +54,7 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 
         make check
 
-4.  (Optional) You can also install dogecoind to your path:
+4.  (Optional) You can also install newyorkcoind to your path:
 
         make install
 
@@ -76,11 +76,11 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 
 Creating a release build
 ------------------------
-You can ignore this section if you are building `dogecoind` for your own use.
+You can ignore this section if you are building `newyorkcoind` for your own use.
 
-dogecoind/dogecoin-cli binaries are not included in the NewYorkCoin-Qt.app bundle.
+newyorkcoind/dogecoin-cli binaries are not included in the NewYorkCoin-Qt.app bundle.
 
-If you are building `dogecoind` or `NewYorkCoin-Qt` for others, your build machine should be set up
+If you are building `newyorkcoind` or `NewYorkCoin-Qt` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -95,10 +95,10 @@ bundle is packaged and signed to create the .dmg disk image that is distributed.
 Running
 -------
 
-It's now available at `./dogecoind`, provided that you are still in the `src`
+It's now available at `./newyorkcoind`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./dogecoind` to get the filename where it should be put, or just try these
+Run `./newyorkcoind` to get the filename where it should be put, or just try these
 commands:
 
     echo -e "rpcuser=dogecoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/NewYorkCoin/dogecoin.conf"
@@ -113,6 +113,6 @@ you can monitor its process by looking at the debug.log file, like this:
 Other commands:
 -------
 
-    ./dogecoind -daemon # to start the dogecoin daemon.
+    ./newyorkcoind -daemon # to start the dogecoin daemon.
     ./dogecoin-cli --help  # for a list of command-line options.
     ./dogecoin-cli help    # When the daemon is running, to get a list of RPC commands

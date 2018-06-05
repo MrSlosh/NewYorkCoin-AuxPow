@@ -1,27 +1,27 @@
-# /etc/conf.d/dogecoind: config file for /etc/init.d/dogecoind
+# /etc/conf.d/newyorkcoind: config file for /etc/init.d/newyorkcoind
 
 # Config file location
-#DOGECOIND_CONFIGFILE="/etc/dogecoin/dogecoin.conf"
+#newyorkcoind_CONFIGFILE="/etc/dogecoin/dogecoin.conf"
 
-# What directory to write pidfile to?  (created and owned by $DOGECOIND_USER)
-#DOGECOIND_PIDDIR="/var/run/dogecoind"
+# What directory to write pidfile to?  (created and owned by $newyorkcoind_USER)
+#newyorkcoind_PIDDIR="/var/run/newyorkcoind"
 
 # What filename to give the pidfile
-#DOGECOIND_PIDFILE="${DOGECOIND_PIDDIR}/dogecoind.pid"
+#newyorkcoind_PIDFILE="${newyorkcoind_PIDDIR}/newyorkcoind.pid"
 
-# Where to write dogecoind data (be mindful that the blockchain is large)
-#DOGECOIND_DATADIR="/var/lib/dogecoind"
+# Where to write newyorkcoind data (be mindful that the blockchain is large)
+#newyorkcoind_DATADIR="/var/lib/newyorkcoind"
 
-# User and group to own dogecoind process
-#DOGECOIND_USER="dogecoin"
-#DOGECOIND_GROUP="dogecoin"
+# User and group to own newyorkcoind process
+#newyorkcoind_USER="dogecoin"
+#newyorkcoind_GROUP="dogecoin"
 
-# Path to dogecoind executable
-#DOGECOIND_BIN="/usr/bin/dogecoind"
+# Path to newyorkcoind executable
+#newyorkcoind_BIN="/usr/bin/newyorkcoind"
 
-# Nice value to run dogecoind under
-#DOGECOIND_NICE=0
+# Nice value to run newyorkcoind under
+#newyorkcoind_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)
-DOGECOIND_OPTS="-disablewallet"
+newyorkcoind_OPTS="-disablewallet"
 

@@ -3,11 +3,11 @@
 # -*- mode: makefile; coding: utf-8 -*-
 
 #DEB_MAKE_CHECK_TARGET = test_dogecoin
-#build/dogecoind::
+#build/newyorkcoind::
 #	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_dogecoin)
 
-DEB_INSTALL_EXAMPLES_dogecoind += debian/examples/*
-DEB_INSTALL_MANPAGES_dogecoind += debian/manpages/*
+DEB_INSTALL_EXAMPLES_newyorkcoind += debian/examples/*
+DEB_INSTALL_MANPAGES_newyorkcoind += debian/manpages/*
 
 %:
 	dh --with bash-completion $@

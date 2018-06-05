@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: dogecoind.service
-Upstart: dogecoind.conf
-OpenRC:  dogecoind.openrc
-         dogecoind.openrcconf
-CentOS:  dogecoind.init
+SystemD: newyorkcoind.service
+Upstart: newyorkcoind.conf
+OpenRC:  newyorkcoind.openrc
+         newyorkcoind.openrcconf
+CentOS:  newyorkcoind.init
 
 have been made available to assist packagers in creating node packages here.
 

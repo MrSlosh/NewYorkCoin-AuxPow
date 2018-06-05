@@ -1,8 +1,8 @@
 
 Debian
 ====================
-This directory contains files used to package dogecoind/dogecoin-qt
-for Debian-based Linux systems. If you compile dogecoind/dogecoin-qt yourself, there are some useful files here.
+This directory contains files used to package newyorkcoind/dogecoin-qt
+for Debian-based Linux systems. If you compile newyorkcoind/dogecoin-qt yourself, there are some useful files here.
 
 ## dogecoin: URI support ##
 

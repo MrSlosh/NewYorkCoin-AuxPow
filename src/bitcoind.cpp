@@ -78,7 +78,7 @@ bool AppInit(int argc, char* argv[])
         else
         {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  dogecoind [options]                    " + _("Start NewYorkCoin Core Daemon") + "\n";
+                  "  newyorkcoind [options]                    " + _("Start NewYorkCoin Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -115,7 +115,7 @@ bool AppInit(int argc, char* argv[])
 
         if (fCommandLine)
         {
-            fprintf(stderr, "Error: There is no RPC client functionality in dogecoind anymore. Use the dogecoin-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in newyorkcoind anymore. Use the dogecoin-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32

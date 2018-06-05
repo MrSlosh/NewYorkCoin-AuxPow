@@ -6,9 +6,9 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with 'make check'.
 
-To run the dogecoind tests manually, launch src/test/test_dogecoin .
+To run the newyorkcoind tests manually, launch src/test/test_dogecoin .
 
-To add more dogecoind tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more newyorkcoind tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the test/ directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 

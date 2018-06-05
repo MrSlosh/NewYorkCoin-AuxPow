@@ -612,7 +612,7 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-            _("To use dogecoind, or the -server option to dogecoin-qt, you must set an rpcpassword in the configuration file:\n"
+            _("To use newyorkcoind, or the -server option to dogecoin-qt, you must set an rpcpassword in the configuration file:\n"
               "%s\n"
               "It is recommended you use the following random password:\n"
               "rpcuser=dogecoinrpc\n"

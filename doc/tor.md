@@ -46,7 +46,7 @@ config file):
 	HiddenServicePort 44556 127.0.0.1:44556
 
 The directory can be different of course, but (both) port numbers should be equal to
-your dogecoind's P2P listen port (22556 by default).
+your newyorkcoind's P2P listen port (22556 by default).
 
 	-externalip=X   You can tell NewYorkCoin about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
@@ -68,13 +68,13 @@ your dogecoind's P2P listen port (22556 by default).
 
 In a typical situation, where you're only reachable via Tor, this should suffice:
 
-	./dogecoind -proxy=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -listen
+	./newyorkcoind -proxy=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -listen
 
 (obviously, replace the Onion address with your own). If you don't care too much
 about hiding your node, and want to be reachable on IPv4 as well, additionally
 specify:
 
-	./dogecoind ... -discover
+	./newyorkcoind ... -discover
 
 and open port 22556 on your firewall (or use -upnp).
 

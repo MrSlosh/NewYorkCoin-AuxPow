@@ -83,12 +83,12 @@ def initialize_chain(test_dir):
         # Create cache directories, run bitcoinds:
         for i in range(4):
             datadir=initialize_datadir("cache", i)
-            args = [ os.getenv("DOGECOIND", "dogecoind"), "-keypool=1", "-datadir="+datadir, "-discover=0" ]
+            args = [ os.getenv("newyorkcoind", "newyorkcoind"), "-keypool=1", "-datadir="+datadir, "-discover=0" ]
             if i > 0:
                 args.append("-connect=127.0.0.1:"+str(p2p_port(0)))
             bitcoind_processes[i] = subprocess.Popen(args)
             if os.getenv("PYTHON_DEBUG", ""):
-                print "initialize_chain: dogecoind started, calling dogecoin-cli -rpcwait getblockcount"
+                print "initialize_chain: newyorkcoind started, calling dogecoin-cli -rpcwait getblockcount"
             subprocess.check_call([ os.getenv("DOGECOINCLI", "dogecoin-cli"), "-datadir="+datadir,
                                     "-rpcwait", "getblockcount"], stdout=devnull)
             if os.getenv("PYTHON_DEBUG", ""):
@@ -167,13 +167,13 @@ def start_node(i, dirname, extra_args=None, rpchost=None, timewait=None, binary=
     """
     datadir = os.path.join(dirname, "node"+str(i))
     if binary is None:
-        binary = os.getenv("DOGECOIND", "dogecoind")
+        binary = os.getenv("newyorkcoind", "newyorkcoind")
     args = [ binary, "-datadir="+datadir, "-keypool=1", "-discover=0", "-rest" ]
     if extra_args is not None: args.extend(extra_args)
     bitcoind_processes[i] = subprocess.Popen(args)
     devnull = open("/dev/null", "w+")
     if os.getenv("PYTHON_DEBUG", ""):
-        print "start_node: dogecoind started, calling dogecoin-cli -rpcwait getblockcount"
+        print "start_node: newyorkcoind started, calling dogecoin-cli -rpcwait getblockcount"
     subprocess.check_call([ os.getenv("DOGECOINCLI", "dogecoin-cli"), "-datadir="+datadir] +
                           _rpchost_to_args(rpchost)  +
                           ["-rpcwait", "getblockcount"], stdout=devnull)
