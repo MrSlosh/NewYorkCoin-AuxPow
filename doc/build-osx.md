@@ -78,7 +78,7 @@ Creating a release build
 ------------------------
 You can ignore this section if you are building `newyorkcoind` for your own use.
 
-newyorkcoind/dogecoin-cli binaries are not included in the NewYorkCoin-Qt.app bundle.
+newyorkcoind/newyorkcoin-cli binaries are not included in the NewYorkCoin-Qt.app bundle.
 
 If you are building `newyorkcoind` or `NewYorkCoin-Qt` for others, your build machine should be set up
 as follows for maximum compatibility:
@@ -114,5 +114,5 @@ Other commands:
 -------
 
     ./newyorkcoind -daemon # to start the dogecoin daemon.
-    ./dogecoin-cli --help  # for a list of command-line options.
-    ./dogecoin-cli help    # When the daemon is running, to get a list of RPC commands
+    ./newyorkcoin-cli --help  # for a list of command-line options.
+    ./newyorkcoin-cli help    # When the daemon is running, to get a list of RPC commands

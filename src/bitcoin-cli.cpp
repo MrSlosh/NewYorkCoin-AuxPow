@@ -66,9 +66,9 @@ static bool AppInitRPC(int argc, char* argv[])
         std::string strUsage = _("NewYorkCoin Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  dogecoin-cli [options] <command> [params]  " + _("Send command to NewYorkCoin Core") + "\n" +
-                  "  dogecoin-cli [options] help                " + _("List commands") + "\n" +
-                  "  dogecoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  newyorkcoin-cli [options] <command> [params]  " + _("Send command to NewYorkCoin Core") + "\n" +
+                  "  newyorkcoin-cli [options] help                " + _("List commands") + "\n" +
+                  "  newyorkcoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }

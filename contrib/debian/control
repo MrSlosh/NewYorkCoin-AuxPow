@@ -40,7 +40,7 @@ Description: peer-to-peer network based digital currency - daemon
  requires 20+ GB of space, slowly growing.
  .
  This package provides the daemon, newyorkcoind, and the CLI tool
- dogecoin-cli to interact with the daemon.
+ newyorkcoin-cli to interact with the daemon.
 
 Package: newyorkcoin-qt
 Architecture: any

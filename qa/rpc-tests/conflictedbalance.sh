@@ -25,7 +25,7 @@ fi
 set -f
 
 BITCOIND=${newyorkcoind:-${1}/newyorkcoind}
-CLI=${DOGECOINCLI:-${1}/dogecoin-cli}
+CLI=${DOGECOINCLI:-${1}/newyorkcoin-cli}
 
 DIR="${BASH_SOURCE%/*}"
 SENDANDWAIT="${DIR}/send.sh"
