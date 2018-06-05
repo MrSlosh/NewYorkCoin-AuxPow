@@ -77,10 +77,10 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
 
       if (bnNew > bnProofOfWorkLimit) { bnNew = bnProofOfWorkLimit; }
 
-  	printf("Difficulty Retarget - Kimoto Gravity Well\n");
-  	printf("PastRateAdjustmentRatio = %g\n", PastRateAdjustmentRatio);
-  	printf("Before: %08x  %s\n", BlockLastSolved->nBits, ArithToUint256(arith_uint256().SetCompact(BlockLastSolved->nBits)).ToString().c_str());
-  	printf("After:  %08x  %s\n", bnNew.GetCompact(), ArithToUint256(bnNew).ToString().c_str());
+  	LogPrintf("Difficulty Retarget - Kimoto Gravity Well\n");
+  	LogPrintf("PastRateAdjustmentRatio = %g\n", PastRateAdjustmentRatio);
+  	LogPrintf("Before: %08x  %s\n", BlockLastSolved->nBits, ArithToUint256(arith_uint256().SetCompact(BlockLastSolved->nBits)).ToString().c_str());
+  	LogPrintf("After:  %08x  %s\n", bnNew.GetCompact(), ArithToUint256(bnNew).ToString().c_str());
 
   	return bnNew.GetCompact();
 }
