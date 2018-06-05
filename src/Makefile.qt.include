@@ -1,4 +1,4 @@
-bin_PROGRAMS += qt/dogecoin-qt
+bin_PROGRAMS += qt/newyorkcoin-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
 # bitcoin qt core #
@@ -411,9 +411,9 @@ CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda 
 CLEANFILES += $(CLEAN_QT)
 
 dogecoin_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_bitcoin_qt_OBJECTS) qt/dogecoin-qt$(EXEEXT) $(LIBBITCOINQT)
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_bitcoin_qt_OBJECTS) qt/newyorkcoin-qt$(EXEEXT) $(LIBBITCOINQT)
 
-dogecoin_qt : qt/dogecoin-qt$(EXEEXT)
+dogecoin_qt : qt/newyorkcoin-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

@@ -17,14 +17,14 @@ You need the Qt4 run-time libraries to run NewYorkCoin-Qt. On Debian or Ubuntu:
 
 Unpack the files into a directory and run:
 
-- bin/32/dogecoin-qt (GUI, 32-bit) or bin/32/newyorkcoind (headless, 32-bit)
-- bin/64/dogecoin-qt (GUI, 64-bit) or bin/64/newyorkcoind (headless, 64-bit)
+- bin/32/newyorkcoin-qt (GUI, 32-bit) or bin/32/newyorkcoind (headless, 32-bit)
+- bin/64/newyorkcoin-qt (GUI, 64-bit) or bin/64/newyorkcoind (headless, 64-bit)
 
 
 
 ### Windows
 
-Unpack the files into a directory, and then run dogecoin-qt.exe.
+Unpack the files into a directory, and then run newyorkcoin-qt.exe.
 
 ### OSX
 

@@ -1,5 +1,5 @@
-bin_PROGRAMS += qt/test/test_dogecoin-qt
-TESTS += qt/test/test_dogecoin-qt
+bin_PROGRAMS += qt/test/test_newyorkcoin-qt
+TESTS += qt/test/test_newyorkcoin-qt
 
 TEST_QT_MOC_CPP = qt/test/moc_uritests.cpp
 
@@ -39,9 +39,9 @@ CLEAN_BITCOIN_QT_TEST = $(TEST_QT_MOC_CPP) qt/test/*.gcda qt/test/*.gcno
 
 CLEANFILES += $(CLEAN_BITCOIN_QT_TEST)
 
-test_dogecoin_qt : qt/test/test_dogecoin-qt$(EXEEXT)
+test_dogecoin_qt : qt/test/test_newyorkcoin-qt$(EXEEXT)
 
-test_dogecoin_qt_check : qt/test/test_dogecoin-qt$(EXEEXT) FORCE
+test_dogecoin_qt_check : qt/test/test_newyorkcoin-qt$(EXEEXT) FORCE
 	$(MAKE) check-TESTS TESTS=$^
 
 test_dogecoin_qt_clean: FORCE

@@ -3101,7 +3101,7 @@
         <translation>Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i OpenSSL Toolkit &lt;https://www.openssl.org/&gt; og kryptografisk programvare skrevet av Eric Young og UPnP-programvare skrevet av Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use newyorkcoind, or the -server option to dogecoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use newyorkcoind, or the -server option to newyorkcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=dogecoinrpc
@@ -3112,7 +3112,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
 </source>
-        <translation>For å bruke newyorkcoind, eller -server valget til dogecoin-qt, må du angi et rpcpassord i konfigurasjonsfilen:
+        <translation>For å bruke newyorkcoind, eller -server valget til newyorkcoin-qt, må du angi et rpcpassord i konfigurasjonsfilen:
 %s
 Det anbefales at du bruker det følgende tilfeldige passordet:
 rpcuser=dogecoinrpc

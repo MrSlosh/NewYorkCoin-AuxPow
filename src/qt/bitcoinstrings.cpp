@@ -115,7 +115,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "written by Eric Young and UPnP software written by Thomas Bernard. "
 "Paper wallet art provided by Anacoluthia."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
-"To use newyorkcoind, or the -server option to dogecoin-qt, you must set an "
+"To use newyorkcoind, or the -server option to newyorkcoin-qt, you must set an "
 "rpcpassword in the configuration file:\n"
 "%s\n"
 "It is recommended you use the following random password:\n"

@@ -1,5 +1,5 @@
 [Protocol]
-exec=dogecoin-qt '%u'
+exec=newyorkcoin-qt '%u'
 protocol=dogecoin
 input=none
 output=none
