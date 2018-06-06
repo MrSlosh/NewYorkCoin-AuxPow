@@ -126,24 +126,36 @@ CAmount GetNewYorkCoinBlockSubsidy(int nHeight, const Consensus::Params& consens
 {
     int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
 
-    if (!consensusParams.fSimplifiedRewards)
+    if(nHeight < (9 * consensusParams.nSubsidyHalvingInterval)) // < 4,500,000
     {
-        // Old-style rewards derived from the previous block hash
-        const std::string cseed_str = prevHash.ToString().substr(7, 7);
-        const char* cseed = cseed_str.c_str();
-        char* endp = NULL;
-        long seed = strtol(cseed, &endp, 16);
-        CAmount maxReward = (1000000 >> halvings) - 1;
-        int rand = generateMTRandom(seed, maxReward);
-
-        return (1 + rand) * COIN;
-    } else if (nHeight < (6 * consensusParams.nSubsidyHalvingInterval)) {
-        // New-style constant rewards for each halving interval
-        return (500000 * COIN) >> halvings;
-    } else {
-        // Constant inflation
-        return 10000 * COIN;
+       return 10000 * COIN;
     }
+    else if (nHeight < (10 * consensusParams.nSubsidyHalvingInterval)) // < 5,000,000
+    {
+      return 5000 * COIN;
+    }
+    else if (nHeight < (11 * consensusParams.nSubsidyHalvingInterval)) // < 5,500,000
+    {
+      return 2500 * COIN;
+    }
+    else if (nHeight < (12 * consensusParams.nSubsidyHalvingInterval)) //< 6,000,000
+    {
+      return 1250 * COIN;
+    }
+    else if (nHeight < (13 * consensusParams.nSubsidyHalvingInterval)) // < 6,500,000
+    {
+      return 625 * COIN;
+    }
+    else if (nHeight < (14 * consensusParams.nSubsidyHalvingInterval)) // < 7,000,000
+    {
+      return 100 * COIN;
+    }
+    else
+    {
+      return 50 * COIN;
+    }
+
+
 }
 
 

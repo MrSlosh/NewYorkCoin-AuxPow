@@ -181,6 +181,7 @@ public:
 
         // Blocks 0 - 144999 are pre-Digishield
         consensus.nHeightEffective = 0;
+        consensus.nSubsidyHalvingInterval = 1722;
         consensus.nPowTargetTimespan = 2 * 60 * 60; // pre-digishield:2 hours
         consensus.fDigishieldDifficultyCalculation = false;
         consensus.fPowAllowMinDifficultyBlocks = true;
@@ -189,7 +190,6 @@ public:
         consensus.nMajorityRejectBlockOutdated = 750;
         consensus.nMajorityWindow = 1000;
         consensus.fStrictChainId = false;
-        consensus.nHeightEffective = 0;
         consensus.fAllowLegacyBlocks = true;
         consensus.fAllowAuxPow = false;
 
@@ -199,7 +199,7 @@ public:
 
         // Blocks 145000 - 157499 are Digishield without minimum difficulty on all blocks
         digishieldConsensus = consensus;
-        digishieldConsensus.nHeightEffective = 15000;
+        digishieldConsensus.nHeightEffective = 15500;
         digishieldConsensus.nPowTargetTimespan = 60; // post-digishield: 1 minute
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
         digishieldConsensus.fSimplifiedRewards = true;
@@ -208,13 +208,13 @@ public:
 
         // Blocks 157500 - 158099 are Digishield with minimum difficulty on all blocks
         minDifficultyConsensus = digishieldConsensus;
-        minDifficultyConsensus.nHeightEffective = 15000;
+        minDifficultyConsensus.nHeightEffective = 15500;
         minDifficultyConsensus.fPowAllowDigishieldMinDifficultyBlocks = true;
         minDifficultyConsensus.fPowAllowMinDifficultyBlocks = true;
 
         // Enable AuxPoW at 158100
         auxpowConsensus = minDifficultyConsensus;
-        auxpowConsensus.nHeightEffective = 15000;
+        auxpowConsensus.nHeightEffective = 15500;
         auxpowConsensus.fPowAllowDigishieldMinDifficultyBlocks = true;
         auxpowConsensus.fAllowLegacyBlocks = false;
         auxpowConsensus.fAllowAuxPow = true;
@@ -304,7 +304,7 @@ public:
         consensus.pRight = NULL;
 
         digishieldConsensus = consensus;
-        digishieldConsensus.nHeightEffective = 10;
+        digishieldConsensus.nHeightEffective = 20;
         digishieldConsensus.nPowTargetTimespan = 1; // // regtest: also retarget every second in digishield mode, for conformity
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
 
