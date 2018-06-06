@@ -1,7 +1,7 @@
 --- 
-name: dogecoin
+name: newyorkcoin
 urls:
-- http://dogecoin.com/dogecoin-latest-linux-gitian.zip
+- http://newyorkcoin.com/newyorkcoin-latest-linux-gitian.zip
 rss:
 - url: 
   xpath: //item/link/text()

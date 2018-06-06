@@ -7,7 +7,7 @@ SetCompressor /SOLID lzma
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION @CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@
 !define COMPANY "NewYorkCoin Core project"
-!define URL http://www.dogecoin.com/
+!define URL http://www.newyorkcoin.com/
 
 # MUI Symbol Definitions
 !define MUI_ICON "@abs_top_srcdir@/share/pixmaps/bitcoin.ico"
@@ -48,7 +48,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile @abs_top_srcdir@/dogecoin-${VERSION}-win@WINDOWS_BITS@-setup.exe
+OutFile @abs_top_srcdir@/newyorkcoin-${VERSION}-win@WINDOWS_BITS@-setup.exe
 !if "@WINDOWS_BITS@" == "64"
 InstallDir $PROGRAMFILES64\NewYorkCoin
 !else
@@ -85,7 +85,7 @@ Section -Main SEC0000
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
     # Remove old wxwidgets-based-bitcoin executable and locales:
-    Delete /REBOOTOK $INSTDIR\dogecoin.exe
+    Delete /REBOOTOK $INSTDIR\newyorkcoin.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -106,10 +106,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "dogecoin" "URL Protocol" ""
-    WriteRegStr HKCR "dogecoin" "" "URL:NewYorkCoin"
-    WriteRegStr HKCR "dogecoin\DefaultIcon" "" $INSTDIR\newyorkcoin-qt.exe
-    WriteRegStr HKCR "dogecoin\shell\open\command" "" '"$INSTDIR\newyorkcoin-qt.exe" "%1"'
+    WriteRegStr HKCR "newyorkcoin" "URL Protocol" ""
+    WriteRegStr HKCR "newyorkcoin" "" "URL:NewYorkCoin"
+    WriteRegStr HKCR "newyorkcoin\DefaultIcon" "" $INSTDIR\newyorkcoin-qt.exe
+    WriteRegStr HKCR "newyorkcoin\shell\open\command" "" '"$INSTDIR\newyorkcoin-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -147,7 +147,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "dogecoin"
+    DeleteRegKey HKCR "newyorkcoin"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

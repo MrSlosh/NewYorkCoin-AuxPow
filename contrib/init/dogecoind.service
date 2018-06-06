@@ -3,13 +3,13 @@ Description=NewYorkCoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=dogecoin
-Group=dogecoin
+User=newyorkcoin
+Group=newyorkcoin
 
 Type=forking
 PIDFile=/var/lib/newyorkcoind/newyorkcoind.pid
 ExecStart=/usr/bin/newyorkcoind -daemon -pid=/var/lib/newyorkcoind/newyorkcoind.pid \
--conf=/etc/dogecoin/dogecoin.conf -datadir=/var/lib/newyorkcoind -disablewallet
+-conf=/etc/newyorkcoin/newyorkcoin.conf -datadir=/var/lib/newyorkcoind -disablewallet
 
 Restart=always
 PrivateTmp=true

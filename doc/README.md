@@ -3,7 +3,7 @@ NewYorkCoin Core 1.10
 
 Setup
 ---------------------
-[NewYorkCoin Core](http://dogecoin.com/) is the reference NewYorkCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of NewYorkCoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+[NewYorkCoin Core](http://newyorkcoin.com/) is the reference NewYorkCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of NewYorkCoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
 Running
 ---------------------
@@ -34,7 +34,7 @@ Drag NewYorkCoin-Qt to your applications folder, and then run NewYorkCoin-Qt.
 
 * See the documentation at the [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
 for help and more information.
-* Ask for help on [#dogecoin](http://webchat.freenode.net?channels=dogecoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=dogecoin).
+* Ask for help on [#newyorkcoin](http://webchat.freenode.net?channels=newyorkcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=newyorkcoin).
 * Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [NewYorkCoin thread](https://bitcointalk.org/index.php?topic=361813.0).
 
 Building
@@ -47,7 +47,7 @@ The following are developer notes on how to build NewYorkCoin on your native pla
 
 Development
 ---------------------
-The NewYorkCoin repo's [root README](https://github.com/dogecoin/dogecoin/blob/master/README.md) contains relevant information on the development process and automated testing.
+The NewYorkCoin repo's [root README](https://github.com/newyorkcoin/newyorkcoin/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -62,7 +62,7 @@ The NewYorkCoin repo's [root README](https://github.com/dogecoin/dogecoin/blob/m
 
 ### Resources
 * Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [NewYorkCoin thread](https://bitcointalk.org/index.php?topic=361813.0).
-* Discuss on [#dogecoin-dev](http://webchat.freenode.net/?channels=dogecoin-dev) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=dogecoin-dev).
+* Discuss on [#newyorkcoin-dev](http://webchat.freenode.net/?channels=newyorkcoin-dev) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=newyorkcoin-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

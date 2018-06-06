@@ -160,8 +160,8 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS DOGECOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR newyorkcoinS&lt;/b&gt;!</source>
+        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS newyorkcoinS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -300,7 +300,7 @@
     </message>
     <message>
         <source>Send coins to a NewYorkCoin address</source>
-        <translation>Enviar moedas para um endereço dogecoin</translation>
+        <translation>Enviar moedas para um endereço newyorkcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -383,8 +383,8 @@
         <translation>NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>Solicitar pagamentos (gera códigos QR e URIs dogecoin:)</translation>
+        <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
+        <translation>Solicitar pagamentos (gera códigos QR e URIs newyorkcoin:)</translation>
     </message>
     <message>
         <source>&amp;About NewYorkCoin Core</source>
@@ -399,8 +399,8 @@
         <translation>Mostrar a lista de rótulos e endereços de receção usados</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Abrir URI dogecoin: ou pedido de pagamento</translation>
+        <source>Open a newyorkcoin: URI or payment request</source>
+        <translation>Abrir URI newyorkcoin: ou pedido de pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -749,7 +749,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
-        <translation>O endereço introduzido "%1" não é um endereço dogecoin válido.</translation>
+        <translation>O endereço introduzido "%1" não é um endereço newyorkcoin válido.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -969,7 +969,7 @@
     </message>
     <message>
         <source>Automatically open the NewYorkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir a porta do cliente dogecoin automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
+        <translation>Abrir a porta do cliente newyorkcoin automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1170,8 +1170,8 @@
         <translation>Erro de pedido de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
-        <translation>Impossível iniciar o controlador de dogecoin: click-to-pay</translation>
+        <source>Cannot start newyorkcoin: click-to-pay handler</source>
+        <translation>Impossível iniciar o controlador de newyorkcoin: click-to-pay</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1766,7 +1766,7 @@
         <translation>total minimo</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for dogecoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for newyorkcoin transactions than the network can process.</source>
         <translation>Pode pagar somente a taxa minima desde que haja um volume de transações inferior ao espaço nos blocos. No entanto tenha em atenção que esta opção poderá acabar em uma transação nunca confirmada assim que os pedidos de transações excedam a capacidade de processamento da rede.</translation>
     </message>
     <message>
@@ -1985,8 +1985,8 @@
         <translation>Introduza um rótulo para este endereço para o adicionar à sua lista de endereços usados</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
-        <translation>Uma mensagem que estava anexada ao URI dogecoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede NewYorkCoin.</translation>
+        <source>A message that was attached to the newyorkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <translation>Uma mensagem que estava anexada ao URI newyorkcoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede NewYorkCoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>

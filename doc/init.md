@@ -13,7 +13,7 @@ can be found in the contrib/init folder.
 1. Service User
 ---------------------------------
 
-All three startup configurations assume the existence of a "dogecoin" user
+All three startup configurations assume the existence of a "newyorkcoin" user
 and group.  They must be created before attempting to use these scripts.
 
 2. Configuration
@@ -35,10 +35,10 @@ generate one from the shell yourself like this:
 
 bash -c 'tr -dc a-zA-Z0-9 < /dev/urandom | head -c32 && echo'
 
-Once you have a password in hand, set rpcpassword= in /etc/dogecoin/dogecoin.conf
+Once you have a password in hand, set rpcpassword= in /etc/newyorkcoin/newyorkcoin.conf
 
 For an example configuration file that describes the configuration settings, 
-see contrib/debian/examples/dogecoin.conf.
+see contrib/debian/examples/newyorkcoin.conf.
 
 3. Paths
 ---------------------------------
@@ -46,16 +46,16 @@ see contrib/debian/examples/dogecoin.conf.
 All three configurations assume several paths that might need to be adjusted.
 
 Binary:              /usr/bin/newyorkcoind
-Configuration file:  /etc/dogecoin/dogecoin.conf
+Configuration file:  /etc/newyorkcoin/newyorkcoin.conf
 Data directory:      /var/lib/newyorkcoind
 PID file:            /var/run/newyorkcoind/newyorkcoind.pid (OpenRC and Upstart)
                      /var/lib/newyorkcoind/newyorkcoind.pid (systemd)
 Lock file:           /var/lock/subsys/newyorkcoind (CentOS)
 
 The configuration file, PID directory (if applicable) and data directory
-should all be owned by the dogecoin user and group.  It is advised for security
+should all be owned by the newyorkcoin user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
-dogecoin user and group.  Access to newyorkcoin-cli and other newyorkcoind rpc clients
+newyorkcoin user and group.  Access to newyorkcoin-cli and other newyorkcoind rpc clients
 can then be controlled by group membership.
 
 4. Installing Service Configuration

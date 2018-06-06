@@ -2,9 +2,9 @@
 #!/usr/bin/make -f
 # -*- mode: makefile; coding: utf-8 -*-
 
-#DEB_MAKE_CHECK_TARGET = test_dogecoin
+#DEB_MAKE_CHECK_TARGET = test_newyorkcoin
 #build/newyorkcoind::
-#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_dogecoin)
+#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_newyorkcoin)
 
 DEB_INSTALL_EXAMPLES_newyorkcoind += debian/examples/*
 DEB_INSTALL_MANPAGES_newyorkcoind += debian/manpages/*

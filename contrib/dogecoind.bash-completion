@@ -6,7 +6,7 @@
 have newyorkcoind && {
 
 # call $newyorkcoind for RPC
-_dogecoin_rpc() {
+_newyorkcoin_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -19,10 +19,10 @@ _dogecoin_rpc() {
     $newyorkcoind "${rpcargs[@]}" "$@"
 }
 
-# Add dogecoin accounts to COMPREPLY
-_dogecoin_accounts() {
+# Add newyorkcoin accounts to COMPREPLY
+_newyorkcoin_accounts() {
     local accounts
-    accounts=$(_dogecoin_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
+    accounts=$(_newyorkcoin_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
@@ -74,7 +74,7 @@ _newyorkcoind() {
                 return 0
                 ;;
             move|setaccount)
-                _dogecoin_accounts
+                _newyorkcoin_accounts
                 return 0
                 ;;
         esac
@@ -90,7 +90,7 @@ _newyorkcoind() {
             return 0
             ;;
         getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
-            _dogecoin_accounts
+            _newyorkcoin_accounts
             return 0
             ;;
     esac
@@ -119,7 +119,7 @@ _newyorkcoind() {
 
             # only parse help if senseful
             if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
-                commands=$(_dogecoin_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+                commands=$(_newyorkcoin_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
             fi
 
             COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )

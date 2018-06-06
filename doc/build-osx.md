@@ -41,8 +41,8 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/dogecoin/dogecoin.git
-        cd dogecoin
+        git clone https://github.com/newyorkcoin/newyorkcoin.git
+        cd newyorkcoin
 
 2.  Build newyorkcoind:
 
@@ -101,8 +101,8 @@ directory. We have to first create the RPC configuration file, though.
 Run `./newyorkcoind` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=dogecoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/NewYorkCoin/dogecoin.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/NewYorkCoin/dogecoin.conf"
+    echo -e "rpcuser=newyorkcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/NewYorkCoin/newyorkcoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/NewYorkCoin/newyorkcoin.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
@@ -113,6 +113,6 @@ you can monitor its process by looking at the debug.log file, like this:
 Other commands:
 -------
 
-    ./newyorkcoind -daemon # to start the dogecoin daemon.
+    ./newyorkcoind -daemon # to start the newyorkcoin daemon.
     ./newyorkcoin-cli --help  # for a list of command-line options.
     ./newyorkcoin-cli help    # When the daemon is running, to get a list of RPC commands

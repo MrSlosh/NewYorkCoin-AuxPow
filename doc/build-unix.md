@@ -130,7 +130,7 @@ It is recommended to use Berkeley DB 5.1. If you have to build it yourself:
 ```bash
 BITCOIN_ROOT=$(pwd)
 
-# Pick some path to install BDB to, here we create a directory within the dogecoin directory
+# Pick some path to install BDB to, here we create a directory within the newyorkcoin directory
 BDB_PREFIX="${BITCOIN_ROOT}/db5"
 mkdir -p $BDB_PREFIX
 
@@ -188,7 +188,7 @@ Hardening enables the following features:
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
 
-    	scanelf -e ./dogecoin
+    	scanelf -e ./newyorkcoin
 
     The output should contain:
      TYPE
@@ -202,7 +202,7 @@ Hardening enables the following features:
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling, use:
-    `scanelf -e ./dogecoin`
+    `scanelf -e ./newyorkcoin`
 
     the output should contain:
 	STK/REL/PTL

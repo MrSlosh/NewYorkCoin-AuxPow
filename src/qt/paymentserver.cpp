@@ -49,14 +49,14 @@
 using namespace std;
 
 const int BITCOIN_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
-const QString BITCOIN_IPC_PREFIX("dogecoin:");
+const QString BITCOIN_IPC_PREFIX("newyorkcoin:");
 // BIP70 payment protocol messages
 const char* BIP70_MESSAGE_PAYMENTACK = "PaymentACK";
 const char* BIP70_MESSAGE_PAYMENTREQUEST = "PaymentRequest";
 // BIP71 payment protocol media types
-const char* BIP71_MIMETYPE_PAYMENT = "application/dogecoin-payment";
-const char* BIP71_MIMETYPE_PAYMENTACK = "application/dogecoin-paymentack";
-const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/dogecoin-paymentrequest";
+const char* BIP71_MIMETYPE_PAYMENT = "application/newyorkcoin-payment";
+const char* BIP71_MIMETYPE_PAYMENTACK = "application/newyorkcoin-paymentack";
+const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/newyorkcoin-paymentrequest";
 // BIP70 max payment request size in bytes (DoS protection)
 const qint64 BIP70_MAX_PAYMENTREQUEST_SIZE = 50000;
 
@@ -328,7 +328,7 @@ PaymentServer::PaymentServer(QObject* parent, bool startLocalServer) :
         if (!uriServer->listen(name)) {
             // constructor is called early in init, so don't use "emit message()" here
             QMessageBox::critical(0, tr("Payment request error"),
-                tr("Cannot start dogecoin: click-to-pay handler"));
+                tr("Cannot start newyorkcoin: click-to-pay handler"));
         }
         else {
             connect(uriServer, SIGNAL(newConnection()), this, SLOT(handleURIConnection()));

@@ -1,11 +1,11 @@
 --- 
-name: dogecoin
+name: newyorkcoin
 urls:
-- http://dogecoin.com/dogecoin-latest-win32-gitian.zip
+- http://newyorkcoin.com/newyorkcoin-latest-win32-gitian.zip
 rss:
 - url: 
   xpath: //item/link/text()
-  pattern: dogecoin-\d+.\d+.\d+-win32-gitian.zip
+  pattern: newyorkcoin-\d+.\d+.\d+-win32-gitian.zip
 signers:
   90DC2AC256201AD9377E15049142E5F7E533CE3B:
     weight: 40

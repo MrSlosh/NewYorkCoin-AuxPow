@@ -468,7 +468,7 @@ void static BitcoinMiner(CWallet *pwallet)
 {
     LogPrintf("NewYorkCoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("dogecoin-miner");
+    RenameThread("newyorkcoin-miner");
     const CChainParams& chainparams = Params();
 
     // Each thread has its own key and counter

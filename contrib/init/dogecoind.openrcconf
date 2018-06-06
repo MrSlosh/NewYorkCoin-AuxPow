@@ -1,7 +1,7 @@
 # /etc/conf.d/newyorkcoind: config file for /etc/init.d/newyorkcoind
 
 # Config file location
-#newyorkcoind_CONFIGFILE="/etc/dogecoin/dogecoin.conf"
+#newyorkcoind_CONFIGFILE="/etc/newyorkcoin/newyorkcoin.conf"
 
 # What directory to write pidfile to?  (created and owned by $newyorkcoind_USER)
 #newyorkcoind_PIDDIR="/var/run/newyorkcoind"
@@ -13,8 +13,8 @@
 #newyorkcoind_DATADIR="/var/lib/newyorkcoind"
 
 # User and group to own newyorkcoind process
-#newyorkcoind_USER="dogecoin"
-#newyorkcoind_GROUP="dogecoin"
+#newyorkcoind_USER="newyorkcoin"
+#newyorkcoind_GROUP="newyorkcoin"
 
 # Path to newyorkcoind executable
 #newyorkcoind_BIN="/usr/bin/newyorkcoind"

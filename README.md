@@ -3,12 +3,12 @@
 
 ![NewYorkCoin](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png)
 
-[![Build Status](https://travis-ci.org/dogecoin/dogecoin.svg?branch=1.7-dev)](https://travis-ci.org/dogecoin/dogecoin) [![tip for next commit](https://tip4commit.com/projects/702.svg)](https://tip4commit.com/github/dogecoin/dogecoin)
+[![Build Status](https://travis-ci.org/newyorkcoin/newyorkcoin.svg?branch=1.7-dev)](https://travis-ci.org/newyorkcoin/newyorkcoin) [![tip for next commit](https://tip4commit.com/projects/702.svg)](https://tip4commit.com/github/newyorkcoin/newyorkcoin)
 
 ## What is NewYorkCoin? – Such coin
 NewYorkCoin is a cryptocurrency like Bitcoin, although it does not use SHA256 as its proof of work (POW). Taking development cues from Tenebrix and Litecoin, NewYorkCoin currently employs a simplified variant of scrypt.
 
-http://dogecoin.com/
+http://newyorkcoin.com/
 
 ## License – Much license
 NewYorkCoin is released under the terms of the MIT license. See [COPYING](COPYING)
@@ -121,7 +121,7 @@ to see it.
 
 **testnet and regtest modes**
 
-Run with the -testnet option to run with "play dogecoins" on the test network, if you
+Run with the -testnet option to run with "play newyorkcoins" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the -regtest option.

@@ -1,4 +1,4 @@
-Source: dogecoin
+Source: newyorkcoin
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk>
@@ -22,9 +22,9 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://www.dogecoin.com/
-Vcs-Git: git://github.com/dogecoin/dogecoin.git
-Vcs-Browser: http://github.com/dogecoin/dogecoin
+Homepage: http://www.newyorkcoin.com/
+Vcs-Git: git://github.com/newyorkcoin/newyorkcoin.git
+Vcs-Browser: http://github.com/newyorkcoin/newyorkcoin
 
 Package: newyorkcoind
 Architecture: any

@@ -63,7 +63,7 @@ def initialize_datadir(dirname, n):
     datadir = os.path.join(dirname, "node"+str(n))
     if not os.path.isdir(datadir):
         os.makedirs(datadir)
-    with open(os.path.join(datadir, "dogecoin.conf"), 'w') as f:
+    with open(os.path.join(datadir, "newyorkcoin.conf"), 'w') as f:
         f.write("regtest=1\n");
         f.write("rpcuser=rt\n");
         f.write("rpcpassword=rt\n");
@@ -89,7 +89,7 @@ def initialize_chain(test_dir):
             bitcoind_processes[i] = subprocess.Popen(args)
             if os.getenv("PYTHON_DEBUG", ""):
                 print "initialize_chain: newyorkcoind started, calling newyorkcoin-cli -rpcwait getblockcount"
-            subprocess.check_call([ os.getenv("DOGECOINCLI", "newyorkcoin-cli"), "-datadir="+datadir,
+            subprocess.check_call([ os.getenv("newyorkcoinCLI", "newyorkcoin-cli"), "-datadir="+datadir,
                                     "-rpcwait", "getblockcount"], stdout=devnull)
             if os.getenv("PYTHON_DEBUG", ""):
                 print "initialize_chain: newyorkcoin-cli -rpcwait getblockcount completed"
@@ -174,7 +174,7 @@ def start_node(i, dirname, extra_args=None, rpchost=None, timewait=None, binary=
     devnull = open("/dev/null", "w+")
     if os.getenv("PYTHON_DEBUG", ""):
         print "start_node: newyorkcoind started, calling newyorkcoin-cli -rpcwait getblockcount"
-    subprocess.check_call([ os.getenv("DOGECOINCLI", "newyorkcoin-cli"), "-datadir="+datadir] +
+    subprocess.check_call([ os.getenv("newyorkcoinCLI", "newyorkcoin-cli"), "-datadir="+datadir] +
                           _rpchost_to_args(rpchost)  +
                           ["-rpcwait", "getblockcount"], stdout=devnull)
     if os.getenv("PYTHON_DEBUG", ""):

@@ -46,8 +46,8 @@ static bool AppInitRawTx(int argc, char* argv[])
         // First part of help message is specific to this utility
         std::string strUsage = _("NewYorkCoin Core newyorkcoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  newyorkcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded dogecoin transaction") + "\n" +
-              "  newyorkcoin-tx [options] -create [commands]   " + _("Create hex-encoded dogecoin transaction") + "\n" +
+              "  newyorkcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded newyorkcoin transaction") + "\n" +
+              "  newyorkcoin-tx [options] -create [commands]   " + _("Create hex-encoded newyorkcoin transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());

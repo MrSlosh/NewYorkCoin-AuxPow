@@ -4,7 +4,7 @@ Debian
 This directory contains files used to package newyorkcoind/newyorkcoin-qt
 for Debian-based Linux systems. If you compile newyorkcoind/newyorkcoin-qt yourself, there are some useful files here.
 
-## dogecoin: URI support ##
+## newyorkcoin: URI support ##
 
 
 newyorkcoin-qt.desktop  (Gnome / Open Desktop)

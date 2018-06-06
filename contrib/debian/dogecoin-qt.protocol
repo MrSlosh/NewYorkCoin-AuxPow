@@ -1,6 +1,6 @@
 [Protocol]
 exec=newyorkcoin-qt '%u'
-protocol=dogecoin
+protocol=newyorkcoin
 input=none
 output=none
 helper=true

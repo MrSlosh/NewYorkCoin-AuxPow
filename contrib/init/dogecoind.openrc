@@ -2,21 +2,21 @@
 
 # backward compatibility for existing gentoo layout 
 #
-if [ -d "/var/lib/dogecoin/.dogecoin" ]; then
-	newyorkcoind_DEFAULT_DATADIR="/var/lib/dogecoin/.dogecoin"
+if [ -d "/var/lib/newyorkcoin/.newyorkcoin" ]; then
+	newyorkcoind_DEFAULT_DATADIR="/var/lib/newyorkcoin/.newyorkcoin"
 else
 	newyorkcoind_DEFAULT_DATADIR="/var/lib/newyorkcoind"
 fi
 
-newyorkcoind_CONFIGFILE=${newyorkcoind_CONFIGFILE:-/etc/dogecoin/dogecoin.conf}
+newyorkcoind_CONFIGFILE=${newyorkcoind_CONFIGFILE:-/etc/newyorkcoin/newyorkcoin.conf}
 newyorkcoind_PIDDIR=${newyorkcoind_PIDDIR:-/var/run/newyorkcoind}
 newyorkcoind_PIDFILE=${newyorkcoind_PIDFILE:-${newyorkcoind_PIDDIR}/newyorkcoind.pid}
 newyorkcoind_DATADIR=${newyorkcoind_DATADIR:-${newyorkcoind_DEFAULT_DATADIR}}
-newyorkcoind_USER=${newyorkcoind_USER:-${DOGECOIN_USER:-dogecoin}}
-newyorkcoind_GROUP=${newyorkcoind_GROUP:-dogecoin}
+newyorkcoind_USER=${newyorkcoind_USER:-${newyorkcoin_USER:-newyorkcoin}}
+newyorkcoind_GROUP=${newyorkcoind_GROUP:-newyorkcoin}
 newyorkcoind_BIN=${newyorkcoind_BIN:-/usr/bin/newyorkcoind}
 newyorkcoind_NICE=${newyorkcoind_NICE:-${NICELEVEL:-0}}
-newyorkcoind_OPTS="${newyorkcoind_OPTS:-${DOGECOIN_OPTS}}"
+newyorkcoind_OPTS="${newyorkcoind_OPTS:-${newyorkcoin_OPTS}}"
 
 name="NewYorkCoin Core Daemon"
 description="NewYorkCoin cryptocurrency P2P network daemon"
