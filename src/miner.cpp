@@ -88,7 +88,7 @@ void UpdateTime(CBlockHeader* pblock, const Consensus::Params& consensusParams, 
     pblock->nTime = std::max(pindexPrev->GetMedianTimePast()+1, GetAdjustedTime());
 
     // Updating time can change work required on testnet:
-    if(consensusParams.fAllowLegacyBlocks)
+    if(consensusParams.fPowAllowMinDifficultyBlocks && consensusParams.nHeightEffective == 0)
         pblock->nBits = GetNextWorkRequiredLegacy(pindexPrev, pblock, consensusParams);
     else if (consensusParams.fPowAllowMinDifficultyBlocks)
         pblock->nBits = GetNextWorkRequired(pindexPrev, pblock, consensusParams);

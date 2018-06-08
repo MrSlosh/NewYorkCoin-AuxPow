@@ -43,6 +43,12 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
 
 	unsigned int bnProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
 
+    // if we are mining legacy testnet, return proof of work limit
+    if (params.fPowAllowMinDifficultyBlocks)
+    {
+      return bnProofOfWorkLimit;
+    }
+
   	if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || (uint64_t)BlockLastSolved->nHeight < PastBlocksMin) { return bnProofOfWorkLimit; }
 
   	for (unsigned int i = 1; BlockReading && BlockReading->nHeight > 0; i++) {
