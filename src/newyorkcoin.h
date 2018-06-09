@@ -19,3 +19,5 @@ unsigned int CalculateNewYorkCoinNextWorkRequired(const CBlockIndex* pindexLast,
 bool CheckAuxPowProofOfWork(const CBlockHeader& block, const Consensus::Params& params);
 
 int64_t GetNewYorkCoinDustFee(const std::vector<CTxOut> &vout, CFeeRate &baseFeeRate);
+
+long hex2long(const char* hexstring);

@@ -124,38 +124,121 @@ bool CheckAuxPowProofOfWork(const CBlockHeader& block, const Consensus::Params& 
 
 CAmount GetNewYorkCoinBlockSubsidy(int nHeight, const Consensus::Params& consensusParams, uint256 prevHash)
 {
-    int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
+      int64 maxSubsidy = 10000 * COIN;
+      int64 minSubsidy = 50 * COIN;
+      int64 nSubsidy = maxSubsidy;
 
-    if(nHeight < (9 * consensusParams.nSubsidyHalvingInterval)) // < 4,500,000
-    {
-       return 10000 * COIN;
-    }
-    else if (nHeight < (10 * consensusParams.nSubsidyHalvingInterval)) // < 5,000,000
-    {
-      return 5000 * COIN;
-    }
-    else if (nHeight < (11 * consensusParams.nSubsidyHalvingInterval)) // < 5,500,000
-    {
-      return 2500 * COIN;
-    }
-    else if (nHeight < (12 * consensusParams.nSubsidyHalvingInterval)) //< 6,000,000
-    {
-      return 1250 * COIN;
-    }
-    else if (nHeight < (13 * consensusParams.nSubsidyHalvingInterval)) // < 6,500,000
-    {
-      return 625 * COIN;
-    }
-    else if (nHeight < (14 * consensusParams.nSubsidyHalvingInterval)) // < 7,000,000
-    {
-      return 100 * COIN;
-    }
-    else
-    {
-      return 50 * COIN;
-    }
+       std::string cseed_str = prevHash.ToString().substr(7,7);
+      const char* cseed = cseed_str.c_str();
+
+      long seed = hex2long(cseed);
+      int rand = generateMTRandom(seed, 999999);
+      int rand1 = 0;
+      int rand2 = 0;
+      int rand3 = 0;
+      int rand4 = 0;
+      int rand5 = 0;
 
 
+
+
+       // Start of botched pre-mine
+       // The following if/else block is overridden by the subsequent if/else block
+       // Leaving this for historical accuracy
+       if(consensusParams.nHeightEffective == 0) //Legacy
+       {
+           if (nHeight == 1) {
+            nSubsidy = 97000000 * COIN;
+           }
+           else if (nHeight < 101) {
+            nSubsidy = 1 * COIN;
+           }
+           // End of botched pre-mine
+
+           if (nHeight < 100000) {
+            nSubsidy = (1 + rand) * COIN;
+           } else if (nHeight < 200000) {
+            cseed_str = prevHash.ToString().substr(7,7);
+            cseed = cseed_str.c_str();
+            seed = hex2long(cseed);
+            rand1 = generateMTRandom(seed, 499999);
+            nSubsidy = (1 + rand1) * COIN;
+           } else if (nHeight < 300000) {
+            cseed_str = prevHash.ToString().substr(6,7);
+            cseed = cseed_str.c_str();
+            seed = hex2long(cseed);
+            rand2 = generateMTRandom(seed, 249999);
+            nSubsidy = (1 + rand2) * COIN;
+           } else if (nHeight < 400000) {
+            cseed_str = prevHash.ToString().substr(7,7);
+            cseed = cseed_str.c_str();
+            seed = hex2long(cseed);
+            rand3 = generateMTRandom(seed, 124999);
+            nSubsidy = (1 + rand3) * COIN;
+           } else if (nHeight < 500000) {
+            cseed_str = prevHash.ToString().substr(7,7);
+            cseed = cseed_str.c_str();
+            seed = hex2long(cseed);
+            rand4 = generateMTRandom(seed, 62499);
+            nSubsidy = (1 + rand4) * COIN;
+           } else if (nHeight < 600000) {
+            cseed_str = prevHash.ToString().substr(6,7);
+            cseed = cseed_str.c_str();
+            seed = hex2long(cseed);
+            rand5 = generateMTRandom(seed, 31249);
+            nSubsidy = (1 + rand5) * COIN;
+           } else if(nHeight > 4500000) {   	             // 2018-4-14 - Block height 4,234,899
+              nSubsidy = maxSubsidy / 2;                   // 250,000 blocks is ~3 months based on data from 2018
+           } else if(nHeight > 5000000) {
+              nSubsidy = maxSubsidy / 4;
+           } else if(nHeight > 5500000) {
+              nSubsidy = maxSubsidy / 8;
+           } else if(nHeight > 6000000) {
+              nSubsidy = maxSubsidy / 16;
+           } else if(nHeight > 6500000) {
+              nSubsidy = minSubsidy * 2;
+           } else if(nHeight > 7000000) {
+              nSubsidy = minSubsidy;
+           }
+       }
+       else
+       {
+             int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
+
+              if(nHeight < (9 * consensusParams.nSubsidyHalvingInterval)) // < 4,500,000
+              {
+                 return 10000 * COIN;
+              }
+              else if (nHeight < (10 * consensusParams.nSubsidyHalvingInterval)) // < 5,000,000
+              {
+                return 5000 * COIN;
+              }
+              else if (nHeight < (11 * consensusParams.nSubsidyHalvingInterval)) // < 5,500,000
+              {
+                return 2500 * COIN;
+              }
+              else if (nHeight < (12 * consensusParams.nSubsidyHalvingInterval)) //< 6,000,000
+              {
+                return 1250 * COIN;
+              }
+              else if (nHeight < (13 * consensusParams.nSubsidyHalvingInterval)) // < 6,500,000
+              {
+                return 625 * COIN;
+              }
+              else if (nHeight < (14 * consensusParams.nSubsidyHalvingInterval)) // < 7,000,000
+              {
+                return 100 * COIN;
+              }
+              else
+              {
+                return 50 * COIN;
+              }
+
+       }
+
+
+
+    return nSubsidy;
 }
 
 
@@ -169,4 +252,46 @@ int64_t GetNewYorkCoinDustFee(const std::vector<CTxOut> &vout, CFeeRate &baseFee
             nFee += baseFeeRate.GetFeePerK();
 
     return nFee;
+}
+
+static const long hextable[] =
+{
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,		// 10-19
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,		// 30-39
+	-1, -1, -1, -1, -1, -1, -1, -1,  0,  1,
+	 2,  3,  4,  5,  6,  7,  8,  9, -1, -1,		// 50-59
+	-1, -1, -1, -1, -1, 10, 11, 12, 13, 14,
+	15, -1, -1, -1, -1, -1, -1, -1, -1, -1,		// 70-79
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+	-1, -1, -1, -1, -1, -1, -1, 10, 11, 12,		// 90-99
+	13, 14, 15, -1, -1, -1, -1, -1, -1, -1,
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,		// 110-109
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,		// 130-139
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,		// 150-159
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,		// 170-179
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,		// 190-199
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,		// 210-219
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,		// 230-239
+	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+	-1, -1, -1, -1, -1, -1
+};
+
+long hex2long(const char* hexString)
+{
+	long ret = 0;
+
+	while (*hexString && ret >= 0)
+	{
+		ret = (ret << 4) | hextable[*hexString++];
+	}
+
+	return ret;
 }
