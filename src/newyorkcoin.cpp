@@ -124,9 +124,9 @@ bool CheckAuxPowProofOfWork(const CBlockHeader& block, const Consensus::Params& 
 
 CAmount GetNewYorkCoinBlockSubsidy(int nHeight, const Consensus::Params& consensusParams, uint256 prevHash)
 {
-      int64 maxSubsidy = 10000 * COIN;
-      int64 minSubsidy = 50 * COIN;
-      int64 nSubsidy = maxSubsidy;
+      int64_t maxSubsidy = 10000 * COIN;
+      int64_t minSubsidy = 50 * COIN;
+      int64_t nSubsidy = maxSubsidy;
 
        std::string cseed_str = prevHash.ToString().substr(7,7);
       const char* cseed = cseed_str.c_str();
