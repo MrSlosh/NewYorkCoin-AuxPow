@@ -3057,8 +3057,8 @@
         <translation>Utfør kommando når et relevant varsel er mottatt eller vi ser en veldig lang gaffel (%s i kommando er erstattet med melding)</translation>
     </message>
     <message>
-        <source>Fees (in DOGE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebyrer (i DOGE/Kb) mindre enn dette anses som null gebyr for videresending (standardverdi: %s)</translation>
+        <source>Fees (in NYC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebyrer (i NYC/Kb) mindre enn dette anses som null gebyr for videresending (standardverdi: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3193,8 +3193,8 @@ for eksempel: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
         <translation>Feil: Argumentet -tor er ikke støttet, bruk -onion.</translation>
     </message>
     <message>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebyr (i DOGE/kB) for å legge til i transaksjoner du sender (standardverdi: %s)</translation>
+        <source>Fee (in NYC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebyr (i NYC/kB) for å legge til i transaksjoner du sender (standardverdi: %s)</translation>
     </message>
     <message>
         <source>Information</source>

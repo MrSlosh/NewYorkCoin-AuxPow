@@ -1,7 +1,7 @@
-# NewYorkCoin Core 1.8
+# NewYorkCoin Core 1.3
 ===================
 
-NewYorkCoin Core 1.8 introduces AuxPoW from block 371,337. AuxPoW is a technology
+NewYorkCoin Core 1.8 introduces AuxPoW from block 4,500,00. AuxPoW is a technology
 which enables miners to submit work done while mining other coins, as work
 on the NewYorkCoin block chain. NewYorkCoin Core 1.8 also enables payment protocol
 support for NewYorkCoin (note that NewYorkCoin's implementation of payment protocol is

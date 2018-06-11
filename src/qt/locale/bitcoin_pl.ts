@@ -2727,8 +2727,8 @@
         <translation>Błąd: Znaleziono nieprawidłowy argument -tor, użyj -onion.</translation>
     </message>
     <message>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
-        <translation>Prowizja (w DOGE za kB) dodawana do wysyłanej transakcji (domyślnie: %s)</translation>
+        <source>Fee (in NYC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Prowizja (w NYC za kB) dodawana do wysyłanej transakcji (domyślnie: %s)</translation>
     </message>
     <message>
         <source>Information</source>

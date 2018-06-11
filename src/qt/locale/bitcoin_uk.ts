@@ -3065,8 +3065,8 @@
         <translation>Виконати команду при надходженні важливого сповіщення або при спостереженні тривалого розгалуження ланцюжка (замість %s буде підставлено повідомлення)</translation>
     </message>
     <message>
-        <source>Fees (in DOGE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Комісії (в DOGE/КБ), що менші за вказану, вважатимуться нульовими (для ретрансляції) (типово: %s)</translation>
+        <source>Fees (in NYC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Комісії (в NYC/КБ), що менші за вказану, вважатимуться нульовими (для ретрансляції) (типово: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3197,8 +3197,8 @@ rpcpassword=%s
         <translation>Помилка: Параметр -tor не підтримується, використовуйте -onion</translation>
     </message>
     <message>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
-        <translation>Комісія (в DOGE/КБ), що додаватиметься до вихідних транзакцій (типово: %s)</translation>
+        <source>Fee (in NYC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Комісія (в NYC/КБ), що додаватиметься до вихідних транзакцій (типово: %s)</translation>
     </message>
     <message>
         <source>Information</source>

@@ -2691,8 +2691,8 @@
         <translation>Executa l'orde quan es reba un avís rellevant o veiem una forquilla molt llarga (%s en cmd és reemplaçat per un missatge)</translation>
     </message>
     <message>
-        <source>Fees (in DOGE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comissions (en DOGE/Kb) inferiors a això es consideren de comissió zero per a la transmissió (per defecte: %s)</translation>
+        <source>Fees (in NYC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comissions (en NYC/Kb) inferiors a això es consideren de comissió zero per a la transmissió (per defecte: %s)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
@@ -2747,8 +2747,8 @@
         <translation>Error: s'ha trobat un argument -tor no acceptat. Feu servir -onion.</translation>
     </message>
     <message>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comissió en (DOGE/kB) per afegir a les transaccions que envieu (per defecte: %s)</translation>
+        <source>Fee (in NYC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comissió en (NYC/kB) per afegir a les transaccions que envieu (per defecte: %s)</translation>
     </message>
     <message>
         <source>Information</source>

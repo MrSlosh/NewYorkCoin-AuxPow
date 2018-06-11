@@ -2929,8 +2929,8 @@
         <translation>Eroare: Argument nesuportat -tor găsit, folosiţi -onion.</translation>
     </message>
     <message>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (în DOGE/kB) de adăugat la tranzacţiile pe care le trimiteţi(implicit: %s)</translation>
+        <source>Fee (in NYC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (în NYC/kB) de adăugat la tranzacţiile pe care le trimiteţi(implicit: %s)</translation>
     </message>
     <message>
         <source>Information</source>

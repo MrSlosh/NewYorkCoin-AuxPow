@@ -2703,8 +2703,8 @@
         <translation>שגיאה: נמצא ארגומנט בלתי נתמך ‎-tor, יש להשתמש ב־‎-onion.</translation>
     </message>
     <message>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
-        <translation>עמלה (ב־DOGE/ק״ב) להוספה להעברות שנשלחות ממך (בררת מחדל: %s)</translation>
+        <source>Fee (in NYC/kB) to add to transactions you send (default: %s)</source>
+        <translation>עמלה (ב־NYC/ק״ב) להוספה להעברות שנשלחות ממך (בררת מחדל: %s)</translation>
     </message>
     <message>
         <source>Information</source>

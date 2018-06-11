@@ -3057,8 +3057,8 @@
         <translation>Exécuter une commande lorsqu'une alerte pertinente est reçue ou si nous voyons une bifurcation vraiment étendue (%s dans la commande est remplacé par le message)</translation>
     </message>
     <message>
-        <source>Fees (in DOGE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Les frais (en DOGE/Ko) inférieurs à ce seuil sont considérés comme étant nuls pour le relayage (par défaut : %s)</translation>
+        <source>Fees (in NYC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Les frais (en NYC/Ko) inférieurs à ce seuil sont considérés comme étant nuls pour le relayage (par défaut : %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3193,8 +3193,8 @@ par exemple : alertnotify=echo %%s | mail -s "Alerte NewYorkCoin" admin@foo.com
         <translation>Erreur : argument non pris en charge -tor trouvé, utiliser -onion.</translation>
     </message>
     <message>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
-        <translation>Les frais (en DOGE/ko) à ajouter aux transactions que vous envoyez (par défaut : %s)</translation>
+        <source>Fee (in NYC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Les frais (en NYC/ko) à ajouter aux transactions que vous envoyez (par défaut : %s)</translation>
     </message>
     <message>
         <source>Information</source>
