@@ -150,12 +150,8 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *n
     }
 
     // NewYorkCoin: load fallback font in case Comic Sans is not availble on the system
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Bold");
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Bold-Oblique");
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Light");
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Light-Oblique");
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Regular");
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Regular-Oblique");
+    QFontDatabase::addApplicationFont(":fonts/Nexa_Bold");
+    QFontDatabase::addApplicationFont(":fonts/Nexa_Light");
     QFont::insertSubstitution("Comic Sans MS", "Comic Neue");
 
     // NewYorkCoin: Specify Comic Sans as new font.
