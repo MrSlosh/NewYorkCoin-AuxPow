@@ -160,7 +160,7 @@
         <translation>确认加密钱包</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR newyorkcoinS&lt;/b&gt;!</source>
         <translation>警告：如果您加密了您的钱包，但是忘记了密码，你将会&lt;b&gt;丢失所有的狗狗币&lt;/b&gt;！</translation>
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation>您确定需要为钱包加密吗？</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
+        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
         <translation>比特币核心现在将关闭以完成加密过程。请记住，在您的计算机被恶意软件感染的情况下，加密不能完全保护您的比特币免于被盗。</translation>
     </message>
     <message>
@@ -391,8 +391,8 @@
         <translation>狗狗币核心</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>请求支付（生成二维码和 dogecoin: URI）</translation>
+        <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
+        <translation>请求支付（生成二维码和 newyorkcoin: URI）</translation>
     </message>
     <message>
         <source>&amp;About NewYorkCoin Core</source>
@@ -411,7 +411,7 @@
         <translation>显示用过的接收地址和标签的列表</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
+        <source>Open a newyorkcoin: URI or payment request</source>
         <translation>打开一个狗狗币：URI 或支付请求</translation>
     </message>
     <message>
@@ -1247,7 +1247,7 @@
         <translation>支付请求出错</translation>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <source>Cannot start newyorkcoin: click-to-pay handler</source>
         <translation>暂时无法启动狗狗币：点击支付功能</translation>
     </message>
     <message>
@@ -1871,7 +1871,7 @@
         <translation>最小额 </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for dogecoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for newyorkcoin transactions than the network can process.</source>
         <translation>交易量小时只支付最小交易费是可以的。但是请注意，当交易量大时您的交易可能永远无法确认。</translation>
     </message>
     <message>
@@ -2102,7 +2102,7 @@
         <translation>移除此项</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less dogecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less newyorkcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>交易费将从发送总额中扣除。接收人将收到比您在金额框中输入的更少的比特币。如果选中了多个收件人，交易费平分。</translation>
     </message>
     <message>
@@ -2126,8 +2126,8 @@
         <translation>请为此地址输入一个标签以将它加入用过的地址列表</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
-        <translation>dogecoin:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过狗狗币网络传输。</translation>
+        <source>A message that was attached to the newyorkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <translation>newyorkcoin:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过狗狗币网络传输。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2160,7 +2160,7 @@
         <translation>签名消息(&amp;S)</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive dogecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive newyorkcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>您可以用你的地址对消息/协议进行签名，以证明您可以接收发送到该地址的比特币。注意不要对任何模棱两可或者随机的消息进行签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
     </message>
     <message>
@@ -3071,8 +3071,8 @@
         <translation>当收到相关提醒或者我们看到一个长分叉时执行命令（%s 将替换为消息）</translation>
     </message>
     <message>
-        <source>Fees (in DOGE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>交易费(DOGE/kb)比这更小的交易在转发时将被视为零费交易 (默认: %s) </translation>
+        <source>Fees (in NYC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>交易费(NYC/kb)比这更小的交易在转发时将被视为零费交易 (默认: %s) </translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3115,10 +3115,10 @@
         <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use dogecoind, or the -server option to dogecoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use newyorkcoind, or the -server option to newyorkcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dogecoinrpc
+rpcuser=newyorkcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3126,10 +3126,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
 </source>
-        <translation>要使用 dogecoind 或者 dogecoin-qt 中的 -server 选项，您必须在配置文件中设置一个密码：
+        <translation>要使用 newyorkcoind 或者 newyorkcoin-qt 中的 -server 选项，您必须在配置文件中设置一个密码：
 %s
 建议您使用下列随机密码：
-rpcuser=dogecoinrpc
+rpcuser=newyorkcoinrpc
 rpcpassword=%s
 （您不需要记住这个密码）
 用户名和密码不能相同。
@@ -3207,8 +3207,8 @@ rpcpassword=%s
         <translation>错误：发现了不支持的参数 -tor，请使用 -onion。</translation>
     </message>
     <message>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
-        <translation>为付款交易添加交易费 (DOGE/kb) (默认: %s) </translation>
+        <source>Fee (in NYC/kB) to add to transactions you send (default: %s)</source>
+        <translation>为付款交易添加交易费 (NYC/kb) (默认: %s) </translation>
     </message>
     <message>
         <source>Information</source>

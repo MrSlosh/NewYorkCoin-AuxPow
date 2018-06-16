@@ -38,7 +38,7 @@
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>com.dogecoin.wallet-qt</string>
+  <string>com.newyorkcoin.wallet-qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>com.dogecoin.NewYorkCoinPayment</string>
+      <string>com.newyorkcoin.NewYorkCoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>dogecoin</string>
+        <string>newyorkcoin</string>
       </array>
     </dict>
   </array>
@@ -58,7 +58,7 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>com.dogecoin.paymentrequest</string>
+      <string>com.newyorkcoin.paymentrequest</string>
       <key>UTTypeDescription</key>
       <string>NewYorkCoin payment request</string>
       <key>UTTypeConformsTo</key>
@@ -68,10 +68,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/dogecoin-paymentrequest</string>
+        <string>application/newyorkcoin-paymentrequest</string>
         <key>public.filename-extension</key>
         <array>
-          <string>dogecoinpaymentrequest</string>
+          <string>newyorkcoinpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>com.dogecoin.paymentrequest</string>
+        <string>com.newyorkcoin.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

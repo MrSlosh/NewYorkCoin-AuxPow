@@ -160,7 +160,7 @@
         <translation>ウォレットの暗号化を確認する</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR newyorkcoinS&lt;/b&gt;!</source>
         <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの NewYorkCoin はすべて失われます&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation>本当にウォレットを暗号化しますか?</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
+        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
         <translation>暗号化処理を完了させるため NewYorkCoin Core をいますぐ終了します。ウォレットの暗号化では、コンピュータに感染したマルウェアなどによるドージコインの盗難から完全に守ることはできないことにご注意ください。</translation>
     </message>
     <message>
@@ -391,8 +391,8 @@
         <translation>NewYorkCoin のコア</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>支払いを要求する (QRコードとdogecoin:ではじまるURIを生成する)</translation>
+        <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
+        <translation>支払いを要求する (QRコードとnewyorkcoin:ではじまるURIを生成する)</translation>
     </message>
     <message>
         <source>&amp;About NewYorkCoin Core</source>
@@ -411,8 +411,8 @@
         <translation>支払いを受け取るアドレスとラベルのリストを表示する</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>dogecoin: URIまたは支払いリクエストを開く</translation>
+        <source>Open a newyorkcoin: URI or payment request</source>
+        <translation>newyorkcoin: URIまたは支払いリクエストを開く</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1247,7 +1247,7 @@
         <translation>支払いのリクエストのエラーです</translation>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <source>Cannot start newyorkcoin: click-to-pay handler</source>
         <translation>NewYorkCoin を起動できません: click-to-pay handler</translation>
     </message>
     <message>
@@ -1871,8 +1871,8 @@
         <translation>最小手数料</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for dogecoin transactions than the network can process.</source>
-        <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどdogecoinトランザクションの需要がひとたび生まれてしまった場合には、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for newyorkcoin transactions than the network can process.</source>
+        <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどnewyorkcoinトランザクションの需要がひとたび生まれてしまった場合には、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2102,7 +2102,7 @@
         <translation>この項目を削除する</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less dogecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less newyorkcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>送金する金額から手数料が差し引かれます。受取人は数量フィールドで指定した量よりも少ないドージコインを受け取ります。受取人が複数いる場合には、手数料は均等割されます。</translation>
     </message>
     <message>
@@ -2126,8 +2126,8 @@
         <translation>このアドレスに対するラベルを入力することで、使用済みアドレスの一覧に追加することができます</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
-        <translation>dogecoin: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはNewYorkCoinネットワークを通して送信されるわけではありません。</translation>
+        <source>A message that was attached to the newyorkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <translation>newyorkcoin: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはNewYorkCoinネットワークを通して送信されるわけではありません。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2160,7 +2160,7 @@
         <translation>メッセージの署名 (&amp;S)</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive dogecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive newyorkcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>あなたの所有しているアドレスによりメッセージや合意書に署名をすることで、それらアドレスに対して送られたドージコインを受け取ることができることを証明できます。フィッシング攻撃により不正にあなたの識別情報を署名させられてしまうことを防ぐために、不明確なものやランダムなものに対して署名しないよう注意してください。合意することが可能な、よく詳細の記された文言にのみ署名するようにしてください。</translation>
     </message>
     <message>
@@ -3058,8 +3058,8 @@
         <translation>関連のアラートをもらってもすごく長いのフォークを見てもコマンドを実行 (コマンドの中にあるの%sはメッセージから置き換えさせる)</translation>
     </message>
     <message>
-        <source>Fees (in DOGE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>中継の際、この値未満の手数料 (DOGE/Kb単位) はゼロであるとみなす (デフォルト: %s)</translation>
+        <source>Fees (in NYC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>中継の際、この値未満の手数料 (NYC/Kb単位) はゼロであるとみなす (デフォルト: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3102,10 +3102,10 @@
         <translation>この製品はOpenSSLプロジェクトにより開発されたソフトウェアをOpenSSLツールキットとして利用しています &lt;https://www.openssl.org/&gt;。また、Eric Young氏により開発された暗号ソフトウェア、Thomas Bernard氏により書かれたUPnPソフトウェアを用いています。</translation>
     </message>
     <message>
-        <source>To use dogecoind, or the -server option to dogecoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use newyorkcoind, or the -server option to newyorkcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dogecoinrpc
+rpcuser=newyorkcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3113,10 +3113,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
 </source>
-        <translation>dogecoindを用いる場合や、-server オプションをdogecoin-qtに指定する場合には、設定ファイルにrpcpasswordを設定しなければなりません:
+        <translation>newyorkcoindを用いる場合や、-server オプションをnewyorkcoin-qtに指定する場合には、設定ファイルにrpcpasswordを設定しなければなりません:
 %s
 以下のランダムなパスワードを用いることが推奨されます:
-rpcuser=dogecoinrpc
+rpcuser=newyorkcoinrpc
 rpcpassword=%s
 (このパスワードを暗記する必要はありません)
 ユーザ名とパスワードは一致してはいけません。
@@ -3194,8 +3194,8 @@ rpcpassword=%s
         <translation>エラー: サポートされていない引数 -tor が見つかりました。-onion を使用してください。</translation>
     </message>
     <message>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
-        <translation>送信するトランザクションに付加する手数料 (DOGE/kB単位) (初期値: %s)</translation>
+        <source>Fee (in NYC/kB) to add to transactions you send (default: %s)</source>
+        <translation>送信するトランザクションに付加する手数料 (NYC/kB単位) (初期値: %s)</translation>
     </message>
     <message>
         <source>Information</source>

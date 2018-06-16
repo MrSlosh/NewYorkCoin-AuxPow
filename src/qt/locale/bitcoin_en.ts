@@ -200,8 +200,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR newyorkcoinS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR newyorkcoinS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -210,7 +210,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
+        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -285,7 +285,7 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../dogecoingui.cpp" line="+326"/>
+        <location filename="../newyorkcoingui.cpp" line="+326"/>
         <source>Sign &amp;message...</source>
         <translation>Sign &amp;message...</translation>
     </message>
@@ -496,7 +496,7 @@
     </message>
     <message>
         <location line="+164"/>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
+        <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -521,7 +521,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a dogecoin: URI or payment request</source>
+        <source>Open a newyorkcoin: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1594,7 +1594,7 @@
     </message>
     <message>
         <location line="-408"/>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <source>Cannot start newyorkcoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1695,7 +1695,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../dogecoinunits.cpp" line="+183"/>
+        <location filename="../newyorkcoinunits.cpp" line="+183"/>
         <source>Amount</source>
         <translation type="unfinished">Amount</translation>
     </message>
@@ -2403,7 +2403,7 @@
     <message>
         <location line="+30"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for dogecoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for newyorkcoin transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2701,7 +2701,7 @@
     </message>
     <message>
         <location line="-1021"/>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less dogecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less newyorkcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2731,7 +2731,7 @@
     </message>
     <message>
         <location line="+47"/>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <source>A message that was attached to the newyorkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2774,7 +2774,7 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>You can sign messages/agreements with your addresses to prove you can receive dogecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive newyorkcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3510,7 +3510,7 @@
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
-        <location filename="../dogecoingui.cpp" line="+106"/>
+        <location filename="../newyorkcoingui.cpp" line="+106"/>
         <source>Unit to show amounts in. Click to select another unit.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3577,7 +3577,7 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../dogecoinstrings.cpp" line="+250"/>
+        <location filename="../newyorkcoinstrings.cpp" line="+250"/>
         <source>Options:</source>
         <translation>Options:</translation>
     </message>
@@ -3933,7 +3933,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Fees (in DOGE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in NYC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3988,10 +3988,10 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>To use dogecoind, or the -server option to dogecoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use newyorkcoind, or the -server option to newyorkcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dogecoinrpc
+rpcuser=newyorkcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -4083,7 +4083,7 @@ for example: alertnotify=echo %%s | mail -s &quot;NewYorkCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+2"/>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in NYC/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

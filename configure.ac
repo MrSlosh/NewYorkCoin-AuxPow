@@ -1,12 +1,12 @@
 dnl require autoconf 2.60 (AS_ECHO/AS_ECHO_N)
 AC_PREREQ([2.60])
 define(_CLIENT_VERSION_MAJOR, 1)
-define(_CLIENT_VERSION_MINOR, 10)
+define(_CLIENT_VERSION_MINOR, 3)
 define(_CLIENT_VERSION_REVISION, 0)
 define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, true)
-define(_COPYRIGHT_YEAR, 2015)
-AC_INIT([NewYorkCoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/dogecoin/dogecoin/issues],[dogecoin])
+define(_COPYRIGHT_YEAR, 2018)
+AC_INIT([NewYorkCoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/MrSlosh/NewYorkCoin-AuxPow/issues],[newyorkcoin])
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
@@ -139,7 +139,7 @@ AC_ARG_ENABLE([glibc-back-compat],
 
 AC_ARG_WITH([protoc-bindir],[AS_HELP_STRING([--with-protoc-bindir=BIN_DIR],[specify protoc bin path])], [protoc_bin_path=$withval], [])
 
-# Enable debug 
+# Enable debug
 AC_ARG_ENABLE([debug],
     [AS_HELP_STRING([--enable-debug],
                     [use debug compiler flags and macros (default is no)])],
@@ -150,11 +150,11 @@ if test "x$enable_debug" = xyes; then
     if test "x$GCC" = xyes; then
         CFLAGS="-g3 -O0 -DDEBUG"
     fi
-    
+
     if test "x$GXX" = xyes; then
         CXXFLAGS="-g3 -O0 -DDEBUG"
     fi
-fi 
+fi
 
 ## TODO: Remove these hard-coded paths and flags. They are here for the sake of
 ##       compatibility with the legacy buildsystem.
@@ -697,11 +697,11 @@ LIBS="$LIBS_TEMP"
 
 BITCOIN_QT_PATH_PROGS([PROTOC], [protoc],$protoc_bin_path)
 
-AC_MSG_CHECKING([whether to build dogecoind])
+AC_MSG_CHECKING([whether to build newyorkcoind])
 AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
 AC_MSG_RESULT($build_bitcoind)
 
-AC_MSG_CHECKING([whether to build utils (dogecoin-cli dogecoin-tx)])
+AC_MSG_CHECKING([whether to build utils (newyorkcoin-cli newyorkcoin-tx)])
 AM_CONDITIONAL([BUILD_BITCOIN_UTILS], [test x$build_bitcoin_utils = xyes])
 AC_MSG_RESULT($build_bitcoin_utils)
 
@@ -802,7 +802,7 @@ if test x$bitcoin_enable_qt != xno; then
     AC_MSG_WARN("xgettext is required to update qt translations")
   fi
 
-  AC_MSG_CHECKING([whether to build test_dogecoin-qt])
+  AC_MSG_CHECKING([whether to build test_newyorkcoin-qt])
   if test x$use_tests$bitcoin_enable_qt_test = xyesyes; then
     AC_MSG_RESULT([yes])
     BUILD_TEST_QT="test"
@@ -811,7 +811,7 @@ if test x$bitcoin_enable_qt != xno; then
   fi
 fi
 
-AC_MSG_CHECKING([whether to build test_dogecoin])
+AC_MSG_CHECKING([whether to build test_newyorkcoin])
 if test x$use_tests = xyes; then
   AC_MSG_RESULT([yes])
   BUILD_TEST="test"

@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin Core developers
-// Copyright (c) 2014-2015 The Dogecoin Core developers
+// Copyright (c) 2014-2015 The newyorkcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -149,17 +149,13 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *n
         setCentralWidget(rpcConsole);
     }
 
-    // NewYorkCoin: load fallback font in case Comic Sans is not availble on the system
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Bold");
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Bold-Oblique");
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Light");
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Light-Oblique");
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Regular");
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Regular-Oblique");
-    QFont::insertSubstitution("Comic Sans MS", "Comic Neue");
+    // NewYorkCoin: load fallback font in case Nexa_Light is not availble on the system
+    QFontDatabase::addApplicationFont(":fonts/Nexa_Bold");
+    QFontDatabase::addApplicationFont(":fonts/Nexa_Light");
+    QFont::insertSubstitution("Nexa_Light", "Comic Neue");
 
-    // NewYorkCoin: Specify Comic Sans as new font.
-    QFont newFont("Comic Sans MS", 10);
+    // NewYorkCoin: Specify Nexa_Ligh as new font.
+    QFont newFont("Nexa_Light", 10);
 
     // NewYorkCoin: Set new application font
     QApplication::setFont(newFont);
@@ -284,7 +280,7 @@ void BitcoinGUI::createActions()
     sendCoinsMenuAction->setToolTip(sendCoinsMenuAction->statusTip());
 
     receiveCoinsAction = new QAction(platformStyle->SingleColorIcon(":/icons/receiving_addresses"), tr("&Receive"), this);
-    receiveCoinsAction->setStatusTip(tr("Request payments (generates QR codes and dogecoin: URIs)"));
+    receiveCoinsAction->setStatusTip(tr("Request payments (generates QR codes and newyorkcoin: URIs)"));
     receiveCoinsAction->setToolTip(receiveCoinsAction->statusTip());
     receiveCoinsAction->setCheckable(true);
     receiveCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_3));

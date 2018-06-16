@@ -160,7 +160,7 @@
         <translation>Cüzdan şifrelenmesini teyit eder</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR newyorkcoinS&lt;/b&gt;!</source>
         <translation>Uyarı: Eğer cüzdanınızı şifrelerseniz ve parolanızı kaybederseniz, &lt;b&gt;TÜM BİTCOİNLERİNİZİ KAYBEDERSİNİZ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
+        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
         <translation>Şifreleme işlemini tamamlamak için NewYorkCoin Çekirdeği şimdi kapanacaktır. Cüzdanınızı şifrelemenin, NewYorkCoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
     </message>
     <message>
@@ -391,8 +391,8 @@
         <translation>NewYorkCoin Çekirdeği</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>Ödeme talep et (QR kodu ve dogecoin URI'si oluşturur)</translation>
+        <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
+        <translation>Ödeme talep et (QR kodu ve newyorkcoin URI'si oluşturur)</translation>
     </message>
     <message>
         <source>&amp;About NewYorkCoin Core</source>
@@ -411,8 +411,8 @@
         <translation>Kullanılmış alım adresleri ve etiketlerin listesini göster</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Bir dogecoin: bağlantısı ya da ödeme talebi aç</translation>
+        <source>Open a newyorkcoin: URI or payment request</source>
+        <translation>Bir newyorkcoin: bağlantısı ya da ödeme talebi aç</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1247,7 +1247,7 @@
         <translation>Ödeme talebi hatası</translation>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <source>Cannot start newyorkcoin: click-to-pay handler</source>
         <translation>NewYorkCoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
     </message>
     <message>
@@ -1871,8 +1871,8 @@
         <translation>toplam asgari</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for dogecoin transactions than the network can process.</source>
-        <translation>Asgari ücreti ödemek, bloklarda boşluktan daha az muamele hacmi olduğu sürece bir sorun çıkarmaz. Fakat şebekenin işleyecebileceğinden daha çok dogecoin muameleleri talebi olduğunda bunun asla teyit edilmeyen bir muamele olabileceğinin farkında olmalısınız.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for newyorkcoin transactions than the network can process.</source>
+        <translation>Asgari ücreti ödemek, bloklarda boşluktan daha az muamele hacmi olduğu sürece bir sorun çıkarmaz. Fakat şebekenin işleyecebileceğinden daha çok newyorkcoin muameleleri talebi olduğunda bunun asla teyit edilmeyen bir muamele olabileceğinin farkında olmalısınız.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2098,8 +2098,8 @@
         <translation>Bu unsuru kaldır</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less dogecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Ücret yollanan meblağdan alınacaktır. Alıcı meblağ alanında girdiğinizden daha az dogecoin alacaktır.  Eğer birden çok alıcı seçiliyse ücret eşit olarak bölünecektir.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less newyorkcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Ücret yollanan meblağdan alınacaktır. Alıcı meblağ alanında girdiğinizden daha az newyorkcoin alacaktır.  Eğer birden çok alıcı seçiliyse ücret eşit olarak bölünecektir.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2122,7 +2122,7 @@
         <translation>Kullanılmış adres listesine eklemek için bu adrese bir etiket girin</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <source>A message that was attached to the newyorkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
         <translation>NewYorkCoin: URI'siyle ilişkili ve bilginiz için muameleyle saklanacak bir mesaj. Not: Bu mesaj NewYorkCoin şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
@@ -2156,8 +2156,8 @@
         <translation>Mesaj &amp;imzala</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive dogecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Adreslerinize yollanan dogecoinleri alabileceğiniz ispatlamak için adreslerinizle mesaj/anlaşma imzalayabilirsiniz. Oltalama saldırılarının kimliğinizi imzanızla elde etmeyi deneyebilecekleri için belirsiz ya da rastgele hiçbir şey imzalamamaya dikkat ediniz. Sadece ayrıntılı açıklaması olan ve tümüne katıldığınız ifadeleri imzalayınız.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive newyorkcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Adreslerinize yollanan newyorkcoinleri alabileceğiniz ispatlamak için adreslerinizle mesaj/anlaşma imzalayabilirsiniz. Oltalama saldırılarının kimliğinizi imzanızla elde etmeyi deneyebilecekleri için belirsiz ya da rastgele hiçbir şey imzalamamaya dikkat ediniz. Sadece ayrıntılı açıklaması olan ve tümüne katıldığınız ifadeleri imzalayınız.</translation>
     </message>
     <message>
         <source>The NewYorkCoin address to sign the message with</source>
@@ -2418,7 +2418,7 @@
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Oluşturulan dogecoin'lerin harcanabilmelerinden önce %1 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda, blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu "kabul edilmedi" olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
+        <translation>Oluşturulan newyorkcoin'lerin harcanabilmelerinden önce %1 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda, blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu "kabul edilmedi" olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2838,7 +2838,7 @@
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - dogecoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
+        <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - newyorkcoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
@@ -3053,8 +3053,8 @@
         <translation>İlgili bir uyarı alındığında ya da gerçekten uzun bir çatallama gördüğümüzde komutu çalıştır (komuttaki %s mesaj ile değiştirilir)</translation>
     </message>
     <message>
-        <source>Fees (in DOGE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Kb başına DOGE olarak bundan düşük ücretler aktarım için sıfır değerinde ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in NYC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Kb başına NYC olarak bundan düşük ücretler aktarım için sıfır değerinde ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3086,7 +3086,7 @@
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation>Etkinse dogecoin oluşuturulmasına atanan iş parçacığı sayısını ayarla (-1 = tüm çekirdekler, varsayılan: %d)</translation>
+        <translation>Etkinse newyorkcoin oluşuturulmasına atanan iş parçacığı sayısını ayarla (-1 = tüm çekirdekler, varsayılan: %d)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
@@ -3097,10 +3097,10 @@
         <translation>Bu ürün OpenSSL projesi tarafından OpenSSL araç takımı (http://www.openssl.org/) için geliştirilen yazılımlar, Eric Young (eay@cryptsoft.com) tarafından hazırlanmış şifreleme yazılımları ve Thomas Bernard tarafından programlanmış UPnP yazılımı içerir.</translation>
     </message>
     <message>
-        <source>To use dogecoind, or the -server option to dogecoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use newyorkcoind, or the -server option to newyorkcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dogecoinrpc
+rpcuser=newyorkcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3108,10 +3108,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
 </source>
-        <translation>dogecoind ya da dogecoin-qt ile -server seçeneğini kullanmak için yapılandırma dosyasında bir rpc parolası belirtmeniz gerekir:
+        <translation>newyorkcoind ya da newyorkcoin-qt ile -server seçeneğini kullanmak için yapılandırma dosyasında bir rpc parolası belirtmeniz gerekir:
 %s
 Aşağıdaki rastgele oluşturulan parolayı kullanmanız tavsiye edilir:
-rpcuser=dogecoinrpc
+rpcuser=newyorkcoinrpc
 rpcpassword=%s
 (bu parolayı hatırlamanız gerekli değildir)
 Kullanıcı ismi ile parolanın FARKLI olmaları gerekir.
@@ -3189,8 +3189,8 @@ mesela: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
         <translation>Hata: Deskteklenmeyen -tor argümanı bulundu, -onion kullanınız.</translation>
     </message>
     <message>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
-        <translation>Yolladığınız muamelelere kB başına DOGE olarak eklenecek ücret (varsayılan: %s)</translation>
+        <source>Fee (in NYC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Yolladığınız muamelelere kB başına NYC olarak eklenecek ücret (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Information</source>

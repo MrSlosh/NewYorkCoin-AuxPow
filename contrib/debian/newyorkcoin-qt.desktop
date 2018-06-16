@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=NewYorkCoin
+Comment=NewYorkCoin P2P Cryptocurrency
+Comment[fr]=NewYorkCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=NewYorkCoin, eşten eşe kriptografik sanal para birimi
+Exec=newyorkcoin-qt %u
+Terminal=false
+Type=Application
+Icon=newyorkcoin128
+MimeType=x-scheme-handler/newyorkcoin;
+Categories=Office;Finance;

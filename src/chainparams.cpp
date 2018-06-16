@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
-// Copyright (c) 2015 The Dogecoin Core developers
+// Copyright (c) 2015 The newyorkcoin Core developers
 // Copyright (c) 2018 The New York Coin Community developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -101,7 +101,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0x5F1DF16B2B704C8A578D0B)
          *   vMerkleTree: 4a5e1e
          */
-        const char* pszTimestamp = "BitcoinTalk 04/Mar/2014 New York Coin official ANN thread created";
+        const char* pszTimestamp = "A Coin for New York City";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -122,10 +122,10 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x5597f25c062a3038c7fd815fe46c67dedfcb3c839fbc8e01ed4044540d08fe48"));
         assert(genesis.hashMerkleRoot == uint256S("0x2bad42ac6e0ccc4808d8df0fd50ac8634eea335b1412b1ef52864b430a87b262"));
 
-        vSeeds.push_back(CDNSSeedData("dogecoin.com", "seed.dogecoin.com"));
+        vSeeds.push_back(CDNSSeedData("newyorkcoin.com", "seed.newyorkcoin.com"));
         vSeeds.push_back(CDNSSeedData("multidoge.org", "seed.multidoge.org"));
         vSeeds.push_back(CDNSSeedData("multidoge.org", "seed2.multidoge.org"));
-        vSeeds.push_back(CDNSSeedData("doger.dogecoin.com", "seed.doger.dogecoin.com"));
+        vSeeds.push_back(CDNSSeedData("doger.newyorkcoin.com", "seed.doger.newyorkcoin.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);  // 0x1e
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,22);  // 0x16
@@ -133,9 +133,10 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xb2)(0x1e).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xad)(0xe4).convert_to_container<std::vector<unsigned char> >();
 
-        //TODO: fix this for dogecoin -- plddr
+        //TODO: fix this for newyorkcoin -- plddr
         //vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
         vFixedSeeds.clear();
+        vSeeds.clear();
 
         fRequireRPCPassword = true;
         fMiningRequiresPeers = true;
@@ -181,6 +182,7 @@ public:
 
         // Blocks 0 - 144999 are pre-Digishield
         consensus.nHeightEffective = 0;
+        consensus.nSubsidyHalvingInterval = 1722;
         consensus.nPowTargetTimespan = 2 * 60 * 60; // pre-digishield:2 hours
         consensus.fDigishieldDifficultyCalculation = false;
         consensus.fPowAllowMinDifficultyBlocks = true;
@@ -189,7 +191,6 @@ public:
         consensus.nMajorityRejectBlockOutdated = 750;
         consensus.nMajorityWindow = 1000;
         consensus.fStrictChainId = false;
-        consensus.nHeightEffective = 0;
         consensus.fAllowLegacyBlocks = true;
         consensus.fAllowAuxPow = false;
 
@@ -199,7 +200,7 @@ public:
 
         // Blocks 145000 - 157499 are Digishield without minimum difficulty on all blocks
         digishieldConsensus = consensus;
-        digishieldConsensus.nHeightEffective = 15000;
+        digishieldConsensus.nHeightEffective = 15500;
         digishieldConsensus.nPowTargetTimespan = 60; // post-digishield: 1 minute
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
         digishieldConsensus.fSimplifiedRewards = true;
@@ -208,13 +209,13 @@ public:
 
         // Blocks 157500 - 158099 are Digishield with minimum difficulty on all blocks
         minDifficultyConsensus = digishieldConsensus;
-        minDifficultyConsensus.nHeightEffective = 15000;
+        minDifficultyConsensus.nHeightEffective = 15500;
         minDifficultyConsensus.fPowAllowDigishieldMinDifficultyBlocks = true;
         minDifficultyConsensus.fPowAllowMinDifficultyBlocks = true;
 
         // Enable AuxPoW at 158100
         auxpowConsensus = minDifficultyConsensus;
-        auxpowConsensus.nHeightEffective = 15000;
+        auxpowConsensus.nHeightEffective = 15500;
         auxpowConsensus.fPowAllowDigishieldMinDifficultyBlocks = true;
         auxpowConsensus.fAllowLegacyBlocks = false;
         auxpowConsensus.fAllowAuxPow = true;
@@ -245,7 +246,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("jrn.me.uk", "testseed.jrn.me.uk"));
+        //vSeeds.push_back(CDNSSeedData("jrn.me.uk", "testseed.jrn.me.uk"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,113); // 0x71
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196); // 0xc4
@@ -253,7 +254,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xb2)(0x1e).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xad)(0xe4).convert_to_container<std::vector<unsigned char> >();
 
-        //TODO: fix this for dogecoin -- plddr
+        //TODO: fix this for newyorkcoin -- plddr
         //vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
 
         fRequireRPCPassword = true;
@@ -265,11 +266,8 @@ public:
 
         checkpointData = (Checkpoints::CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0xbb0a78264637406b6360aad926284d544d7049f45189db5664f3c4d07350559e"))
-            ( 483173, uint256S("0xa804201ca0aceb7e937ef7a3c613a9b7589245b10cc095148c4ce4965b0b73b5"))
-            ( 591117, uint256S("0x5f6b93b2c28cedf32467d900369b8be6700f0649388a7dbfd3ebd4a01b1ffad8"))
-            ( 658924, uint256S("0xed6c8324d9a77195ee080f225a0fca6346495e08ded99bcda47a8eea5a8a620b"))
-            ( 703635, uint256S("0x839fa54617adcd582d53030a37455c14a87a806f6615aa8213f13e196230ff7f")),
+            ( 0, uint256S("0x24463e4d3c625b0a9059f309044c2cf0d7e196cf2a6ecce901f24f681be33c8f"))
+            ,
             1440601451, // * UNIX timestamp of last checkpoint block
             1119061,    // * total number of transactions between genesis and last checkpoint
             1000        // * estimated number of transactions per day after checkpoint
@@ -304,7 +302,7 @@ public:
         consensus.pRight = NULL;
 
         digishieldConsensus = consensus;
-        digishieldConsensus.nHeightEffective = 10;
+        digishieldConsensus.nHeightEffective = 20;
         digishieldConsensus.nPowTargetTimespan = 1; // // regtest: also retarget every second in digishield mode, for conformity
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
 
@@ -323,14 +321,14 @@ public:
         pchMessageStart[2] = 0xb5;
         pchMessageStart[3] = 0xda;
         nMinerThreads = 1;
-        genesis.nTime = 1296688602;
+        genesis.nTime = 1528384153;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 2;
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         nDefaultPort = 18444;
-        assert(consensus.hashGenesisBlock == uint256S("0x3d2160a3b5dc4a9d62e7e66a295f70313ac808440ef7400d6c0772171ce973a5"));
+        assert(consensus.hashGenesisBlock == uint256S("0xa7ff2d7850dc3b85db38c38f265a0eaa3771b4ba1237127a82ac748a2bba27b3"));
         nPruneAfterHeight = 1000;
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
@@ -345,7 +343,7 @@ public:
 
         checkpointData = (Checkpoints::CCheckpointData){
             boost::assign::map_list_of
-            ( 0, uint256S("0x3d2160a3b5dc4a9d62e7e66a295f70313ac808440ef7400d6c0772171ce973a5")),
+            ( 0, uint256S("0xa7ff2d7850dc3b85db38c38f265a0eaa3771b4ba1237127a82ac748a2bba27b3")),
             0,
             0,
             0

@@ -88,7 +88,7 @@ void UpdateTime(CBlockHeader* pblock, const Consensus::Params& consensusParams, 
     pblock->nTime = std::max(pindexPrev->GetMedianTimePast()+1, GetAdjustedTime());
 
     // Updating time can change work required on testnet:
-    if(consensusParams.fAllowLegacyBlocks)
+    if(consensusParams.fPowAllowMinDifficultyBlocks && consensusParams.nHeightEffective == 0)
         pblock->nBits = GetNextWorkRequiredLegacy(pindexPrev, pblock, consensusParams);
     else if (consensusParams.fPowAllowMinDifficultyBlocks)
         pblock->nBits = GetNextWorkRequired(pindexPrev, pblock, consensusParams);
@@ -107,8 +107,9 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn)
     CBlockIndex* pindexPrev = chainActive.Tip();
     const int nHeight = pindexPrev->nHeight + 1;
 
+    const Consensus::Params& consensusParams = chainparams.GetConsensus(nHeight);
     /* Initialise the block version.  */
-    if(nHeight < chainParams.digishieldConsensus.nHeightEffective)
+    if(nHeight < consensusParams.nHeightEffective)
       pblock->nVersion = 1;
     else
       pblock->nVersion = CBlockHeader::CURRENT_VERSION;
@@ -467,7 +468,7 @@ void static BitcoinMiner(CWallet *pwallet)
 {
     LogPrintf("NewYorkCoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("dogecoin-miner");
+    RenameThread("newyorkcoin-miner");
     const CChainParams& chainparams = Params();
 
     // Each thread has its own key and counter

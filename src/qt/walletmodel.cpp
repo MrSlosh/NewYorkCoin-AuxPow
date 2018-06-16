@@ -290,7 +290,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
             return TransactionCreationFailed;
         }
 
-        // reject absurdly high fee > 100 DOGE
+        // reject absurdly high fee > 100 NYC
         if (nFeeRequired > (100 * COIN))
             return AbsurdFee;
     }

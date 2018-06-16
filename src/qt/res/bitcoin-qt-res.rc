@@ -21,10 +21,10 @@ BEGIN
             VALUE "CompanyName",        "NewYorkCoin"
             VALUE "FileDescription",    "NewYorkCoin Core (GUI node for NewYorkCoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "dogecoin-qt"
+            VALUE "InternalName",       "newyorkcoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "dogecoin-qt.exe"
+            VALUE "OriginalFilename",   "newyorkcoin-qt.exe"
             VALUE "ProductName",        "NewYorkCoin Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

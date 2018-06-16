@@ -375,7 +375,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "dogecoin";
+    const char* pszModule = "newyorkcoin";
 #endif
     if (pex)
         return strprintf(
@@ -417,7 +417,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "NewYorkCoin";
 #else
     // Unix
-    return pathRet / ".dogecoin";
+    return pathRet / ".newyorkcoin";
 #endif
 #endif
 }
@@ -464,7 +464,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "dogecoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "newyorkcoin.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -500,7 +500,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 #ifndef WIN32
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "dogecoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "newyorkcoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

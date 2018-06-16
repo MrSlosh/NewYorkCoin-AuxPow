@@ -1,0 +1,22 @@
+[Unit]
+Description=NewYorkCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=newyorkcoin
+Group=newyorkcoin
+
+Type=forking
+PIDFile=/var/lib/newyorkcoind/newyorkcoind.pid
+ExecStart=/usr/bin/newyorkcoind -daemon -pid=/var/lib/newyorkcoind/newyorkcoind.pid \
+-conf=/etc/newyorkcoin/newyorkcoin.conf -datadir=/var/lib/newyorkcoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

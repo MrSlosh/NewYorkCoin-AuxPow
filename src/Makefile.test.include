@@ -1,7 +1,7 @@
-TESTS += test/test_dogecoin
-bin_PROGRAMS += test/test_dogecoin
+TESTS += test/test_newyorkcoin
+bin_PROGRAMS += test/test_newyorkcoin
 TEST_SRCDIR = test
-TEST_BINARY=test/test_dogecoin$(EXEEXT)
+TEST_BINARY=test/test_newyorkcoin$(EXEEXT)
 
 
 EXTRA_DIST += \
@@ -48,7 +48,7 @@ BITCOIN_TESTS =\
   test/compress_tests.cpp \
   test/crypto_tests.cpp \
   test/DoS_tests.cpp \
-  test/dogecoin_tests.cpp \
+  test/newyorkcoin_tests.cpp \
   test/getarg_tests.cpp \
   test/hash_tests.cpp \
   test/key_tests.cpp \
@@ -87,18 +87,18 @@ BITCOIN_TESTS += \
   test/rpc_wallet_tests.cpp
 endif
 
-test_test_dogecoin_SOURCES = $(BITCOIN_TESTS) $(JSON_TEST_FILES) $(RAW_TEST_FILES)
-test_test_dogecoin_CPPFLAGS = $(BITCOIN_INCLUDES) -I$(builddir)/test/ $(TESTDEFS)
-test_test_dogecoin_LDADD = $(LIBBITCOIN_SERVER) $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
+test_test_newyorkcoin_SOURCES = $(BITCOIN_TESTS) $(JSON_TEST_FILES) $(RAW_TEST_FILES)
+test_test_newyorkcoin_CPPFLAGS = $(BITCOIN_INCLUDES) -I$(builddir)/test/ $(TESTDEFS)
+test_test_newyorkcoin_LDADD = $(LIBBITCOIN_SERVER) $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(BOOST_UNIT_TEST_FRAMEWORK_LIB) $(LIBSECP256K1)
 if ENABLE_WALLET
-test_test_dogecoin_LDADD += $(LIBBITCOIN_WALLET)
+test_test_newyorkcoin_LDADD += $(LIBBITCOIN_WALLET)
 endif
 
-test_test_dogecoin_LDADD += $(LIBBITCOIN_CONSENSUS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-test_test_dogecoin_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
+test_test_newyorkcoin_LDADD += $(LIBBITCOIN_CONSENSUS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+test_test_newyorkcoin_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
 
-nodist_test_test_dogecoin_SOURCES = $(GENERATED_TEST_FILES)
+nodist_test_test_newyorkcoin_SOURCES = $(GENERATED_TEST_FILES)
 
 $(BITCOIN_TESTS): $(GENERATED_TEST_FILES)
 
@@ -106,12 +106,12 @@ CLEAN_BITCOIN_TEST = test/*.gcda test/*.gcno $(GENERATED_TEST_FILES)
 
 CLEANFILES += $(CLEAN_BITCOIN_TEST)
 
-dogecoin_test: $(TEST_BINARY)
+newyorkcoin_test: $(TEST_BINARY)
 
-dogecoin_test_check: $(TEST_BINARY) FORCE
+newyorkcoin_test_check: $(TEST_BINARY) FORCE
 	$(MAKE) check-TESTS TESTS=$^
 
-dogecoin_test_clean : FORCE
+newyorkcoin_test_clean : FORCE
 	rm -f $(CLEAN_BITCOIN_TEST) $(test_test_bitcoin_OBJECTS) $(TEST_BINARY)
 
 check-local:

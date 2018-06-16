@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Izvēlies adresi uz kuru sūtīt dogecoins</translation>
+        <translation>Izvēlies adresi uz kuru sūtīt newyorkcoins</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Izvēlies adresi ar kuru saņemt dogecoins</translation>
+        <translation>Izvēlies adresi ar kuru saņemt newyorkcoins</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -144,8 +144,8 @@
         <translation>Apstiprināt maciņa šifrēšanu</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>Brīdinājums: Ja tu nošifrē savu maciņu un pazaudē paroli, tu &lt;b&gt;PAZAUDĒSI VISAS SAVAS DOGECOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR newyorkcoinS&lt;/b&gt;!</source>
+        <translation>Brīdinājums: Ja tu nošifrē savu maciņu un pazaudē paroli, tu &lt;b&gt;PAZAUDĒSI VISAS SAVAS newyorkcoinS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -359,16 +359,16 @@
         <translation>NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>Pieprasīt maksājumus (izveido QR kodu un dogecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un newyorkcoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;About NewYorkCoin Core</source>
         <translation>Par &amp;NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Atvērt dogecoin URI vai maksājuma pieprasījumu</translation>
+        <source>Open a newyorkcoin: URI or payment request</source>
+        <translation>Atvērt newyorkcoin URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -808,7 +808,7 @@
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Ieslēgt dogecoin &amp;kontroles funkcijas</translation>
+        <translation>Ieslēgt newyorkcoin &amp;kontroles funkcijas</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -949,7 +949,7 @@
         <translation>Maksājumu pieprasījuma kļūda</translation>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <source>Cannot start newyorkcoin: click-to-pay handler</source>
         <translation>Nevar palaist NewYorkCoin: nospied-lai-maksātu apstrādātāju</translation>
     </message>
     <message>

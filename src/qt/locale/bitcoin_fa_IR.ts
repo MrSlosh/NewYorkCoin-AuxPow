@@ -252,7 +252,7 @@
     </message>
     <message>
         <source>NewYorkCoin</source>
-        <translation>dogecoin</translation>
+        <translation>newyorkcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -386,7 +386,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
-        <translation>آدرس وارد شده "%1" یک آدرس صحیح برای dogecoin نسشت</translation>
+        <translation>آدرس وارد شده "%1" یک آدرس صحیح برای newyorkcoin نسشت</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -448,7 +448,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NewYorkCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه dogecoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
+        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه newyorkcoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
     </message>
     </context>
 <context>

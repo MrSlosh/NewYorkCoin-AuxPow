@@ -160,7 +160,7 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR newyorkcoinS&lt;/b&gt;!</source>
         <translation>Warnung: Wenn Sie Ihre Wallet verschlüsseln und Ihre Passphrase verlieren, werden Sie &lt;b&gt;alle Ihre NewYorkCoins verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation>Sind Sie sich sicher, dass Sie Ihre Wallet verschlüsseln möchten?</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
+        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
         <translation>NewYorkCoin Core wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Vergessen Sie nicht, dass eine Wallet-Verschlüsselung nicht vollständig vor Diebstahl Ihrer NewYorkCoins durch Schadsoftware schützen kann, die Ihren Computer infiziert.</translation>
     </message>
     <message>
@@ -391,8 +391,8 @@
         <translation>NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>Zahlungen anfordern (erzeugt QR-Codes und "dogecoin:"-URIs)</translation>
+        <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
+        <translation>Zahlungen anfordern (erzeugt QR-Codes und "newyorkcoin:"-URIs)</translation>
     </message>
     <message>
         <source>&amp;About NewYorkCoin Core</source>
@@ -411,8 +411,8 @@
         <translation>Liste verwendeter Empfangsadressen und Bezeichnungen anzeigen</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Eine "dogecoin:"-URI oder Zahlungsanforderung öffnen</translation>
+        <source>Open a newyorkcoin: URI or payment request</source>
+        <translation>Eine "newyorkcoin:"-URI oder Zahlungsanforderung öffnen</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1247,8 +1247,8 @@
         <translation>fehlerhafte Zahlungsanforderung</translation>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
-        <translation>"dogecoin: Klicken-zum-Bezahlen"-Handler konnte nicht gestartet werden</translation>
+        <source>Cannot start newyorkcoin: click-to-pay handler</source>
+        <translation>"newyorkcoin: Klicken-zum-Bezahlen"-Handler konnte nicht gestartet werden</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1871,7 +1871,7 @@
         <translation>Mindestbetrag</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for dogecoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for newyorkcoin transactions than the network can process.</source>
         <translation>Nur die minimale Gebühr zu bezahlen ist so lange in Ordnung, wie weniger Transaktionsvolumen als Platz in den Blöcken vorhanden ist. Aber Vorsicht, diese Option kann dazu führen, dass Transaktionen nicht bestätigt werden, wenn mehr Bedarf an NewYorkCoin-Transaktionen besteht als das Netzwerk verarbeiten kann.</translation>
     </message>
     <message>
@@ -2102,7 +2102,7 @@
         <translation>Diesen Eintrag entfernen</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less dogecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less newyorkcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Die Gebühr wird vom zu überweisenden Betrag abgezogen. Der Empfänger wird also weniger NewYorkCoins erhalten, als Sie im Betrags-Feld eingegeben haben. Falls mehrere Empfänger ausgewählt wurden, wird die Gebühr gleichmäßig verteilt.</translation>
     </message>
     <message>
@@ -2126,8 +2126,8 @@
         <translation>Adressbezeichnung eingeben, die dann zusammen mit der Adresse der Liste bereits verwendeter Adressen hinzugefügt wird.</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
-        <translation>Eine an die "dogecoin:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das NewYorkCoin-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the newyorkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <translation>Eine an die "newyorkcoin:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das NewYorkCoin-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2160,7 +2160,7 @@
         <translation>Nachricht &amp;signieren</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive dogecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive newyorkcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Sie können Nachrichten/Vereinbarungen mit Hilfe Ihrer Adressen signieren, um zu beweisen, dass Sie NewYorkCoins empfangen können, die an diese Adressen überwiesen werden. Seien Sie vorsichtig und signieren Sie nichts Vages oder Willkürliches, um Ihre Indentität vor Phishingangriffen zu schützen. Signieren Sie nur vollständig-detaillierte Aussagen, mit denen Sie auch einverstanden sind.</translation>
     </message>
     <message>
@@ -3057,8 +3057,8 @@
         <translation>Befehl ausführen wenn ein relevanter Alarm empfangen wird oder wir einen wirklich langen Fork entdecken (%s im Befehl wird durch die Nachricht ersetzt)</translation>
     </message>
     <message>
-        <source>Fees (in DOGE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Niedrigere Gebühren (in DOGE/Kb) als diese werden bei der Weiterleitung als gebührenfrei angesehen (Standard: %s)</translation>
+        <source>Fees (in NYC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Niedrigere Gebühren (in NYC/Kb) als diese werden bei der Weiterleitung als gebührenfrei angesehen (Standard: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3101,10 +3101,10 @@
         <translation>Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im OpenSSL-Toolkit &lt;https://www.openssl.org/&gt; entwickelt wird, sowie von Eric Young geschriebene kryptographische Software und von Thomas Bernard geschriebene UPnP-Software.</translation>
     </message>
     <message>
-        <source>To use dogecoind, or the -server option to dogecoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use newyorkcoind, or the -server option to newyorkcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dogecoinrpc
+rpcuser=newyorkcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3112,10 +3112,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
 </source>
-        <translation>Um dogecoind oder die Option -server mit dogecoin-qt verwenden zu können, müssen Sie rpcpassword in der Konfigurationsdatei angeben:
+        <translation>Um newyorkcoind oder die Option -server mit newyorkcoin-qt verwenden zu können, müssen Sie rpcpassword in der Konfigurationsdatei angeben:
 %s
 Es wird empfohlen das folgende Zufallspasswort zu verwenden.
-rpcuser=dogecoinrpc
+rpcuser=newyorkcoinrpc
 rpcpassword=%s
 (Sie müssen sich dieses Passwort nicht merken!)
 Der Benutzername und das Passwort dürfen NICHT identisch sein.
@@ -3193,8 +3193,8 @@ Beispiel: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
         <translation>Fehler: Nicht unterstütztes Argument -tor gefunden, bitte -onion verwenden.</translation>
     </message>
     <message>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebühr (in DOGE/kB), die von Ihnen gesendeten Transaktionen hinzugefügt wird (Standard: %s)</translation>
+        <source>Fee (in NYC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebühr (in NYC/kB), die von Ihnen gesendeten Transaktionen hinzugefügt wird (Standard: %s)</translation>
     </message>
     <message>
         <source>Information</source>

@@ -156,7 +156,7 @@
         <translation>Подтвердите шифрование бумажника</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR newyorkcoinS&lt;/b&gt;!</source>
         <translation>Внимание: если вы зашифруете бумажник и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ БИТКОЙНЫ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -379,8 +379,8 @@
         <translation>NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>Запросить платежи (создаёт QR-коды и dogecoin: ссылки)</translation>
+        <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
+        <translation>Запросить платежи (создаёт QR-коды и newyorkcoin: ссылки)</translation>
     </message>
     <message>
         <source>&amp;About NewYorkCoin Core</source>
@@ -395,8 +395,8 @@
         <translation>Показать список использованных адресов и меток получения</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Открыть dogecoin: URI или запрос платежа</translation>
+        <source>Open a newyorkcoin: URI or payment request</source>
+        <translation>Открыть newyorkcoin: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1137,8 +1137,8 @@
         <translation>Ошибка запроса платежа</translation>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
-        <translation>Не удаётся запустить dogecoin: обработчик click-to-pay</translation>
+        <source>Cannot start newyorkcoin: click-to-pay handler</source>
+        <translation>Не удаётся запустить newyorkcoin: обработчик click-to-pay</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1733,7 +1733,7 @@
         <translation>Итого как минимум</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for dogecoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for newyorkcoin transactions than the network can process.</source>
         <translation>Уплата минимальной комиссии — не проблема, пока объём транзакций меньше, чем свободное место в блоках. Учтите, однако, что такая транзакция может никогда не подтвердиться, если спрос на транзакции превышает возможности сети по их обработке.</translation>
     </message>
     <message>
@@ -1952,8 +1952,8 @@
         <translation>Введите метку для этого адреса, чтобы добавить его в список использованных</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
-        <translation>К dogecoin: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть NewYorkCoin.</translation>
+        <source>A message that was attached to the newyorkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <translation>К newyorkcoin: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть NewYorkCoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2827,8 +2827,8 @@
         <translation>Выполнить команду, когда приходит соответствующее сообщение о тревоге или наблюдается очень длинное расщепление цепи (%s в команде заменяется на сообщение)</translation>
     </message>
     <message>
-        <source>Fees (in DOGE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Комиссии (в DOGE/Кб) меньшие этого значения считаются нулевыми для трансляции (по умолчанию: %s)</translation>
+        <source>Fees (in NYC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Комиссии (в NYC/Кб) меньшие этого значения считаются нулевыми для трансляции (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -2859,10 +2859,10 @@
         <translation>Этот продукт включает ПО, разработанное OpenSSL Project для использования в OpenSSL Toolkit &lt;https://www.openssl.org/&gt; и криптографическое ПО, написанное Eric Young и ПО для работы с UPnP, написанное Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use dogecoind, or the -server option to dogecoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use newyorkcoind, or the -server option to newyorkcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dogecoinrpc
+rpcuser=newyorkcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2870,10 +2870,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
 </source>
-        <translation>Для использования dogecoind или опции dogecoin-qt -server, вы должны установить опцию rpcpassword в конфигурационном файле:
+        <translation>Для использования newyorkcoind или опции newyorkcoin-qt -server, вы должны установить опцию rpcpassword в конфигурационном файле:
  %s
 Рекомендуется использовать следующий случайный пароль:
-rpcuser=dogecoinrpc
+rpcuser=newyorkcoinrpc
 rpcpassword=%s
 (вам не нужно запоминать этот пароль)
 Имя и пароль ДОЛЖНЫ различаться.
@@ -2935,8 +2935,8 @@ rpcpassword=%s
         <translation>Ошибка: обнаружен неподдерживаемый параметр -tor, используйте -onion.</translation>
     </message>
     <message>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
-        <translation>Комиссия (в DOGE/Кб) для добавления к вашим транзакциям (по умолчанию: %s)</translation>
+        <source>Fee (in NYC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Комиссия (в NYC/Кб) для добавления к вашим транзакциям (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Information</source>

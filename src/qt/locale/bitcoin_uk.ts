@@ -160,7 +160,7 @@
         <translation>Підтвердити шифрування гаманця</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR newyorkcoinS&lt;/b&gt;!</source>
         <translation>УВАГА: Якщо ви зашифруєте гаманець і забудете пароль, ви &lt;b&gt;ВТРАТИТЕ ВСІ СВОЇ БІТКОІНИ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation>Ви дійсно хочете зашифрувати свій гаманець?</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
+        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
         <translation>Клієнт «NewYorkCoin Core» буде закрито для завершення процесу шифрування. Пам'ятайте, що шифрування гаманця не зможе повністю захистити ваші біткоїни від крадіжки якщо ваш комп'ютер буде інфіковано шкідливими програмами.</translation>
     </message>
     <message>
@@ -391,8 +391,8 @@
         <translation>NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>Створити запит платежу (генерує QR-код та dogecoin: URI)</translation>
+        <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
+        <translation>Створити запит платежу (генерує QR-код та newyorkcoin: URI)</translation>
     </message>
     <message>
         <source>&amp;About NewYorkCoin Core</source>
@@ -411,8 +411,8 @@
         <translation>Показати список адрес і міток, що були використані для отримання</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Відкрити dogecoin: URI чи запит платежу</translation>
+        <source>Open a newyorkcoin: URI or payment request</source>
+        <translation>Відкрити newyorkcoin: URI чи запит платежу</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1247,8 +1247,8 @@
         <translation>Помилка запиту платежу</translation>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
-        <translation>Неможливо запустити dogecoin: обробник click-to-pay</translation>
+        <source>Cannot start newyorkcoin: click-to-pay handler</source>
+        <translation>Неможливо запустити newyorkcoin: обробник click-to-pay</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1871,7 +1871,7 @@
         <translation>всього щонайменше</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for dogecoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for newyorkcoin transactions than the network can process.</source>
         <translation>Оплата тільки мінімальних зборів є прийнятною до тих пір, як обсяг транзакцій там є меншим аніж простору в блоках. Але майте на увазі, що це може анулювати транзакцію, якщо попит на NewYorkCoin транзакції стане значно більшим, ніж мережа зможе обробити.</translation>
     </message>
     <message>
@@ -2102,7 +2102,7 @@
         <translation>Видалити цей запис</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less dogecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less newyorkcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Комісію буде знято зі вказаної суми. До отримувача надійде менше біткоінів, ніж було вказано в полі кількості. Якщо ж отримувачів декілька - комісію буде розподілено між ними.</translation>
     </message>
     <message>
@@ -2126,8 +2126,8 @@
         <translation>Введіть мітку для цієї адреси для додавання її в список використаних адрес</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
-        <translation>Повідомлення, що було додане до dogecoin:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу NewYorkCoin.</translation>
+        <source>A message that was attached to the newyorkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <translation>Повідомлення, що було додане до newyorkcoin:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу NewYorkCoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2160,7 +2160,7 @@
         <translation>&amp;Підписати повідомлення</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive dogecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive newyorkcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Ви можете підписувати повідомлення/угоди своїми адресами, щоб довести можливість отримання біткоінів, що будуть надіслані на них. Остерігайтеся підписувати будь-що нечітке чи неочікуване, так як за допомогою фішинг-атаки вас можуть спробувати ввести в оману для отримання вашого підпису під чужими словами. Підписуйте лише чіткі твердження, з якими ви повністю згодні.</translation>
     </message>
     <message>
@@ -3065,8 +3065,8 @@
         <translation>Виконати команду при надходженні важливого сповіщення або при спостереженні тривалого розгалуження ланцюжка (замість %s буде підставлено повідомлення)</translation>
     </message>
     <message>
-        <source>Fees (in DOGE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Комісії (в DOGE/КБ), що менші за вказану, вважатимуться нульовими (для ретрансляції) (типово: %s)</translation>
+        <source>Fees (in NYC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Комісії (в NYC/КБ), що менші за вказану, вважатимуться нульовими (для ретрансляції) (типово: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3105,10 +3105,10 @@
         <translation>Цей продукт включає в себе програмне забезпечення, розроблене в рамках проекту OpenSSL &lt;https://www.openssl.org/&gt;, криптографічне програмне забезпечення, написане Еріком Янгом, та функції для роботи з UPnP, написані Томасом Бернардом.</translation>
     </message>
     <message>
-        <source>To use dogecoind, or the -server option to dogecoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use newyorkcoind, or the -server option to newyorkcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dogecoinrpc
+rpcuser=newyorkcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3116,10 +3116,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "NewYorkCoin Alert" admin@foo.com
 </source>
-        <translation>Для використання dogecoind, або dogecoin-qt з параметром -server, ви повинні встановити rpcpassword в файлі конфігурації:
+        <translation>Для використання newyorkcoind, або newyorkcoin-qt з параметром -server, ви повинні встановити rpcpassword в файлі конфігурації:
 %s
 Рекомендується використати такий випадковий пароль:
-rpcuser=dogecoinrpc
+rpcuser=newyorkcoinrpc
 rpcpassword=%s
 (вам не треба запам'ятовувати цей пароль)
 Ім'я користувача та пароль ПОВИННІ бути різними.
@@ -3197,8 +3197,8 @@ rpcpassword=%s
         <translation>Помилка: Параметр -tor не підтримується, використовуйте -onion</translation>
     </message>
     <message>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
-        <translation>Комісія (в DOGE/КБ), що додаватиметься до вихідних транзакцій (типово: %s)</translation>
+        <source>Fee (in NYC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Комісія (в NYC/КБ), що додаватиметься до вихідних транзакцій (типово: %s)</translation>
     </message>
     <message>
         <source>Information</source>

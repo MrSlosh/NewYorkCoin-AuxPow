@@ -152,7 +152,7 @@
         <translation>지갑의 암호화를 확정</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR newyorkcoinS&lt;/b&gt;!</source>
         <translation>경고: 만약 지갑을 암호화 한 뒤 암호문을 잃어버리면, 모든 도지코인을 잃어버리게 됩니다!</translation>
     </message>
     <message>
@@ -371,7 +371,7 @@
         <translation>도지코인 코어</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
+        <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
         <translation>지불 요청하기 (QR코드와 도지코인 URI 생성)</translation>
     </message>
     <message>
@@ -387,7 +387,7 @@
         <translation>한번 이상 사용된 받는 주소와 주소 제목의 목록을 보여줍니다.</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
+        <source>Open a newyorkcoin: URI or payment request</source>
         <translation>도지코인 URI 또는 지불 요청을 엽니다</translation>
     </message>
     <message>
@@ -1045,7 +1045,7 @@
         <translation>지불 요청 애러</translation>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <source>Cannot start newyorkcoin: click-to-pay handler</source>
         <translation>도지코인을 시작할 수 없습니다: click-to-pay handler</translation>
     </message>
     <message>
@@ -1600,7 +1600,7 @@
         <translation>사용된 주소 목록에 새 주소를 추가하기 위해 제목을 입력합니다. </translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
+        <source>A message that was attached to the newyorkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NewYorkCoin network.</source>
         <translation>도지코인 URI에 첨부된 메시지는 사용자 참고를 위해 거래기록과 함께 보관될 것입니다. 참고: 이 메시지는 도지코인 네트워크를 통해 보내지 않을 것입니다.</translation>
     </message>
     <message>

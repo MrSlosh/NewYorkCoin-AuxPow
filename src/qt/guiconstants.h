@@ -45,7 +45,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "NewYorkCoin"
-#define QAPP_ORG_DOMAIN "dogecoin.com"
+#define QAPP_ORG_DOMAIN "newyorkcoin.com"
 #define QAPP_APP_NAME_DEFAULT "NewYorkCoin-Qt"
 #define QAPP_APP_NAME_TESTNET "NewYorkCoin-Qt-testnet"
 

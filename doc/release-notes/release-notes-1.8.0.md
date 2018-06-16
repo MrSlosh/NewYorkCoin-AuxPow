@@ -1,7 +1,7 @@
-# NewYorkCoin Core 1.8
+# NewYorkCoin Core 1.3
 ===================
 
-NewYorkCoin Core 1.8 introduces AuxPoW from block 371,337. AuxPoW is a technology
+NewYorkCoin Core 1.8 introduces AuxPoW from block 4,500,00. AuxPoW is a technology
 which enables miners to submit work done while mining other coins, as work
 on the NewYorkCoin block chain. NewYorkCoin Core 1.8 also enables payment protocol
 support for NewYorkCoin (note that NewYorkCoin's implementation of payment protocol is
@@ -25,7 +25,7 @@ menu. Ensure your existing wallet software is closed before upgrading.
 Note that a full reindex is required as part of the upgrade to 1.8, and this
 will typically take around an hour to complete. If you are running the Qt client
 you will be prompted to reindex when first running the software, while if you
-use "dogecoind" you must run it the first time with the "-reindex" command line
+use "newyorkcoind" you must run it the first time with the "-reindex" command line
 option.
 
 To ensure a smooth switchover to AuxPoW, 1.8 has safe mode disabled 1 hour before
@@ -62,7 +62,7 @@ NewYorkCoin Core 1.8 adds payment protocol support, which is used to streamline 
 being made to merchants.
 
 This protocol is defined in DIP0070-DIP0072, based on the BIP standards with the same
-assigned numbers. DIP standards can be found at https://github.com/dogecoin/dips/ .
+assigned numbers. DIP standards can be found at https://github.com/newyorkcoin/dips/ .
 The key differencs between the Bitcoin and NewYorkCoin payment protocols are that
 the NewYorkCoin payment request uses a "genesis" field containing the hash of the network's
 genesis block to identify networks instead of the "network" field. Further, MIME types
@@ -95,5 +95,5 @@ disposed of in all cases.
 Tweaked trigger conditions for safe mode to take into account the much faster block time
 of NewYorkCoin compared to Bitcoin. This should lead to less false positives.
 
-A problem in parsing mangled dogecoin: URIs under Windows has been resolved, and as
-part of this work network detection for dogecoin: URIs is now more robust.
+A problem in parsing mangled newyorkcoin: URIs under Windows has been resolved, and as
+part of this work network detection for newyorkcoin: URIs is now more robust.

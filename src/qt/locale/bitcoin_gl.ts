@@ -152,8 +152,8 @@
         <translation>Confirmar encriptación de moedeiro</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>Precaución: Se encriptas o teu moedeiro e perdes o teu contrasinal, ti &lt;b&gt;PERDERÁS TÓDOLOS TEUS DOGECOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR newyorkcoinS&lt;/b&gt;!</source>
+        <translation>Precaución: Se encriptas o teu moedeiro e perdes o teu contrasinal, ti &lt;b&gt;PERDERÁS TÓDOLOS TEUS newyorkcoinS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -347,8 +347,8 @@
         <translation>Core de NewYorkCoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>Solicitar pagos (xenera códigos QR e dogecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
+        <translation>Solicitar pagos (xenera códigos QR e newyorkcoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;About NewYorkCoin Core</source>
@@ -363,8 +363,8 @@
         <translation>Amosar a listaxe de etiquetas e direccións para recibir empregadas</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Abrir un dogecoin: URI ou solicitude de pago</translation>
+        <source>Open a newyorkcoin: URI or payment request</source>
+        <translation>Abrir un newyorkcoin: URI ou solicitude de pago</translation>
     </message>
     <message>
         <source>No block source available...</source>

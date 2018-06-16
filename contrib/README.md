@@ -24,7 +24,7 @@ Construct a linear, no-fork, best version of the blockchain.
 
 ### [Qos](/contrib/qos) ###
 
-A Linux bash script that will set up traffic control (tc) to limit the outgoing bandwidth for connections to the NewYorkCoin network. This means one can have an always-on dogecoind instance running, and another local dogecoind/dogecoin-qt instance which connects to this node and receives blocks from it.
+A Linux bash script that will set up traffic control (tc) to limit the outgoing bandwidth for connections to the NewYorkCoin network. This means one can have an always-on newyorkcoind instance running, and another local newyorkcoind/newyorkcoin-qt instance which connects to this node and receives blocks from it.
 
 ### [Seeds](/contrib/seeds) ###
 Utility to generate the pnSeed[] array that is compiled into the client.
@@ -33,8 +33,8 @@ Build Tools and Keys
 ---------------------
 
 ### [Debian](/contrib/debian) ###
-Contains files used to package dogecoind/dogecoin-qt
-for Debian-based Linux systems. If you compile dogecoind/dogecoin-qt yourself, there are some useful files here.
+Contains files used to package newyorkcoind/newyorkcoin-qt
+for Debian-based Linux systems. If you compile newyorkcoind/newyorkcoin-qt yourself, there are some useful files here.
 
 ### [Gitian-descriptors](/contrib/gitian-descriptors) ###
 Gavin's notes on getting gitian builds up and running using KVM.

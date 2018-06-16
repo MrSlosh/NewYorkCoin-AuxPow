@@ -160,8 +160,8 @@
         <translation>Potvrdi šifriranje novčanika</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE DOGECOINE!&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR newyorkcoinS&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE newyorkcoinE!&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -304,7 +304,7 @@
     </message>
     <message>
         <source>Send coins to a NewYorkCoin address</source>
-        <translation>Slanje novca na dogecoin adresu</translation>
+        <translation>Slanje novca na newyorkcoin adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -360,11 +360,11 @@
     </message>
     <message>
         <source>Sign messages with your NewYorkCoin addresses to prove you own them</source>
-        <translation>Poruku potpišemo s dogecoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
+        <translation>Poruku potpišemo s newyorkcoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified NewYorkCoin addresses</source>
-        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom dogecoin adresom</translation>
+        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom newyorkcoin adresom</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,8 +387,8 @@
         <translation>NewYorkCoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>Zatraži uplatu (stvara QR kod i dogecoin: URI adresu)</translation>
+        <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
+        <translation>Zatraži uplatu (stvara QR kod i newyorkcoin: URI adresu)</translation>
     </message>
     <message>
         <source>&amp;About NewYorkCoin Core</source>
@@ -407,8 +407,8 @@
         <translation>Prikaži popis korištenih adresa i oznaka za primanje novca</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Otvori dogecoin: URI adresu ili zahtjev za uplatu</translation>
+        <source>Open a newyorkcoin: URI or payment request</source>
+        <translation>Otvori newyorkcoin: URI adresu ili zahtjev za uplatu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -683,7 +683,7 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Oznaka dogecoin adrese</translation>
+        <translation>Oznaka newyorkcoin adrese</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
@@ -715,7 +715,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid NewYorkCoin address.</source>
-        <translation>Upisana adresa "%1" nije valjana dogecoin adresa.</translation>
+        <translation>Upisana adresa "%1" nije valjana newyorkcoin adresa.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -926,7 +926,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izaberite željeni najmanji dio dogecoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite željeni najmanji dio newyorkcoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
