@@ -24,7 +24,7 @@ class TxnMallTest(BitcoinTestFramework):
         return super(TxnMallTest, self).setup_network(True)
 
     def run_test(self):
-        # All nodes should start with 7,500,000 DOGE:
+        # All nodes should start with 7,500,000 NYC:
         starting_balance = 7500000
         for i in range(4):
             assert_equal(self.nodes[i].getbalance(), starting_balance)
@@ -38,7 +38,7 @@ class TxnMallTest(BitcoinTestFramework):
         # Coins are sent to node1_address
         node1_address = self.nodes[1].getnewaddress("from0")
 
-        # First: use raw transaction API to send 7499960 DOGE to node1_address,
+        # First: use raw transaction API to send 7499960 NYC to node1_address,
         # but don't broadcast:
         (total_in, inputs) = gather_inputs(self.nodes[0], 7499960)
         change_address = self.nodes[0].getnewaddress("foo")
@@ -63,7 +63,7 @@ class TxnMallTest(BitcoinTestFramework):
         tx1 = self.nodes[0].gettransaction(txid1)
         tx2 = self.nodes[0].gettransaction(txid2)
 
-        # Node0's balance should be starting balance, plus 500,000 DOGE for another
+        # Node0's balance should be starting balance, plus 500,000 NYC for another
         # matured block, minus 7499960, minus 20, and minus transaction fees:
         expected = starting_balance
         if self.options.mine_block: expected += 500000
@@ -102,7 +102,7 @@ class TxnMallTest(BitcoinTestFramework):
         assert_equal(tx1["confirmations"], -1)
         assert_equal(tx2["confirmations"], -1)
 
-        # Node0's total balance should be starting balance, plus 1,000,000 DOGE for 
+        # Node0's total balance should be starting balance, plus 1,000,000 NYC for 
         # two more matured blocks, minus 7499960 for the double-spend:
         expected = starting_balance + 1000000 - 7499960
         assert_equal(self.nodes[0].getbalance(), expected)

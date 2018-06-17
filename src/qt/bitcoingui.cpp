@@ -149,17 +149,13 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *n
         setCentralWidget(rpcConsole);
     }
 
-    // NewYorkCoin: load fallback font in case Comic Sans is not availble on the system
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Bold");
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Bold-Oblique");
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Light");
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Light-Oblique");
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Regular");
-    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Regular-Oblique");
-    QFont::insertSubstitution("Comic Sans MS", "Comic Neue");
+    // NewYorkCoin: load fallback font in case Nexa_Light is not availble on the system
+    QFontDatabase::addApplicationFont(":fonts/Nexa_Bold");
+    QFontDatabase::addApplicationFont(":fonts/Nexa_Light");
+    QFont::insertSubstitution("Nexa_Light", "Comic Neue");
 
-    // NewYorkCoin: Specify Comic Sans as new font.
-    QFont newFont("Comic Sans MS", 10);
+    // NewYorkCoin: Specify Nexa_Ligh as new font.
+    QFont newFont("Nexa_Light", 10);
 
     // NewYorkCoin: Set new application font
     QApplication::setFont(newFont);

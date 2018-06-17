@@ -3933,7 +3933,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Fees (in DOGE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in NYC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4083,7 +4083,7 @@ for example: alertnotify=echo %%s | mail -s &quot;NewYorkCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+2"/>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in NYC/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
