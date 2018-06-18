@@ -68,7 +68,7 @@ script: |
   done
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd newyorkcoin
+  cd NewYorkCoin-AuxPow
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs
