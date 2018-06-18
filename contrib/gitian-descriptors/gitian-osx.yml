@@ -1,11 +1,11 @@
 ---
-name: "newyorkcoin-osx-1.10"
+name: "newyorkcoin-osx-1.3"
 enable_cache: true
 suites:
 - "precise"
 architectures:
 - "amd64"
-packages: 
+packages:
 - "g++"
 - "git-core"
 - "pkg-config"
@@ -20,8 +20,8 @@ packages:
 - "libbz2-dev"
 reference_datetime: "2015-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/newyorkcoin/newyorkcoin.git"
-  "dir": "newyorkcoin"
+"url": "https://github.com/MrSlosh/NewYorkCoin-AuxPow.git"
+  "dir": "NewYorkCoin-AuxPow"
 files:
 - "MacOSX10.9.sdk.tar.gz"
 script: |
