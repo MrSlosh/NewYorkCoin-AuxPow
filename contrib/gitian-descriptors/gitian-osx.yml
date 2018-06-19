@@ -15,6 +15,7 @@ packages:
 - "faketime"
 - "bsdmainutils"
 - "cmake"
+- "clang-3.1"
 - "libcap-dev"
 - "libz-dev"
 - "libbz2-dev"
