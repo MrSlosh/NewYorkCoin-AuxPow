@@ -50,7 +50,7 @@ Release Process
  
  Using a Mac, create a tarball for the 10.9 SDK and copy it to the inputs directory:
  
-	tar -C /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ -czf MacOSX.sdk.tar.gz MacOSX.sdk
+	tar -C /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ -czf MacOSX10.13.sdk.tar.gz MacOSX10.13.sdk
 
 ###Optional: Seed the Gitian sources cache
 
