@@ -7,7 +7,7 @@ architectures:
 - "amd64"
 packages:
 - "g++"
-- "libstdc++6-4.7-dev"
+- "libstdc++6"
 - "git-core"
 - "pkg-config"
 - "autoconf2.13"
