@@ -28,8 +28,13 @@ define $(package)_preprocess_cmds
 endef
 
 define $(package)_config_cmds
-  ./Configure $($(package)_config_opts) && \
-  $(MAKE) depend
+if(!($($(package)_config_opts)==darwin64-x86_64-cc))
+{
+	./Configure $($(package)_config_opts) && \
+	$(MAKE) depend
+}
+else
+	./Configure $($(package)_config_opts)
 endef
 
 define $(package)_build_cmds
