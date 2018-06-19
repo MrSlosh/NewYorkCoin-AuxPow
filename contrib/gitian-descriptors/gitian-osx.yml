@@ -6,8 +6,7 @@ suites:
 architectures:
 - "amd64"
 packages:
-- "g++"
-- "libstdc++6"
+- "g++4.1"
 - "git-core"
 - "pkg-config"
 - "autoconf2.13"
