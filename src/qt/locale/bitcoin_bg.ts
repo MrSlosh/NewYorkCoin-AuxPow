@@ -283,8 +283,8 @@
         <translation>Отвори &amp;URI...</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core client</source>
-        <translation>NewYorkCoin Core клиент</translation>
+        <source>NewYorkCoin client</source>
+        <translation>NewYorkCoin клиент</translation>
     </message>
     <message>
         <source>Send coins to a NewYorkCoin address</source>
@@ -327,7 +327,7 @@
         <translation>&amp;Получаване</translation>
     </message>
     <message>
-        <source>Show information about NewYorkCoin Core</source>
+        <source>Show information about NewYorkCoin</source>
         <translation>Покажете информация за Биткойн ядрото</translation>
     </message>
     <message>
@@ -367,7 +367,7 @@
         <translation>Раздели</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Биткойн ядро</translation>
     </message>
     <message>
@@ -375,8 +375,8 @@
         <translation>Изискване на плащания(генерира QR кодове и биткойн: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About NewYorkCoin Core</source>
-        <translation>&amp;Относно NewYorkCoin Core</translation>
+        <source>&amp;About NewYorkCoin</source>
+        <translation>&amp;Относно NewYorkCoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -395,7 +395,7 @@
         <translation>&amp;Налични команди</translation>
     </message>
     <message>
-        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
+        <source>Show the NewYorkCoin help message to get a list with possible NewYorkCoin command-line options</source>
         <translation>Покажи помощните съобщения на Биткойн за да видиш наличните и валидни команди</translation>
     </message>
     <message>
@@ -734,7 +734,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Биткойн ядро</translation>
     </message>
     <message>
@@ -746,8 +746,8 @@
         <translation>(%1-битов)</translation>
     </message>
     <message>
-        <source>About NewYorkCoin Core</source>
-        <translation>Относно NewYorkCoin Core</translation>
+        <source>About NewYorkCoin</source>
+        <translation>Относно NewYorkCoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -769,11 +769,11 @@
         <translation>Добре дошли</translation>
     </message>
     <message>
-        <source>Welcome to NewYorkCoin Core.</source>
+        <source>Welcome to NewYorkCoin.</source>
         <translation>Добре дошли в Биткойн ядрото.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin will store its data.</source>
         <translation>Тъй като това е първото стартиране на програмата можете да изберете къде Биткон ядрото да запази данните си.</translation>
     </message>
     <message>
@@ -785,7 +785,7 @@
         <translation>Използване на директория ръчно</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Биткойн ядро</translation>
     </message>
     <message>
@@ -1743,7 +1743,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>NewYorkCoin Core is shutting down...</source>
+        <source>NewYorkCoin is shutting down...</source>
         <translation>Биткойн ядрото се изключва...</translation>
     </message>
     <message>
@@ -1869,12 +1869,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Биткойн ядро</translation>
     </message>
     <message>
-        <source>The NewYorkCoin Core developers</source>
-        <translation>Разработчици на NewYorkCoin Core</translation>
+        <source>The NewYorkCoin developers</source>
+        <translation>Разработчици на NewYorkCoin</translation>
     </message>
     <message>
         <source>[testnet]</source>

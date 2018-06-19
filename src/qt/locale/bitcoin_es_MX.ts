@@ -315,7 +315,7 @@
         <translation>Pestañas</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>nucleo NewYorkCoin</translation>
     </message>
     <message>
@@ -323,7 +323,7 @@
         <translation>opciones de la &amp;Linea de comandos</translation>
     </message>
     <message>
-        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
+        <source>Show the NewYorkCoin help message to get a list with possible NewYorkCoin command-line options</source>
         <translation>Mostrar mensaje de ayuda del nucleo de NewYorkCoin para optener una lista con los posibles comandos  de NewYorkCoin</translation>
     </message>
     <message>
@@ -474,7 +474,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>nucleo NewYorkCoin</translation>
     </message>
     <message>
@@ -486,8 +486,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About NewYorkCoin Core</source>
-        <translation>Acerca de NewYorkCoin Core</translation>
+        <source>About NewYorkCoin</source>
+        <translation>Acerca de NewYorkCoin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -501,7 +501,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>nucleo NewYorkCoin</translation>
     </message>
     </context>
@@ -755,7 +755,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>NewYorkCoin Core is shutting down...</source>
+        <source>NewYorkCoin is shutting down...</source>
         <translation>Apagando el nucleo de NewYorkCoin...</translation>
     </message>
     <message>
@@ -781,12 +781,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>nucleo NewYorkCoin</translation>
     </message>
     <message>
-        <source>The NewYorkCoin Core developers</source>
-        <translation>Los desarrolladores de NewYorkCoin Core</translation>
+        <source>The NewYorkCoin developers</source>
+        <translation>Los desarrolladores de NewYorkCoin</translation>
     </message>
     </context>
 <context>

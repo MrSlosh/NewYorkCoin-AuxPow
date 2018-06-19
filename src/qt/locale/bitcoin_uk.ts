@@ -168,8 +168,8 @@
         <translation>Ви дійсно хочете зашифрувати свій гаманець?</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Клієнт «NewYorkCoin Core» буде закрито для завершення процесу шифрування. Пам'ятайте, що шифрування гаманця не зможе повністю захистити ваші біткоїни від крадіжки якщо ваш комп'ютер буде інфіковано шкідливими програмами.</translation>
+        <source>NewYorkCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Клієнт «NewYorkCoin» буде закрито для завершення процесу шифрування. Пам'ятайте, що шифрування гаманця не зможе повністю захистити ваші біткоїни від крадіжки якщо ваш комп'ютер буде інфіковано шкідливими програмами.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -295,8 +295,8 @@
         <translation>Відкрити &amp;URI</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core client</source>
-        <translation>Клієнт «NewYorkCoin Core»</translation>
+        <source>NewYorkCoin client</source>
+        <translation>Клієнт «NewYorkCoin»</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -347,8 +347,8 @@
         <translation>&amp;Отримати</translation>
     </message>
     <message>
-        <source>Show information about NewYorkCoin Core</source>
-        <translation>Показати інформацію про NewYorkCoin Core</translation>
+        <source>Show information about NewYorkCoin</source>
+        <translation>Показати інформацію про NewYorkCoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -387,20 +387,20 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
-        <translation>NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
         <translation>Створити запит платежу (генерує QR-код та newyorkcoin: URI)</translation>
     </message>
     <message>
-        <source>&amp;About NewYorkCoin Core</source>
-        <translation>&amp;Про NewYorkCoin Core</translation>
+        <source>&amp;About NewYorkCoin</source>
+        <translation>&amp;Про NewYorkCoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for NewYorkCoin Core</source>
-        <translation>Редагувати параметри NewYorkCoin Core</translation>
+        <source>Modify configuration options for NewYorkCoin</source>
+        <translation>Редагувати параметри NewYorkCoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -419,8 +419,8 @@
         <translation>Параметри командного рядка</translation>
     </message>
     <message>
-        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
-        <translation>Показати довідку NewYorkCoin Core для отримання переліку можливих параметрів командного рядка.</translation>
+        <source>Show the NewYorkCoin help message to get a list with possible NewYorkCoin command-line options</source>
+        <translation>Показати довідку NewYorkCoin для отримання переліку можливих параметрів командного рядка.</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to NewYorkCoin network</source>
@@ -844,8 +844,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
-        <translation>NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -856,8 +856,8 @@
         <translation>(%1-бітний)</translation>
     </message>
     <message>
-        <source>About NewYorkCoin Core</source>
-        <translation>Про NewYorkCoin Core</translation>
+        <source>About NewYorkCoin</source>
+        <translation>Про NewYorkCoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -879,16 +879,16 @@
         <translation>Вітання</translation>
     </message>
     <message>
-        <source>Welcome to NewYorkCoin Core.</source>
-        <translation>Ласкаво просимо в NewYorkCoin Core.</translation>
+        <source>Welcome to NewYorkCoin.</source>
+        <translation>Ласкаво просимо в NewYorkCoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
-        <translation>Оскільки це перший запуск програми, ви можете обрати де NewYorkCoin Core буде зберігати дані.</translation>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin will store its data.</source>
+        <translation>Оскільки це перший запуск програми, ви можете обрати де NewYorkCoin буде зберігати дані.</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>NewYorkCoin Core завантажить та збереже копію ланцюжка блоків NewYorkCoin. Щонайменше %1ГБ даних буде збережено в цьому каталозі. Гаманець теж буде збережено в цьому каталозі.</translation>
+        <source>NewYorkCoin will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>NewYorkCoin завантажить та збереже копію ланцюжка блоків NewYorkCoin. Щонайменше %1ГБ даних буде збережено в цьому каталозі. Гаманець теж буде збережено в цьому каталозі.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -899,8 +899,8 @@
         <translation>Використовувати свій каталог даних:</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
-        <translation>NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -981,8 +981,8 @@
         <translation>Згортати замість закриття. Якщо ця опція включена, програма закриється лише після вибору відповідного пункту в меню.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting NewYorkCoin Core.</source>
-        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску NewYorkCoin Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting NewYorkCoin.</source>
+        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску NewYorkCoin.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1009,12 +1009,12 @@
         <translation>&amp;Мережа</translation>
     </message>
     <message>
-        <source>Automatically start NewYorkCoin Core after logging in to the system.</source>
-        <translation>Автоматично запускати NewYorkCoin Core при вході до системи.</translation>
+        <source>Automatically start NewYorkCoin after logging in to the system.</source>
+        <translation>Автоматично запускати NewYorkCoin при вході до системи.</translation>
     </message>
     <message>
-        <source>&amp;Start NewYorkCoin Core on system login</source>
-        <translation>&amp;Запускати NewYorkCoin Core при вході до системи</translation>
+        <source>&amp;Start NewYorkCoin on system login</source>
+        <translation>&amp;Запускати NewYorkCoin при вході до системи</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1443,8 +1443,8 @@
         <translation>Поточне число блоків</translation>
     </message>
     <message>
-        <source>Open the NewYorkCoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Відкрити файл журналу налагодження NewYorkCoin Core з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
+        <source>Open the NewYorkCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Відкрити файл журналу налагодження NewYorkCoin з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1563,8 +1563,8 @@
         <translation>Очистити консоль</translation>
     </message>
     <message>
-        <source>Welcome to the NewYorkCoin Core RPC console.</source>
-        <translation>Вітаємо у RPC-консолі NewYorkCoin Core.</translation>
+        <source>Welcome to the NewYorkCoin RPC console.</source>
+        <translation>Вітаємо у RPC-консолі NewYorkCoin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2141,8 +2141,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>NewYorkCoin Core is shutting down...</source>
-        <translation>NewYorkCoin Core вимикається...</translation>
+        <source>NewYorkCoin is shutting down...</source>
+        <translation>NewYorkCoin вимикається...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2291,12 +2291,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
-        <translation>NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
-        <source>The NewYorkCoin Core developers</source>
-        <translation>Розробники NewYorkCoin Core</translation>
+        <source>The NewYorkCoin developers</source>
+        <translation>Розробники NewYorkCoin</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2845,8 +2845,8 @@
         <translation>Це тестова збірка пре-релізної версії - використовуйте на свій страх і ризик - не застосовувати для добування монет або торгівлі</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
-        <translation>Неможливо прив'язатися до %s на цьому комп'ютері. Можливо, NewYorkCoin Core вже запущено.</translation>
+        <source>Unable to bind to %s on this computer. NewYorkCoin is probably already running.</source>
+        <translation>Неможливо прив'язатися до %s на цьому комп'ютері. Можливо, NewYorkCoin вже запущено.</translation>
     </message>
     <message>
         <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
@@ -3041,8 +3041,8 @@
         <translation>Прив'язатися до даної адреси для прослуховування JSON-RPC підключень. Використовуйте запис виду [хост]:порт для IPv6. Цей параметр можна вказувати декілька разів (типово: прив'язуватися до всіх інтерфейсів)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
-        <translation>Не вдалося встановити блокування на каталог даних %s. NewYorkCoin Core, ймовірно, вже запущений.</translation>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin is probably already running.</source>
+        <translation>Не вдалося встановити блокування на каталог даних %s. NewYorkCoin, ймовірно, вже запущений.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3133,8 +3133,8 @@ rpcpassword=%s
         <translation>Увага: установлено дуже велике значення -maxtxfee! Такі великі комісії можуть бути сплачені в окремій транзакції.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong NewYorkCoin Core will not work properly.</source>
-        <translation>Увага: будь ласка, перевірте дату і час на своєму комп'ютері! Якщо ваш годинник йде неправильно, NewYorkCoin Core може працювати некоректно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong NewYorkCoin will not work properly.</source>
+        <translation>Увага: будь ласка, перевірте дату і час на своєму комп'ютері! Якщо ваш годинник йде неправильно, NewYorkCoin може працювати некоректно.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3177,16 +3177,16 @@ rpcpassword=%s
         <translation>(C) 2009-%i Розробники Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2013-%i The NewYorkCoin Core Developers</source>
-        <translation>(C) 2013-%i Розробники NewYorkCoin Core</translation>
+        <source>Copyright (C) 2013-%i The NewYorkCoin Developers</source>
+        <translation>(C) 2013-%i Розробники NewYorkCoin</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>Неможливо розпізнати мережеву адресу для параметру -rpcbind (%s)</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin Core</source>
-        <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії NewYorkCoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin</source>
+        <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії NewYorkCoin</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3205,8 +3205,8 @@ rpcpassword=%s
         <translation>Інформація</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. NewYorkCoin Core is shutting down.</source>
-        <translation>Не вдалося пройти базові перевірки під час ініціалізації. NewYorkCoin Core буде вимкнено.</translation>
+        <source>Initialization sanity check failed. NewYorkCoin is shutting down.</source>
+        <translation>Не вдалося пройти базові перевірки під час ініціалізації. NewYorkCoin буде вимкнено.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3333,8 +3333,8 @@ rpcpassword=%s
         <translation>Ім'я користувача для JSON-RPC-з'єднань</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart NewYorkCoin Core to complete</source>
-        <translation>Потрібно перезаписати гаманець: перезапустіть NewYorkCoin Core для завершення</translation>
+        <source>Wallet needed to be rewritten: restart NewYorkCoin to complete</source>
+        <translation>Потрібно перезаписати гаманець: перезапустіть NewYorkCoin для завершення</translation>
     </message>
     <message>
         <source>Warning</source>

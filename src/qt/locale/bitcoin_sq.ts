@@ -215,11 +215,11 @@
         <translation>Shiriti i mjeteve</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Berthama NewYorkCoin</translation>
     </message>
     <message>
-        <source>&amp;About NewYorkCoin Core</source>
+        <source>&amp;About NewYorkCoin</source>
         <translation>Rreth Berthames Dogekoin</translation>
     </message>
     <message>
@@ -354,7 +354,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Berthama NewYorkCoin</translation>
     </message>
     <message>
@@ -362,7 +362,7 @@
         <translation>versioni</translation>
     </message>
     <message>
-        <source>About NewYorkCoin Core</source>
+        <source>About NewYorkCoin</source>
         <translation>Rreth Berthames Dogekoin</translation>
     </message>
     </context>
@@ -373,11 +373,11 @@
         <translation>Miresevini</translation>
     </message>
     <message>
-        <source>Welcome to NewYorkCoin Core.</source>
+        <source>Welcome to NewYorkCoin.</source>
         <translation>Miresevini ne Berthamen NewYorkCoin</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Berthama NewYorkCoin</translation>
     </message>
     <message>
@@ -565,7 +565,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Berthama NewYorkCoin</translation>
     </message>
     <message>

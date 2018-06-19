@@ -287,8 +287,8 @@
         <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core client</source>
-        <translation>Cliente NewYorkCoin Core</translation>
+        <source>NewYorkCoin client</source>
+        <translation>Cliente NewYorkCoin</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -339,8 +339,8 @@
         <translation>&amp;Receber</translation>
     </message>
     <message>
-        <source>Show information about NewYorkCoin Core</source>
-        <translation>Mostrar informação sobre NewYorkCoin Core</translation>
+        <source>Show information about NewYorkCoin</source>
+        <translation>Mostrar informação sobre NewYorkCoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -379,16 +379,16 @@
         <translation>Barra de separadores</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
-        <translation>NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
         <translation>Solicitar pagamentos (gera códigos QR e URIs newyorkcoin:)</translation>
     </message>
     <message>
-        <source>&amp;About NewYorkCoin Core</source>
-        <translation>&amp;Sobre o NewYorkCoin Core</translation>
+        <source>&amp;About NewYorkCoin</source>
+        <translation>&amp;Sobre o NewYorkCoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -407,8 +407,8 @@
         <translation>&amp;Opções da linha de &amp;comandos</translation>
     </message>
     <message>
-        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
-        <translation>Mostrar a mensagem de ajuda do NewYorkCoin Core para obter uma lista com possíveis opções de linha de comandos</translation>
+        <source>Show the NewYorkCoin help message to get a list with possible NewYorkCoin command-line options</source>
+        <translation>Mostrar a mensagem de ajuda do NewYorkCoin para obter uma lista com possíveis opções de linha de comandos</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to NewYorkCoin network</source>
@@ -786,8 +786,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
-        <translation>NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -798,8 +798,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About NewYorkCoin Core</source>
-        <translation>Sobre o NewYorkCoin Core</translation>
+        <source>About NewYorkCoin</source>
+        <translation>Sobre o NewYorkCoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -821,16 +821,16 @@
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to NewYorkCoin Core.</source>
-        <translation>Bem-vindo ao NewYorkCoin Core.</translation>
+        <source>Welcome to NewYorkCoin.</source>
+        <translation>Bem-vindo ao NewYorkCoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
-        <translation>Sendo esta a primeira vez que o programa é iniciado, poderá escolher onde o NewYorkCoin Core irá guardar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin will store its data.</source>
+        <translation>Sendo esta a primeira vez que o programa é iniciado, poderá escolher onde o NewYorkCoin irá guardar os seus dados.</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O NewYorkCoin Core vai transferir e armazenar uma cópia do "block chain" (cadeia de blocos). Pelo menos %1GB de dados serão armazenados nesta pasta, e vão crescer ao longo do tempo. A sua carteira também irá ser armazenada nesta pasta.</translation>
+        <source>NewYorkCoin will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O NewYorkCoin vai transferir e armazenar uma cópia do "block chain" (cadeia de blocos). Pelo menos %1GB de dados serão armazenados nesta pasta, e vão crescer ao longo do tempo. A sua carteira também irá ser armazenada nesta pasta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -841,8 +841,8 @@
         <translation>Utilizar uma pasta de dados personalizada:</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
-        <translation>NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2000,8 +2000,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>NewYorkCoin Core is shutting down...</source>
-        <translation>O NewYorkCoin Core está a encerrar...</translation>
+        <source>NewYorkCoin is shutting down...</source>
+        <translation>O NewYorkCoin está a encerrar...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2142,12 +2142,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
-        <translation>NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
-        <source>The NewYorkCoin Core developers</source>
-        <translation>Os programadores do NewYorkCoin Core</translation>
+        <source>The NewYorkCoin developers</source>
+        <translation>Os programadores do NewYorkCoin</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2684,8 +2684,8 @@
         <translation>Esta é uma versão de testes pré-lançamento - use à sua responsabilidade - não usar para minar ou aplicações comerciais</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
-        <translation>Incapaz de vincular à porta %s neste computador. O NewYorkCoin Core provavelmente já está a correr.</translation>
+        <source>Unable to bind to %s on this computer. NewYorkCoin is probably already running.</source>
+        <translation>Incapaz de vincular à porta %s neste computador. O NewYorkCoin provavelmente já está a correr.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2856,8 +2856,8 @@
         <translation>Vincualar o endereço dado e listar as ligações conectadas ao mesmo na lista branca. Use a notação [anfitrião]:porta para IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
-        <translation>Impossível trancar a pasta de dados %s. Provavelmente o NewYorkCoin Core já está a ser executado.</translation>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin is probably already running.</source>
+        <translation>Impossível trancar a pasta de dados %s. Provavelmente o NewYorkCoin já está a ser executado.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>

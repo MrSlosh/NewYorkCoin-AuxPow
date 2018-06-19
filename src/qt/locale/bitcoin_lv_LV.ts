@@ -263,8 +263,8 @@
         <translation>Atvērt &amp;URI...</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core client</source>
-        <translation>NewYorkCoin Core klients</translation>
+        <source>NewYorkCoin client</source>
+        <translation>NewYorkCoin klients</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -315,8 +315,8 @@
         <translation>&amp;Saņemt</translation>
     </message>
     <message>
-        <source>Show information about NewYorkCoin Core</source>
-        <translation>Parādīt informāciju par NewYorkCoin Core</translation>
+        <source>Show information about NewYorkCoin</source>
+        <translation>Parādīt informāciju par NewYorkCoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
-        <translation>NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and newyorkcoin: URIs)</source>
         <translation>Pieprasīt maksājumus (izveido QR kodu un newyorkcoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About NewYorkCoin Core</source>
-        <translation>Par &amp;NewYorkCoin Core</translation>
+        <source>&amp;About NewYorkCoin</source>
+        <translation>Par &amp;NewYorkCoin</translation>
     </message>
     <message>
         <source>Open a newyorkcoin: URI or payment request</source>
@@ -678,8 +678,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
-        <translation>NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -690,8 +690,8 @@
         <translation>(%1-biti)</translation>
     </message>
     <message>
-        <source>About NewYorkCoin Core</source>
-        <translation>Par NewYorkCoin Core</translation>
+        <source>About NewYorkCoin</source>
+        <translation>Par NewYorkCoin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -709,8 +709,8 @@
         <translation>Sveiciens</translation>
     </message>
     <message>
-        <source>Welcome to NewYorkCoin Core.</source>
-        <translation>Sveicināts NewYorkCoin Core</translation>
+        <source>Welcome to NewYorkCoin.</source>
+        <translation>Sveicināts NewYorkCoin</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -721,8 +721,8 @@
         <translation>Izmantot pielāgotu datu mapi:</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
-        <translation>NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1495,8 +1495,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>NewYorkCoin Core is shutting down...</source>
-        <translation>NewYorkCoin Core tiek izslēgta...</translation>
+        <source>NewYorkCoin is shutting down...</source>
+        <translation>NewYorkCoin tiek izslēgta...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1625,12 +1625,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
-        <translation>NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation>NewYorkCoin</translation>
     </message>
     <message>
-        <source>The NewYorkCoin Core developers</source>
-        <translation>NewYorkCoin Core izstrādātāji</translation>
+        <source>The NewYorkCoin developers</source>
+        <translation>NewYorkCoin izstrādātāji</translation>
     </message>
     <message>
         <source>[testnet]</source>

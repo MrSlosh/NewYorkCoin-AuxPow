@@ -210,7 +210,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
+        <source>NewYorkCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -376,7 +376,7 @@
     </message>
     <message>
         <location line="+176"/>
-        <source>NewYorkCoin Core client</source>
+        <source>NewYorkCoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -441,7 +441,7 @@
     </message>
     <message>
         <location line="+40"/>
-        <source>Show information about NewYorkCoin Core</source>
+        <source>Show information about NewYorkCoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -491,8 +491,8 @@
     </message>
     <message>
         <location line="-311"/>
-        <source>NewYorkCoin Core</source>
-        <translation type="unfinished">NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation type="unfinished">NewYorkCoin</translation>
     </message>
     <message>
         <location line="+164"/>
@@ -501,13 +501,13 @@
     </message>
     <message>
         <location line="+38"/>
-        <source>&amp;About NewYorkCoin Core</source>
-        <translation>About NewYorkCoin Core</translation>
+        <source>&amp;About NewYorkCoin</source>
+        <translation>About NewYorkCoin</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Modify configuration options for NewYorkCoin Core</source>
-        <translation>Modify configuration options for NewYorkCoin Core</translation>
+        <source>Modify configuration options for NewYorkCoin</source>
+        <translation>Modify configuration options for NewYorkCoin</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -531,7 +531,7 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
+        <source>Show the NewYorkCoin help message to get a list with possible NewYorkCoin command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
@@ -1073,8 +1073,8 @@
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+33"/>
-        <source>NewYorkCoin Core</source>
-        <translation type="unfinished">NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation type="unfinished">NewYorkCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1089,8 +1089,8 @@
     </message>
     <message>
         <location line="+5"/>
-        <source>About NewYorkCoin Core</source>
-        <translation>About NewYorkCoin Core</translation>
+        <source>About NewYorkCoin</source>
+        <translation>About NewYorkCoin</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1117,17 +1117,17 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to NewYorkCoin Core.</source>
+        <source>Welcome to NewYorkCoin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>NewYorkCoin will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1142,8 +1142,8 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>NewYorkCoin Core</source>
-        <translation type="unfinished">NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation type="unfinished">NewYorkCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1249,7 +1249,7 @@
     </message>
     <message>
         <location line="+45"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting NewYorkCoin Core.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting NewYorkCoin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1285,12 +1285,12 @@
     </message>
     <message>
         <location line="-153"/>
-        <source>Automatically start NewYorkCoin Core after logging in to the system.</source>
+        <source>Automatically start NewYorkCoin after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start NewYorkCoin Core on system login</source>
+        <source>&amp;Start NewYorkCoin on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1861,7 +1861,7 @@
     </message>
     <message>
         <location line="+72"/>
-        <source>Open the NewYorkCoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the NewYorkCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2013,7 +2013,7 @@
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-36"/>
-        <source>Welcome to the NewYorkCoin Core RPC console.</source>
+        <source>Welcome to the NewYorkCoin RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2751,7 +2751,7 @@
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+81"/>
-        <source>NewYorkCoin Core is shutting down...</source>
+        <source>NewYorkCoin is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2946,12 +2946,12 @@
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+41"/>
-        <source>NewYorkCoin Core</source>
-        <translation type="unfinished">NewYorkCoin Core</translation>
+        <source>NewYorkCoin</source>
+        <translation type="unfinished">NewYorkCoin</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>The NewYorkCoin Core developers</source>
+        <source>The NewYorkCoin developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3658,7 +3658,7 @@
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. NewYorkCoin is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3903,7 +3903,7 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4008,7 +4008,7 @@ for example: alertnotify=echo %%s | mail -s &quot;NewYorkCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+6"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NewYorkCoin Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NewYorkCoin will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4068,7 +4068,7 @@ for example: alertnotify=echo %%s | mail -s &quot;NewYorkCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+10"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4093,7 +4093,7 @@ for example: alertnotify=echo %%s | mail -s &quot;NewYorkCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. NewYorkCoin Core is shutting down.</source>
+        <source>Initialization sanity check failed. NewYorkCoin is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4253,7 +4253,7 @@ for example: alertnotify=echo %%s | mail -s &quot;NewYorkCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+4"/>
-        <source>Wallet needed to be rewritten: restart NewYorkCoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart NewYorkCoin to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

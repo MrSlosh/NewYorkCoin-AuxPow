@@ -1,4 +1,4 @@
-# NewYorkCoin Core [NYCoin, NYC]
+# NewYorkCoin [NYCoin, NYC]
 ==========================
 
 ![NewYorkCoin](https://nycoin.community/img/logo.png)

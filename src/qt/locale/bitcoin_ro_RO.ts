@@ -168,7 +168,7 @@
         <translation>Sigur doriţi să criptaţi portofelul dvs.?</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
+        <source>NewYorkCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
         <translation>NewYorkCoin se va închide acum pentru a termina procesul de criptare. Ţineţi minte că criptarea portofelului nu vă poate proteja în totalitate de furtul monedelor de către programe dăunătoare care vă infectează calculatorul.</translation>
     </message>
     <message>
@@ -295,8 +295,8 @@
         <translation>Deschide &amp;URI...</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core client</source>
-        <translation>Clientul NewYorkCoin Core</translation>
+        <source>NewYorkCoin client</source>
+        <translation>Clientul NewYorkCoin</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -347,8 +347,8 @@
         <translation>P&amp;rimeşte</translation>
     </message>
     <message>
-        <source>Show information about NewYorkCoin Core</source>
-        <translation>Arată informaţii despre NewYorkCoin Core</translation>
+        <source>Show information about NewYorkCoin</source>
+        <translation>Arată informaţii despre NewYorkCoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -387,7 +387,7 @@
         <translation>Bara de unelte</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Nucleul NewYorkCoin</translation>
     </message>
     <message>
@@ -395,11 +395,11 @@
         <translation>Cereţi plăţi (generează coduri QR şi newyorkcoin-uri: URls)</translation>
     </message>
     <message>
-        <source>&amp;About NewYorkCoin Core</source>
+        <source>&amp;About NewYorkCoin</source>
         <translation>&amp;Despre Nucleul NewYorkCoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for NewYorkCoin Core</source>
+        <source>Modify configuration options for NewYorkCoin</source>
         <translation>Modifică opţiunile de configurare pentru NewYorkCoin</translation>
     </message>
     <message>
@@ -419,8 +419,8 @@
         <translation>Opţiuni linie de &amp;comandă</translation>
     </message>
     <message>
-        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
-        <translation>Arată mesajul de ajutor NewYorkCoin Core pentru a obţine o listă cu opţiunile posibile de linii de comandă NewYorkCoin</translation>
+        <source>Show the NewYorkCoin help message to get a list with possible NewYorkCoin command-line options</source>
+        <translation>Arată mesajul de ajutor NewYorkCoin pentru a obţine o listă cu opţiunile posibile de linii de comandă NewYorkCoin</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to NewYorkCoin network</source>
@@ -836,7 +836,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Nucleul NewYorkCoin</translation>
     </message>
     <message>
@@ -848,7 +848,7 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About NewYorkCoin Core</source>
+        <source>About NewYorkCoin</source>
         <translation>Despre Nucleul NewYorkCoin</translation>
     </message>
     <message>
@@ -871,11 +871,11 @@
         <translation>Bun venit</translation>
     </message>
     <message>
-        <source>Welcome to NewYorkCoin Core.</source>
+        <source>Welcome to NewYorkCoin.</source>
         <translation>Bine aţi venit la Nucleul NewYorkCoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin will store its data.</source>
         <translation>Dacă aceasta este prima dată cînd programul este lansat, puteţi alege unde Nucleul NewYorkCoin va stoca datele.</translation>
     </message>
     <message>
@@ -887,7 +887,7 @@
         <translation>Foloseşte un dosar de date personalizat:</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Nucleul NewYorkCoin</translation>
     </message>
     <message>
@@ -969,7 +969,7 @@
         <translation>Minimizează fereastra în locul părăsirii programului în momentul închiderii ferestrei. Cînd acestă opţiune e activă, aplicaţia se va opri doar în momentul selectării comenzii 'Închide aplicaţia' din menu.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting NewYorkCoin Core.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting NewYorkCoin.</source>
         <translation>Limba interfeţei utilizatorului poate fi setată aici. Această setare va avea efect după repornirea Nucleului NewYorkCoin.</translation>
     </message>
     <message>
@@ -997,7 +997,7 @@
         <translation>Reţea</translation>
     </message>
     <message>
-        <source>&amp;Start NewYorkCoin Core on system login</source>
+        <source>&amp;Start NewYorkCoin on system login</source>
         <translation>Porneşte Nucleul NewYorkCoin la pornirea sistemului</translation>
     </message>
     <message>
@@ -1523,7 +1523,7 @@
         <translation>Curăţă consola</translation>
     </message>
     <message>
-        <source>Welcome to the NewYorkCoin Core RPC console.</source>
+        <source>Welcome to the NewYorkCoin RPC console.</source>
         <translation>Bun venit la consola Nucleului NewYorkCoin RPC.</translation>
     </message>
     <message>
@@ -2053,7 +2053,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>NewYorkCoin Core is shutting down...</source>
+        <source>NewYorkCoin is shutting down...</source>
         <translation>Nucleul NewYorkCoin se închide...</translation>
     </message>
     <message>
@@ -2195,11 +2195,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Nucleul NewYorkCoin</translation>
     </message>
     <message>
-        <source>The NewYorkCoin Core developers</source>
+        <source>The NewYorkCoin developers</source>
         <translation>Dezvoltatorii Nucleului NewYorkCoin</translation>
     </message>
     <message>
@@ -2725,7 +2725,7 @@
         <translation>Aceasta este o versiune de test preliminară - vă asumaţi riscul folosind-o - nu folosiţi pentru minerit sau aplicaţiile comercianţilor</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. NewYorkCoin is probably already running.</source>
         <translation>Nu se poate lega la %s pe acest calculator. Nucleul NewYorkCoin probabil deja rulează.</translation>
     </message>
     <message>
@@ -2885,7 +2885,7 @@
         <translation>A apărut o eroare la setarea adresei RPC %s portul %u pentru ascultare: %s</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin is probably already running.</source>
         <translation>Nu se poate obţine blocarea folderului cu date %s. Nucleul NewYorkCoin probabil deja rulează.</translation>
     </message>
     <message>
@@ -2917,7 +2917,7 @@
         <translation>Copyright (C) 2009-%i Dezvoltatorii Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2013-%i The NewYorkCoin Core Developers</source>
+        <source>Copyright (C) 2013-%i The NewYorkCoin Developers</source>
         <translation>Copyright (C) 2013-%i Dezvoltatorii NewYorkCoin</translation>
     </message>
     <message>
@@ -2937,7 +2937,7 @@
         <translation>Informaţie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. NewYorkCoin Core is shutting down.</source>
+        <source>Initialization sanity check failed. NewYorkCoin is shutting down.</source>
         <translation>Nu s-a reuşit iniţierea verificării sănătăţii. Nucleul NewYorkCoin se opreşte.</translation>
     </message>
     <message>
@@ -3045,7 +3045,7 @@
         <translation>Utilizator pentru conexiunile JSON-RPC</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart NewYorkCoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart NewYorkCoin to complete</source>
         <translation>Portofelul necesită rescrierea: reporniţi Nucleul NewYorkCoin pentru completare</translation>
     </message>
     <message>
