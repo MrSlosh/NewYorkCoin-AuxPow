@@ -1,0 +1,42 @@
+src/*.exe
+src/newyorkc
+src/newyorkcd
+src/test_newyorkc
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.newyorkc
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+newyorkc-qt
+newyorkc-Qt.app
+
+# Unit-tests
+Makefile.test
+newyorkc-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+# QT DB and logs
+docker/mainnet/*
+docker/testnet/*
+
+!docker/mainnet/newyorkcoin.conf
+!docker/testnet/newyorkcoin.conf
+!docker/testnet/debug.log
+
+!src/leveldb*/Makefile

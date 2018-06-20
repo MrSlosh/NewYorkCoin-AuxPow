@@ -1,6 +1,6 @@
 UNIX BUILD NOTES
 ====================
-Some notes on how to build NewYorkCoin in Unix. 
+Some notes on how to build NewYorkCoin in Unix.
 
 Note
 ---------------------
@@ -11,6 +11,8 @@ for example, when specifying the the path of the dependency:
 
 Here BDB_PREFIX must be an absolute path - it is defined using $(pwd) which ensures
 the usage of the absolute path.
+
+
 
 To Build
 ---------------------
@@ -33,6 +35,9 @@ These dependencies are required:
  ------------|------------------|----------------------
  libssl      | SSL Support      | Secure communications
  libboost    | Boost            | C++ Library
+ autogen     | Building         | Build tool
+ pkg-config  | Building         | Build tool
+
 
 Optional dependencies:
 
@@ -58,10 +63,14 @@ Dependency Build Instructions: Ubuntu & Debian
 Build requirements:
 
 	sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev
-	
-for Ubuntu 12.04 and later or Debian 7 and later, libboost-all-dev has to be installed:
 
-	sudo apt-get install libboost-all-dev libdb5.1-dev libdb5.1++-dev
+for Ubuntu 12.04, 14.04 or Debian 7 and 8, libboost-all-dev has to be installed:
+
+	sudo apt-get install libboost-all-dev libdb5.1-dev libdb5.1++-dev pkg-config libtool
+
+for ubuntu 16.04 and Debian 9:
+
+	sudo apt install libboost-all-dev libdb5.3-dev libdb5.3++-dev pkg-config libtool
 
 	Note that if you have Berkeley DB 4.8 packages installed (i.e. for other
 	wallet software), they are incompatible with the packages for 5.1. You
@@ -221,4 +230,3 @@ In this case there is no dependency on Berkeley DB 4.8.
 
 Mining is also possible in disable-wallet mode, but only using the `getblocktemplate` RPC
 call, not `getwork`.
-
