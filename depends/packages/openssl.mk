@@ -29,7 +29,8 @@ endef
 
 define $(package)_config_cmds
 	./Configure $($(package)_config_opts) && \
-	$(MAKE) depend
+	makedepend
+	#$(MAKE) depend
 
 endef
 
