@@ -48,7 +48,7 @@ public:
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowAllowDigishieldMinDifficultyBlocks = false;
         consensus.fSimplifiedRewards = false;
-        consensus.nAuxpowChainId = 0x0062; // 98 - Josh Wise!
+        consensus.nAuxpowChainId = 0x7C1; // 1985
         consensus.fStrictChainId = true;
         consensus.fAllowLegacyBlocks = true;
         consensus.fAllowAuxPow = false;

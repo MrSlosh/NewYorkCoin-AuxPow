@@ -112,7 +112,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn)
     if(nHeight < consensusParams.nHeightEffective)
       pblock->nVersion = 1;
     else
-      pblock->nVersion = CBlockHeader::CURRENT_VERSION;
+      pblock->nVersion = 3;
     pblock->nVersion.SetChainId(chainparams.GetConsensus(0).nAuxpowChainId);
 
     // -regtest only: allow overriding block.nVersion with
