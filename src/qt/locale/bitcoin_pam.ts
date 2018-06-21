@@ -303,7 +303,7 @@
         <translation>Gamit para king Tabs</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Kapilubluban ning NewYorkCoin</translation>
     </message>
     <message>
@@ -442,7 +442,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Kapilubluban ning NewYorkCoin</translation>
     </message>
     <message>
@@ -469,7 +469,7 @@
         <translation>Malaus ka</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Kapilubluban ning NewYorkCoin</translation>
     </message>
     <message>
@@ -965,7 +965,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Kapilubluban ning NewYorkCoin</translation>
     </message>
     <message>

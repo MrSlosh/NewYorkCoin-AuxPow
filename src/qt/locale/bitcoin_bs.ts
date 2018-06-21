@@ -15,7 +15,7 @@
         <translation>NewYorkCoin</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin Jezrga</translation>
     </message>
     </context>
@@ -34,14 +34,14 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin Jezrga</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin Jezrga</translation>
     </message>
     </context>
@@ -109,7 +109,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin Jezrga</translation>
     </message>
     </context>

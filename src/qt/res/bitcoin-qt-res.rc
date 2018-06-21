@@ -19,13 +19,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "NewYorkCoin"
-            VALUE "FileDescription",    "NewYorkCoin Core (GUI node for NewYorkCoin)"
+            VALUE "FileDescription",    "NewYorkCoin (GUI node for NewYorkCoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "newyorkcoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "newyorkcoin-qt.exe"
-            VALUE "ProductName",        "NewYorkCoin Core"
+            VALUE "ProductName",        "NewYorkCoin"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

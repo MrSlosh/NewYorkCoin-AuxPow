@@ -287,8 +287,8 @@
         <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core client</source>
-        <translation>NewYorkCoin Core klient</translation>
+        <source>NewYorkCoin client</source>
+        <translation>NewYorkCoin klient</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -339,8 +339,8 @@
         <translation>&amp;Prijať</translation>
     </message>
     <message>
-        <source>Show information about NewYorkCoin Core</source>
-        <translation>Zobraziť informácie o NewYorkCoin Core</translation>
+        <source>Show information about NewYorkCoin</source>
+        <translation>Zobraziť informácie o NewYorkCoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -379,7 +379,7 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Jadro NewYorkCoin</translation>
     </message>
     <message>
@@ -387,7 +387,7 @@
         <translation>Vyžiadať platbu (vygeneruje QR kód a newyorkcoin: URI)</translation>
     </message>
     <message>
-        <source>&amp;About NewYorkCoin Core</source>
+        <source>&amp;About NewYorkCoin</source>
         <translation>O jadre NewYorkCoin</translation>
     </message>
     <message>
@@ -407,7 +407,7 @@
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
+        <source>Show the NewYorkCoin help message to get a list with possible NewYorkCoin command-line options</source>
         <translation>Zobraziť pomocnú správu od NewYorkCoin Jadra pre získanie zoznamu dostupných možností príkazového riadku</translation>
     </message>
     <message>
@@ -766,7 +766,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Jadro NewYorkCoin</translation>
     </message>
     <message>
@@ -778,7 +778,7 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About NewYorkCoin Core</source>
+        <source>About NewYorkCoin</source>
         <translation>O jadre NewYorkCoin</translation>
     </message>
     <message>
@@ -801,15 +801,15 @@
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to NewYorkCoin Core.</source>
+        <source>Welcome to NewYorkCoin.</source>
         <translation>Vitajte v jadre NewYorkCoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin will store its data.</source>
         <translation>Keďže spúštate program prvý krát, môžte si vybrať kde bude NewYorkCoin Jadro ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>NewYorkCoin will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Jadro NewYorkCoin stiahne zo siete a uloží kópiu NewYorkCoin blockchain. Aspoň %1GB dát bude uložených v tomto priečinku a časom porastie. Peňaženka bude tiež uložená v tomto priečinku.</translation>
     </message>
     <message>
@@ -821,7 +821,7 @@
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Jadro NewYorkCoin</translation>
     </message>
     <message>
@@ -1859,7 +1859,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>NewYorkCoin Core is shutting down...</source>
+        <source>NewYorkCoin is shutting down...</source>
         <translation>Jadro NewYorkCoin sa ukončuje...</translation>
     </message>
     <message>
@@ -1993,11 +1993,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Jadro NewYorkCoin</translation>
     </message>
     <message>
-        <source>The NewYorkCoin Core developers</source>
+        <source>The NewYorkCoin developers</source>
         <translation>Vývojári jadra NewYorkCoin</translation>
     </message>
     <message>
@@ -2483,7 +2483,7 @@
         <translation>Toto je pred-testovacia verzia - použitie je na vlastné riziko - nepoužívajte na tvorbu newyorkcoin ani obchodovanie.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. NewYorkCoin is probably already running.</source>
         <translation>Nepodarilo sa pripojiť na %s na tomto počítači. NewYorkCoin Jadro je už pravdepodobne spustené.</translation>
     </message>
     <message>
@@ -2629,7 +2629,7 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Importuje bloky z externého súboru blk000??.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin is probably already running.</source>
         <translation>Neviem uzamknúť data adresár %s. Jadro NewYorkCoin je pravdepodobne už spustené.</translation>
     </message>
     <message>
@@ -2657,7 +2657,7 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Pripojiť cez proxy server SOCKS5</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin</source>
         <translation>Chyba pri čítaní wallet.dat: Peňaženka vyžaduje vyššiu verziu Jadra NewYorkCoin</translation>
     </message>
     <message>

@@ -247,8 +247,8 @@
         <translation>&amp;Gaunami adresai...</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core client</source>
-        <translation>NewYorkCoin Core klientas</translation>
+        <source>NewYorkCoin client</source>
+        <translation>NewYorkCoin klientas</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -299,8 +299,8 @@
         <translation>&amp;Gauti</translation>
     </message>
     <message>
-        <source>Show information about NewYorkCoin Core</source>
-        <translation>Rodyti informaciją apie NewYorkCoin Core</translation>
+        <source>Show information about NewYorkCoin</source>
+        <translation>Rodyti informaciją apie NewYorkCoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -331,12 +331,12 @@
         <translation>Kortelių įrankinė</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin branduolys</translation>
     </message>
     <message>
-        <source>&amp;About NewYorkCoin Core</source>
-        <translation>&amp;Apie NewYorkCoin Core</translation>
+        <source>&amp;About NewYorkCoin</source>
+        <translation>&amp;Apie NewYorkCoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -586,7 +586,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin branduolys</translation>
     </message>
     <message>
@@ -594,8 +594,8 @@
         <translation>versija</translation>
     </message>
     <message>
-        <source>About NewYorkCoin Core</source>
-        <translation>Apie NewYorkCoin Core</translation>
+        <source>About NewYorkCoin</source>
+        <translation>Apie NewYorkCoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -617,11 +617,11 @@
         <translation>Sveiki</translation>
     </message>
     <message>
-        <source>Welcome to NewYorkCoin Core.</source>
-        <translation>Sveiki atvykę į NewYorkCoin Core.</translation>
+        <source>Welcome to NewYorkCoin.</source>
+        <translation>Sveiki atvykę į NewYorkCoin.</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin branduolys</translation>
     </message>
     <message>
@@ -1165,7 +1165,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin branduolys</translation>
     </message>
     <message>

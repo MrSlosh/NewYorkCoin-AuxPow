@@ -1,9 +1,9 @@
-# NewYorkCoin Core 1.3
+# NewYorkCoin 1.3
 ===================
 
-NewYorkCoin Core 1.8 introduces AuxPoW from block 4,500,00. AuxPoW is a technology
+NewYorkCoin 1.8 introduces AuxPoW from block 4,500,00. AuxPoW is a technology
 which enables miners to submit work done while mining other coins, as work
-on the NewYorkCoin block chain. NewYorkCoin Core 1.8 also enables payment protocol
+on the NewYorkCoin block chain. NewYorkCoin 1.8 also enables payment protocol
 support for NewYorkCoin (note that NewYorkCoin's implementation of payment protocol is
 not compatible with Bitcoin's protocol). Lastly, 1.8  also includes all fixes
 from Bitcoin Core 0.9.2, whose release notes you can read at
@@ -58,7 +58,7 @@ compliance with BIP0034.
 
 ## Payment Protocol
 
-NewYorkCoin Core 1.8 adds payment protocol support, which is used to streamline payments
+NewYorkCoin 1.8 adds payment protocol support, which is used to streamline payments
 being made to merchants.
 
 This protocol is defined in DIP0070-DIP0072, based on the BIP standards with the same

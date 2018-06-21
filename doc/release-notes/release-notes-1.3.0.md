@@ -1,4 +1,4 @@
-# NewYorkCoin Core 1.3
+# NewYorkCoin 1.3
 =========================
 
 NewYorkCoin  1.3 is a complete re-architecture of NewYorkCoin, changing from

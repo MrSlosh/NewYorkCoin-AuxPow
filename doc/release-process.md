@@ -60,7 +60,7 @@ Release Process
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
-###Build NewYorkCoin Core for Linux, Windows, and OS X:
+###Build NewYorkCoin for Linux, Windows, and OS X:
   
 	./bin/gbuild --commit newyorkcoin=v${VERSION} ../newyorkcoin/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../newyorkcoin/contrib/gitian-descriptors/gitian-linux.yml

@@ -323,7 +323,7 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoini tuumik</translation>
     </message>
     <message numerus="yes">
@@ -580,7 +580,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoini tuumik</translation>
     </message>
     <message>
@@ -588,7 +588,7 @@
         <translation>versioon</translation>
     </message>
     <message>
-        <source>About NewYorkCoin Core</source>
+        <source>About NewYorkCoin</source>
         <translation>Kirjeldus NewYorkCoini Tuumast</translation>
     </message>
     <message>
@@ -611,7 +611,7 @@
         <translation>Teretulemast</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoini tuumik</translation>
     </message>
     <message>
@@ -1255,11 +1255,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoini tuumik</translation>
     </message>
     <message>
-        <source>The NewYorkCoin Core developers</source>
+        <source>The NewYorkCoin developers</source>
         <translation>NewYorkCoini Tuuma arendajad</translation>
     </message>
     <message>

@@ -168,8 +168,8 @@
         <translation>本当にウォレットを暗号化しますか?</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
-        <translation>暗号化処理を完了させるため NewYorkCoin Core をいますぐ終了します。ウォレットの暗号化では、コンピュータに感染したマルウェアなどによるドージコインの盗難から完全に守ることはできないことにご注意ください。</translation>
+        <source>NewYorkCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your newyorkcoins from being stolen by malware infecting your computer.</source>
+        <translation>暗号化処理を完了させるため NewYorkCoin をいますぐ終了します。ウォレットの暗号化では、コンピュータに感染したマルウェアなどによるドージコインの盗難から完全に守ることはできないことにご注意ください。</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -295,7 +295,7 @@
         <translation>URI を開く (&amp;U)...</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core client</source>
+        <source>NewYorkCoin client</source>
         <translation>NewYorkCoinコア クライアント</translation>
     </message>
     <message>
@@ -347,7 +347,7 @@
         <translation>受信 (&amp;R)</translation>
     </message>
     <message>
-        <source>Show information about NewYorkCoin Core</source>
+        <source>Show information about NewYorkCoin</source>
         <translation>NewYorkCoinコアに関する情報を表示</translation>
     </message>
     <message>
@@ -387,7 +387,7 @@
         <translation>タブツールバー</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin のコア</translation>
     </message>
     <message>
@@ -395,12 +395,12 @@
         <translation>支払いを要求する (QRコードとnewyorkcoin:ではじまるURIを生成する)</translation>
     </message>
     <message>
-        <source>&amp;About NewYorkCoin Core</source>
+        <source>&amp;About NewYorkCoin</source>
         <translation>ドージコインコアについて (&amp;A)</translation>
     </message>
     <message>
-        <source>Modify configuration options for NewYorkCoin Core</source>
-        <translation>NewYorkCoin Core の設定を編集する</translation>
+        <source>Modify configuration options for NewYorkCoin</source>
+        <translation>NewYorkCoin の設定を編集する</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -419,8 +419,8 @@
         <translation>コマンドラインオプション (&amp;C)</translation>
     </message>
     <message>
-        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
-        <translation>有効な NewYorkCoin のコマンドライン オプションを見るために NewYorkCoin Core のヘルプメッセージを表示します。</translation>
+        <source>Show the NewYorkCoin help message to get a list with possible NewYorkCoin command-line options</source>
+        <translation>有効な NewYorkCoin のコマンドライン オプションを見るために NewYorkCoin のヘルプメッセージを表示します。</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to NewYorkCoin network</source>
@@ -844,7 +844,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin のコア</translation>
     </message>
     <message>
@@ -856,7 +856,7 @@
         <translation>(%1ドージ)</translation>
     </message>
     <message>
-        <source>About NewYorkCoin Core</source>
+        <source>About NewYorkCoin</source>
         <translation>NewYorkCoinコアについて</translation>
     </message>
     <message>
@@ -879,16 +879,16 @@
         <translation>ようこそ</translation>
     </message>
     <message>
-        <source>Welcome to NewYorkCoin Core.</source>
+        <source>Welcome to NewYorkCoin.</source>
         <translation>ようこそ！</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
-        <translation>これはプログラム最初の起動です。NewYorkCoin Coreがデータを保存する場所を選択して下さい。</translation>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin will store its data.</source>
+        <translation>これはプログラム最初の起動です。NewYorkCoinがデータを保存する場所を選択して下さい。</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>NewYorkCoin Coreは、ドージコインのブロックチェーンのコピーを、ダウンロードして保存します。少なくとも%1ギガバイトのデータが、このディレクトリに保存されます。そしてそれは時間と共に増加します。またウォレットもこのディレクトリに保存されます。</translation>
+        <source>NewYorkCoin will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>NewYorkCoinは、ドージコインのブロックチェーンのコピーを、ダウンロードして保存します。少なくとも%1ギガバイトのデータが、このディレクトリに保存されます。そしてそれは時間と共に増加します。またウォレットもこのディレクトリに保存されます。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -899,7 +899,7 @@
         <translation>任意のデータ ディレクトリを使用:</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin のコア</translation>
     </message>
     <message>
@@ -981,8 +981,8 @@
         <translation>ウィンドウを閉じる際にアプリケーションを終了するのではなく、最小化します。このオプションが有効化された場合、メニューから終了を選択した場合にのみアプリケーションは閉じられます。</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting NewYorkCoin Core.</source>
-        <translation>ユーザ・インタフェイス言語はここで設定できます。この設定はNewYorkCoin Coreの再起動後に有効となります。</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting NewYorkCoin.</source>
+        <translation>ユーザ・インタフェイス言語はここで設定できます。この設定はNewYorkCoinの再起動後に有効となります。</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1009,12 +1009,12 @@
         <translation>ネットワーク (&amp;N)</translation>
     </message>
     <message>
-        <source>Automatically start NewYorkCoin Core after logging in to the system.</source>
-        <translation>システムにログインした際、自動的にNewYorkCoin Coreを起動する。</translation>
+        <source>Automatically start NewYorkCoin after logging in to the system.</source>
+        <translation>システムにログインした際、自動的にNewYorkCoinを起動する。</translation>
     </message>
     <message>
-        <source>&amp;Start NewYorkCoin Core on system login</source>
-        <translation>システムへログインした際にNewYorkCoin Coreを起動する (&amp;S)</translation>
+        <source>&amp;Start NewYorkCoin on system login</source>
+        <translation>システムへログインした際にNewYorkCoinを起動する (&amp;S)</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1443,8 +1443,8 @@
         <translation>現在のブロック数</translation>
     </message>
     <message>
-        <source>Open the NewYorkCoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>現在のデータディレクトリからNewYorkCoin Coreのデバッグ用ログファイルを開きます。ログファイルが巨大な場合、数秒かかることがあります。</translation>
+        <source>Open the NewYorkCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>現在のデータディレクトリからNewYorkCoinのデバッグ用ログファイルを開きます。ログファイルが巨大な場合、数秒かかることがあります。</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1563,8 +1563,8 @@
         <translation>コンソールをクリア</translation>
     </message>
     <message>
-        <source>Welcome to the NewYorkCoin Core RPC console.</source>
-        <translation>NewYorkCoin CoreのRPCコンソールへようこそ。</translation>
+        <source>Welcome to the NewYorkCoin RPC console.</source>
+        <translation>NewYorkCoinのRPCコンソールへようこそ。</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2141,8 +2141,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>NewYorkCoin Core is shutting down...</source>
-        <translation>NewYorkCoin Coreをシャットダウンしています。</translation>
+        <source>NewYorkCoin is shutting down...</source>
+        <translation>NewYorkCoinをシャットダウンしています。</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2291,11 +2291,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin のコア</translation>
     </message>
     <message>
-        <source>The NewYorkCoin Core developers</source>
+        <source>The NewYorkCoin developers</source>
         <translation>ドージコインコアの開発者</translation>
     </message>
     <message>
@@ -2845,8 +2845,8 @@
         <translation>これはリリース前のテストビルドです - 各自の責任で利用すること - 採掘や商取引に使用しないでください</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
-        <translation>このコンピュータの %s にバインドすることができません。おそらく NewYorkCoin Core は既に実行されています。</translation>
+        <source>Unable to bind to %s on this computer. NewYorkCoin is probably already running.</source>
+        <translation>このコンピュータの %s にバインドすることができません。おそらく NewYorkCoin は既に実行されています。</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3034,8 +3034,8 @@
         <translation>指定されたアドレスに対して JSON-RPC 接続をリッスンしするようバインドします。IPv6の場合には [host]:port 表記を使用してください。このオプションは複数回指定することが可能です (初期値: すべてのインターフェースに対してバインドする)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
-        <translation>データ ディレクトリ %s のロックを取得することができません。おそらく NewYorkCoin Core は実行中です。</translation>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin is probably already running.</source>
+        <translation>データ ディレクトリ %s のロックを取得することができません。おそらく NewYorkCoin は実行中です。</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3130,8 +3130,8 @@ rpcpassword=%s
         <translation>警告: -maxtxfee が非常に高く設定されています！ひとつのトランザクションでこの量の手数料が支払われてしまうことがあります。</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong NewYorkCoin Core will not work properly.</source>
-        <translation>警告： あなたのPCの日付と時刻が正しいことを確認して下さい！ もしあなたの時計が正しくなければNewYorkCoin Coreが正確に動作しません。</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong NewYorkCoin will not work properly.</source>
+        <translation>警告： あなたのPCの日付と時刻が正しいことを確認して下さい！ もしあなたの時計が正しくなければNewYorkCoinが正確に動作しません。</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3174,16 +3174,16 @@ rpcpassword=%s
         <translation>Copyright (C) 2009-%i Bitcoin Core 開発者</translation>
     </message>
     <message>
-        <source>Copyright (C) 2013-%i The NewYorkCoin Core Developers</source>
-        <translation>Copyright (C) 2013-%i NewYorkCoin Core 開発者</translation>
+        <source>Copyright (C) 2013-%i The NewYorkCoin Developers</source>
+        <translation>Copyright (C) 2013-%i NewYorkCoin 開発者</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>-rpcbind の値 %s をネットワークアドレスとして解釈できませんでした</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin Core</source>
-        <translation>wallet.dat の読み込みに失敗しました: ウォレットの読み込みにはより新しいバージョンの NewYorkCoin Core が必要です</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin</source>
+        <translation>wallet.dat の読み込みに失敗しました: ウォレットの読み込みにはより新しいバージョンの NewYorkCoin が必要です</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3202,8 +3202,8 @@ rpcpassword=%s
         <translation>情報</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. NewYorkCoin Core is shutting down.</source>
-        <translation>初期化時の健全性チェックに失敗しました。NewYorkCoin Coreを終了します。</translation>
+        <source>Initialization sanity check failed. NewYorkCoin is shutting down.</source>
+        <translation>初期化時の健全性チェックに失敗しました。NewYorkCoinを終了します。</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3330,8 +3330,8 @@ rpcpassword=%s
         <translation>JSON-RPC 接続のユーザー名</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart NewYorkCoin Core to complete</source>
-        <translation>ウォレットが書き直される必要がありました: 完了するために NewYorkCoin Core を再起動します</translation>
+        <source>Wallet needed to be rewritten: restart NewYorkCoin to complete</source>
+        <translation>ウォレットが書き直される必要がありました: 完了するために NewYorkCoin を再起動します</translation>
     </message>
     <message>
         <source>Warning</source>

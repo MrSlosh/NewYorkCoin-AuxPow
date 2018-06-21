@@ -287,7 +287,7 @@
         <translation>Otwórz URI...</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core client</source>
+        <source>NewYorkCoin client</source>
         <translation>Rdzeń klienta NewYorkCoin</translation>
     </message>
     <message>
@@ -339,7 +339,7 @@
         <translation>Odbie&amp;rz</translation>
     </message>
     <message>
-        <source>Show information about NewYorkCoin Core</source>
+        <source>Show information about NewYorkCoin</source>
         <translation>Pokaż informacje o Rdzeniu NewYorkCoin</translation>
     </message>
     <message>
@@ -379,7 +379,7 @@
         <translation>Pasek zakładek</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Rdzeń NewYorkCoin</translation>
     </message>
     <message>
@@ -387,8 +387,8 @@
         <translation>Żądaj płatności (generuje kod QR oraz newyorkcoin URI)</translation>
     </message>
     <message>
-        <source>&amp;About NewYorkCoin Core</source>
-        <translation>&amp;O NewYorkCoin Core</translation>
+        <source>&amp;About NewYorkCoin</source>
+        <translation>&amp;O NewYorkCoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -407,7 +407,7 @@
         <translation>&amp;Opcje linii komend</translation>
     </message>
     <message>
-        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
+        <source>Show the NewYorkCoin help message to get a list with possible NewYorkCoin command-line options</source>
         <translation>Pokaż pomoc Rdzenia NewYorkCoin, aby zobaczyć listę wszystkich opcji linii poleceń</translation>
     </message>
     <message>
@@ -766,7 +766,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Rdzeń NewYorkCoin</translation>
     </message>
     <message>
@@ -778,8 +778,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About NewYorkCoin Core</source>
-        <translation>O NewYorkCoin Core</translation>
+        <source>About NewYorkCoin</source>
+        <translation>O NewYorkCoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -801,15 +801,15 @@
         <translation>Witaj</translation>
     </message>
     <message>
-        <source>Welcome to NewYorkCoin Core.</source>
-        <translation>Witam w NewYorkCoin Core</translation>
+        <source>Welcome to NewYorkCoin.</source>
+        <translation>Witam w NewYorkCoin</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
-        <translation>Ponieważ jest to pierwsze uruchomienie programu, możesz wybrać gdzie NewYorkCoin Core będzie przechowywał swoje dane.</translation>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin will store its data.</source>
+        <translation>Ponieważ jest to pierwsze uruchomienie programu, możesz wybrać gdzie NewYorkCoin będzie przechowywał swoje dane.</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>NewYorkCoin will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Program pobierze i będzie przechowywał kopię łańcucha bloków NewYorkCoin. W wybranym katalogu musi być przynajmniej %1GB miejsca, a z czasem ilość danych będzie rosła. Portfel będzie przechowywany w tym samym katalogu.</translation>
     </message>
     <message>
@@ -821,7 +821,7 @@
         <translation>Użyj wybranego folderu dla danych</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Rdzeń NewYorkCoin</translation>
     </message>
     <message>
@@ -1871,8 +1871,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>NewYorkCoin Core is shutting down...</source>
-        <translation>NewYorkCoin Core się zamyka...</translation>
+        <source>NewYorkCoin is shutting down...</source>
+        <translation>NewYorkCoin się zamyka...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2005,12 +2005,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Rdzeń NewYorkCoin</translation>
     </message>
     <message>
-        <source>The NewYorkCoin Core developers</source>
-        <translation>Deweloperzy NewYorkCoin Core</translation>
+        <source>The NewYorkCoin developers</source>
+        <translation>Deweloperzy NewYorkCoin</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2499,8 +2499,8 @@
         <translation>To jest testowa wersja - używaj na własne ryzyko - nie używaj do wykopywania oraz przy aplikacjach kupieckich</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
-        <translation>Nie można przywiązać z portem %s na tym komputerze. NewYorkCoin Core prawdopodobnie już działa.</translation>
+        <source>Unable to bind to %s on this computer. NewYorkCoin is probably already running.</source>
+        <translation>Nie można przywiązać z portem %s na tym komputerze. NewYorkCoin prawdopodobnie już działa.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2659,7 +2659,7 @@
         <translation>Napotkano błąd podczas ustawiania adres RPC %s port %u dla nasłuchiwania: %s</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin is probably already running.</source>
         <translation>Nie można uzyskać blokady na katalogu z danymi %s. Rdzeń NewYorkCoin najprawdopodobniej jest już uruchomiony.</translation>
     </message>
     <message>
@@ -2711,12 +2711,12 @@
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2013-%i The NewYorkCoin Core Developers</source>
-        <translation>Copyright (C) 2013-%i The NewYorkCoin Core Developers</translation>
+        <source>Copyright (C) 2013-%i The NewYorkCoin Developers</source>
+        <translation>Copyright (C) 2013-%i The NewYorkCoin Developers</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin Core</source>
-        <translation>Błąd ładowania wallet.dat: Portfel wymaga nowszej wersji NewYorkCoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin</source>
+        <translation>Błąd ładowania wallet.dat: Portfel wymaga nowszej wersji NewYorkCoin</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -2735,8 +2735,8 @@
         <translation>Informacja</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. NewYorkCoin Core is shutting down.</source>
-        <translation>Wstępna kontrola poprawności nie powiodła się. NewYorkCoin Core wyłącza się.</translation>
+        <source>Initialization sanity check failed. NewYorkCoin is shutting down.</source>
+        <translation>Wstępna kontrola poprawności nie powiodła się. NewYorkCoin wyłącza się.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -2835,7 +2835,7 @@
         <translation>Nazwa użytkownika dla połączeń JSON-RPC</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart NewYorkCoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart NewYorkCoin to complete</source>
         <translation>Portfel wymaga przepisania: zrestartuj NewYorkCoina aby ukończyć</translation>
     </message>
     <message>

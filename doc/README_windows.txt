@@ -1,4 +1,4 @@
-NewYorkCoin Core 1.10
+NewYorkCoin 1.10
 ==================
 
 Intro
@@ -13,7 +13,7 @@ Setup
 -----
 Unpack the files into a directory and run newyorkcoin-qt.exe.
 
-NewYorkCoin Core is the original NewYorkCoin client and it builds the backbone of the network.
+NewYorkCoin is the original NewYorkCoin client and it builds the backbone of the network.
 However, it downloads and stores the entire history of NewYorkCoin transactions;
 depending on the speed of your computer and network connection, the synchronization
 process can take anywhere from a few hours to a day or more.
