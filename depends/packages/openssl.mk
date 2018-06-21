@@ -32,15 +32,16 @@ define $(package)_preprocess_cmds
   sed -i.old "s|engines apps test|engines|" Makefile.org
 endef
 
-define $(package)_config_cmds
 ifeq ($(HOST), x86_64-apple-darwin11)
+define $(package)_config_cmds
 	./Configure $($(package)_config_opts)
+endef
 else
+define $(package)_config_cmds
 	./Configure $($(package)_config_opts) && \
 	$(MAKE) depend
-endif
-
 endef
+endif
 
 define $(package)_build_cmds
   $(MAKE) -j1 build_libs libcrypto.pc libssl.pc openssl.pc
