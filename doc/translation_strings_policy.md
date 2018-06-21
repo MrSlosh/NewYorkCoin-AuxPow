@@ -1,7 +1,7 @@
 Translation Strings Policy
 ===========================
 
-This document provides guidelines for internationalization of the NewYorkCoin Core software. 
+This document provides guidelines for internationalization of the NewYorkCoin software. 
 
 How to translate?
 ------------------

@@ -287,8 +287,8 @@
         <translation>Avaa &amp;URI...</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core client</source>
-        <translation>NewYorkCoin Core ohjelma</translation>
+        <source>NewYorkCoin client</source>
+        <translation>NewYorkCoin ohjelma</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -339,8 +339,8 @@
         <translation>&amp;Vastaanota</translation>
     </message>
     <message>
-        <source>Show information about NewYorkCoin Core</source>
-        <translation>Näytä tietoja NewYorkCoin Core:sta</translation>
+        <source>Show information about NewYorkCoin</source>
+        <translation>Näytä tietoja NewYorkCoin:sta</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -379,7 +379,7 @@
         <translation>Välilehtipalkki</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin-ydin</translation>
     </message>
     <message>
@@ -387,8 +387,8 @@
         <translation>Pyydä maksuja (Luo QR koodit ja newyorkcoin: URIt)</translation>
     </message>
     <message>
-        <source>&amp;About NewYorkCoin Core</source>
-        <translation>&amp;Tietoja NewYorkCoin Core</translation>
+        <source>&amp;About NewYorkCoin</source>
+        <translation>&amp;Tietoja NewYorkCoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -407,8 +407,8 @@
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message>
-        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
-        <translation>Näytä NewYorkCoin Core ohjeet saadaksesi listan mahdollisista NewYorkCoinin komentorivivalinnoista</translation>
+        <source>Show the NewYorkCoin help message to get a list with possible NewYorkCoin command-line options</source>
+        <translation>Näytä NewYorkCoin ohjeet saadaksesi listan mahdollisista NewYorkCoinin komentorivivalinnoista</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to NewYorkCoin network</source>
@@ -786,7 +786,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin-ydin</translation>
     </message>
     <message>
@@ -798,8 +798,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About NewYorkCoin Core</source>
-        <translation>Tietoja NewYorkCoin Core</translation>
+        <source>About NewYorkCoin</source>
+        <translation>Tietoja NewYorkCoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -821,16 +821,16 @@
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to NewYorkCoin Core.</source>
-        <translation>Tervetuloa NewYorkCoin Core</translation>
+        <source>Welcome to NewYorkCoin.</source>
+        <translation>Tervetuloa NewYorkCoin</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
-        <translation>Tämän on ensimmäinen kerta kun NewYorkCoin Core on käynnistetty joten voit valita data-hakemiston paikan.</translation>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin will store its data.</source>
+        <translation>Tämän on ensimmäinen kerta kun NewYorkCoin on käynnistetty joten voit valita data-hakemiston paikan.</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>NewYorkCoin Core lataa ja tallentaa kopion NewYorkCoinin lohkoketjusta. Vähintään %1GB dataa tullaan tallentamaan tähän hakemistoon ja tarve kasvaa ajan myötä. Lomakko tullaan myös tallentamaan tähän hakemistoon.</translation>
+        <source>NewYorkCoin will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>NewYorkCoin lataa ja tallentaa kopion NewYorkCoinin lohkoketjusta. Vähintään %1GB dataa tullaan tallentamaan tähän hakemistoon ja tarve kasvaa ajan myötä. Lomakko tullaan myös tallentamaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -841,7 +841,7 @@
         <translation>Määritä oma kansio:</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin-ydin</translation>
     </message>
     <message>
@@ -1975,7 +1975,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>NewYorkCoin Core is shutting down...</source>
+        <source>NewYorkCoin is shutting down...</source>
         <translation>NewYorkCoin core sulkeutuu...</translation>
     </message>
     <message>
@@ -2117,12 +2117,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>NewYorkCoin-ydin</translation>
     </message>
     <message>
-        <source>The NewYorkCoin Core developers</source>
-        <translation>NewYorkCoin Core kehittäjät</translation>
+        <source>The NewYorkCoin developers</source>
+        <translation>NewYorkCoin kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2647,8 +2647,8 @@
         <translation>Tämä on esi-julkaistu testiversio - Käytä omalla riskillä - Ei saa käytää louhimiseen tai kauppasovelluksiin.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. NewYorkCoin Core is probably already running.</source>
-        <translation>Ei voida yhdistää %s tässä tietokoneessa. NewYorkCoin Core on luultavasti jo käynnissä.</translation>
+        <source>Unable to bind to %s on this computer. NewYorkCoin is probably already running.</source>
+        <translation>Ei voida yhdistää %s tässä tietokoneessa. NewYorkCoin on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2795,8 +2795,8 @@
         <translation>Tuodaan lohkoja ulkoisesta blk000??.dat tiedostosta</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
-        <translation>Ei voida lukita data-hakemistoa %s. NewYorkCoin Core on luultavasti jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin is probably already running.</source>
+        <translation>Ei voida lukita data-hakemistoa %s. NewYorkCoin on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -2823,11 +2823,11 @@
         <translation>Copyright (C) 2009-%i  Bitcoin kehittäjät</translation>
     </message>
     <message>
-        <source>Copyright (C) 2013-%i The NewYorkCoin Core Developers</source>
+        <source>Copyright (C) 2013-%i The NewYorkCoin Developers</source>
         <translation>Copyright (C) 2013-%i  NewYorkCoin kehittäjät</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of NewYorkCoin</source>
         <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version NewYorkCoinista</translation>
     </message>
     <message>
@@ -2911,7 +2911,7 @@
         <translation>Käyttäjätunnus JSON-RPC-yhteyksille</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart NewYorkCoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart NewYorkCoin to complete</source>
         <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä NewYorkCoin uudelleen</translation>
     </message>
     <message>

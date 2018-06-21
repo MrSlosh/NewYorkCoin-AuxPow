@@ -275,7 +275,7 @@
         <translation>URI&amp;열기...</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core client</source>
+        <source>NewYorkCoin client</source>
         <translation>비트코인 코어 클라이언트</translation>
     </message>
     <message>
@@ -327,7 +327,7 @@
         <translation>받기(&amp;R)</translation>
     </message>
     <message>
-        <source>Show information about NewYorkCoin Core</source>
+        <source>Show information about NewYorkCoin</source>
         <translation>비트코인 코어에 관한 정보입니다.</translation>
     </message>
     <message>
@@ -367,7 +367,7 @@
         <translation>툴바 색인표</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>도지코인 코어</translation>
     </message>
     <message>
@@ -375,7 +375,7 @@
         <translation>지불 요청하기 (QR코드와 도지코인 URI 생성)</translation>
     </message>
     <message>
-        <source>&amp;About NewYorkCoin Core</source>
+        <source>&amp;About NewYorkCoin</source>
         <translation>도지코인 코어 정보(&amp;A)</translation>
     </message>
     <message>
@@ -395,7 +395,7 @@
         <translation>명령어-라인 옵션</translation>
     </message>
     <message>
-        <source>Show the NewYorkCoin Core help message to get a list with possible NewYorkCoin command-line options</source>
+        <source>Show the NewYorkCoin help message to get a list with possible NewYorkCoin command-line options</source>
         <translation>사용할 수 있는 비트코인 명령어 옵션 목록을 가져오기 위해 NewYorkCoin-Qt 도움말 메시지를 표시합니다.</translation>
     </message>
     <message>
@@ -730,7 +730,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>도지코인 코어</translation>
     </message>
     <message>
@@ -742,7 +742,7 @@
         <translation>(%1-비트)</translation>
     </message>
     <message>
-        <source>About NewYorkCoin Core</source>
+        <source>About NewYorkCoin</source>
         <translation>도지코인 코어 정보</translation>
     </message>
     <message>
@@ -765,15 +765,15 @@
         <translation>환영합니다</translation>
     </message>
     <message>
-        <source>Welcome to NewYorkCoin Core.</source>
+        <source>Welcome to NewYorkCoin.</source>
         <translation>도지코인 코어에 오신 것을 환영합니다.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where NewYorkCoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where NewYorkCoin will store its data.</source>
         <translation>프로그램이 처음으로 실행되었기 때문에, 도지코인 코어의 데이터를 어느 위치에 저장할지 선택할 수 있습니다.</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>NewYorkCoin will download and store a copy of the NewYorkCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>도지코인 코어는 블록 체인의 복사본을 다운받아 저장할 것입니다. 적어도 %1GB의 데이터가 이 디렉토리에 저장되고, 시간이 흐르면 증가합니다. 사용자의 지갑 또한 이곳에 저장됩니다.</translation>
     </message>
     <message>
@@ -785,7 +785,7 @@
         <translation>커스텀 데이터 폴더 사용:</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>도지코인 코어</translation>
     </message>
     <message>
@@ -1615,7 +1615,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>NewYorkCoin Core is shutting down...</source>
+        <source>NewYorkCoin is shutting down...</source>
         <translation>도지코인 코어를 종료하는 중입니다...</translation>
     </message>
     <message>
@@ -1749,11 +1749,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>도지코인 코어</translation>
     </message>
     <message>
-        <source>The NewYorkCoin Core developers</source>
+        <source>The NewYorkCoin developers</source>
         <translation>비트코인코어 개발자들</translation>
     </message>
     <message>
@@ -2367,7 +2367,7 @@
         <translation>외부 blk000??.dat 파일에서 블록을 가져옵니다.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. NewYorkCoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. NewYorkCoin is probably already running.</source>
         <translation>데이터 디렉토리 %s의 락을 얻을 수 없습니다. 도지코인 코어가 이미 실행 중인 것 같습니다.</translation>
     </message>
     <message>

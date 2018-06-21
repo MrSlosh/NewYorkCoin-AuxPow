@@ -18,7 +18,7 @@ newyorkcoind_BIN=${newyorkcoind_BIN:-/usr/bin/newyorkcoind}
 newyorkcoind_NICE=${newyorkcoind_NICE:-${NICELEVEL:-0}}
 newyorkcoind_OPTS="${newyorkcoind_OPTS:-${newyorkcoin_OPTS}}"
 
-name="NewYorkCoin Core Daemon"
+name="NewYorkCoin Daemon"
 description="NewYorkCoin cryptocurrency P2P network daemon"
 
 command="/usr/bin/newyorkcoind"

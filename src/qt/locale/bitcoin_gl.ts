@@ -343,7 +343,7 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Core de NewYorkCoin</translation>
     </message>
     <message>
@@ -351,8 +351,8 @@
         <translation>Solicitar pagos (xenera códigos QR e newyorkcoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About NewYorkCoin Core</source>
-        <translation>&amp;Sobre NewYorkCoin Core</translation>
+        <source>&amp;About NewYorkCoin</source>
+        <translation>&amp;Sobre NewYorkCoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -670,7 +670,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Core de NewYorkCoin</translation>
     </message>
     <message>
@@ -678,7 +678,7 @@
         <translation>versión</translation>
     </message>
     <message>
-        <source>About NewYorkCoin Core</source>
+        <source>About NewYorkCoin</source>
         <translation>Sobre NewYorkCoin core</translation>
     </message>
     <message>
@@ -709,7 +709,7 @@
         <translation>Empregar un directorio de datos personalizado</translation>
     </message>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Core de NewYorkCoin</translation>
     </message>
     <message>
@@ -1489,12 +1489,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NewYorkCoin Core</source>
+        <source>NewYorkCoin</source>
         <translation>Core de NewYorkCoin</translation>
     </message>
     <message>
-        <source>The NewYorkCoin Core developers</source>
-        <translation>Os desarrolladores de NewYorkCoin Core</translation>
+        <source>The NewYorkCoin developers</source>
+        <translation>Os desarrolladores de NewYorkCoin</translation>
     </message>
     <message>
         <source>[testnet]</source>
