@@ -1,11 +1,11 @@
 ---
-name: "newyorkcoin-linux-1.10"
+name: "newyorkcoin-linux-1.3"
 enable_cache: true
 suites:
 - "precise"
 architectures:
 - "amd64"
-packages: 
+packages:
 - "g++-multilib"
 - "git-core"
 - "pkg-config"
@@ -18,8 +18,8 @@ packages:
 - "libstdc++6-4.6-pic"
 reference_datetime: "2015-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/newyorkcoin/newyorkcoin.git"
-  "dir": "newyorkcoin"
+- "url": "https://github.com/MrSlosh/NewYorkCoin-AuxPow.git"
+  "dir": "NewYorkCoin-AuxPow"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
@@ -63,7 +63,7 @@ script: |
   done
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd newyorkcoin
+  cd NewYorkCoin-AuxPow
   BASEPREFIX=`pwd`/depends
   # Build dependencies for each host
   for i in $HOSTS; do
@@ -115,4 +115,3 @@ script: |
   mv $SOURCEDIST $OUTDIR/src
   mv ${OUTDIR}/${DISTNAME}-x86_64-*.tar.gz ${OUTDIR}/${DISTNAME}-linux64.tar.gz
   mv ${OUTDIR}/${DISTNAME}-i686-*.tar.gz ${OUTDIR}/${DISTNAME}-linux32.tar.gz
-
