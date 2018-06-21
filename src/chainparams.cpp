@@ -58,7 +58,7 @@ public:
 
         // Blocks 4500000 are Digishield with AuxPoW
         digishieldConsensus = consensus;
-        digishieldConsensus.nHeightEffective = 4500000;
+        digishieldConsensus.nHeightEffective = 4600000;
         digishieldConsensus.fAllowLegacyBlocks = false;
         digishieldConsensus.fSimplifiedRewards = true;
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
