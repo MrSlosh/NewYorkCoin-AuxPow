@@ -33,8 +33,13 @@ define $(package)_preprocess_cmds
 endef
 
 define $(package)_config_cmds
+ifeq ($(HOST), x86_64-apple-darwin11)
+	./Configure $($(package)_config_opts)
+else
 	./Configure $($(package)_config_opts) && \
 	$(MAKE) depend
+endif
+
 endef
 
 define $(package)_build_cmds
