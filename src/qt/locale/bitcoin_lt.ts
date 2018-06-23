@@ -38,11 +38,11 @@
         <translation>P&amp;asirinkti</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>Siunčiami adresai</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>Gaunami adresai</translation>
     </message>
     <message>

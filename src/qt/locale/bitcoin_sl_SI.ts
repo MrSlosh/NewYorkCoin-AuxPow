@@ -58,11 +58,11 @@
         <translation>&amp;Izberi</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>Naslovi za pošiljanje</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>Naslovi za prejemanje</translation>
     </message>
     <message>

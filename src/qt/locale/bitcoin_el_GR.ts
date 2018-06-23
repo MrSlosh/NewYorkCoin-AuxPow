@@ -58,11 +58,11 @@
         <translation>Ε&amp;πιλογή</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>Διευθύνσεις αποστολής</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>Διευθύνσεις λήψης</translation>
     </message>
     <message>

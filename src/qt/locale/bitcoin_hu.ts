@@ -58,11 +58,11 @@
         <translation>&amp;Kiválaszt</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>Küldési címek</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>Fogadó címek</translation>
     </message>
     <message>

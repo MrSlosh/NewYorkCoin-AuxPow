@@ -54,11 +54,11 @@
         <translation>&amp;Escoller</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>Direccións para enviar</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>Direccións para recibir</translation>
     </message>
     <message>

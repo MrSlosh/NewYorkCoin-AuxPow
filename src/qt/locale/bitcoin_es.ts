@@ -58,11 +58,11 @@
         <translation>&amp;Escoger</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>Direcciones de envío</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>Direcciones de recepción</translation>
     </message>
     <message>

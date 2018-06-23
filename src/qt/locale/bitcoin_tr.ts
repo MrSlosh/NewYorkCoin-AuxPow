@@ -58,11 +58,11 @@
         <translation>S&amp;eç</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>&amp;Gönderme adresleri...</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>Alım adresleri</translation>
     </message>
     <message>

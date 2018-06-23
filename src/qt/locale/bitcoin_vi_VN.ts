@@ -58,11 +58,11 @@
         <translation>C&amp;họn</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>Địa chỉ gửi</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>Địa chỉ nhận</translation>
     </message>
     <message>

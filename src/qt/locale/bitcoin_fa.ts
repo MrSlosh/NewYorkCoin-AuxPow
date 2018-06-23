@@ -54,11 +54,11 @@
         <translation>آدرس موردنظر برای دریافت کوین ها را انتخاب کنید.</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>آدرس های ارسال کننده</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>آدرس های دریافت کننده</translation>
     </message>
     <message>

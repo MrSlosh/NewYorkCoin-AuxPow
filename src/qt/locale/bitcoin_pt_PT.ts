@@ -58,11 +58,11 @@
         <translation>Escol&amp;her</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>Endereços de envio</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>Endereços de depósito</translation>
     </message>
     <message>

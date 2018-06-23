@@ -58,11 +58,11 @@
         <translation>選取</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>付款位址</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>收款位址</translation>
     </message>
     <message>

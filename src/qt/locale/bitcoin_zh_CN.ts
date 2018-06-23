@@ -58,11 +58,11 @@
         <translation>选择(&amp;H)</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>正在发送地址</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>正在接收地址</translation>
     </message>
     <message>

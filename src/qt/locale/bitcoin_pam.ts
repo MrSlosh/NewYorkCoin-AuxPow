@@ -50,11 +50,11 @@
         <translation>P&amp;ilinan</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>Address king pamag-Send</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>Address king pamag-Tanggap</translation>
     </message>
     <message>

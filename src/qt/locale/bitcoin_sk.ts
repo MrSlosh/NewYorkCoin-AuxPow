@@ -58,11 +58,11 @@
         <translation>Vybrať</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>Adresa odoslania</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>Adresa prijatia</translation>
     </message>
     <message>

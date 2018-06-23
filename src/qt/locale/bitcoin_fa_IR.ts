@@ -54,11 +54,11 @@
         <translation>انتخاب</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>ارسال آدرس ها</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>دریافت آدرس ها</translation>
     </message>
     <message>

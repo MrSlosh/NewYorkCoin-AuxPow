@@ -58,11 +58,11 @@
         <translation>&amp;Alegeţi</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>Adresa destinatarului</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>Adresa de primire</translation>
     </message>
     <message>

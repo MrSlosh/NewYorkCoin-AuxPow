@@ -58,11 +58,11 @@
         <translation>C&amp;hoisir</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>Adresses d'envoi</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>Adresses de réception</translation>
     </message>
     <message>

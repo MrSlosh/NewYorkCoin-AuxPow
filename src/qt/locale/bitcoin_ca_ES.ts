@@ -58,11 +58,11 @@
         <translation>T&amp;ria</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>S'estan enviant les adreces</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>S'estan rebent les adreces</translation>
     </message>
     <message>

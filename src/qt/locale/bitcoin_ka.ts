@@ -54,11 +54,11 @@
         <translation>&amp;არჩევა</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>გაგზავნის მისამართი</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>მიღების მისამართი</translation>
     </message>
     <message>

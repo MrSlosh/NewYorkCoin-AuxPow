@@ -58,11 +58,11 @@
         <translation>選択(&amp;C)</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>アドレス送信中</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>アドレス受信中</translation>
     </message>
     <message>

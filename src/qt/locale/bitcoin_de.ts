@@ -58,11 +58,11 @@
         <translation>&amp;Auswählen</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>Zahlungsadressen</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>Empfangsadressen</translation>
     </message>
     <message>

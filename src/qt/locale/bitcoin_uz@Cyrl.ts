@@ -54,11 +54,11 @@
         <translation>&amp;Танлаш</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>Жўнатиладиган манзиллар</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>Қабул қилинадиган манзиллар</translation>
     </message>
     <message>

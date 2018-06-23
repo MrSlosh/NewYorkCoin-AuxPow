@@ -54,11 +54,11 @@
         <translation>선택하기 (H)</translation>
     </message>
     <message>
-        <source>Such sending addresses</source>
+        <source>Sending addresses</source>
         <translation>보내는 주소들</translation>
     </message>
     <message>
-        <source>Much receiving addresses</source>
+        <source>Receiving addresses</source>
         <translation>받은 주소들</translation>
     </message>
     <message>
