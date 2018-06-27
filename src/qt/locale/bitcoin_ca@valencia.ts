@@ -271,11 +271,11 @@
         <translation>&amp;Canvia la contrasenya...</translation>
     </message>
     <message>
-        <source>Such &amp;sending addresses...</source>
+        <source>Sending addresses...</source>
         <translation>Adreces d'e&amp;nviament...</translation>
     </message>
     <message>
-        <source>Much &amp;receiving addresses...</source>
+        <source>Receiving addresses...</source>
         <translation>Adreces de &amp;recepció</translation>
     </message>
     <message>

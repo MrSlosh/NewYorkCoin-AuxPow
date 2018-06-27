@@ -283,11 +283,11 @@
         <translation>改變密碼...</translation>
     </message>
     <message>
-        <source>Such &amp;sending addresses...</source>
+        <source>Sending addresses...</source>
         <translation>付款位址...</translation>
     </message>
     <message>
-        <source>Much &amp;receiving addresses...</source>
+        <source>Receiving addresses...</source>
         <translation>收款位址...</translation>
     </message>
     <message>

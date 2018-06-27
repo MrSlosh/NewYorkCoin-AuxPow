@@ -283,11 +283,11 @@
         <translation>&amp;Wijzig Wachtwoord</translation>
     </message>
     <message>
-        <source>Such &amp;sending addresses...</source>
+        <source>Sending addresses...</source>
         <translation>V&amp;erstuur adressen...</translation>
     </message>
     <message>
-        <source>Much &amp;receiving addresses...</source>
+        <source>Receiving addresses...</source>
         <translation>O&amp;ntvang adressen...</translation>
     </message>
     <message>

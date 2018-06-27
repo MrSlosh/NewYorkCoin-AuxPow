@@ -263,11 +263,11 @@
         <translation>&amp;Cambiar la contraseña…</translation>
     </message>
     <message>
-        <source>Such &amp;sending addresses...</source>
+        <source>Sending addresses...</source>
         <translation>$Enviando dirección...</translation>
     </message>
     <message>
-        <source>Much &amp;receiving addresses...</source>
+        <source>Receiving addresses...</source>
         <translation>&amp;Recibiendo dirección</translation>
     </message>
     <message>

@@ -275,11 +275,11 @@
         <translation>&amp;Zmena Hesla...</translation>
     </message>
     <message>
-        <source>Such &amp;sending addresses...</source>
+        <source>Sending addresses...</source>
         <translation>&amp;Odosielajúce adresy ...</translation>
     </message>
     <message>
-        <source>Much &amp;receiving addresses...</source>
+        <source>Receiving addresses...</source>
         <translation>&amp;Prijímajúce adresy...</translation>
     </message>
     <message>

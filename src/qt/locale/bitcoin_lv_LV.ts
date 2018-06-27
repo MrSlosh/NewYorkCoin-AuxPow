@@ -251,11 +251,11 @@
         <translation>Mainīt &amp;Paroli...</translation>
     </message>
     <message>
-        <source>Such &amp;sending addresses...</source>
+        <source>Sending addresses...</source>
         <translation>&amp;Sūtīšanas adreses...</translation>
     </message>
     <message>
-        <source>Much &amp;receiving addresses...</source>
+        <source>Receiving addresses...</source>
         <translation>Saņemšanas &amp;adreses...</translation>
     </message>
     <message>

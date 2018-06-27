@@ -283,11 +283,11 @@
         <translation>&amp;Change Passphrase...</translation>
     </message>
     <message>
-        <source>Such &amp;sending addresses...</source>
+        <source>Sending addresses...</source>
         <translation>Адрасы дасылання...</translation>
     </message>
     <message>
-        <source>Much &amp;receiving addresses...</source>
+        <source>Receiving addresses...</source>
         <translation>Адрасы прымання...</translation>
     </message>
     <message>

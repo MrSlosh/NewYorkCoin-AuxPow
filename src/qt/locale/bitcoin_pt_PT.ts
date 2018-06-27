@@ -275,11 +275,11 @@
         <translation>Mudar &amp;Palavra-passe...</translation>
     </message>
     <message>
-        <source>Such &amp;sending addresses...</source>
+        <source>Sending addresses...</source>
         <translation>A &amp;enviar endereços...</translation>
     </message>
     <message>
-        <source>Much &amp;receiving addresses...</source>
+        <source>Receiving addresses...</source>
         <translation>A &amp;receber endereços...</translation>
     </message>
     <message>
