@@ -279,11 +279,11 @@
         <translation>&amp;Cambiar la contraseña…</translation>
     </message>
     <message>
-        <source>Such &amp;sending addresses...</source>
+        <source>Sending addresses...</source>
         <translation>Direcciones de &amp;envío...</translation>
     </message>
     <message>
-        <source>Much &amp;receiving addresses...</source>
+        <source>Receiving addresses...</source>
         <translation>Direcciones de &amp;recepción...</translation>
     </message>
     <message>

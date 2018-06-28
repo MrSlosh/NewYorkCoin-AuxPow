@@ -275,11 +275,11 @@
         <translation>&amp;Vaihda Tunnuslause...</translation>
     </message>
     <message>
-        <source>Such &amp;sending addresses...</source>
+        <source>Sending addresses...</source>
         <translation>&amp;Lähetysosoitteet...</translation>
     </message>
     <message>
-        <source>Much &amp;receiving addresses...</source>
+        <source>Receiving addresses...</source>
         <translation>&amp;Vastaanotto-osoitteet...</translation>
     </message>
     <message>

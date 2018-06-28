@@ -283,11 +283,11 @@
         <translation>パスフレーズの変更... (&amp;C)</translation>
     </message>
     <message>
-        <source>Such &amp;sending addresses...</source>
+        <source>Sending addresses...</source>
         <translation>送金先アドレス一覧 (&amp;S)...</translation>
     </message>
     <message>
-        <source>Much &amp;receiving addresses...</source>
+        <source>Receiving addresses...</source>
         <translation>受け取り用アドレス一覧 (&amp;R)...</translation>
     </message>
     <message>

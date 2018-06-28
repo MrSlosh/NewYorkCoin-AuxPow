@@ -279,11 +279,11 @@
         <translation>&amp;Spremeni geslo ...</translation>
     </message>
     <message>
-        <source>Such &amp;sending addresses...</source>
+        <source>Sending addresses...</source>
         <translation>Naslovi za po&amp;šiljanje ...</translation>
     </message>
     <message>
-        <source>Much &amp;receiving addresses...</source>
+        <source>Receiving addresses...</source>
         <translation>Naslovi za &amp;prejemanje...</translation>
     </message>
     <message>

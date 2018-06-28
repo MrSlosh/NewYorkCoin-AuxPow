@@ -271,11 +271,11 @@
         <translation>Махфий сўзни &amp;ўзгартириш...</translation>
     </message>
     <message>
-        <source>Such &amp;sending addresses...</source>
+        <source>Sending addresses...</source>
         <translation>&amp;Жўнатилувчи манзиллар...</translation>
     </message>
     <message>
-        <source>Much &amp;receiving addresses...</source>
+        <source>Receiving addresses...</source>
         <translation>&amp;Қабул қилувчи манзиллар...</translation>
     </message>
     <message>

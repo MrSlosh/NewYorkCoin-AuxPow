@@ -275,11 +275,11 @@
         <translation>Jelszó &amp;megváltoztatása...</translation>
     </message>
     <message>
-        <source>Such &amp;sending addresses...</source>
+        <source>Sending addresses...</source>
         <translation>&amp;Küldési címek...</translation>
     </message>
     <message>
-        <source>Much &amp;receiving addresses...</source>
+        <source>Receiving addresses...</source>
         <translation>&amp;Fogadó címek...</translation>
     </message>
     <message>
