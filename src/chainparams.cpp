@@ -122,10 +122,8 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x5597f25c062a3038c7fd815fe46c67dedfcb3c839fbc8e01ed4044540d08fe48"));
         assert(genesis.hashMerkleRoot == uint256S("0x2bad42ac6e0ccc4808d8df0fd50ac8634eea335b1412b1ef52864b430a87b262"));
 
-        vSeeds.push_back(CDNSSeedData("newyorkcoin.com", "seed.newyorkcoin.com"));
-        vSeeds.push_back(CDNSSeedData("multidoge.org", "seed.multidoge.org"));
-        vSeeds.push_back(CDNSSeedData("multidoge.org", "seed2.multidoge.org"));
-        vSeeds.push_back(CDNSSeedData("doger.newyorkcoin.com", "seed.doger.newyorkcoin.com"));
+        vSeeds.push_back(CDNSSeedData("nycoin.money", "dnsseed.nycoin.money"));
+        vSeeds.push_back(CDNSSeedData("nycoin.community", "dnsseed.nycoin.community"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);  // 0x1e
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,22);  // 0x16
