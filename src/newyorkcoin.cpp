@@ -248,7 +248,7 @@ int64_t GetNewYorkCoinDustFee(const std::vector<CTxOut> &vout, CFeeRate &baseFee
     // To limit dust spam, add base fee for each dust output
     BOOST_FOREACH(const CTxOut& txout, vout)
         // if (txout.IsDust(::minRelayTxFee))
-        if (txout.nValue < COIN)
+        if (txout.nValue < CENT)
             nFee += baseFeeRate.GetFeePerK();
 
     return nFee;

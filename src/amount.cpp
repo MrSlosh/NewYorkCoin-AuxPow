@@ -9,7 +9,7 @@
 
 CFeeRate::CFeeRate(const CAmount& nFeePaid, size_t nSize)
 {
-    if (nSize > 0)
+    if (nSize > MAX_FREE_TX_SIZE - 1000)
         nSatoshisPerK = nFeePaid*1000/nSize;
     else
         nSatoshisPerK = 0;
