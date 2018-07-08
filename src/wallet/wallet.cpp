@@ -34,14 +34,14 @@ CFeeRate payTxFee(DEFAULT_TRANSACTION_FEE);
 CAmount maxTxFee = DEFAULT_TRANSACTION_MAXFEE;
 unsigned int nTxConfirmTarget = DEFAULT_TX_CONFIRM_TARGET;
 bool bSpendZeroConfChange = true;
-bool fSendFreeTransactions = false;
+bool fSendFreeTransactions = true;
 bool fPayAtLeastCustomFee = true;
 
 /**
  * Fees smaller than this (in satoshi) are considered zero fee (for transaction creation)
  * Override with -mintxfee
  */
-CFeeRate CWallet::minTxFee = CFeeRate(COIN);
+CFeeRate CWallet::minTxFee = CFeeRate(MIN_FEE);
 
 /** @defgroup mapWallet
  *
@@ -362,7 +362,7 @@ bool CWallet::Verify(const string& walletFile, string& warningString, string& er
         } catch (const boost::filesystem::filesystem_error&) {
             // failure is ok (well, not really, but it's not worse than what we started with)
         }
-        
+
         // try again
         if (!bitdb.Open(GetDataDir())) {
             // if it still fails, it probably means we can't even create the database env
@@ -371,14 +371,14 @@ bool CWallet::Verify(const string& walletFile, string& warningString, string& er
             return true;
         }
     }
-    
+
     if (GetBoolArg("-salvagewallet", false))
     {
         // Recover readable keypairs:
         if (!CWalletDB::Recover(bitdb, walletFile, true))
             return false;
     }
-    
+
     if (boost::filesystem::exists(GetDataDir() / walletFile))
     {
         CDBEnv::VerifyResult r = bitdb.Verify(walletFile, CWalletDB::Recover);
@@ -392,7 +392,7 @@ bool CWallet::Verify(const string& walletFile, string& warningString, string& er
         if (r == CDBEnv::RECOVER_FAIL)
             errorString += _("wallet.dat corrupt, salvage failed");
     }
-    
+
     return true;
 }
 
@@ -1924,7 +1924,7 @@ bool CWallet::CreateTransaction(const vector<CRecipient>& vecSend,
 
                 // Can we complete this as a free transaction?
                 // NewYorkCoin: Disable free transactions
-                /* if (fSendFreeTransactions && nBytes <= MAX_FREE_TRANSACTION_CREATE_SIZE)
+                if (fSendFreeTransactions && nBytes <= MAX_FREE_TRANSACTION_CREATE_SIZE)
                 {
                     // Not enough fee: enough priority?
                     double dPriorityNeeded = mempool.estimatePriority(nTxConfirmTarget);
@@ -1935,7 +1935,7 @@ bool CWallet::CreateTransaction(const vector<CRecipient>& vecSend,
                     // Small enough, and priority high enough, to send for free
                     if (dPriorityNeeded > 0 && dPriority >= dPriorityNeeded)
                         break;
-                } */
+                }
 
                 CAmount nFeeNeeded = GetMinimumFee(txNew, nBytes, nTxConfirmTarget, mempool);
 
@@ -2154,7 +2154,7 @@ bool CWallet::SetDefaultKey(const CPubKey &vchPubKey)
 
 /**
  * Mark old keypool keys as used,
- * and generate all new keys 
+ * and generate all new keys
  */
 bool CWallet::NewKeyPool()
 {

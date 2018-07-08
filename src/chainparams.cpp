@@ -62,7 +62,7 @@ public:
         digishieldConsensus.fAllowLegacyBlocks = false;
         digishieldConsensus.fSimplifiedRewards = true;
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
-        digishieldConsensus.nPowTargetTimespan = 30; // post-digishield: 30 seconds
+        digishieldConsensus.nPowTargetTimespan = 60; // post-digishield: 60 seconds
         digishieldConsensus.nCoinbaseMaturity = 240;
 
         // Blocks 4500000+ are AuxPoW
