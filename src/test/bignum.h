@@ -21,6 +21,32 @@ public:
     explicit bignum_error(const std::string& str) : std::runtime_error(str) {}
 };
 
+/** RAII encapsulated BN_CTX (OpenSSL bignum context) */
+class CAutoBN_CTX
+{
+protected:
+    BN_CTX* pctx;
+    BN_CTX* operator=(BN_CTX* pnew) { return pctx = pnew; }
+
+public:
+    CAutoBN_CTX()
+    {
+        pctx = BN_CTX_new();
+        if (pctx == NULL)
+            throw bignum_error("CAutoBN_CTX : BN_CTX_new() returned NULL");
+    }
+
+    ~CAutoBN_CTX()
+    {
+        if (pctx != NULL)
+            BN_CTX_free(pctx);
+    }
+
+    operator BN_CTX*() { return pctx; }
+    BN_CTX& operator*() { return *pctx; }
+    BN_CTX** operator&() { return &pctx; }
+    bool operator!() { return (pctx == NULL); }
+};
 
 /** C++ wrapper for BIGNUM (OpenSSL bignum) */
 class CBigNum : public BIGNUM
@@ -61,7 +87,20 @@ public:
         *this = *this / b;
         return *this;
     }
-    
+    uint256_t getuint256() const
+    {
+        unsigned int nSize = BN_bn2mpi(this, NULL);
+        if (nSize < 4)
+            return 0;
+        std::vector<unsigned char> vch(nSize);
+        BN_bn2mpi(this, &vch[0]);
+        if (vch.size() > 4)
+            vch[4] &= 0x7f;
+        uint256_t n = 0;
+        for (unsigned int i = 0, j = vch.size()-1; i < sizeof(n) && j >= 4; i++, j--)
+            ((unsigned char*)&n)[i] = vch[j];
+        return n;
+    }
     ~CBigNum()
     {
         BN_clear_free(this);
@@ -246,6 +285,15 @@ inline const CBigNum operator-(const CBigNum& a)
 {
     CBigNum r(a);
     BN_set_negative(&r, !BN_is_negative(&r));
+    return r;
+}
+
+inline const CBigNum operator/(const CBigNum& a, const CBigNum& b)
+{
+    CAutoBN_CTX pctx;
+    CBigNum r;
+    if (!BN_div(&r, NULL, &a, &b, pctx))
+        throw bignum_error("CBigNum::operator/ : BN_div failed");
     return r;
 }
 

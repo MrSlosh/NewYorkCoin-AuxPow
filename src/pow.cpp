@@ -94,8 +94,8 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
 
   	LogPrintf("Difficulty Retarget - Kimoto Gravity Well\n");
   	LogPrintf("PastRateAdjustmentRatio = %g\n", PastRateAdjustmentRatio);
-  	LogPrintf("Before: %08x  %s\n", BlockLastSolved->nBits, ArithToUint256(arith_uint256().SetCompact(BlockLastSolved->nBits)).ToString().c_str());
-  	LogPrintf("After:  %08x  %s\n", bnNew.GetLegacyCompact(), ArithToUint256(bnNew).ToString().c_str());
+  	LogPrintf("Before: %08x  %s\n", BlockLastSolved->nBits, CBigNum().SetLegacyCompact(BlockLastSolved->nBits).getuint256().ToString().c_str());
+  	LogPrintf("After:  %08x  %s\n", bnNew.GetLegacyCompact(), bnNew.getuint256().ToString().c_str());
 
   	return bnNew.GetLegacyCompact();
 }
