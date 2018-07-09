@@ -48,6 +48,20 @@ public:
         return (*this);
     }
 
+    CBigNum& operator*=(const CBigNum& b)
+    {
+        CAutoBN_CTX pctx;
+        if (!BN_mul(this, this, &b, pctx))
+            throw bignum_error("CBigNum::operator*= : BN_mul failed");
+        return *this;
+    }
+
+    CBigNum& operator/=(const CBigNum& b)
+    {
+        *this = *this / b;
+        return *this;
+    }
+    
     ~CBigNum()
     {
         BN_clear_free(this);
@@ -206,7 +220,7 @@ public:
            BN_set_negative(this, fNegative);
            return *this;
         }
-        
+
     friend inline const CBigNum operator-(const CBigNum& a, const CBigNum& b);
 };
 
