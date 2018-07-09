@@ -782,7 +782,7 @@ inline int Testlegacy_uint256AdHoc(std::vector<std::string> vArg)
 
     return (0);
 }
-}
-#endif
 
+#endif
+}
 #endif
