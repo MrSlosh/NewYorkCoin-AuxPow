@@ -103,6 +103,7 @@ BITCOIN_CORE_H = \
   init.h \
   key.h \
   keystore.h \
+	legacy_uint256.h \
   leveldbwrapper.h \
   limitedmap.h \
   main.h \
