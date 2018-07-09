@@ -525,7 +525,7 @@ inline const legacy_uint160 operator^(const legacy_uint160& a, const legacy_uint
 inline const legacy_uint160 operator&(const legacy_uint160& a, const legacy_uint160& b)      { return (base_legacy_uint160)a &  (base_legacy_uint160)b; }
 inline const legacy_uint160 operator|(const legacy_uint160& a, const legacy_uint160& b)      { return (base_legacy_uint160)a |  (base_legacy_uint160)b; }
 inline const legacy_uint160 operator+(const legacy_uint160& a, const legacy_uint160& b)      { return (base_legacy_uint160)a +  (base_legacy_uint160)b; }
-inline const legacy_uint160 operator-(const legacy_uint160& a, const legacy_uint160& b)      { return (base_legacy_uint160)a -  (base_legacy_legacy_uint160)b; }
+inline const legacy_uint160 operator-(const legacy_uint160& a, const legacy_uint160& b)      { return (base_legacy_uint160)a -  (base_legacy_uint160)b; }
 
 
 
