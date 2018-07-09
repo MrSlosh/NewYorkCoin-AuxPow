@@ -42,7 +42,7 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
   	double EventHorizonDeviationFast;
   	double EventHorizonDeviationSlow;
 
-	unsigned int bnProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
+	  unsigned int bnProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
 
     // if we are mining legacy testnet, return proof of work limit
     if (params.fPowAllowMinDifficultyBlocks)
@@ -229,7 +229,7 @@ int64_t GetBlockProofEquivalentTime(const CBlockIndex& to, const CBlockIndex& fr
         r = from.nChainWork - to.nChainWork;
         sign = -1;
     }
-    r = r * arith_uint256(params.nPowTargetSpacing) / GetBlockProof(tip);
+    r = r * arith_uint256(params.nPowTargetSpacing) / this.GetBlockProof(tip);
     if (r.bits() > 63) {
         return sign * std::numeric_limits<int64_t>::max();
     }

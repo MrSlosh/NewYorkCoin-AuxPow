@@ -2,8 +2,8 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef LEGACY_BITCOIN_UINT256_H
-#define LEGACY_BITCOIN_UINT256_H
+#ifndef LEGACY_BITCOIN_legacy_uint256_H
+#define LEGACY_BITCOIN_legacy_uint256_H
 
 #include <limits.h>
 #include <stdio.h>
@@ -20,11 +20,11 @@ typedef long long  int64;
 typedef unsigned long long  uint64;
 
 
-inline int Testuint256AdHoc(std::vector<std::string> vArg);
+inline int Testlegacy_uint256AdHoc(std::vector<std::string> vArg);
 
 
 
-/** Base class without constructors for uint256 and uint160.
+/** Base class without constructors for legacy_uint256 and legacy_uint160.
  * This makes the compiler let you use it in a union.
  */
 template<unsigned int BITS>
@@ -400,18 +400,18 @@ public:
     }
 
 
-    friend class uint160;
-    friend class uint256;
-    friend inline int Testuint256AdHoc(std::vector<std::string> vArg);
+    friend class legacy_uint160;
+    friend class legacy_uint256;
+    friend inline int Testlegacy_uint256AdHoc(std::vector<std::string> vArg);
 };
 
-typedef base_uint<160> base_uint160;
-typedef base_uint<256> base_uint256;
+typedef base_uint<160> base_legacy_uint160;
+typedef base_uint<256> base_legacy_uint256;
 
 
 
 //
-// uint160 and uint256 could be implemented as templates, but to keep
+// legacy_uint160 and legacy_uint256 could be implemented as templates, but to keep
 // compile errors and debugging cleaner, they're copy and pasted.
 //
 
@@ -419,35 +419,35 @@ typedef base_uint<256> base_uint256;
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// uint160
+// legacy_uint160
 //
 
 /** 160-bit unsigned integer */
-class uint160 : public base_uint160
+class legacy_uint160 : public base_legacy_uint160
 {
 public:
-    typedef base_uint160 basetype;
+    typedef base_legacy_uint160 basetype;
 
-    uint160()
+    legacy_uint160()
     {
         for (int i = 0; i < WIDTH; i++)
             pn[i] = 0;
     }
 
-    uint160(const basetype& b)
+    legacy_uint160(const basetype& b)
     {
         for (int i = 0; i < WIDTH; i++)
             pn[i] = b.pn[i];
     }
 
-    uint160& operator=(const basetype& b)
+    legacy_uint160& operator=(const basetype& b)
     {
         for (int i = 0; i < WIDTH; i++)
             pn[i] = b.pn[i];
         return *this;
     }
 
-    uint160(uint64 b)
+    legacy_uint160(uint64 b)
     {
         pn[0] = (unsigned int)b;
         pn[1] = (unsigned int)(b >> 32);
@@ -455,7 +455,7 @@ public:
             pn[i] = 0;
     }
 
-    uint160& operator=(uint64 b)
+    legacy_uint160& operator=(uint64 b)
     {
         pn[0] = (unsigned int)b;
         pn[1] = (unsigned int)(b >> 32);
@@ -464,12 +464,12 @@ public:
         return *this;
     }
 
-    explicit uint160(const std::string& str)
+    explicit legacy_uint160(const std::string& str)
     {
         SetHex(str);
     }
 
-    explicit uint160(const std::vector<unsigned char>& vch)
+    explicit legacy_uint160(const std::vector<unsigned char>& vch)
     {
         if (vch.size() == sizeof(pn))
             memcpy(pn, &vch[0], sizeof(pn));
@@ -478,54 +478,54 @@ public:
     }
 };
 
-inline bool operator==(const uint160& a, uint64 b)                           { return (base_uint160)a == b; }
-inline bool operator!=(const uint160& a, uint64 b)                           { return (base_uint160)a != b; }
-inline const uint160 operator<<(const base_uint160& a, unsigned int shift)   { return uint160(a) <<= shift; }
-inline const uint160 operator>>(const base_uint160& a, unsigned int shift)   { return uint160(a) >>= shift; }
-inline const uint160 operator<<(const uint160& a, unsigned int shift)        { return uint160(a) <<= shift; }
-inline const uint160 operator>>(const uint160& a, unsigned int shift)        { return uint160(a) >>= shift; }
+inline bool operator==(const legacy_uint160& a, uint64 b)                           { return (base_legacy_uint160)a == b; }
+inline bool operator!=(const legacy_uint160& a, uint64 b)                           { return (base_legacy_uint160)a != b; }
+inline const legacy_uint160 operator<<(const base_legacy_uint160& a, unsigned int shift)   { return legacy_uint160(a) <<= shift; }
+inline const legacy_uint160 operator>>(const base_legacy_uint160& a, unsigned int shift)   { return legacy_uint160(a) >>= shift; }
+inline const legacy_uint160 operator<<(const legacy_uint160& a, unsigned int shift)        { return legacy_uint160(a) <<= shift; }
+inline const legacy_uint160 operator>>(const legacy_uint160& a, unsigned int shift)        { return legacy_uint160(a) >>= shift; }
 
-inline const uint160 operator^(const base_uint160& a, const base_uint160& b) { return uint160(a) ^= b; }
-inline const uint160 operator&(const base_uint160& a, const base_uint160& b) { return uint160(a) &= b; }
-inline const uint160 operator|(const base_uint160& a, const base_uint160& b) { return uint160(a) |= b; }
-inline const uint160 operator+(const base_uint160& a, const base_uint160& b) { return uint160(a) += b; }
-inline const uint160 operator-(const base_uint160& a, const base_uint160& b) { return uint160(a) -= b; }
+inline const legacy_uint160 operator^(const base_legacy_uint160& a, const base_legacy_uint160& b) { return legacy_uint160(a) ^= b; }
+inline const legacy_uint160 operator&(const base_legacy_uint160& a, const base_legacy_uint160& b) { return legacy_uint160(a) &= b; }
+inline const legacy_uint160 operator|(const base_legacy_uint160& a, const base_legacy_uint160& b) { return legacy_uint160(a) |= b; }
+inline const legacy_uint160 operator+(const base_legacy_uint160& a, const base_legacy_uint160& b) { return legacy_uint160(a) += b; }
+inline const legacy_uint160 operator-(const base_legacy_uint160& a, const base_legacy_uint160& b) { return legacy_uint160(a) -= b; }
 
-inline bool operator<(const base_uint160& a, const uint160& b)          { return (base_uint160)a <  (base_uint160)b; }
-inline bool operator<=(const base_uint160& a, const uint160& b)         { return (base_uint160)a <= (base_uint160)b; }
-inline bool operator>(const base_uint160& a, const uint160& b)          { return (base_uint160)a >  (base_uint160)b; }
-inline bool operator>=(const base_uint160& a, const uint160& b)         { return (base_uint160)a >= (base_uint160)b; }
-inline bool operator==(const base_uint160& a, const uint160& b)         { return (base_uint160)a == (base_uint160)b; }
-inline bool operator!=(const base_uint160& a, const uint160& b)         { return (base_uint160)a != (base_uint160)b; }
-inline const uint160 operator^(const base_uint160& a, const uint160& b) { return (base_uint160)a ^  (base_uint160)b; }
-inline const uint160 operator&(const base_uint160& a, const uint160& b) { return (base_uint160)a &  (base_uint160)b; }
-inline const uint160 operator|(const base_uint160& a, const uint160& b) { return (base_uint160)a |  (base_uint160)b; }
-inline const uint160 operator+(const base_uint160& a, const uint160& b) { return (base_uint160)a +  (base_uint160)b; }
-inline const uint160 operator-(const base_uint160& a, const uint160& b) { return (base_uint160)a -  (base_uint160)b; }
+inline bool operator<(const base_legacy_uint160& a, const legacy_uint160& b)          { return (base_legacy_uint160)a <  (base_legacy_uint160)b; }
+inline bool operator<=(const base_legacy_uint160& a, const legacy_uint160& b)         { return (base_legacy_uint160)a <= (base_legacy_uint160)b; }
+inline bool operator>(const base_legacy_uint160& a, const legacy_uint160& b)          { return (base_legacy_uint160)a >  (base_legacy_uint160)b; }
+inline bool operator>=(const base_legacy_uint160& a, const legacy_uint160& b)         { return (base_legacy_uint160)a >= (base_legacy_uint160)b; }
+inline bool operator==(const base_legacy_uint160& a, const legacy_uint160& b)         { return (base_legacy_uint160)a == (base_legacy_uint160)b; }
+inline bool operator!=(const base_legacy_uint160& a, const legacy_uint160& b)         { return (base_legacy_uint160)a != (base_legacy_uint160)b; }
+inline const legacy_uint160 operator^(const base_legacy_uint160& a, const legacy_uint160& b) { return (base_legacy_uint160)a ^  (base_legacy_uint160)b; }
+inline const legacy_uint160 operator&(const base_legacy_uint160& a, const legacy_uint160& b) { return (base_legacy_uint160)a &  (base_legacy_uint160)b; }
+inline const legacy_uint160 operator|(const base_legacy_uint160& a, const legacy_uint160& b) { return (base_legacy_uint160)a |  (base_legacy_uint160)b; }
+inline const legacy_uint160 operator+(const base_legacy_uint160& a, const legacy_uint160& b) { return (base_legacy_uint160)a +  (base_legacy_uint160)b; }
+inline const legacy_uint160 operator-(const base_legacy_uint160& a, const legacy_uint160& b) { return (base_legacy_uint160)a -  (base_legacy_uint160)b; }
 
-inline bool operator<(const uint160& a, const base_uint160& b)          { return (base_uint160)a <  (base_uint160)b; }
-inline bool operator<=(const uint160& a, const base_uint160& b)         { return (base_uint160)a <= (base_uint160)b; }
-inline bool operator>(const uint160& a, const base_uint160& b)          { return (base_uint160)a >  (base_uint160)b; }
-inline bool operator>=(const uint160& a, const base_uint160& b)         { return (base_uint160)a >= (base_uint160)b; }
-inline bool operator==(const uint160& a, const base_uint160& b)         { return (base_uint160)a == (base_uint160)b; }
-inline bool operator!=(const uint160& a, const base_uint160& b)         { return (base_uint160)a != (base_uint160)b; }
-inline const uint160 operator^(const uint160& a, const base_uint160& b) { return (base_uint160)a ^  (base_uint160)b; }
-inline const uint160 operator&(const uint160& a, const base_uint160& b) { return (base_uint160)a &  (base_uint160)b; }
-inline const uint160 operator|(const uint160& a, const base_uint160& b) { return (base_uint160)a |  (base_uint160)b; }
-inline const uint160 operator+(const uint160& a, const base_uint160& b) { return (base_uint160)a +  (base_uint160)b; }
-inline const uint160 operator-(const uint160& a, const base_uint160& b) { return (base_uint160)a -  (base_uint160)b; }
+inline bool operator<(const legacy_uint160& a, const base_legacy_uint160& b)          { return (base_legacy_uint160)a <  (base_legacy_uint160)b; }
+inline bool operator<=(const legacy_uint160& a, const base_legacy_uint160& b)         { return (base_legacy_uint160)a <= (base_legacy_uint160)b; }
+inline bool operator>(const legacy_uint160& a, const base_legacy_uint160& b)          { return (base_legacy_uint160)a >  (base_legacy_uint160)b; }
+inline bool operator>=(const legacy_uint160& a, const base_legacy_uint160& b)         { return (base_legacy_uint160)a >= (base_legacy_uint160)b; }
+inline bool operator==(const legacy_uint160& a, const base_legacy_uint160& b)         { return (base_legacy_uint160)a == (base_legacy_uint160)b; }
+inline bool operator!=(const legacy_uint160& a, const base_legacy_uint160& b)         { return (base_legacy_uint160)a != (base_legacy_uint160)b; }
+inline const legacy_uint160 operator^(const legacy_uint160& a, const base_legacy_uint160& b) { return (base_legacy_uint160)a ^  (base_legacy_uint160)b; }
+inline const legacy_uint160 operator&(const legacy_uint160& a, const base_legacy_uint160& b) { return (base_legacy_uint160)a &  (base_legacy_uint160)b; }
+inline const legacy_uint160 operator|(const legacy_uint160& a, const base_legacy_uint160& b) { return (base_legacy_uint160)a |  (base_legacy_uint160)b; }
+inline const legacy_uint160 operator+(const legacy_uint160& a, const base_legacy_uint160& b) { return (base_legacy_uint160)a +  (base_legacy_uint160)b; }
+inline const legacy_uint160 operator-(const legacy_uint160& a, const base_legacy_uint160& b) { return (base_legacy_uint160)a -  (base_legacy_uint160)b; }
 
-inline bool operator<(const uint160& a, const uint160& b)               { return (base_uint160)a <  (base_uint160)b; }
-inline bool operator<=(const uint160& a, const uint160& b)              { return (base_uint160)a <= (base_uint160)b; }
-inline bool operator>(const uint160& a, const uint160& b)               { return (base_uint160)a >  (base_uint160)b; }
-inline bool operator>=(const uint160& a, const uint160& b)              { return (base_uint160)a >= (base_uint160)b; }
-inline bool operator==(const uint160& a, const uint160& b)              { return (base_uint160)a == (base_uint160)b; }
-inline bool operator!=(const uint160& a, const uint160& b)              { return (base_uint160)a != (base_uint160)b; }
-inline const uint160 operator^(const uint160& a, const uint160& b)      { return (base_uint160)a ^  (base_uint160)b; }
-inline const uint160 operator&(const uint160& a, const uint160& b)      { return (base_uint160)a &  (base_uint160)b; }
-inline const uint160 operator|(const uint160& a, const uint160& b)      { return (base_uint160)a |  (base_uint160)b; }
-inline const uint160 operator+(const uint160& a, const uint160& b)      { return (base_uint160)a +  (base_uint160)b; }
-inline const uint160 operator-(const uint160& a, const uint160& b)      { return (base_uint160)a -  (base_uint160)b; }
+inline bool operator<(const legacy_uint160& a, const legacy_uint160& b)               { return (base_legacy_uint160)a <  (base_legacy_uint160)b; }
+inline bool operator<=(const legacy_uint160& a, const legacy_uint160& b)              { return (base_legacy_uint160)a <= (base_legacy_uint160)b; }
+inline bool operator>(const legacy_uint160& a, const legacy_uint160& b)               { return (base_legacy_uint160)a >  (base_legacy_uint160)b; }
+inline bool operator>=(const legacy_uint160& a, const legacy_uint160& b)              { return (base_legacy_uint160)a >= (base_legacy_uint160)b; }
+inline bool operator==(const legacy_uint160& a, const legacy_uint160& b)              { return (base_legacy_uint160)a == (base_legacy_uint160)b; }
+inline bool operator!=(const legacy_uint160& a, const legacy_uint160& b)              { return (base_legacy_uint160)a != (base_legacy_uint160)b; }
+inline const legacy_uint160 operator^(const legacy_uint160& a, const legacy_uint160& b)      { return (base_legacy_uint160)a ^  (base_legacy_uint160)b; }
+inline const legacy_uint160 operator&(const legacy_uint160& a, const legacy_uint160& b)      { return (base_legacy_uint160)a &  (base_legacy_uint160)b; }
+inline const legacy_uint160 operator|(const legacy_uint160& a, const legacy_uint160& b)      { return (base_legacy_uint160)a |  (base_legacy_uint160)b; }
+inline const legacy_uint160 operator+(const legacy_uint160& a, const legacy_uint160& b)      { return (base_legacy_uint160)a +  (base_legacy_uint160)b; }
+inline const legacy_uint160 operator-(const legacy_uint160& a, const legacy_uint160& b)      { return (base_legacy_uint160)a -  (base_legacy_legacy_uint160)b; }
 
 
 
@@ -534,35 +534,35 @@ inline const uint160 operator-(const uint160& a, const uint160& b)      { return
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// uint256
+// legacy_uint256
 //
 
 /** 256-bit unsigned integer */
-class uint256 : public base_uint256
+class legacy_uint256 : public base_legacy_uint256
 {
 public:
-    typedef base_uint256 basetype;
+    typedef base_legacy_uint256 basetype;
 
-    uint256()
+    legacy_uint256()
     {
         for (int i = 0; i < WIDTH; i++)
             pn[i] = 0;
     }
 
-    uint256(const basetype& b)
+    legacy_uint256(const basetype& b)
     {
         for (int i = 0; i < WIDTH; i++)
             pn[i] = b.pn[i];
     }
 
-    uint256& operator=(const basetype& b)
+    legacy_uint256& operator=(const basetype& b)
     {
         for (int i = 0; i < WIDTH; i++)
             pn[i] = b.pn[i];
         return *this;
     }
 
-    uint256(uint64 b)
+    legacy_uint256(uint64 b)
     {
         pn[0] = (unsigned int)b;
         pn[1] = (unsigned int)(b >> 32);
@@ -570,7 +570,7 @@ public:
             pn[i] = 0;
     }
 
-    uint256& operator=(uint64 b)
+    legacy_uint256& operator=(uint64 b)
     {
         pn[0] = (unsigned int)b;
         pn[1] = (unsigned int)(b >> 32);
@@ -579,12 +579,12 @@ public:
         return *this;
     }
 
-    explicit uint256(const std::string& str)
+    explicit legacy_uint256(const std::string& str)
     {
         SetHex(str);
     }
 
-    explicit uint256(const std::vector<unsigned char>& vch)
+    explicit legacy_uint256(const std::vector<unsigned char>& vch)
     {
         if (vch.size() == sizeof(pn))
             memcpy(pn, &vch[0], sizeof(pn));
@@ -593,56 +593,54 @@ public:
     }
 };
 
-inline bool operator==(const uint256& a, uint64 b)                           { return (base_uint256)a == b; }
-inline bool operator!=(const uint256& a, uint64 b)                           { return (base_uint256)a != b; }
-inline const uint256 operator<<(const base_uint256& a, unsigned int shift)   { return uint256(a) <<= shift; }
-inline const uint256 operator>>(const base_uint256& a, unsigned int shift)   { return uint256(a) >>= shift; }
-inline const uint256 operator<<(const uint256& a, unsigned int shift)        { return uint256(a) <<= shift; }
-inline const uint256 operator>>(const uint256& a, unsigned int shift)        { return uint256(a) >>= shift; }
+inline bool operator==(const legacy_uint256& a, uint64 b)                           { return (base_legacy_uint256)a == b; }
+inline bool operator!=(const legacy_uint256& a, uint64 b)                           { return (base_legacy_uint256)a != b; }
+inline const legacy_uint256 operator<<(const base_legacy_uint256& a, unsigned int shift)   { return legacy_uint256(a) <<= shift; }
+inline const legacy_uint256 operator>>(const base_legacy_uint256& a, unsigned int shift)   { return legacy_uint256(a) >>= shift; }
+inline const legacy_uint256 operator<<(const legacy_uint256& a, unsigned int shift)        { return legacy_uint256(a) <<= shift; }
+inline const legacy_uint256 operator>>(const legacy_uint256& a, unsigned int shift)        { return legacy_uint256(a) >>= shift; }
 
-inline const uint256 operator^(const base_uint256& a, const base_uint256& b) { return uint256(a) ^= b; }
-inline const uint256 operator&(const base_uint256& a, const base_uint256& b) { return uint256(a) &= b; }
-inline const uint256 operator|(const base_uint256& a, const base_uint256& b) { return uint256(a) |= b; }
-inline const uint256 operator+(const base_uint256& a, const base_uint256& b) { return uint256(a) += b; }
-inline const uint256 operator-(const base_uint256& a, const base_uint256& b) { return uint256(a) -= b; }
+inline const legacy_uint256 operator^(const base_legacy_uint256& a, const base_legacy_uint256& b) { return legacy_uint256(a) ^= b; }
+inline const legacy_uint256 operator&(const base_legacy_uint256& a, const base_legacy_uint256& b) { return legacy_uint256(a) &= b; }
+inline const legacy_uint256 operator|(const base_legacy_uint256& a, const base_legacy_uint256& b) { return legacy_uint256(a) |= b; }
+inline const legacy_uint256 operator+(const base_legacy_uint256& a, const base_legacy_uint256& b) { return legacy_uint256(a) += b; }
+inline const legacy_uint256 operator-(const base_legacy_uint256& a, const base_legacy_uint256& b) { return legacy_uint256(a) -= b; }
 
-inline bool operator<(const base_uint256& a, const uint256& b)          { return (base_uint256)a <  (base_uint256)b; }
-inline bool operator<=(const base_uint256& a, const uint256& b)         { return (base_uint256)a <= (base_uint256)b; }
-inline bool operator>(const base_uint256& a, const uint256& b)          { return (base_uint256)a >  (base_uint256)b; }
-inline bool operator>=(const base_uint256& a, const uint256& b)         { return (base_uint256)a >= (base_uint256)b; }
-inline bool operator==(const base_uint256& a, const uint256& b)         { return (base_uint256)a == (base_uint256)b; }
-inline bool operator!=(const base_uint256& a, const uint256& b)         { return (base_uint256)a != (base_uint256)b; }
-inline const uint256 operator^(const base_uint256& a, const uint256& b) { return (base_uint256)a ^  (base_uint256)b; }
-inline const uint256 operator&(const base_uint256& a, const uint256& b) { return (base_uint256)a &  (base_uint256)b; }
-inline const uint256 operator|(const base_uint256& a, const uint256& b) { return (base_uint256)a |  (base_uint256)b; }
-inline const uint256 operator+(const base_uint256& a, const uint256& b) { return (base_uint256)a +  (base_uint256)b; }
-inline const uint256 operator-(const base_uint256& a, const uint256& b) { return (base_uint256)a -  (base_uint256)b; }
+inline bool operator<(const base_legacy_uint256& a, const legacy_uint256& b)          { return (base_legacy_uint256)a <  (base_legacy_uint256)b; }
+inline bool operator<=(const base_legacy_uint256& a, const legacy_uint256& b)         { return (base_legacy_uint256)a <= (base_legacy_uint256)b; }
+inline bool operator>(const base_legacy_uint256& a, const legacy_uint256& b)          { return (base_legacy_uint256)a >  (base_legacy_uint256)b; }
+inline bool operator>=(const base_legacy_uint256& a, const legacy_uint256& b)         { return (base_legacy_uint256)a >= (base_legacy_uint256)b; }
+inline bool operator==(const base_legacy_uint256& a, const legacy_uint256& b)         { return (base_legacy_uint256)a == (base_legacy_uint256)b; }
+inline bool operator!=(const base_legacy_uint256& a, const legacy_uint256& b)         { return (base_legacy_uint256)a != (base_legacy_uint256)b; }
+inline const legacy_uint256 operator^(const base_legacy_uint256& a, const legacy_uint256& b) { return (base_legacy_uint256)a ^  (base_legacy_uint256)b; }
+inline const legacy_uint256 operator&(const base_legacy_uint256& a, const legacy_uint256& b) { return (base_legacy_uint256)a &  (base_legacy_uint256)b; }
+inline const legacy_uint256 operator|(const base_legacy_uint256& a, const legacy_uint256& b) { return (base_legacy_uint256)a |  (base_legacy_uint256)b; }
+inline const legacy_uint256 operator+(const base_legacy_uint256& a, const legacy_uint256& b) { return (base_legacy_uint256)a +  (base_legacy_uint256)b; }
+inline const legacy_uint256 operator-(const base_legacy_uint256& a, const legacy_uint256& b) { return (base_legacy_uint256)a -  (base_legacy_uint256)b; }
 
-inline bool operator<(const uint256& a, const base_uint256& b)          { return (base_uint256)a <  (base_uint256)b; }
-inline bool operator<=(const uint256& a, const base_uint256& b)         { return (base_uint256)a <= (base_uint256)b; }
-inline bool operator>(const uint256& a, const base_uint256& b)          { return (base_uint256)a >  (base_uint256)b; }
-inline bool operator>=(const uint256& a, const base_uint256& b)         { return (base_uint256)a >= (base_uint256)b; }
-inline bool operator==(const uint256& a, const base_uint256& b)         { return (base_uint256)a == (base_uint256)b; }
-inline bool operator!=(const uint256& a, const base_uint256& b)         { return (base_uint256)a != (base_uint256)b; }
-inline const uint256 operator^(const uint256& a, const base_uint256& b) { return (base_uint256)a ^  (base_uint256)b; }
-inline const uint256 operator&(const uint256& a, const base_uint256& b) { return (base_uint256)a &  (base_uint256)b; }
-inline const uint256 operator|(const uint256& a, const base_uint256& b) { return (base_uint256)a |  (base_uint256)b; }
-inline const uint256 operator+(const uint256& a, const base_uint256& b) { return (base_uint256)a +  (base_uint256)b; }
-inline const uint256 operator-(const uint256& a, const base_uint256& b) { return (base_uint256)a -  (base_uint256)b; }
+inline bool operator<(const legacy_uint256& a, const base_legacy_uint256& b)          { return (base_legacy_uint256)a <  (base_legacy_uint256)b; }
+inline bool operator<=(const legacy_uint256& a, const base_legacy_uint256& b)         { return (base_legacy_uint256)a <= (base_legacy_uint256)b; }
+inline bool operator>(const legacy_uint256& a, const base_legacy_uint256& b)          { return (base_legacy_uint256)a >  (base_legacy_uint256)b; }
+inline bool operator>=(const legacy_uint256& a, const base_legacy_uint256& b)         { return (base_legacy_uint256)a >= (base_legacy_uint256)b; }
+inline bool operator==(const legacy_uint256& a, const base_legacy_uint256& b)         { return (base_legacy_uint256)a == (base_legacy_uint256)b; }
+inline bool operator!=(const legacy_uint256& a, const base_legacy_uint256& b)         { return (base_legacy_uint256)a != (base_legacy_uint256)b; }
+inline const legacy_uint256 operator^(const legacy_uint256& a, const base_legacy_uint256& b) { return (base_legacy_uint256)a ^  (base_legacy_uint256)b; }
+inline const legacy_uint256 operator&(const legacy_uint256& a, const base_legacy_uint256& b) { return (base_legacy_uint256)a &  (base_legacy_uint256)b; }
+inline const legacy_uint256 operator|(const legacy_uint256& a, const base_legacy_uint256& b) { return (base_legacy_uint256)a |  (base_legacy_uint256)b; }
+inline const legacy_uint256 operator+(const legacy_uint256& a, const base_legacy_uint256& b) { return (base_legacy_uint256)a +  (base_legacy_uint256)b; }
+inline const legacy_uint256 operator-(const legacy_uint256& a, const base_legacy_uint256& b) { return (base_legacy_uint256)a -  (base_legacy_uint256)b; }
 
-inline bool operator<(const uint256& a, const uint256& b)               { return (base_uint256)a <  (base_uint256)b; }
-inline bool operator<=(const uint256& a, const uint256& b)              { return (base_uint256)a <= (base_uint256)b; }
-inline bool operator>(const uint256& a, const uint256& b)               { return (base_uint256)a >  (base_uint256)b; }
-inline bool operator>=(const uint256& a, const uint256& b)              { return (base_uint256)a >= (base_uint256)b; }
-inline bool operator==(const uint256& a, const uint256& b)              { return (base_uint256)a == (base_uint256)b; }
-inline bool operator!=(const uint256& a, const uint256& b)              { return (base_uint256)a != (base_uint256)b; }
-inline const uint256 operator^(const uint256& a, const uint256& b)      { return (base_uint256)a ^  (base_uint256)b; }
-inline const uint256 operator&(const uint256& a, const uint256& b)      { return (base_uint256)a &  (base_uint256)b; }
-inline const uint256 operator|(const uint256& a, const uint256& b)      { return (base_uint256)a |  (base_uint256)b; }
-inline const uint256 operator+(const uint256& a, const uint256& b)      { return (base_uint256)a +  (base_uint256)b; }
-inline const uint256 operator-(const uint256& a, const uint256& b)      { return (base_uint256)a -  (base_uint256)b; }
-
-
+inline bool operator<(const legacy_uint256& a, const legacy_uint256& b)               { return (base_legacy_uint256)a <  (base_legacy_uint256)b; }
+inline bool operator<=(const legacy_uint256& a, const legacy_uint256& b)              { return (base_legacy_uint256)a <= (base_legacy_uint256)b; }
+inline bool operator>(const legacy_uint256& a, const legacy_uint256& b)               { return (base_legacy_uint256)a >  (base_legacy_uint256)b; }
+inline bool operator>=(const legacy_uint256& a, const legacy_uint256& b)              { return (base_legacy_uint256)a >= (base_legacy_uint256)b; }
+inline bool operator==(const legacy_uint256& a, const legacy_uint256& b)              { return (base_legacy_uint256)a == (base_legacy_uint256)b; }
+inline bool operator!=(const legacy_uint256& a, const legacy_uint256& b)              { return (base_legacy_uint256)a != (base_legacy_uint256)b; }
+inline const legacy_uint256 operator^(const legacy_uint256& a, const legacy_uint256& b)      { return (base_legacy_uint256)a ^  (base_legacy_uint256)b; }
+inline const legacy_uint256 operator&(const legacy_uint256& a, const legacy_uint256& b)      { return (base_legacy_uint256)a &  (base_legacy_uint256)b; }
+inline const legacy_uint256 operator|(const legacy_uint256& a, const legacy_uint256& b)      { return (base_legacy_uint256)a |  (base_legacy_uint256)b; }
+inline const legacy_uint256 operator+(const legacy_uint256& a, const legacy_uint256& b)      { return (base_legacy_uint256)a +  (base_legacy_uint256)b; }
+inline const legacy_uint256 operator-(const legacy_uint256& a, const legacy_uint256& b)      { return (base_legacy_uint256)a -  (base_legacy_uint256)b; }
 
 
 
@@ -651,11 +649,13 @@ inline const uint256 operator-(const uint256& a, const uint256& b)      { return
 
 
 
-#ifdef TEST_UINT256
 
-inline int Testuint256AdHoc(std::vector<std::string> vArg)
+
+#ifdef TEST_legacy_uint256
+
+inline int Testlegacy_uint256AdHoc(std::vector<std::string> vArg)
 {
-    uint256 g(0);
+    legacy_uint256 g(0);
 
 
     printf("%s\n", g.ToString().c_str());
@@ -674,11 +674,11 @@ inline int Testuint256AdHoc(std::vector<std::string> vArg)
 
 
 
-    uint256 a(7);
+    legacy_uint256 a(7);
     printf("a=7\n");
     printf("%s\n", a.ToString().c_str());
 
-    uint256 b;
+    legacy_uint256 b;
     printf("b undefined\n");
     printf("%s\n", b.ToString().c_str());
     int c = 3;
@@ -686,7 +686,7 @@ inline int Testuint256AdHoc(std::vector<std::string> vArg)
     a = c;
     a.pn[3] = 15;
     printf("%s\n", a.ToString().c_str());
-    uint256 k(c);
+    legacy_uint256 k(c);
 
     a = 5;
     a.pn[3] = 15;
@@ -700,7 +700,7 @@ inline int Testuint256AdHoc(std::vector<std::string> vArg)
 
     printf("a %s\n", a.ToString().c_str());
 
-    a = a | b | (uint256)0x1000;
+    a = a | b | (legacy_uint256)0x1000;
 
 
     printf("a %s\n", a.ToString().c_str());
@@ -725,7 +725,7 @@ inline int Testuint256AdHoc(std::vector<std::string> vArg)
     printf("%s\n", a.ToString().c_str());
     a--;
     printf("%s\n", a.ToString().c_str());
-    uint256 d = a--;
+    legacy_uint256 d = a--;
     printf("%s\n", d.ToString().c_str());
     printf("%s\n", a.ToString().c_str());
     a--;
@@ -736,21 +736,21 @@ inline int Testuint256AdHoc(std::vector<std::string> vArg)
     d = a;
 
     printf("%s\n", d.ToString().c_str());
-    for (int i = uint256::WIDTH-1; i >= 0; i--) printf("%08x", d.pn[i]); printf("\n");
+    for (int i = legacy_uint256::WIDTH-1; i >= 0; i--) printf("%08x", d.pn[i]); printf("\n");
 
-    uint256 neg = d;
+    legacy_uint256 neg = d;
     neg = ~neg;
     printf("%s\n", neg.ToString().c_str());
 
 
-    uint256 e = uint256("0xABCDEF123abcdef12345678909832180000011111111");
+    legacy_uint256 e = legacy_uint256("0xABCDEF123abcdef12345678909832180000011111111");
     printf("\n");
     printf("%s\n", e.ToString().c_str());
 
 
     printf("\n");
-    uint256 x1 = uint256("0xABCDEF123abcdef12345678909832180000011111111");
-    uint256 x2;
+    legacy_uint256 x1 = legacy_uint256("0xABCDEF123abcdef12345678909832180000011111111");
+    legacy_uint256 x2;
     printf("%s\n", x1.ToString().c_str());
     for (int i = 0; i < 270; i += 4)
     {
@@ -770,13 +770,13 @@ inline int Testuint256AdHoc(std::vector<std::string> vArg)
 
     for (int i = 0; i < 100; i++)
     {
-        uint256 k = (~uint256(0) >> i);
+        legacy_uint256 k = (~legacy_uint256(0) >> i);
         printf("%s\n", k.ToString().c_str());
     }
 
     for (int i = 0; i < 100; i++)
     {
-        uint256 k = (~uint256(0) << i);
+        legacy_uint256 k = (~legacy_uint256(0) << i);
         printf("%s\n", k.ToString().c_str());
     }
 
