@@ -12,6 +12,7 @@
 #include "primitives/block.h"
 #include "uint256.h"
 #include "util.h"
+#include "test/bignum.h"
 #include <math.h>
 unsigned int GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
@@ -35,8 +36,8 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
   	int64_t PastRateActualSeconds			= 0;
   	int64_t PastRateTargetSeconds			= 0;
   	double PastRateAdjustmentRatio		= double(1);
-  	arith_uint256 PastDifficultyAverage;
-  	arith_uint256 PastDifficultyAveragePrev;
+  	CBigNum PastDifficultyAverage;
+  	CBigNum PastDifficultyAveragePrev;
   	double EventHorizonDeviation;
   	double EventHorizonDeviationFast;
   	double EventHorizonDeviationSlow;
@@ -55,8 +56,14 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
               if (PastBlocksMax > 0 && i > PastBlocksMax) { break; }
               PastBlocksMass++;
 
-              if (i == 1)        { PastDifficultyAverage.SetCompact(BlockReading->nBits); }
-              else                { PastDifficultyAverage = ((arith_uint256().SetCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev; }
+              if (i == 1)
+              {
+                PastDifficultyAverage.SetLegacyCompact(BlockReading->nBits);
+              }
+              else
+              {
+                PastDifficultyAverage = ((CBigNum().SetLegacyCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev;
+              }
               PastDifficultyAveragePrev = PastDifficultyAverage;
 
               PastRateActualSeconds                        = BlockLastSolved->GetBlockTime() - BlockReading->GetBlockTime();
@@ -77,7 +84,7 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
               BlockReading = BlockReading->pprev;
   	}
 
-  	arith_uint256 bnNew(PastDifficultyAverage);
+  	CBigNum bnNew(PastDifficultyAverage);
   	if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
   		bnNew *= PastRateActualSeconds;
   		bnNew /= PastRateTargetSeconds;
@@ -88,9 +95,9 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
   	LogPrintf("Difficulty Retarget - Kimoto Gravity Well\n");
   	LogPrintf("PastRateAdjustmentRatio = %g\n", PastRateAdjustmentRatio);
   	LogPrintf("Before: %08x  %s\n", BlockLastSolved->nBits, ArithToUint256(arith_uint256().SetCompact(BlockLastSolved->nBits)).ToString().c_str());
-  	LogPrintf("After:  %08x  %s\n", bnNew.GetCompact(), ArithToUint256(bnNew).ToString().c_str());
+  	LogPrintf("After:  %08x  %s\n", bnNew.GetLegacyCompact(), ArithToUint256(bnNew).ToString().c_str());
 
-  	return bnNew.GetCompact();
+  	return bnNew.GetLegacyCompact();
 }
 
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
