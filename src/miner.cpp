@@ -89,7 +89,7 @@ void UpdateTime(CBlockHeader* pblock, const Consensus::Params& consensusParams, 
 
     // Updating time can change work required on testnet:
     if(consensusParams.fPowAllowMinDifficultyBlocks && consensusParams.nHeightEffective == 0)
-        pblock->nBits = pow::GetNextWorkRequiredLegacy(pindexPrev, pblock, consensusParams);
+        pblock->nBits = GetNextWorkRequiredLegacy(pindexPrev, pblock, consensusParams);
     else if (consensusParams.fPowAllowMinDifficultyBlocks)
         pblock->nBits = GetNextWorkRequired(pindexPrev, pblock, consensusParams);
 }
@@ -349,7 +349,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn)
         pblock->hashPrevBlock  = pindexPrev->GetBlockHash();
         UpdateTime(pblock, consensus, pindexPrev);
         if(pblock->nVersion == 1)
-          pblock->nBits          = pow::GetNextWorkRequiredLegacy(pindexPrev, pblock, consensus);
+          pblock->nBits          = GetNextWorkRequiredLegacy(pindexPrev, pblock, consensus);
         else
           pblock->nBits          = GetNextWorkRequired(pindexPrev, pblock, consensus);
         pblock->nNonce         = 0;
