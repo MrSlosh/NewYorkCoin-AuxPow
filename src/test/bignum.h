@@ -89,6 +89,72 @@ public:
         *this = *this / b;
         return *this;
     }
+
+    CBigNum& operator%=(const CBigNum& b)
+        {
+            *this = *this % b;
+            return *this;
+        }
+
+        CBigNum& operator<<=(unsigned int shift)
+        {
+            if (!BN_lshift(this, this, shift))
+                throw bignum_error("CBigNum:operator<<= : BN_lshift failed");
+            return *this;
+        }
+
+        CBigNum& operator>>=(unsigned int shift)
+        {
+            // Note: BN_rshift segfaults on 64-bit if 2^shift is greater than the number
+            //   if built on ubuntu 9.04 or 9.10, probably depends on version of OpenSSL
+            CBigNum a = 1;
+            a <<= shift;
+            if (BN_cmp(&a, this) > 0)
+            {
+                *this = 0;
+                return *this;
+            }
+
+            if (!BN_rshift(this, this, shift))
+                throw bignum_error("CBigNum:operator>>= : BN_rshift failed");
+            return *this;
+        }
+
+
+        CBigNum& operator++()
+        {
+            // prefix operator
+            if (!BN_add(this, this, BN_value_one()))
+                throw bignum_error("CBigNum::operator++ : BN_add failed");
+            return *this;
+        }
+
+        const CBigNum operator++(int)
+        {
+            // postfix operator
+            const CBigNum ret = *this;
+            ++(*this);
+            return ret;
+        }
+
+        CBigNum& operator--()
+        {
+            // prefix operator
+            CBigNum r;
+            if (!BN_sub(&r, this, BN_value_one()))
+                throw bignum_error("CBigNum::operator-- : BN_sub failed");
+            *this = r;
+            return *this;
+        }
+
+        const CBigNum operator--(int)
+        {
+            // postfix operator
+            const CBigNum ret = *this;
+            --(*this);
+            return ret;
+        }
+
     Legacy_nyc::legacy_uint256 getuint256() const
     {
         unsigned int nSize = BN_bn2mpi(this, NULL);
@@ -264,6 +330,7 @@ public:
 
     friend inline const CBigNum operator-(const CBigNum& a, const CBigNum& b);
     friend inline const CBigNum operator/(const CBigNum& a, const CBigNum& b);
+    friend inline const CBigNum operator%(const CBigNum& a, const CBigNum& b);
 };
 
 
@@ -297,6 +364,30 @@ inline const CBigNum operator/(const CBigNum& a, const CBigNum& b)
     CBigNum r;
     if (!BN_div(&r, NULL, &a, &b, pctx))
         throw bignum_error("CBigNum::operator/ : BN_div failed");
+    return r;
+}
+
+inline const CBigNum operator%(const CBigNum& a, const CBigNum& b)
+{
+    CAutoBN_CTX pctx;
+    CBigNum r;
+    if (!BN_mod(&r, &a, &b, pctx))
+        throw bignum_error("CBigNum::operator% : BN_div failed");
+    return r;
+}
+
+inline const CBigNum operator<<(const CBigNum& a, unsigned int shift)
+{
+    CBigNum r;
+    if (!BN_lshift(&r, &a, shift))
+        throw bignum_error("CBigNum:operator<< : BN_lshift failed");
+    return r;
+}
+
+inline const CBigNum operator>>(const CBigNum& a, unsigned int shift)
+{
+    CBigNum r = a;
+    r >>= shift;
     return r;
 }
 
