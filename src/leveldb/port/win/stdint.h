@@ -21,4 +21,7 @@ typedef unsigned short        uint16_t;
 typedef unsigned int          uint32_t;
 typedef unsigned long long    uint64_t;
 
+// legacy nycoin inputvalues
+typedef long long             int64_l;
+
 #endif  // STORAGE_LEVELDB_PORT_WIN_STDINT_H_

@@ -17,10 +17,10 @@
 unsigned int GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
 
-    static const int64_t BlocksTargetSpacing	= 0.5 * 60; // 30 seconds
+    static const int64_l BlocksTargetSpacing	= 0.5 * 60; // 30 seconds
 		unsigned int TimeDaySeconds				= 60 * 60 * 24;
-		int64_t PastSecondsMin					= TimeDaySeconds * 0.01;
-		int64_t PastSecondsMax					= TimeDaySeconds * 0.14;
+		int64_l PastSecondsMin					= TimeDaySeconds * 0.01;
+		int64_l PastSecondsMax					= TimeDaySeconds * 0.14;
 		uint64_t PastBlocksMin					= PastSecondsMin / BlocksTargetSpacing;
 		uint64_t PastBlocksMax					= PastSecondsMax / BlocksTargetSpacing;
 
@@ -33,8 +33,8 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
   	const CBlockHeader *BlockCreating			= pblock;
   	BlockCreating						= BlockCreating;
   	uint64_t PastBlocksMass  				= 0;
-  	int64_t PastRateActualSeconds			= 0;
-  	int64_t PastRateTargetSeconds			= 0;
+  	int64_l PastRateActualSeconds			= 0;
+  	int64_l PastRateTargetSeconds			= 0;
   	double PastRateAdjustmentRatio		= double(1);
   	CBigNum PastDifficultyAverage;
   	CBigNum PastDifficultyAveragePrev;
