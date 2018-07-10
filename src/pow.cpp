@@ -14,7 +14,7 @@
 #include "util.h"
 #include "test/bignum.h"
 #include <math.h>
-unsigned int GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
+unsigned int static GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
 
     static const int64_t BlocksTargetSpacing	= 0.5 * 60; // 30 seconds
@@ -27,7 +27,7 @@ unsigned int GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlo
 		return KimotoGravityWell(pindexLast, pblock, BlocksTargetSpacing, PastBlocksMin, PastBlocksMax, params);
 }
 
-unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64_t TargetBlocksSpacingSeconds, uint64_t PastBlocksMin, uint64_t PastBlocksMax, const Consensus::Params& params) {
+unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64_t TargetBlocksSpacingSeconds, uint64_t PastBlocksMin, uint64_t PastBlocksMax, const Consensus::Params& params) {
   	const CBlockIndex  *BlockLastSolved	= pindexLast;
   	const CBlockIndex  *BlockReading	= pindexLast;
   	const CBlockHeader *BlockCreating			= pblock;
