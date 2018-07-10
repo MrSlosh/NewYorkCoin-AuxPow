@@ -14,6 +14,10 @@
 #include "util.h"
 #include "test/bignum.h"
 #include <math.h>
+
+// legacy nycoin inputvalues
+typedef long long             int64_l;
+
 unsigned int GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
 
