@@ -30,7 +30,8 @@ unsigned int GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlo
 }
 
 unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64_t TargetBlocksSpacingSeconds, uint64_t PastBlocksMin, uint64_t PastBlocksMax, const Consensus::Params& params) {
-  	const CBlockIndex  *BlockLastSolved	= pindexLast;
+
+    const CBlockIndex  *BlockLastSolved	= pindexLast;
   	const CBlockIndex  *BlockReading	= pindexLast;
   	const CBlockHeader *BlockCreating			= pblock;
   	BlockCreating						= BlockCreating;
