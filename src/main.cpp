@@ -2780,8 +2780,8 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
 
     // Check proof of work
     // Legacy
-    LogPrintf("Previous block height %d \n" pindexPrev->nHeight);
-    LogPrintf("Current block hash %s \n" block->hashMerkleRoot.ToString().c_str());
+    LogPrintf("Previous block height %d \n", pindexPrev->nHeight);
+    LogPrintf("Current block hash %s \n", block->hashMerkleRoot.ToString().c_str());
     if (consensusParams.fAllowLegacyBlocks
         && block.nVersion.IsLegacy())
         {
