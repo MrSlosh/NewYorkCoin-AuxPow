@@ -42,7 +42,7 @@ public:
         consensus.nMajorityEnforceBlockUpgrade = 1500;
         consensus.nMajorityRejectBlockOutdated = 1900;
         consensus.nMajorityWindow = 2000;
-        consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
+        consensus.powLimit = ~uint256(0) >> 20; // uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
         consensus.nPowTargetTimespan = 2 * 60 * 60; // pre-digishield: 2 hours
         consensus.nPowTargetSpacing = 30; // 30 seconds
         consensus.fPowAllowMinDifficultyBlocks = false;
@@ -146,7 +146,7 @@ public:
         checkpointData = (Checkpoints::CCheckpointData) {
             boost::assign::map_list_of
 
-            
+
             (  10000, uint256S("0x132e14f7d82b659329ac95300413beba2c00f9e3d1b137533a093fce18d3febd"))
             (  100000, uint256S("0x495da2e0cffa0ad6c0fe83c2678e2c714e024ed009abcdb24728d306b599232f"))
             ( 155511, uint256S("0x0cd7a29253710ebf4c71c473f61e586b044a5da64380e424b63c9f45c89b7cde"))
