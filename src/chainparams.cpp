@@ -42,7 +42,7 @@ public:
         consensus.nMajorityEnforceBlockUpgrade = 1500;
         consensus.nMajorityRejectBlockOutdated = 1900;
         consensus.nMajorityWindow = 2000;
-        consensus.powLimit = ~uint256(0) >> 20; // uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
+        consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
         consensus.nPowTargetTimespan = 2 * 60 * 60; // pre-digishield: 2 hours
         consensus.nPowTargetSpacing = 30; // 30 seconds
         consensus.fPowAllowMinDifficultyBlocks = false;

@@ -15,9 +15,12 @@ class CBlockIndex;
 class uint256;
 class arith_uint256;
 
+typedef long long int64_l;
+typedef unsigned long long uint64_l;
+
 // Legacy New York Coin support
 unsigned int GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params&);
-unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64_t TargetBlocksSpacingSeconds, uint64_t PastBlocksMin, uint64_t PastBlocksMax, const Consensus::Params&);
+unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64_l TargetBlocksSpacingSeconds, uint64_l PastBlocksMin, uint64_l PastBlocksMax, const Consensus::Params&);
 
 // 1.3 implementation
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params&);

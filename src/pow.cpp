@@ -16,28 +16,29 @@
 #include <math.h>
 
 
+
 unsigned int GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
 
-    int64_t BlocksTargetSpacing	= 0.5 * 60; // 30 seconds
+    int64_l BlocksTargetSpacing	= 0.5 * 60; // 30 seconds
 		unsigned int TimeDaySeconds				= 60 * 60 * 24;
-		int64_t PastSecondsMin					= TimeDaySeconds * 0.01;
-		int64_t PastSecondsMax					= TimeDaySeconds * 0.14;
-		uint64_t PastBlocksMin					= PastSecondsMin / BlocksTargetSpacing;
-		uint64_t PastBlocksMax					= PastSecondsMax / BlocksTargetSpacing;
+		int64_l PastSecondsMin					= TimeDaySeconds * 0.01;
+		int64_l PastSecondsMax					= TimeDaySeconds * 0.14;
+		uint64_l PastBlocksMin					= PastSecondsMin / BlocksTargetSpacing;
+		uint64_l PastBlocksMax					= PastSecondsMax / BlocksTargetSpacing;
 
 		return KimotoGravityWell(pindexLast, pblock, BlocksTargetSpacing, PastBlocksMin, PastBlocksMax, params);
 }
 
-unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64_t TargetBlocksSpacingSeconds, uint64_t PastBlocksMin, uint64_t PastBlocksMax, const Consensus::Params& params) {
+unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64_l TargetBlocksSpacingSeconds, uint64_l PastBlocksMin, uint64_l PastBlocksMax, const Consensus::Params& params) {
 
     const CBlockIndex  *BlockLastSolved	= pindexLast;
   	const CBlockIndex  *BlockReading	= pindexLast;
   	const CBlockHeader *BlockCreating			= pblock;
   	BlockCreating						= BlockCreating;
-  	uint64_t PastBlocksMass  				= 0;
-  	int64_t PastRateActualSeconds			= 0;
-  	int64_t PastRateTargetSeconds			= 0;
+  	uint64_l PastBlocksMass  				= 0;
+  	int64_l PastRateActualSeconds			= 0;
+  	int64_l PastRateTargetSeconds			= 0;
   	double PastRateAdjustmentRatio		= double(1);
   	CBigNum PastDifficultyAverage;
   	CBigNum PastDifficultyAveragePrev;
@@ -53,7 +54,7 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
       return bnProofOfWorkLimit;
     }
 
-  	if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || (uint64_t)BlockLastSolved->nHeight < PastBlocksMin) { return bnProofOfWorkLimit; }
+  	if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || (uint64_l)BlockLastSolved->nHeight < PastBlocksMin) { return bnProofOfWorkLimit; }
 
   	for (unsigned int i = 1; BlockReading && BlockReading->nHeight > 0; i++) {
               if (PastBlocksMax > 0 && i > PastBlocksMax) { break; }
