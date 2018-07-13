@@ -23,7 +23,7 @@ remotes:
 - "url": "https://github.com/MrSlosh/NewYorkCoin-AuxPow.git"
   "dir": "NewYorkCoin-AuxPow"
 files: []
-#x86_64-w64-mingw32 
+#x86_64-w64-mingw32
 script: |
   WRAP_DIR=$HOME/wrapped
   HOSTS="i686-w64-mingw32"
@@ -115,5 +115,5 @@ script: |
   cd $OUTDIR
   rename 's/-setup\.exe$/-setup-unsigned.exe/' *-setup.exe
   find . -name "*-setup-unsigned.exe" | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ${OUTDIR}/${DISTNAME}-win-unsigned.tar.gz
-  mv ${OUTDIR}/${DISTNAME}-x86_64-*.zip ${OUTDIR}/${DISTNAME}-win64.zip
+  #mv ${OUTDIR}/${DISTNAME}-x86_64-*.zip ${OUTDIR}/${DISTNAME}-win64.zip
   mv ${OUTDIR}/${DISTNAME}-i686-*.zip ${OUTDIR}/${DISTNAME}-win32.zip
