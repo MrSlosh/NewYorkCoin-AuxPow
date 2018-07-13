@@ -15,8 +15,6 @@ class CBlockIndex;
 class uint256;
 class arith_uint256;
 
-typedef long long int64_l;
-typedef unsigned long long uint64_l;
 
 // Legacy New York Coin support
 unsigned int GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params&);
