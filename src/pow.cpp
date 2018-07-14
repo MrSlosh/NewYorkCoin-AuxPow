@@ -20,7 +20,7 @@
 unsigned int GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
 
-    int64_t BlocksTargetSpacing	= 0.5 * 60; // 30 seconds
+    int64_t BlocksTargetSpacing	= 60; // 30 seconds
 		unsigned int TimeDaySeconds				= 60 * 60 * 24;
 		int64_t PastSecondsMin					= TimeDaySeconds * 0.01;
 		int64_t PastSecondsMax					= TimeDaySeconds * 0.14;
