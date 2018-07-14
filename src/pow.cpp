@@ -20,7 +20,7 @@
 unsigned int GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
 
-    int64_t BlocksTargetSpacing	= 60; // 30 seconds
+    int64_t BlocksTargetSpacing	= 0.5 * 60; // 30 seconds
 		unsigned int TimeDaySeconds				= 60 * 60 * 24;
 		int64_t PastSecondsMin					= TimeDaySeconds * 0.01;
 		int64_t PastSecondsMax					= TimeDaySeconds * 0.14;
@@ -66,7 +66,9 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
               }
               else
               {
-                PastDifficultyAverage = ((CBigNum().SetLegacyCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev;
+                unsigned int newCompact = (CBigNum().SetLegacyCompact(BlockReading->nBits);
+                LogPrintf("PastDifficulty pre-calculation:  %08x  \n", newCompact);
+                PastDifficultyAverage = (newCompact - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev;
               }
               PastDifficultyAveragePrev = PastDifficultyAverage;
 
