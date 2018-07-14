@@ -66,8 +66,9 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
               }
               else
               {
-                unsigned int newCompact = (CBigNum().SetLegacyCompact(BlockReading->nBits)).GetLegacyCompact();
-                LogPrintf("PastDifficulty pre-calculation:  %08x  \n", newCompact);
+                CBigNum newCompact;
+                newCompact.SetLegacyCompact(BlockReading->nBits);
+                LogPrintf("newCompact bits: %08x", newCompact.GetLegacyCompact());
                 PastDifficultyAverage = (newCompact - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev;
               }
               PastDifficultyAveragePrev = PastDifficultyAverage;
