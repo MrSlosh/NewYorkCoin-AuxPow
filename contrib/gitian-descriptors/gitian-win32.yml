@@ -15,7 +15,7 @@ packages:
 - "faketime"
 - "bsdmainutils"
 - "mingw32"
-- "g++-mingw32"
+- "g++-mingw-w64-i686"
 - "nsis"
 - "zip"
 reference_datetime: "2015-06-01 00:00:00"
