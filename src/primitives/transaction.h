@@ -80,6 +80,8 @@ public:
 
     bool IsFinal() const
     {
+        if (nSequence == std::numeric_limits<unsigned int>::max())
+          return true;
         return (nSequence == std::numeric_limits<uint32_t>::max());
     }
 
@@ -143,7 +145,7 @@ public:
         // to spend something, then we consider it dust.
         // A typical txout is 34 bytes big, and will
         // need a CTxIn of at least 148 bytes to spend:
-        // so dust is a txout less than 546 satoshis 
+        // so dust is a txout less than 546 satoshis
         // with default minRelayTxFee.
         // size_t nSize = GetSerializeSize(SER_DISK,0)+148u;
         // return 3*minRelayTxFee.GetFee(nSize);
