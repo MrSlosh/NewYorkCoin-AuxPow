@@ -69,9 +69,13 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
                 PastDifficultyAverage = (((arith_uint256().SetCompact(BlockReading->nBits)) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev;
               }
               PastDifficultyAveragePrev = PastDifficultyAverage;
-
+              LogPrintf("PastDifficultyAverage: %08x\n", PastDifficultyAverage.GetCompact());
               PastRateActualSeconds                        = BlockLastSolved->GetBlockTime() - BlockReading->GetBlockTime();
               PastRateTargetSeconds                        = TargetBlocksSpacingSeconds * PastBlocksMass;
+
+              LogPrintf("PastRateActualSeconds: %g", PastRateActualSeconds);
+              LogPrintf("PastRateTargetSeconds: %g", PastRateTargetSeconds);
+
               PastRateAdjustmentRatio                        = double(1);
               if (PastRateActualSeconds < 0) { PastRateActualSeconds = 0; }
               if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
@@ -82,7 +86,7 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
               EventHorizonDeviationSlow                = 1 / EventHorizonDeviation;
 
               if (PastBlocksMass >= PastBlocksMin) {
-                      LogPrintf("breaking at PastBlocksMass >= PastBlocksMin");
+
                       if ((PastRateAdjustmentRatio <= EventHorizonDeviationSlow) || (PastRateAdjustmentRatio >= EventHorizonDeviationFast)) { assert(BlockReading); break; }
               }
               if (BlockReading->pprev == NULL) { assert(BlockReading); break; }
@@ -90,9 +94,8 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
   	}
 
   	arith_uint256 bnNew(PastDifficultyAverage);
-    LogPrintf("Bits before multiplying and dividing: %08x \n", bnNew.GetCompact());
+
   	if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
-      LogPrintf("multiplying by pastrateactualseconds and dividing by pastratetargetseconds");
   		bnNew *= PastRateActualSeconds;
   		bnNew /= PastRateTargetSeconds;
   	}
