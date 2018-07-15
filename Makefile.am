@@ -134,13 +134,13 @@ deploy: $(BITCOIN_WIN_INSTALLER)
 endif
 
 $(BITCOIN_QT_BIN): FORCE
-	$(MAKE) -C src qt/$(@F)
+	$(MAKE) -C src qt/$(@F) -m32
 
 $(BITCOIND_BIN): FORCE
-	$(MAKE) -C src $(@F)
+	$(MAKE) -C src $(@F) -m32
 
 $(BITCOIN_CLI_BIN): FORCE
-	$(MAKE) -C src $(@F)
+	$(MAKE) -C src $(@F) -m32
 
 if USE_LCOV
 
