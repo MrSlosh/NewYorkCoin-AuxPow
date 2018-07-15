@@ -12,7 +12,6 @@
 #include "primitives/block.h"
 #include "uint256.h"
 #include "util.h"
-//#include "test/bignum.h"
 #include <math.h>
 
 
@@ -83,6 +82,7 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
               EventHorizonDeviationSlow                = 1 / EventHorizonDeviation;
 
               if (PastBlocksMass >= PastBlocksMin) {
+                      LogPrintf("breaking at PastBlocksMass >= PastBlocksMin");
                       if ((PastRateAdjustmentRatio <= EventHorizonDeviationSlow) || (PastRateAdjustmentRatio >= EventHorizonDeviationFast)) { assert(BlockReading); break; }
               }
               if (BlockReading->pprev == NULL) { assert(BlockReading); break; }
