@@ -2783,10 +2783,10 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
     if (consensusParams.fAllowLegacyBlocks
         && block.nVersion.IsLegacy())
         {
-          LogPrintf("checking block bits: %08x \n", block.nBits);
+          /*LogPrintf("checking block bits: %08x \n", block.nBits);
           if(block.nBits != GetNextWorkRequiredLegacy(pindexPrev, &block, consensusParams))
             return state.DoS(100, error("%s: incorrect proof of work at Legacy height %d", __func__, nHeight),
-                           REJECT_INVALID, "bad-diffbits");
+                           REJECT_INVALID, "bad-diffbits");*/
         }
     else if (block.nBits != GetNextWorkRequired(pindexPrev, &block, consensusParams))
           return state.DoS(100, error("%s: incorrect proof of work at height %d", __func__, nHeight),
