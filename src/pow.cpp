@@ -21,7 +21,7 @@ uint32_t GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHe
 {
 
     int64_t BlocksTargetSpacing	= 0.5 * 60; // 30 seconds
-		unsigned int TimeDaySeconds				= 60 * 60 * 24;
+		uint32_t TimeDaySeconds				= 60 * 60 * 24;
 		int64_t PastSecondsMin					= TimeDaySeconds * 0.01;
 		int64_t PastSecondsMax					= TimeDaySeconds * 0.14;
 		uint64_t PastBlocksMin					= PastSecondsMin / BlocksTargetSpacing;
@@ -56,7 +56,7 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
 
   	if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || (uint64_t)BlockLastSolved->nHeight < PastBlocksMin) { return bnProofOfWorkLimit; }
 
-  	for (unsigned int i = 1; BlockReading && BlockReading->nHeight > 0; i++) {
+  	for (uint32_t i = 1; BlockReading && BlockReading->nHeight > 0; i++) {
               if (PastBlocksMax > 0 && i > PastBlocksMax) { break; }
               PastBlocksMass++;
 
