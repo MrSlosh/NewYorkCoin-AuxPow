@@ -90,6 +90,7 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
   	}
 
   	arith_uint256 bnNew(PastDifficultyAverage);
+    LogPrintf("Bits before multiplying and dividing: %08x \n", bnNew.GetCompact());
   	if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
       LogPrintf("multiplying by pastrateactualseconds and dividing by pastratetargetseconds");
   		bnNew *= PastRateActualSeconds;
