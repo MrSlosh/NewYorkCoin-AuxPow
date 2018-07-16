@@ -692,7 +692,7 @@ bool IsFinalTx(const CTransaction &tx, int nBlockHeight, int64_t nBlockTime)
 
 bool CheckFinalTx(const CTransaction &tx)
 {
-  
+
     AssertLockHeld(cs_main);
     return IsFinalTx(tx, chainActive.Height() + 1, GetAdjustedTime());
 }
@@ -2784,9 +2784,6 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
     if (consensusParams.fAllowLegacyBlocks
         && block.nVersion.IsLegacy())
         {
-
-            LogPrintf("checking block bits: %08x \n", block.nBits);
-            LogPrintf("block with timestamp: %08x \n", (int64_t)block.nTime);
             if((unsigned int)block.nBits != GetNextWorkRequiredLegacy(pindexPrev, &block, consensusParams))
               return state.DoS(100, error("%s: incorrect proof of work at Legacy height %d", __func__, nHeight),
                              REJECT_INVALID, "bad-diffbits");

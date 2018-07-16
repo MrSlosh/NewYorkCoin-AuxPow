@@ -19,8 +19,8 @@
 uint32_t GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
 
-    int64_t BlocksTargetSpacing	= 0.5 * 60; // 30 seconds
-		uint32_t TimeDaySeconds				= 60 * 60 * 24;
+    static const int64_t BlocksTargetSpacing	= 0.5 * 60; // 30 seconds
+		unsigned int TimeDaySeconds				= 60 * 60 * 24;
 		int64_t PastSecondsMin					= TimeDaySeconds * 0.01;
 		int64_t PastSecondsMax					= TimeDaySeconds * 0.14;
 		uint64_t PastBlocksMin					= PastSecondsMin / BlocksTargetSpacing;
@@ -69,12 +69,8 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
                 PastDifficultyAverage = (((arith_uint256().SetCompact(BlockReading->nBits)) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev;
               }
               PastDifficultyAveragePrev = PastDifficultyAverage;
-              LogPrintf("PastDifficultyAverage: %08x\n", PastDifficultyAverage.GetCompact());
               PastRateActualSeconds                        = BlockLastSolved->GetBlockTime() - BlockReading->GetBlockTime();
               PastRateTargetSeconds                        = TargetBlocksSpacingSeconds * PastBlocksMass;
-
-              LogPrintf("PastRateActualSeconds: %g", PastRateActualSeconds);
-              LogPrintf("PastRateTargetSeconds: %g", PastRateTargetSeconds);
 
               PastRateAdjustmentRatio                        = double(1);
               if (PastRateActualSeconds < 0) { PastRateActualSeconds = 0; }
