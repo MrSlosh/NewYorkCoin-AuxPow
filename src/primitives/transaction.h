@@ -59,7 +59,7 @@ class CTxIn
 public:
     COutPoint prevout;
     CScript scriptSig;
-    uint32_t nSequence;
+    unsigned int nSequence;
 
     CTxIn()
     {
@@ -80,7 +80,7 @@ public:
 
     bool IsFinal() const
     {
-        if (nSequence == std::numeric_limits<uint16_t>::max())
+        if (nSequence == std::numeric_limits<unsigned int>::max())
           return true;
         return (nSequence == std::numeric_limits<uint32_t>::max());
     }
