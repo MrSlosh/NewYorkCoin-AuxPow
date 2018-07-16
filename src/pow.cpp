@@ -100,7 +100,7 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
   		bnNew /= PastRateTargetSeconds;
   	}
 
-      if (bnNew > bnProofOfWorkLimit) { bnNew = bnProofOfWorkLimit; }
+      if (bnNew > params.powLimit) { bnNew = params.powLimit; }
 
   	LogPrintf("Difficulty Retarget - Kimoto Gravity Well\n");
   	LogPrintf("PastRateAdjustmentRatio = %g\n", PastRateAdjustmentRatio);
