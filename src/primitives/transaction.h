@@ -80,7 +80,7 @@ public:
 
     bool IsFinal() const
     {
-        if (nSequence == std::numeric_limits<unsigned int>::max())
+        if (nSequence == std::numeric_limits<uint16_t>::max())
           return true;
         return (nSequence == std::numeric_limits<uint32_t>::max());
     }
