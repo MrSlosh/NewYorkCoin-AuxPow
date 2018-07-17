@@ -12,6 +12,7 @@
 #include "primitives/block.h"
 #include "uint256.h"
 #include "util.h"
+#include "test/bignum.h"
 #include <math.h>
 
 
@@ -39,8 +40,8 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
   	int64_t PastRateActualSeconds			= 0;
   	int64_t PastRateTargetSeconds			= 0;
   	double PastRateAdjustmentRatio		= double(1);
-  	arith_uint256 PastDifficultyAverage;
-  	arith_uint256 PastDifficultyAveragePrev;
+  	CBigNum PastDifficultyAverage;
+  	CBigNum PastDifficultyAveragePrev;
   	double EventHorizonDeviation;
   	double EventHorizonDeviationFast;
   	double EventHorizonDeviationSlow;
@@ -66,7 +67,7 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
               else
               {
 
-                PastDifficultyAverage = ((arith_uint256().SetCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev;
+                PastDifficultyAverage = ((CBigNum().SetCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev;
               }
               PastDifficultyAveragePrev = PastDifficultyAverage;
               PastRateActualSeconds                        = BlockLastSolved->GetBlockTime() - BlockReading->GetBlockTime();
@@ -88,19 +89,19 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
               if (BlockReading->pprev == NULL) { assert(BlockReading); break; }
               BlockReading = BlockReading->pprev;
   	}
-  	arith_uint256 bnNew(PastDifficultyAverage);
+  	CBigNum bnNew(PastDifficultyAverage);
 
   	if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
   		bnNew *= PastRateActualSeconds;
   		bnNew /= PastRateTargetSeconds;
   	}
 
-      if (bnNew > UintToArith256(params.powLimit)) { bnNew = UintToArith256(params.powLimit); }
+      if (bnNew > CBigNum(params.powLimit)) { bnNew = CBigNum(params.powLimit); }
 
   	LogPrintf("Difficulty Retarget - Kimoto Gravity Well\n");
   	LogPrintf("PastRateAdjustmentRatio = %g\n", PastRateAdjustmentRatio);
-  	LogPrintf("Before: %08x  %s\n", BlockLastSolved->nBits, ArithToUint256(arith_uint256().SetCompact(BlockLastSolved->nBits)).ToString().c_str());
-  	LogPrintf("After:  %08x  %s\n", bnNew.GetCompact(), ArithToUint256(bnNew).ToString().c_str());
+  	LogPrintf("Before: %08x  %s\n", BlockLastSolved->nBits, CBigNum().SetCompact(BlockLastSolved->nBits).getuint256().ToString().c_str());
+  	LogPrintf("After:  %08x  %s\n", bnNew.GetCompact(), (bnNew).getuint256().ToString().c_str());
 
   	return bnNew.GetCompact();
 }
