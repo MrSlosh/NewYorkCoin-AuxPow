@@ -15,9 +15,9 @@
 #include "test/bignum.h"
 #include <math.h>
 
-CBigNum bnPowLimit(uint256(0) >> 20);;
 
-uint32_t GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
+
+unsigned int GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
 
     static const int64_t BlocksTargetSpacing	= 0.5 * 60; // 30 seconds
@@ -30,7 +30,7 @@ uint32_t GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHe
 		return KimotoGravityWell(pindexLast, pblock, BlocksTargetSpacing, PastBlocksMin, PastBlocksMax, params);
 }
 
-uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64_t TargetBlocksSpacingSeconds, uint64_t PastBlocksMin, uint64_t PastBlocksMax, const Consensus::Params& params) {
+unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64_t TargetBlocksSpacingSeconds, uint64_t PastBlocksMin, uint64_t PastBlocksMax, const Consensus::Params& params) {
 
     const CBlockIndex  *BlockLastSolved	= pindexLast;
   	const CBlockIndex  *BlockReading	= pindexLast;
@@ -47,7 +47,7 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
   	double EventHorizonDeviationSlow;
 
 	  unsigned int bnProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
-
+    CBigNum bnPowLimit(params.powLimit);
     // if we are mining legacy testnet, return proof of work limit
     if (params.fPowAllowMinDifficultyBlocks)
     {
@@ -103,7 +103,7 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
   	LogPrintf("Before: %08x  %s\n", BlockLastSolved->nBits, CBigNum().SetLegacyCompact(BlockLastSolved->nBits).getuint256().ToString().c_str());
   	LogPrintf("After:  %08x  %s\n", bnNew.GetLegacyCompact(), (bnNew).getuint256().ToString().c_str());
 
-  	return bnNew.GetCompact();
+  	return bnNew.GetLegacyCompact();
 }
 
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
