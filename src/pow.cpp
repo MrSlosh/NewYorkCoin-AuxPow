@@ -15,7 +15,7 @@
 #include "test/bignum.h"
 #include <math.h>
 
-CBigNum bnPowLimit(~arith_uint256(0) >> 20);;
+CBigNum bnPowLimit(uint256(0) >> 20);;
 
 uint32_t GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
