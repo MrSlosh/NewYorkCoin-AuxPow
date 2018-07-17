@@ -9,7 +9,7 @@
 #include "serialize.h"
 #include "arith_uint256.h"
 #include "version.h"
-
+#include "uint256.h"
 #include <stdexcept>
 #include <stdint.h>
 #include <vector>
