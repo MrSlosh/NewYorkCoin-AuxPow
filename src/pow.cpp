@@ -95,7 +95,7 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
   		bnNew *= PastRateActualSeconds;
   		bnNew /= PastRateTargetSeconds;
   	}
-
+    LogPrintf("Before check for max work: %08x  %s\n",bnNew.GetCompact(), ArithToUint256(bnNew).ToString().c_str());
       if (bnNew > UintToArith256(params.powLimit)) { bnNew = UintToArith256(params.powLimit); }
 
   	LogPrintf("Difficulty Retarget - Kimoto Gravity Well\n");
