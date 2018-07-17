@@ -13,6 +13,7 @@
 #include "uint256.h"
 #include "util.h"
 #include "test/bignum.h"
+#include "legacy_uint256.h"
 #include <math.h>
 
 
@@ -47,7 +48,7 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
   	double EventHorizonDeviationSlow;
 
 	  unsigned int bnProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
-    CBigNum bnPowLimit(~uint256(0) >> 20);
+    CBigNum bnPowLimit(Legacy_nyc::~uint256(0) >> 20);
     // if we are mining legacy testnet, return proof of work limit
     if (params.fPowAllowMinDifficultyBlocks)
     {
