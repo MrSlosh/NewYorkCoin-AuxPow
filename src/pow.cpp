@@ -66,7 +66,7 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
               else
               {
 
-                PastDifficultyAverage = (((arith_uint256().SetCompact(BlockReading->nBits)) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev;
+                PastDifficultyAverage = ((arith_uint256().SetCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev;
               }
               PastDifficultyAveragePrev = PastDifficultyAverage;
               PastRateActualSeconds                        = BlockLastSolved->GetBlockTime() - BlockReading->GetBlockTime();
