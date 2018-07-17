@@ -99,10 +99,10 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
 
       //if (bnNew > CBigNum(params.powLimit)) { bnNew = CBigNum(params.powLimit); }
       if (bnNew > bnPowLimit) { bnNew = bnPowLimit; }
-  	LogPrintf("Difficulty Retarget - Kimoto Gravity Well\n");
-  	LogPrintf("PastRateAdjustmentRatio = %g\n", PastRateAdjustmentRatio);
-  	LogPrintf("Before: %08x  %s\n", BlockLastSolved->nBits, CBigNum().SetCompact(BlockLastSolved->nBits).getuint256().ToString().c_str());
-  	LogPrintf("After:  %08x  %s\n", bnNew.GetCompact(), (bnNew).getuint256().ToString().c_str());
+  	// LogPrintf("Difficulty Retarget - Kimoto Gravity Well\n");
+  	// LogPrintf("PastRateAdjustmentRatio = %g\n", PastRateAdjustmentRatio);
+  	// LogPrintf("Before: %08x  %s\n", BlockLastSolved->nBits, CBigNum().SetCompact(BlockLastSolved->nBits).getuint256().ToString().c_str());
+  	// LogPrintf("After:  %08x  %s\n", bnNew.GetCompact(), (bnNew).getuint256().ToString().c_str());
 
   	return bnNew.GetCompact();
 }
