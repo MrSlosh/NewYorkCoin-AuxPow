@@ -48,7 +48,7 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
   	double EventHorizonDeviationSlow;
 
 	  unsigned int bnProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
-    CBigNum bnPowLimit("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
+    CBigNum bnPowLimit(legacy_uint256("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"));
     // if we are mining legacy testnet, return proof of work limit
     if (params.fPowAllowMinDifficultyBlocks)
     {
