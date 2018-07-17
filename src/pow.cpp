@@ -15,7 +15,7 @@
 #include "test/bignum.h"
 #include <math.h>
 
-
+CBigNum bnPowLimit(~arith_uint256(0) >> 20);;
 
 uint32_t GetNextWorkRequiredLegacy(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
@@ -62,12 +62,12 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
 
               if (i == 1)
               {
-                PastDifficultyAverage.SetCompact(BlockReading->nBits);
+                PastDifficultyAverage.SetLegacyCompact(BlockReading->nBits);
               }
               else
               {
 
-                PastDifficultyAverage = ((CBigNum().SetCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev;
+                PastDifficultyAverage = ((CBigNum().SetLegacyCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev;
               }
               PastDifficultyAveragePrev = PastDifficultyAverage;
               PastRateActualSeconds                        = BlockLastSolved->GetBlockTime() - BlockReading->GetBlockTime();
@@ -96,12 +96,12 @@ uint32_t KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pb
   		bnNew /= PastRateTargetSeconds;
   	}
 
-      if (bnNew > CBigNum(params.powLimit)) { bnNew = CBigNum(params.powLimit); }
-
+      //if (bnNew > CBigNum(params.powLimit)) { bnNew = CBigNum(params.powLimit); }
+      if (bnNew > bnPowLimit) { bnNew = bnPowLimit; }
   	LogPrintf("Difficulty Retarget - Kimoto Gravity Well\n");
   	LogPrintf("PastRateAdjustmentRatio = %g\n", PastRateAdjustmentRatio);
-  	LogPrintf("Before: %08x  %s\n", BlockLastSolved->nBits, CBigNum().SetCompact(BlockLastSolved->nBits).getuint256().ToString().c_str());
-  	LogPrintf("After:  %08x  %s\n", bnNew.GetCompact(), (bnNew).getuint256().ToString().c_str());
+  	LogPrintf("Before: %08x  %s\n", BlockLastSolved->nBits, CBigNum().SetLegacyCompact(BlockLastSolved->nBits).getuint256().ToString().c_str());
+  	LogPrintf("After:  %08x  %s\n", bnNew.GetLegacyCompact(), (bnNew).getuint256().ToString().c_str());
 
   	return bnNew.GetCompact();
 }
