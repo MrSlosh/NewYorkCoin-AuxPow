@@ -4021,6 +4021,13 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
             return false;
         }
 
+        if(pfrom->strSubVer != strstr(pfrom->strSubVer.c_str(), "NewYorkCoin") == NULL)
+        {
+            LogPrintf("%s using version %i %s from other client; disconnecting\n", pfrom->addr.ToString().c_str(), pfrom->nVersion, pfrom->strSubVer.c_str()));
+            pfrom->fDisconnect = true;
+            return false;
+        }
+
         if (pfrom->nVersion == 10300)
             pfrom->nVersion = 300;
         if (!vRecv.empty())
