@@ -5,6 +5,7 @@
 #ifndef BITCOIN_QT_TEST_URITESTS_H
 #define BITCOIN_QT_TEST_URITESTS_H
 
+#include <QCoreApplication>
 #include <QObject>
 #include <QTest>
 

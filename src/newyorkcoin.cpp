@@ -187,7 +187,7 @@ CAmount GetNewYorkCoinBlockSubsidy(int nHeight, const Consensus::Params& consens
             seed = hex2long(cseed);
             rand5 = generateMTRandom(seed, 31249);
             nSubsidy = (1 + rand5) * COIN;
-          } else if(nHeight > 4600000) {   	             // 2018-4-14 - Block height 4,234,899
+          } else if(nHeight > 4800000) {   	             // 2018-4-14 - Block height 4,234,899
               nSubsidy = maxSubsidy / 2;                   // 250,000 blocks is ~3 months based on data from 2018
            } else if(nHeight > 5000000) {
               nSubsidy = maxSubsidy / 4;
