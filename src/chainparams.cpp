@@ -67,7 +67,7 @@ public:
 
         // Blocks 4500000+ are AuxPoW
         auxpowConsensus = digishieldConsensus;
-        auxpowConsensus.nHeightEffective = 4600000;
+        auxpowConsensus.nHeightEffective = 4800000;
         auxpowConsensus.fAllowLegacyBlocks = false;
         auxpowConsensus.fAllowAuxPow = true;
 
