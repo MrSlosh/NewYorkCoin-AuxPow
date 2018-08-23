@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
-// Copyright (c) 2014-2015 The newyorkcoin Core developers
+// Copyright (c) 2014-2015 The Dogecoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -50,10 +50,10 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
 	  unsigned int bnProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
     CBigNum bnPowLimit(UintToArith256(params.powLimit));
     // if we are mining legacy testnet, return proof of work limit
-    if (params.fPowAllowMinDifficultyBlocks)
-    {
-      return bnProofOfWorkLimit;
-    }
+    // if (params.fPowAllowMinDifficultyBlocks)
+    // {
+    //   return bnProofOfWorkLimit;
+    // }
 
   	if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || (uint64_t)BlockLastSolved->nHeight < PastBlocksMin) { return UintToArith256(params.powLimit).GetCompact(); }
 

@@ -114,6 +114,16 @@ public:
             || (nVersion == 2 && GetChainId() == 0);
     }
 
+    inline void SetLegacyVersion(int32_t legacyVersion)
+    {
+        nVersion = legacyVersion;
+    }
+
+    inline int32_t GetLegacyBlockVersion()
+    {
+        return 1;
+    }
+
     CBlockVersion& operator=(const CBlockVersion& other)
     {
         nVersion = other.nVersion;
@@ -147,6 +157,7 @@ class CPureBlockHeader
 public:
     // header
     static const int32_t CURRENT_VERSION = 3;
+    static const int32_t LEGACY_VERSION = 1;
     CBlockVersion nVersion;
     uint256 hashPrevBlock;
     uint256 hashMerkleRoot;

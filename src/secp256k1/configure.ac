@@ -47,6 +47,7 @@ case $host_os in
 
          openssl_prefix=`$BREW --prefix openssl 2>/dev/null`
          gmp_prefix=`$BREW --prefix gmp 2>/dev/null`
+         qt5_prefix=`$BREW --prefix qt5 2>/dev/null`
          if test x$openssl_prefix != x; then
            PKG_CONFIG_PATH="$openssl_prefix/lib/pkgconfig:$PKG_CONFIG_PATH"
            export PKG_CONFIG_PATH
@@ -54,6 +55,10 @@ case $host_os in
          if test x$gmp_prefix != x; then
            GMP_CPPFLAGS="-I$gmp_prefix/include"
            GMP_LIBS="-L$gmp_prefix/lib"
+         fi
+         if test x$qt5_prefix != x; then
+           PKG_CONFIG_PATH="$qt5_prefix/lib/pkgconfig:$PKG_CONFIG_PATH"
+           export PKG_CONFIG_PATH
          fi
        else
          AC_PATH_PROG([PORT],port,)

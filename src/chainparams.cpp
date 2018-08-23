@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
-// Copyright (c) 2015 The newyorkcoin Core developers
+// Copyright (c) 2015 The Dogecoin Core developers
 // Copyright (c) 2018 The New York Coin Community developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -37,7 +37,7 @@ public:
     CMainParams() {
         strNetworkID = "main";
 
-        // Blocks 0 - 4499999 are conventional difficulty calculation
+        // Blocks 0 - 4799999 are conventional difficulty calculation
         consensus.nSubsidyHalvingInterval = 500000;
         consensus.nMajorityEnforceBlockUpgrade = 1500;
         consensus.nMajorityRejectBlockOutdated = 1900;
@@ -56,7 +56,7 @@ public:
         consensus.fDigishieldDifficultyCalculation = false;
         consensus.nCoinbaseMaturity = 30;
 
-        // Blocks 4500000 are Digishield with AuxPoW
+        // Blocks 4800000 are Digishield with AuxPoW
         digishieldConsensus = consensus;
         digishieldConsensus.nHeightEffective = 4800000;
         digishieldConsensus.fAllowLegacyBlocks = false;
@@ -65,7 +65,7 @@ public:
         digishieldConsensus.nPowTargetTimespan = 60; // post-digishield: 60 seconds
         digishieldConsensus.nCoinbaseMaturity = 240;
 
-        // Blocks 4500000+ are AuxPoW
+        // Blocks 4800000+ are AuxPoW
         auxpowConsensus = digishieldConsensus;
         auxpowConsensus.nHeightEffective = 4800000;
         auxpowConsensus.fAllowLegacyBlocks = false;
@@ -134,7 +134,7 @@ public:
         //TODO: fix this for newyorkcoin -- plddr
         //vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
         vFixedSeeds.clear();
-        
+
 
         fRequireRPCPassword = true;
         fMiningRequiresPeers = true;
@@ -158,7 +158,7 @@ public:
             (3000000,  uint256S("0x66e6dcb49370062537c1f6abf655ffbbc53ba4851ef00081aa2e4be1e2903ba7"))
           (3500000,  uint256S("0x3f1a97f68ce8eaf38fc0c56868b3eb98ccb67d14bff4e78afb91d82cba853ddf"))
           (3938415,  uint256S("0xe1fa41f6fe8d2785d89b0468e13e4c450493e5356c024a098c5b727ca89138ee"))
-		  (4500000, uint256S("0xdd86fad58b3fa5d83a15a18df1cc20cdcdb1b2cf5d2d702e0c60bbb7d4602fb1")),
+          (4500000, uint256S("0xdd86fad58b3fa5d83a15a18df1cc20cdcdb1b2cf5d2d702e0c60bbb7d4602fb1")),
 
             1514765144, // * UNIX timestamp of last checkpoint block
             5141422,   // * total number of transactions between genesis and last checkpoint

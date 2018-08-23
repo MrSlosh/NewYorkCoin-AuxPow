@@ -109,11 +109,16 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn)
 
     const Consensus::Params& consensusParams = chainparams.GetConsensus(nHeight);
     /* Initialise the block version.  */
-    if(nHeight < consensusParams.nHeightEffective)
-      pblock->nVersion = 1;
+    if(consensusParams.fAllowLegacyBlocks)
+        pblock->nVersion.SetLegacyVersion(1);
     else
-      pblock->nVersion = 3;
+    {
+        pblock->nVersion = CBlockHeader::CURRENT_VERSION;
+
+    }
     pblock->nVersion.SetChainId(chainparams.GetConsensus(0).nAuxpowChainId);
+
+
 
     // -regtest only: allow overriding block.nVersion with
     // -blockversion=N to test forking scenarios
@@ -348,7 +353,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn)
         // Fill in header
         pblock->hashPrevBlock  = pindexPrev->GetBlockHash();
         UpdateTime(pblock, consensus, pindexPrev);
-        if(pblock->nVersion == 1)
+        if(consensusParams.fAllowLegacyBlocks)
           pblock->nBits          = GetNextWorkRequiredLegacy(pindexPrev, pblock, consensus);
         else
           pblock->nBits          = GetNextWorkRequired(pindexPrev, pblock, consensus);
