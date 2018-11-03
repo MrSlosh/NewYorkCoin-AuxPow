@@ -4033,7 +4033,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
         }
 
 #ifndef ENABLE_PEERS
-        if(pfrom->cleanSubVer != "/Satoshi:1.0.0.1/" && pfrom->cleanSubVer != "/Satoshi:1.0.1.1/" && strstr(pfrom->cleanSubVer.c_str(), "NewYorkCoin") == NULL)
+        if(strstr(pfrom->cleanSubVer.c_str(), "NewYorkCoin") == NULL)
         {
             LogPrintf("%s using version %i %s from other client; disconnecting\n", pfrom->addr.ToString().c_str(), pfrom->nVersion, pfrom->cleanSubVer.c_str());
             pfrom->fDisconnect = true;
