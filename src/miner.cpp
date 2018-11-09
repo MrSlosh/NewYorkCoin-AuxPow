@@ -110,7 +110,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn)
     const Consensus::Params& consensusParams = chainparams.GetConsensus(nHeight);
     /* Initialise the block version.  */
     if(consensusParams.fAllowLegacyBlocks)
-        pblock->nVersion.SetLegacyVersion(1);
+        pblock->nVersion = CBlockHeader::LEGACY_VERSION;
     else
     {
         pblock->nVersion = CBlockHeader::CURRENT_VERSION;

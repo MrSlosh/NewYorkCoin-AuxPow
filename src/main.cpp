@@ -4033,7 +4033,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
         }
 
 #ifndef ENABLE_PEERS
-        if(strstr(pfrom->cleanSubVer.c_str(), "NewYorkCoin") == NULL)
+        if(strstr(pfrom->cleanSubVer.c_str(), "NewYorkCoin") == NULL || strstr(pfrom->cleanSubVer.c_str(), "NewYorkCoin:1.2"))
         {
             LogPrintf("%s using version %i %s from other client; disconnecting\n", pfrom->addr.ToString().c_str(), pfrom->nVersion, pfrom->cleanSubVer.c_str());
             pfrom->fDisconnect = true;
