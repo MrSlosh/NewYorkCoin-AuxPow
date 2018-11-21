@@ -114,15 +114,6 @@ public:
             || (nVersion == 2 && GetChainId() == 0);
     }
 
-    inline void SetLegacyVersion(int32_t legacyVersion)
-    {
-        nVersion = legacyVersion;
-    }
-
-    inline int32_t GetLegacyBlockVersion()
-    {
-        return 1;
-    }
 
     CBlockVersion& operator=(const CBlockVersion& other)
     {

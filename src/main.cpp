@@ -68,6 +68,8 @@ size_t nCoinCacheUsage = 5000 * 300;
 uint64_t nPruneTarget = 0;
 bool fAlerts = DEFAULT_ALERTS;
 
+int nAllowedBlocksInTransit = DEFAULT_MAX_BLOCKS_IN_TRANSIT_PER_PEER;
+
 /** Fees smaller than this (in satoshi) are considered zero fee (for relaying and mining) */
 CFeeRate minRelayTxFee = CFeeRate(DEFAULT_FEE);
 
@@ -2696,6 +2698,20 @@ bool CheckBlockHeader(const CBlockHeader& block, CValidationState& state, bool f
 
 bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bool fCheckMerkleRoot)
 {
+    // Shortcut checks for almost all early blocks
+    if(chainActive.Height() < SKIP_VALIDATION_HEIGHT && GetBoolArg("-fastsync", false))
+    {
+        const CChainParams& chainParams = Params();
+        // hit all the checkpoints but skip most of the rest
+        std::map<int, uint256>::const_iterator cpItr = chainParams.Checkpoints().mapCheckpoints.find(chainActive.Height());
+
+        // if the current block is not found in the checkpoints list, skip it
+        if(cpItr == chainParams.Checkpoints().mapCheckpoints.end())
+        {
+            return true;
+        }
+    }
+
     // These are checks that are independent of context.
 
     // Check that the header is valid (particularly PoW).  This is mostly
@@ -2872,22 +2888,30 @@ bool AcceptBlockHeader(const CBlockHeader& block, CValidationState& state, CBloc
         return true;
     }
 
-    if (!CheckBlockHeader(block, state))
-        return false;
+    // Since we're close to chaintip, reenable checks to ensure state is correct when sync completes
+    // Also reenable checks if -fastsync is not set
+    if(chainActive.Height() >= SKIP_VALIDATION_HEIGHT || (GetBoolArg("-fastsync", false) == false))
+    {
+      if (!CheckBlockHeader(block, state))
+          return false;
 
-    // Get prev block index
-    CBlockIndex* pindexPrev = NULL;
-    if (hash != chainparams.GetConsensus(0).hashGenesisBlock) {
-        BlockMap::iterator mi = mapBlockIndex.find(block.hashPrevBlock);
-        if (mi == mapBlockIndex.end())
-            return state.DoS(10, error("%s: prev block not found", __func__), 0, "bad-prevblk");
-        pindexPrev = (*mi).second;
-        if (pindexPrev->nStatus & BLOCK_FAILED_MASK)
-            return state.DoS(100, error("%s: prev block invalid", __func__), REJECT_INVALID, "bad-prevblk");
+          // Get prev block index
+          CBlockIndex* pindexPrev = NULL;
+          if (hash != chainparams.GetConsensus(0).hashGenesisBlock) {
+              BlockMap::iterator mi = mapBlockIndex.find(block.hashPrevBlock);
+              if (mi == mapBlockIndex.end())
+                  return state.DoS(10, error("%s: prev block not found", __func__), 0, "bad-prevblk");
+              pindexPrev = (*mi).second;
+              if (pindexPrev->nStatus & BLOCK_FAILED_MASK)
+                  return state.DoS(100, error("%s: prev block invalid", __func__), REJECT_INVALID, "bad-prevblk");
+          }
+
+          if (!ContextualCheckBlockHeader(block, state, pindexPrev))
+              return false;
     }
 
-    if (!ContextualCheckBlockHeader(block, state, pindexPrev))
-        return false;
+
+
 
     if (pindex == NULL)
         pindex = AddToBlockIndex(block);
@@ -4226,6 +4250,12 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
             return error("message inv size() = %u", vInv.size());
         }
 
+        if(GetBoolArg("-fastsync", false))
+        {
+          nAllowedBlocksInTransit = MAX_BLOCKS_IN_TRANSIT_PER_PEER;
+          LogPrint("net", "fastsync activated maximum number of blocks in transit increased");
+        }
+
         LOCK(cs_main);
 
         std::vector<CInv> vToFetch;
@@ -4257,7 +4287,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
                     pfrom->PushMessage("getheaders", chainActive.GetLocator(pindexBestHeader), inv.hash);
                     CNodeState *nodestate = State(pfrom->GetId());
                     if (chainActive.Tip()->GetBlockTime() > GetAdjustedTime() - chainparams.GetConsensus(chainActive.Height()).nPowTargetSpacing * 20 &&
-                        nodestate->nBlocksInFlight < MAX_BLOCKS_IN_TRANSIT_PER_PEER) {
+                        nodestate->nBlocksInFlight < nAllowedBlocksInTransit) {
                         vToFetch.push_back(inv);
                         // Mark block as in flight already, even though the actual "getdata" message only goes out
                         // later (within the same cs_main lock, though).
@@ -5142,11 +5172,16 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
         //
         // Message: getdata (blocks)
         //
+        if(GetBoolArg("-fastsync", false))
+        {
+          nAllowedBlocksInTransit = MAX_BLOCKS_IN_TRANSIT_PER_PEER;
+          LogPrint("net", "fastsync activated maximum number of blocks in transit increased");
+        }
         vector<CInv> vGetData;
-        if (!pto->fDisconnect && !pto->fClient && (fFetch || !IsInitialBlockDownload()) && state.nBlocksInFlight < MAX_BLOCKS_IN_TRANSIT_PER_PEER) {
+        if (!pto->fDisconnect && !pto->fClient && (fFetch || !IsInitialBlockDownload()) && state.nBlocksInFlight < nAllowedBlocksInTransit) {
             vector<CBlockIndex*> vToDownload;
             NodeId staller = -1;
-            FindNextBlocksToDownload(pto->GetId(), MAX_BLOCKS_IN_TRANSIT_PER_PEER - state.nBlocksInFlight, vToDownload, staller);
+            FindNextBlocksToDownload(pto->GetId(), nAllowedBlocksInTransit - state.nBlocksInFlight, vToDownload, staller);
             BOOST_FOREACH(CBlockIndex *pindex, vToDownload) {
                 vGetData.push_back(CInv(MSG_BLOCK, pindex->GetBlockHash()));
                 MarkBlockAsInFlight(pto->GetId(), pindex->GetBlockHash(), consensusParams, pindex);

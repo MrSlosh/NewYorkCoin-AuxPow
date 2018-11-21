@@ -53,6 +53,9 @@ static const unsigned int DEFAULT_BLOCK_MIN_SIZE = 0;
 
 static const unsigned int DEFAULT_FEE = 0;
 
+
+/** Don't validate every block below this height **/
+static const int SKIP_VALIDATION_HEIGHT = 4500001;
 /** Default for -blockprioritysize, maximum space for zero/low-fee transactions **/
 static const unsigned int DEFAULT_BLOCK_PRIORITY_SIZE = 27000;
 /** Default for accepting alerts from the P2P network. */
@@ -75,8 +78,10 @@ static const unsigned int UNDOFILE_CHUNK_SIZE = 0x100000; // 1 MiB
 static const int MAX_SCRIPTCHECK_THREADS = 16;
 /** -par default (number of script-checking threads, 0 = auto) */
 static const int DEFAULT_SCRIPTCHECK_THREADS = 0;
-/** Number of blocks that can be requested at any given time from a single peer. */
-static const int MAX_BLOCKS_IN_TRANSIT_PER_PEER = 16;
+/** Default Number of Blocks that can be requested at any given time from a single peer **/
+static const int DEFAULT_MAX_BLOCKS_IN_TRANSIT_PER_PEER = 16;
+/** Maximum Number of blocks that can be requested at any given time from a single peer. */
+static const int MAX_BLOCKS_IN_TRANSIT_PER_PEER = 256;
 /** Timeout in seconds during which a peer must stall block download progress before being disconnected. */
 static const unsigned int BLOCK_STALLING_TIMEOUT = 2;
 /** Number of headers sent in one getheaders result. We rely on the assumption that if a peer sends
@@ -119,6 +124,7 @@ extern bool fCheckpointsEnabled;
 extern size_t nCoinCacheUsage;
 extern CFeeRate minRelayTxFee;
 extern bool fAlerts;
+extern int nAllowedBlocksInTransit;
 
 /** Best header we've seen so far (used for getheaders queries' starting points). */
 extern CBlockIndex *pindexBestHeader;
